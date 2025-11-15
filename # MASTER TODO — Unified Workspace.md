@@ -7,9 +7,9 @@ This file ensures both the Chat AI Bot agent and Schema Tools agent stay aligned
 # 📌 ACTIVE PRIORITIES
 
 ### 1. Connect shared-resources ingestion to Chat API  
-- Update paths in `chat.js` and `csv-import.js`  
-- Use `/alan-shared-resources/csv processed/`  
-- Confirm Supabase ingestion works end to end
+- ✅ Update paths in `chat.js` and `csv-import.js` (completed)  
+- ✅ Use `/alan-shared-resources/csv/` (completed - using flat structure)  
+- ✅ Confirm Supabase ingestion works end to end (completed - all 8 CSV files import successfully)
 
 ### 2. Update Schema Tools input logic  
 - Point all CSV readers to `/alan-shared-resources/csv/`  
@@ -42,4 +42,9 @@ This file ensures both the Chat AI Bot agent and Schema Tools agent stay aligned
 - Folder structure established  
 - Raw & processed CSVs sorted  
 - Event-product files moved  
-- Migration notes documented  
+- Migration notes documented
+- ✅ Chat AI Bot path updates completed (csv-import.js, chat.js)
+- ✅ CSV import fixes completed (15 Nov 2025) - all 8 CSV files import successfully
+  - Manual upsert for non-event types
+  - Batch delete operations for large URL lists
+  - Foreign key constraint handling  

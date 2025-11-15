@@ -29,11 +29,11 @@ A permanent ledger of all changes made during the creation of the unified shared
 
 ---
 
-# 3. Path Updates Needed (Pending)
+# 3. Path Updates (Completed)
 
 Chat AI Bot:
-- Update paths in `csv-import.js`  
-- Update paths in `chat.js` ingest logic  
+- ✅ Update paths in `csv-import.js` (completed)  
+- ✅ Update paths in `chat.js` ingest logic (completed)  
 
 Schema Tools:
 - Update input loaders  
@@ -88,4 +88,31 @@ Schema Tools:
   - `# SCHEMA GENERATION GUIDE.md` - Added deployment pipeline section
   - `# AGENT INSTRUCTIONS.md` - Added schema deployment rules
   - `# DATA STRUCTURE.md` - Noted staging → production flow
-  - `# MASTER TODO.md` - Added deployment automation tasks  
+  - `# MASTER TODO.md` - Added deployment automation tasks
+
+---
+
+# 8. 15 Nov 2025 — CSV Import Complete Fix
+
+Fixed all non-event CSV import failures in Chat AI Bot's `api/csv-import.js`:
+
+**Issues Fixed:**
+1. **Manual Upsert for Non-Event Types**: PostgREST doesn't support partial unique indexes in `onConflict` parameter. Changed all non-event import functions (`importBlogMetadata`, `importCourseProductMetadata`, `importWorkshopProductMetadata`, `importSiteUrlMetadata`, `importProductSchemaMetadata`, `importLandingServicePageMetadata`) to manually handle upsert: delete existing rows first, then insert new ones.
+
+2. **Batch Delete Operations**: PostgREST has limits on `.in()` clause size (~100 items). Added `batchDeleteMetadata()` helper function to process deletes in batches of 100 URLs. This fixed failures for large URL lists (File 06 with 433 URLs).
+
+3. **Foreign Key Constraint Handling**: Foreign key constraints with `NO ACTION` delete rule prevent deletion of `csv_metadata` rows when referenced by `page_entities` or `page_chunks`. Updated `batchDeleteMetadata()` to nullify foreign key references in both tables before deletion.
+
+**Result:**
+- All 8 CSV files now import successfully
+- No duplicates in database after ingestion
+- Verified: Database check confirms no duplicate rows for any csv_type
+
+**Files Affected:**
+- `Chat AI Bot/api/csv-import.js` - Updated import logic for all non-event types
+- `Chat AI Bot/Architecture and Handover MDs/AI_TODO_LIST_CURRENT.md` - Documented fixes
+- `Chat AI Bot/Architecture and Handover MDs/PROJECT_PROGRESS_MASTER.md` - Added entry
+
+**Restore Point:**
+- Commit: `04f4f28` (Chat AI Bot repo)
+- Timestamp: 2025-11-15T17-07-03  

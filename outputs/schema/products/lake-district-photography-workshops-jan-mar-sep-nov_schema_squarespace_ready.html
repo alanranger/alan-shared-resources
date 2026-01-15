@@ -35,7 +35,26 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://www.alanranger.com#org",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "telephone": "+44 781 701 7994",
+      "email": "info@alanranger.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
       "@type": "LocalBusiness",
+      "@id": "https://www.alanranger.com/#localbusiness",
       "name": "Alan Ranger Photography",
       "url": "https://www.alanranger.com",
       "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
@@ -73,81 +92,41 @@
           "name": "Lake District Photography Workshops - Jan - Mar - Sep - Nov",
           "item": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop"
         }
-      ]
+      ],
+      "@id": "https://www.alanranger.com/lake-district-photography-workshop#breadcrumbs"
     },
     {
-      "@type": [
-        "Product",
-        "Event"
-      ],
+      "@type": "Product",
       "name": "LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov",
-      "sku": "SQ9016326",
+      "sku": "SQ0142956",
       "brand": {
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "provider": {
-        "@type": "Organization",
-        "name": "Alan Ranger Photography",
-        "sameAs": "https://www.alanranger.com"
-      },
-      "description": "An exciting 3 day/2 night residential lake district photography workshop visiting some gorgeous spots around Cumbria. Runs every Jan, Mar, Sep, NovSummaryLocation: Cumbria - Lake DistrictDates:Fri 23 Jan - Sun 25 Jan - 3 Days/2 Nights 2026Fri 20 Mar - Sun 22 Mar - 3 Days/2 Nights 2026Fri 18 Sep - Sun 20 Sep - 3 Days/2 Nights 2026Fri 13 Nov - Sun 15 Nov - 3 Days/2 Nights 2026Extra night B&B available for Thu - Contact me for details and booking separatelyParticipants: Max 4Fitness: 2. ModerateExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodPhotogra...",
+      "description": "An exciting 3 day/2 night residential lake district photography workshop visiting some gorgeous spots around Cumbria. Runs every Jan, Mar, Sep, NovSummaryLocation: Cumbria - Lake DistrictDates:Fri 20 Mar - Sun 22 Mar - 3 Days/2 Nights 2026Fri 18 Sep - Sun 20 Sep - 3 Days/2 Nights 2026Fri 13 Nov - Sun 15 Nov - 3 Days/2 Nights 2026Fri 22 Jan - Sun 24 Jan - 3 Days/2 Nights 2027Extra night B&B available for Thu - Contact me for details and booking separatelyParticipants: Max 4Fitness: 2. ModerateExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodPhotogra...",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1714301696717-TME057MTL131H9UHU82H/Bassenthwaite+Rise.jpg",
       "url": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop",
       "offers": [
-        {
-          "@type": "Offer",
-          "sku": "SQ9016326",
-          "price": "975.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
-          "name": "Fri 23 Jan - 25 Jan - 3 Days 2026",
-          "priceSpecification": {
-            "price": "975.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer1",
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": "http://schema.org/True",
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
         {
           "@type": "Offer",
           "sku": "SQ0142956",
           "price": "1075.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
           "name": "Fri 20 Mar - Sun 22 Mar - 3 Days 2026",
           "priceSpecification": {
             "price": "1075.00",
             "priceCurrency": "GBP"
           },
           "url": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer2",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer1",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
             "doesNotShip": "http://schema.org/True",
@@ -177,15 +156,20 @@
           "price": "1075.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
           "name": "Fri 18 Sep - 20 Sep - 3 Days 2026",
           "priceSpecification": {
             "price": "1075.00",
             "priceCurrency": "GBP"
           },
           "url": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer3",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer2",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
             "doesNotShip": "http://schema.org/True",
@@ -215,15 +199,63 @@
           "price": "1075.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
           "name": "Fri 13 Nov - 15 Nov - 3 Days 2026",
           "priceSpecification": {
             "price": "1075.00",
             "priceCurrency": "GBP"
           },
           "url": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer3",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": "http://schema.org/True",
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 28,
+            "refundType": "http://schema.org/FullRefund",
+            "applicableCountry": "GB",
+            "returnMethod": "http://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/ReturnShippingFees",
+            "returnShippingFeesAmount": {
+              "@type": "MonetaryAmount",
+              "value": "50.00",
+              "currency": "GBP"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "sku": "SQ9016326",
+          "price": "975.00",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
+          "name": "Fri 22 Jan - 24 Jan - 3 Days 2027",
+          "priceSpecification": {
+            "price": "975.00",
+            "priceCurrency": "GBP"
+          },
+          "url": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer4",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
             "doesNotShip": "http://schema.org/True",
@@ -248,40 +280,6 @@
           }
         }
       ],
-      "startDate": "2026-01-16",
-      "endDate": "2026-01-18",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Dorset",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Coventry",
-          "addressRegion": "West Midlands",
-          "addressCountry": "GB"
-        }
-      },
-      "organizer": {
-        "@type": "Organization",
-        "name": "Alan Ranger Photography",
-        "url": "https://www.alanranger.com",
-        "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
-        "email": "info@alanranger.com",
-        "telephone": "+44 781 701 7994",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "45 Hathaway Road",
-          "addressLocality": "Coventry",
-          "addressRegion": "West Midlands",
-          "postalCode": "CV4 9HW",
-          "addressCountry": "GB"
-        }
-      },
-      "performer": {
-        "@type": "Person",
-        "name": "Alan Ranger"
-      },
       "review": [
         {
           "@type": "Review",
@@ -661,8 +659,52 @@
         "ratingValue": "5.0",
         "reviewCount": 20
       },
-      "@id": "https://www.alanranger.com/lake-district-photography-workshop#schema"
+      "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#product"
     }
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov",
+  "startDate": "2026-06-02",
+  "endDate": "2026-08-02",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "An exciting 3 day/2 night residential lake district photography workshop visiting some gorgeous spots around Cumbria. Runs every Jan, Mar, Sep, NovSummaryLocation: Cumbria - Lake DistrictDates:Fri 20 Mar - Sun 22 Mar - 3 Days/2 Nights 2026Fri 18 Sep - Sun 20 Sep - 3 Days/2 Nights 2026Fri 13 Nov - Sun 15 Nov - 3 Days/2 Nights 2026Fri 22 Jan - Sun 24 Jan - 3 Days/2 Nights 2027Extra night B&B available for Thu - Contact me for details and booking separatelyParticipants: Max 4Fitness: 2. ModerateExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodPhotography Workshop Event Details: Lake DistrictDescription: We will be based in the north lakes and visit some of the top spots in the Lake District for photographs. The Lake District has been a favourite location for photographers for decades. It offers a rich variety of landscapes and the seasonal weather means it can be different every time you visit.The weather creates unique windows to capture, reflections, mist, stormy skies and subtle and strong colours - often all in the space of 1-2 days and sometimes just hours.We will visit approximately 2-3 locations a day in a weekend subject to the wishes of the group, time, weather and other factors: Sign up today for an amazing lake district photography workshop",
+  "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1714301696717-TME057MTL131H9UHU82H/Bassenthwaite+Rise.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Suffolk",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "addressCountry": "GB"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Alan Ranger Photography",
+    "url": "https://www.alanranger.com",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+    "email": "info@alanranger.com",
+    "telephone": "+44 781 701 7994",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Hathaway Road",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "postalCode": "CV4 9HW",
+      "addressCountry": "GB"
+    }
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Alan Ranger"
+  },
+  "@id": "https://www.alanranger.com/lake-district-photography-workshop#event"
 }
 </script>

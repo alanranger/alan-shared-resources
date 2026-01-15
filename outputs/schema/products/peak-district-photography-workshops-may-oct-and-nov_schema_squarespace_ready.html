@@ -35,7 +35,26 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://www.alanranger.com#org",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "telephone": "+44 781 701 7994",
+      "email": "info@alanranger.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
       "@type": "LocalBusiness",
+      "@id": "https://www.alanranger.com/#localbusiness",
       "name": "Alan Ranger Photography",
       "url": "https://www.alanranger.com",
       "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
@@ -73,23 +92,16 @@
           "name": "Peak District Photography Workshops - May, Oct and Nov",
           "item": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire"
         }
-      ]
+      ],
+      "@id": "https://www.alanranger.com/landscape-peak-district-photography-workshops-derbyshire#breadcrumbs"
     },
     {
-      "@type": [
-        "Product",
-        "Event"
-      ],
+      "@type": "Product",
       "name": "PEAK DISTRICT Photography Workshops - May, Oct and Nov",
       "sku": "SQ2363666",
       "brand": {
         "@type": "Brand",
         "name": "Alan Ranger Photography"
-      },
-      "provider": {
-        "@type": "Organization",
-        "name": "Alan Ranger Photography",
-        "sameAs": "https://www.alanranger.com"
       },
       "description": "Join me in the Peak District in Hope Valley. Padley Gorge and Bolehill Quarry throughout the year on Peak District photography workshops | All levels welcomeSummaryLocation: Peak District - DerbyshireDates: Sat 16th May 2026 - 09:30 - 16:00Sat 17th Oct 2026 - 09:30 - 16:00Sun 1st Nov 2026 - 09:30 - 16:00Sat 7th Nov 2026 - 09:30 - 16:00Participants: Max 6Fitness: 3. ModerateExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodPhotography Workshop Event Details: Padley Gorge And Bolehill QuarryDescription: Spring and Autumn WorkshopsPadley Gorge is a dee...",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1709626967694-M4DJSC9GYR1R1LZFYBUF/Padley+Gorge+%2304+-+Mar+2024.jpg",
@@ -101,8 +113,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
           "name": "Padley and Bolehill Sat 16th May 2026 - 09:30 - 16:00",
           "priceSpecification": {
             "price": "150.00",
@@ -110,6 +122,11 @@
           },
           "url": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#offer1",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
             "doesNotShip": "http://schema.org/True",
@@ -139,8 +156,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
           "name": "Padley and Bolehill Sat 17th Oct  2026 09:30am - 4:00pm",
           "priceSpecification": {
             "price": "150.00",
@@ -148,6 +165,11 @@
           },
           "url": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#offer2",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
             "doesNotShip": "http://schema.org/True",
@@ -177,8 +199,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
           "name": "Padley and Bolehill Sun 1st Nov  2026 09:30am - 4:00pm",
           "priceSpecification": {
             "price": "150.00",
@@ -186,6 +208,11 @@
           },
           "url": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#offer3",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
             "doesNotShip": "http://schema.org/True",
@@ -215,8 +242,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2025-11-13",
-          "priceValidUntil": "2026-11-13",
+          "validFrom": "2026-01-13",
+          "priceValidUntil": "2027-01-13",
           "name": "Padley and Bolehill Sat 7th Nov  2026 09:30am - 4:00pm",
           "priceSpecification": {
             "price": "150.00",
@@ -224,6 +251,11 @@
           },
           "url": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#offer4",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
             "doesNotShip": "http://schema.org/True",
@@ -248,40 +280,6 @@
           }
         }
       ],
-      "startDate": "2026-01-16",
-      "endDate": "2026-01-18",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "location": {
-        "@type": "Place",
-        "name": "Dorset",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Coventry",
-          "addressRegion": "West Midlands",
-          "addressCountry": "GB"
-        }
-      },
-      "organizer": {
-        "@type": "Organization",
-        "name": "Alan Ranger Photography",
-        "url": "https://www.alanranger.com",
-        "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
-        "email": "info@alanranger.com",
-        "telephone": "+44 781 701 7994",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "45 Hathaway Road",
-          "addressLocality": "Coventry",
-          "addressRegion": "West Midlands",
-          "postalCode": "CV4 9HW",
-          "addressCountry": "GB"
-        }
-      },
-      "performer": {
-        "@type": "Person",
-        "name": "Alan Ranger"
-      },
       "review": [
         {
           "@type": "Review",
@@ -382,8 +380,52 @@
         "ratingValue": "5.0",
         "reviewCount": 5
       },
-      "@id": "https://www.alanranger.com/landscape-peak-district-photography-workshops-derbyshire#schema"
+      "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#product"
     }
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "PEAK DISTRICT Photography Workshops - May, Oct and Nov",
+  "startDate": "2026-06-02",
+  "endDate": "2026-08-02",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "Join me in the Peak District in Hope Valley. Padley Gorge and Bolehill Quarry throughout the year on Peak District photography workshops | All levels welcomeSummaryLocation: Peak District - DerbyshireDates: Sat 16th May 2026 - 09:30 - 16:00Sat 17th Oct 2026 - 09:30 - 16:00Sun 1st Nov 2026 - 09:30 - 16:00Sat 7th Nov 2026 - 09:30 - 16:00Participants: Max 6Fitness: 3. ModerateExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodPhotography Workshop Event Details: Padley Gorge And Bolehill QuarryDescription: Spring and Autumn WorkshopsPadley Gorge is a deep but narrow valley in the Peak District, Derbyshire, between the village of Grindleford and the A6187 road. The gorge is wooded with a stream, the Burbage Brook, at the bottom. Padley provides numerous opportunities to refine your composition in many aspects. You can opt for close-up sketches of woodland growth, rocks and water or tackle a wider vista showing the river and work on long exposures, water abstracts and much more.Bolehill Quarry - Created hundreds of millions of years ago by the power of natural forces, the last few centuries have seen the rugged landscape surrounding Padley Gorge sculpted by man who long ago quarried these gritstone Edges for stone and tunnelled deep beneath the moors to drive a railway line through the hills. Now an area of outstanding natural beauty, this walk takes in the breathtaking heights of Millstone Edge and majestic silver birch woodlands. It's a great location for any level of photographer to hone their skills and techniques.",
+  "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1709626967694-M4DJSC9GYR1R1LZFYBUF/Padley+Gorge+%2304+-+Mar+2024.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Suffolk",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "addressCountry": "GB"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Alan Ranger Photography",
+    "url": "https://www.alanranger.com",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+    "email": "info@alanranger.com",
+    "telephone": "+44 781 701 7994",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Hathaway Road",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "postalCode": "CV4 9HW",
+      "addressCountry": "GB"
+    }
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Alan Ranger"
+  },
+  "@id": "https://www.alanranger.com/landscape-peak-district-photography-workshops-derbyshire#event"
 }
 </script>

@@ -35,7 +35,26 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://www.alanranger.com#org",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "telephone": "+44 781 701 7994",
+      "email": "info@alanranger.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
       "@type": "LocalBusiness",
+      "@id": "https://www.alanranger.com/#localbusiness",
       "name": "Alan Ranger Photography",
       "url": "https://www.alanranger.com",
       "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
@@ -73,12 +92,11 @@
           "name": "Photo Print Preparation Service 30-min – File Check & Advice",
           "item": "https://www.alanranger.com/photography-services-near-me/photo-print-preparation-service-30min"
         }
-      ]
+      ],
+      "@id": "https://www.alanranger.com/photo-print-preparation-service-30min#breadcrumbs"
     },
     {
-      "@type": [
-        "Product"
-      ],
+      "@type": "Product",
       "name": "Photo Print Preparation Service 30-min – File Check & Advice",
       "sku": "SQ5582230",
       "brand": {
@@ -94,10 +112,15 @@
         "price": "29.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2025-11-13",
-        "priceValidUntil": "2026-11-13",
+        "validFrom": "2026-01-13",
+        "priceValidUntil": "2027-01-13",
         "url": "https://www.alanranger.com/photography-services-near-me/photo-print-preparation-service-30min",
         "@id": "https://www.alanranger.com/photography-services-near-me/photo-print-preparation-service-30min#offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Alan Ranger Photography",
+          "url": "https://www.alanranger.com"
+        },
         "shippingDetails": {
           "@type": "OfferShippingDetails",
           "doesNotShip": "http://schema.org/True",
@@ -121,7 +144,7 @@
           }
         }
       },
-      "@id": "https://www.alanranger.com/photo-print-preparation-service-30min#schema"
+      "@id": "https://www.alanranger.com/photography-services-near-me/photo-print-preparation-service-30min#product"
     }
   ]
 }

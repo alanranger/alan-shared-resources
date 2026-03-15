@@ -19,22 +19,21 @@ if (-not (Test-Path $syncScript)) {
   throw "Sync script not found: $syncScript"
 }
 
-$psExe = "powershell.exe"
-$taskCommand = "$psExe -NoProfile -ExecutionPolicy Bypass -File `"$syncScript`" -Branch `"$Branch`" -Remote `"$Remote`""
-
 Write-Host "Creating scheduled task '$TaskName' to run every $EveryMinutes minute(s)."
-Write-Host "Command: $taskCommand"
+$psArgs = "-NoProfile -ExecutionPolicy Bypass -File `"$syncScript`" -Branch `"$Branch`" -Remote `"$Remote`""
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument $psArgs
+$trigger = New-ScheduledTaskTrigger `
+  -Once `
+  -At (Get-Date).AddMinutes(1) `
+  -RepetitionInterval (New-TimeSpan -Minutes $EveryMinutes) `
+  -RepetitionDuration (New-TimeSpan -Days 3650)
 
-schtasks /Create `
-  /TN "$TaskName" `
-  /SC MINUTE `
-  /MO $EveryMinutes `
-  /TR "$taskCommand" `
-  /F | Out-Null
-
-if ($LASTEXITCODE -ne 0) {
-  throw "Failed to create scheduled task '$TaskName'."
-}
+Register-ScheduledTask `
+  -TaskName $TaskName `
+  -Action $action `
+  -Trigger $trigger `
+  -Description "Auto-sync alan-shared-resources changes" `
+  -Force | Out-Null
 
 Write-Host "Scheduled task created successfully."
 Write-Host "Use scripts\\unregister-auto-sync-task.ps1 to remove it later."

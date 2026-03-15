@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://www.alanranger.com#org",
+      "@id": "https://www.alanranger.com/#org",
       "name": "Alan Ranger Photography",
       "url": "https://www.alanranger.com/",
       "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
@@ -70,7 +70,7 @@
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "description": "Premium Photography Academy Membership with Online Supported LearningSupported learning with tutoring: input, feedback & troubleshootingDirect advice from Alan RangerIncludes everything in Foundation 101 plus:✓ 12 x Power Up Sessions (1 hr, 1-2-1 Zoom with Alan each month)✓ 4×30-min 1:1 coaching Zooms with Alan — targeted problem-solving✓ Image feedback or troubleshooting in every session✓ Exams and Certification Modules✓ eBook of all 60 Foundation Modules✓ 35 x 1 Page Field Checklists (PDF)✓ Free access to all new PDFs, exams, and add-ons released over the next 12 months.Fixed 12-month com...",
+      "description": "Premium Photography Academy Membership with Online Supported Learning Supported learning with tutoring: input, feedback & troubleshooting Direct advice from Alan Ranger Includes everything in Foundation 101 plus:✓ 12 x Power Up Sessions (1 hr, 1-2-1 Zoom with Alan each month)✓ 4×30-min 1:1 coaching Zooms with Alan — targeted problem-solving✓ Image feedback or troubleshooting in every session✓ Exams and Certification Modules✓ e Book of all 60 Foundation Modules✓ 35 x 1 Page Field Checklists (PDF)✓ Free access to all new PD Fs, exams, and add-ons released over the next 12 months.Fixed 12-month...",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/c9ec1c90-837a-4817-9d61-a6d3999e72eb/premium+photography+academy+membership.jpg",
       "url": "https://www.alanranger.com/photography-services-near-me/premium-photography-academy-membership",
       "offers": {
@@ -79,8 +79,8 @@
         "price": "60.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-01-13",
-        "priceValidUntil": "2027-01-13",
+        "validFrom": "2026-03-15",
+        "priceValidUntil": "2027-03-15",
         "url": "https://www.alanranger.com/photography-services-near-me/premium-photography-academy-membership",
         "@id": "https://www.alanranger.com/photography-services-near-me/premium-photography-academy-membership#offer",
         "seller": {
@@ -90,7 +90,7 @@
         },
         "shippingDetails": {
           "@type": "OfferShippingDetails",
-          "doesNotShip": "http://schema.org/True",
+          "doesNotShip": true,
           "shippingDestination": {
             "@type": "DefinedRegion",
             "addressCountry": "GB"

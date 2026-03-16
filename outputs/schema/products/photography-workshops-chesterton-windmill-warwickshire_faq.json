@@ -4,14 +4,6 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is included in Photography Workshops CHESTERTON WINDMILL - Warwickshire?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Photography Workshops CHESTERTON WINDMILL - Warwickshire is listed on this page with prices from £50.00 / £65.00, an in-person delivery format."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What dates are currently listed for Photography Workshops CHESTERTON WINDMILL - Warwickshire?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -20,10 +12,18 @@
     },
     {
       "@type": "Question",
-      "name": "Is Photography Workshops CHESTERTON WINDMILL - Warwickshire online or in person?",
+      "name": "What times does Photography Workshops CHESTERTON WINDMILL - Warwickshire run?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Photography Workshops CHESTERTON WINDMILL - Warwickshire is presented as an in-person format on this page."
+        "text": "The listed session time is 17:30 to 20:00."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many participants are in each session of Photography Workshops CHESTERTON WINDMILL - Warwickshire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page indicates a maximum of 6 participants."
       }
     },
     {

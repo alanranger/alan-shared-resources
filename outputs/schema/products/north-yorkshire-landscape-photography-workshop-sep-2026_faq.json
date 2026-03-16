@@ -4,14 +4,6 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is included in NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 is listed on this page with prices from £1 / £575.00, a 4 days format, an in-person delivery format."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What dates are currently listed for NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -20,10 +12,10 @@
     },
     {
       "@type": "Question",
-      "name": "Where does NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 take place?",
+      "name": "How many participants are in each session of NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 is listed with location details for Yorkshire on this page."
+        "text": "The page indicates a maximum of 3 participants."
       }
     },
     {
@@ -32,6 +24,14 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is described as suitable for Beginners photographers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 take place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 is listed with location details for Yorkshire on this page."
       }
     },
     {

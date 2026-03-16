@@ -4,18 +4,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is included in LAVENDER FIELD Photography Workshop - Gloucestershire July?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "LAVENDER FIELD Photography Workshop - Gloucestershire July is listed on this page with prices from £30 / £150.00, an in-person delivery format."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What dates are currently listed for LAVENDER FIELD Photography Workshop - Gloucestershire July?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Current listed dates include 4 Jul 2026, 11 Jul 2026."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many participants are in each session of LAVENDER FIELD Photography Workshop - Gloucestershire July?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page indicates a maximum of 6 participants."
       }
     },
     {

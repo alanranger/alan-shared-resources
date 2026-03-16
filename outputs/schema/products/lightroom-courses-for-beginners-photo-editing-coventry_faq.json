@@ -4,14 +4,6 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is included in Lightroom Courses for Beginners Photo Editing - Coventry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Lightroom Courses for Beginners Photo Editing - Coventry is listed on this page with prices from £150.00, a 2 hr format."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What dates are currently listed for Lightroom Courses for Beginners Photo Editing - Coventry?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -20,10 +12,18 @@
     },
     {
       "@type": "Question",
-      "name": "Where does Lightroom Courses for Beginners Photo Editing - Coventry take place?",
+      "name": "What times does Lightroom Courses for Beginners Photo Editing - Coventry run?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lightroom Courses for Beginners Photo Editing - Coventry is listed with location details for Coventry on this page."
+        "text": "The listed session time is 19:00 to 21:00."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many participants are in each session of Lightroom Courses for Beginners Photo Editing - Coventry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page indicates a maximum of 3 participants."
       }
     },
     {

@@ -12,18 +12,18 @@
     },
     {
       "@type": "Question",
-      "name": "Is 4 x 2hr Private Photography Classes - Face to Face Coventry online or in person?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "4 x 2hr Private Photography Classes - Face to Face Coventry is presented as an in-person format on this page."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What experience level is 4 x 2hr Private Photography Classes - Face to Face Coventry aimed at?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is described as suitable for Beginners photographers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is 4 x 2hr Private Photography Classes - Face to Face Coventry online or in person?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "4 x 2hr Private Photography Classes - Face to Face Coventry is presented as an in-person format on this page."
       }
     },
     {

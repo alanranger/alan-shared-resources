@@ -4,18 +4,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is included in BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May is listed on this page with prices from £99.00 / £150.00, a 4 hr format, an in-person delivery format."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What dates are currently listed for BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Current listed dates include 20 Apr 2026, 21 Apr 2026, 22 Apr 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What times does BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The listed session time is 9:45 to 10:30."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many participants are in each session of BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page indicates a maximum of 6 participants."
       }
     },
     {

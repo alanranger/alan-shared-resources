@@ -12,18 +12,18 @@
     },
     {
       "@type": "Question",
-      "name": "Is Online Photography Classes 121 - Zoom - Package Options online or in person?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Online Photography Classes 121 - Zoom - Package Options is positioned as an online option on this page, with delivery via Zoom or remote support."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What experience level is Online Photography Classes 121 - Zoom - Package Options aimed at?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is described as suitable for Beginners photographers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Online Photography Classes 121 - Zoom - Package Options online or in person?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Online Photography Classes 121 - Zoom - Package Options is positioned as an online option on this page, with delivery via Zoom or remote support."
       }
     },
     {

@@ -4,14 +4,6 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is included in Christmas Photography Seasonal Workshops | Warwickshire?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Christmas Photography Seasonal Workshops | Warwickshire is listed on this page with prices from £50.00, a 1 day format, an in-person delivery format."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What dates are currently listed for Christmas Photography Seasonal Workshops | Warwickshire?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -20,10 +12,18 @@
     },
     {
       "@type": "Question",
-      "name": "Is Christmas Photography Seasonal Workshops | Warwickshire online or in person?",
+      "name": "What times does Christmas Photography Seasonal Workshops | Warwickshire run?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Christmas Photography Seasonal Workshops | Warwickshire is presented as an in-person format on this page."
+        "text": "The listed session time is 18:30 to 21:00."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many participants are in each session of Christmas Photography Seasonal Workshops | Warwickshire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page indicates a maximum of 6 participants."
       }
     },
     {
@@ -36,10 +36,10 @@
     },
     {
       "@type": "Question",
-      "name": "Is Christmas Photography Seasonal Workshops | Warwickshire suitable for beginners?",
+      "name": "Is Christmas Photography Seasonal Workshops | Warwickshire online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Book Now Facebook 0 LinkedIn 0 Reddit Tumblr Pinterest 0 Get Access to Free Online Course Sign up with your email address to access the Academy 101 Foundation Photography Course First Name Last Name Email Address Join today We respect your privacy."
+        "text": "Christmas Photography Seasonal Workshops | Warwickshire is presented as an in-person format on this page."
       }
     }
   ],

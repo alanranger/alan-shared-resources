@@ -33,6 +33,8 @@
 <!-- Auto-fetch Product Schema from GitHub and inject inline JSON-LD -->
 <script>
 (function() {
+  const INLINE_FAQ_PAYLOAD = null;
+
   function appendJsonLd(payload) {
     if (!payload || typeof payload !== "object") return;
     const s = document.createElement("script");
@@ -105,20 +107,13 @@
       if (!json) return;
       appendJsonLd(json);
       injectTldrBlock(json.description || json.name || "");
+
+      if (!INLINE_FAQ_PAYLOAD) return;
+      const faqType = String(INLINE_FAQ_PAYLOAD?.["@type"] || "").toLowerCase();
+      if (faqType !== "faqpage") return;
+      if (hasExistingFaqSignal()) return;
+      appendJsonLd(INLINE_FAQ_PAYLOAD);
     })
     .catch(console.error);
-
-  if (!hasExistingFaqSignal() && "https://schema.alanranger.com/batsford-arboretum-autumn-photography-workshops-23-31-oct_faq.json") {
-    fetch("https://schema.alanranger.com/batsford-arboretum-autumn-photography-workshops-23-31-oct_faq.json")
-      .then((r) => r.ok ? r.json() : null)
-      .then((faqJson) => {
-        if (!faqJson) return;
-        const faqType = String(faqJson?.["@type"] || "").toLowerCase();
-        if (faqType !== "faqpage") return;
-        if (hasExistingFaqSignal()) return;
-        appendJsonLd(faqJson);
-      })
-      .catch(() => {});
-  }
 })();
 </script>

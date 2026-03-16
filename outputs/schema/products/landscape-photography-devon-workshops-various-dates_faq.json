@@ -31,7 +31,7 @@
       "name": "What equipment is needed for Landscape Photography DEVON Workshops - Various Dates?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "DSLR or Mirrorless Camera, Tripod and ND Filters Photography Workshop Event Details: Devon Description: Our landscape photography devon workshops are carefully crafted to provide you with an immersive and educational exp"
+        "text": "DSLR or Mirrorless Camera, Tripod and ND Filters"
       }
     },
     {
@@ -39,7 +39,23 @@
       "name": "Where does Landscape Photography DEVON Workshops - Various Dates take place?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Landscape Photography DEVON Workshops - Various Dates is listed with location details for Devon on this page."
+        "text": "Landscape Photography DEVON Workshops - Various Dates is listed with location details for Devon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What price options are shown for Landscape Photography DEVON Workshops - Various Dates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed prices start from £775.00 / £995.00 / £1, with options visible at checkout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in Landscape Photography DEVON Workshops - Various Dates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Landscape Photography DEVON Workshops - Various Dates is listed with prices from £775.00 / £995.00, a 4 Days format, an in-person delivery format."
       }
     }
   ],

@@ -36,10 +36,26 @@
     },
     {
       "@type": "Question",
-      "name": "What equipment is needed for Photography Workshops CHESTERTON WINDMILL - Warwickshire?",
+      "name": "Is Photography Workshops CHESTERTON WINDMILL - Warwickshire online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "DSLR or Mirrorless Camera and Tripod Photography Workshop Event Details: Chesterton Description: Immerse yourself in the beauty of Warwickshire's iconic Chesterton Windmill with our exclusive sunset landscape photography"
+        "text": "Photography Workshops CHESTERTON WINDMILL - Warwickshire is presented as an in-person format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What price options are shown for Photography Workshops CHESTERTON WINDMILL - Warwickshire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed prices start from £50.00 / £65.00 / £125.00, with options visible at checkout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in Photography Workshops CHESTERTON WINDMILL - Warwickshire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Photography Workshops CHESTERTON WINDMILL - Warwickshire is listed with prices from £50.00 / £65.00, an in-person delivery format."
       }
     }
   ],

@@ -28,10 +28,18 @@
     },
     {
       "@type": "Question",
+      "name": "Is Long Exposure Photography Workshop KENILWORTH Sunset online or in person?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Long Exposure Photography Workshop KENILWORTH Sunset is presented as an in-person format."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What price options are shown for Long Exposure Photography Workshop KENILWORTH Sunset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The page currently shows prices from £50.00 / £65.00 / £55.00, with options visible at checkout."
+        "text": "Current listed prices start from £50.00 / £65.00 / £55.00, with options visible at checkout."
       }
     },
     {
@@ -39,7 +47,7 @@
       "name": "What is included in Long Exposure Photography Workshop KENILWORTH Sunset?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Long Exposure Photography Workshop KENILWORTH Sunset is listed on this page with prices from £50.00 / £65.00, an in-person delivery format."
+        "text": "Long Exposure Photography Workshop KENILWORTH Sunset is listed with prices from £50.00 / £65.00, an in-person delivery format."
       }
     }
   ],

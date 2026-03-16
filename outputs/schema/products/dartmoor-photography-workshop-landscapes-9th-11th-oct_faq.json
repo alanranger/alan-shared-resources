@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What times does DARTMOOR Photography Workshop - Landscapes - 9th - 11th Oct run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The listed session time is 05:15 to 09:30."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "How many participants are in each session of DARTMOOR Photography Workshop - Landscapes - 9th - 11th Oct?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -31,7 +39,7 @@
       "name": "What price options are shown for DARTMOOR Photography Workshop - Landscapes - 9th - 11th Oct?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The page currently shows prices from £875.00 / £995.00 / £1, with options visible at checkout."
+        "text": "Current listed prices start from £875.00 / £995.00 / £1, with options visible at checkout."
       }
     },
     {
@@ -39,7 +47,7 @@
       "name": "What is included in DARTMOOR Photography Workshop - Landscapes - 9th - 11th Oct?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "DARTMOOR Photography Workshop - Landscapes - 9th - 11th Oct is listed on this page with prices from £875.00 / £995.00, an in-person delivery format."
+        "text": "DARTMOOR Photography Workshop - Landscapes - 9th - 11th Oct is listed with prices from £875.00 / £995.00, an in-person delivery format."
       }
     }
   ],

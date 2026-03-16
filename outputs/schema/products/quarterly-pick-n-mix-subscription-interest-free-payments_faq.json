@@ -7,7 +7,7 @@
       "name": "What is included in Quarterly Pick N Mix Subscription | Interest Free Payments?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Quarterly Pick N Mix Subscription | Interest Free Payments is listed on this page with prices from £250.00 / £250, a 12 month format."
+        "text": "Quarterly Pick N Mix Subscription | Interest Free Payments is listed with prices from £250.00 / £250, a 12 month format."
       }
     },
     {
@@ -28,10 +28,26 @@
     },
     {
       "@type": "Question",
+      "name": "What billing cadence is listed for Quarterly Pick N Mix Subscription | Interest Free Payments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This option is listed as a quarterly payment cadence within the plan options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Quarterly Pick N Mix Subscription | Interest Free Payments include an interest-free payment option?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The listing explicitly references an interest-free payment plan for this subscription."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "What price options are shown for Quarterly Pick N Mix Subscription | Interest Free Payments?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The page currently shows prices from £250.00 / £250 / £1000, with options visible at checkout."
+        "text": "Current listed prices start from £250.00 / £250 / £1000, with options visible at checkout."
       }
     }
   ],

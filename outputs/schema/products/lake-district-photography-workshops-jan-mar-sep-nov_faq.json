@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What times does LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The listed session time is 05:15 to 09:30."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "How many participants are in each session of LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -31,15 +39,23 @@
       "name": "Where does LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov take place?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov is listed with location details for Lake District on this page."
+        "text": "LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov is listed with location details for Lake District."
       }
     },
     {
       "@type": "Question",
-      "name": "How long is LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov?",
+      "name": "What price options are shown for LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The page describes this as a 3 day format."
+        "text": "Current listed prices start from £975.00 / £1 / £995.00, with options visible at checkout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov is listed with prices from £975.00 / £1, a 3 day format, an in-person delivery format."
       }
     }
   ],

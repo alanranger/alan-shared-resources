@@ -28,10 +28,10 @@
     },
     {
       "@type": "Question",
-      "name": "How long is Suffolk Landscape Photography Workshops | Southwold?",
+      "name": "Is Suffolk Landscape Photography Workshops | Southwold online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The page describes this as a 3 Days format."
+        "text": "Suffolk Landscape Photography Workshops | Southwold is presented as an in-person format."
       }
     },
     {
@@ -40,6 +40,22 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Moderate (15-30 min walks)Experience Level: Beginner to Advanced Equipment..."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What price options are shown for Suffolk Landscape Photography Workshops | Southwold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed prices start from £995.00 / £1 / £575.00, with options visible at checkout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in Suffolk Landscape Photography Workshops | Southwold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Summary Location: Suffolk - East Anglia / Southwold/Aldeburgh Area Dates: Fri 5th 09:30 - Sun 7th 14:30 Feb 2027 - 3 Days/2 Nights Participants: Max 4 (1 Car, transport between locations included) Fitness: 2."
       }
     }
   ],

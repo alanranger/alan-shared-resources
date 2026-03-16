@@ -30,35 +30,44 @@
 })();
 </script>
 
-<!-- Auto-fetch Product Schema + FAQ from GitHub and inject inline JSON-LD -->
+<!-- Auto-fetch Product Schema from GitHub and inject inline JSON-LD -->
 <script>
-(function(){
-  function appendJsonLd(payload){
-    if(!payload || typeof payload !== "object") return;
+(function() {
+  const INLINE_FAQ_PAYLOAD = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What dates are currently listed for The Art of GARDEN PHOTOGRAPHY - Coventry - May and July?", "acceptedAnswer": {"@type": "Answer", "text": "Current listed dates include 17 May 2026, 29 May 2026, 12 Jul 2026."}}, {"@type": "Question", "name": "What times does The Art of GARDEN PHOTOGRAPHY - Coventry - May and July run?", "acceptedAnswer": {"@type": "Answer", "text": "The listed session time is 15:00 to 17:00."}}, {"@type": "Question", "name": "How many participants are in each session of The Art of GARDEN PHOTOGRAPHY - Coventry - May and July?", "acceptedAnswer": {"@type": "Answer", "text": "The page indicates a maximum of 4 participants."}}, {"@type": "Question", "name": "What experience level is The Art of GARDEN PHOTOGRAPHY - Coventry - May and July aimed at?", "acceptedAnswer": {"@type": "Answer", "text": "This is described as suitable for Beginners photographers."}}, {"@type": "Question", "name": "Is The Art of GARDEN PHOTOGRAPHY - Coventry - May and July online or in person?", "acceptedAnswer": {"@type": "Answer", "text": "The Art of GARDEN PHOTOGRAPHY - Coventry - May and July is presented as an in-person format."}}, {"@type": "Question", "name": "Is The Art of GARDEN PHOTOGRAPHY - Coventry - May and July suitable for beginners?", "acceptedAnswer": {"@type": "Answer", "text": "Secure your spot today and embark on a transformative learning experience in garden photography.Summary Location: Coventry - CV4 Dates:2026 Dates Sun May 17 th 2026 - 15:00 - 17:00 Sun Jul 12 th 2026 - 15:00 - 17:00 Participants: Max 4 Fitness: 1."}}, {"@type": "Question", "name": "What price options are shown for The Art of GARDEN PHOTOGRAPHY - Coventry - May and July?", "acceptedAnswer": {"@type": "Answer", "text": "Current listed prices start from £35.00 / £99.00 / £75.00, with options visible at checkout."}}], "@id": "https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop#faq"};
+
+  function appendJsonLd(payload) {
+    if (!payload || typeof payload !== "object") return;
     const s = document.createElement("script");
     s.type = "application/ld+json";
     s.text = JSON.stringify(payload);
     document.head.appendChild(s);
   }
-  function hasExistingFaqSignal(){
+
+  function hasExistingFaqSignal() {
     const schemaBlocks = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
-    const hasFaqSchema = schemaBlocks.some((block) => /"@type"\s*:\s*"FAQPage"/i.test(String(block.textContent || "")));
+    const hasFaqSchema = schemaBlocks.some((block) => /"@type"\s*:\s*"FAQPage"/i.test(block.textContent || ""));
     if (hasFaqSchema) return true;
+    // Skip only if another script (not this one) already loads an FAQ JSON endpoint.
     const currentScript = document.currentScript;
-    const scriptBlocks = Array.from(document.querySelectorAll("script")).filter((block) => block !== currentScript);
+    const scriptBlocks = Array.from(document.querySelectorAll("script"))
+      .filter((block) => block !== currentScript);
     return scriptBlocks.some((block) => /\/[a-z0-9._\-/]*_faq\.json(?:["'?#&]|$)/i.test(String(block.textContent || "") + " " + String(block.src || "")));
   }
-  function hasExistingTldrSignal(){
+
+  function hasExistingTldrSignal() {
     if (document.getElementById("ar-tldr-block")) return true;
     const headings = Array.from(document.querySelectorAll("h1,h2,h3,h4"));
     return headings.some((h) => /(^|\s)(tl;?dr|tldr|summary|quick answer)(\s|$)/i.test(String(h.textContent || "")));
   }
-  function injectTldrBlock(summaryText){
+
+  function injectTldrBlock(summaryText) {
     if (hasExistingTldrSignal()) return;
     const summary = String(summaryText || "").replace(/\s+/g, " ").trim();
     if (summary.length < 40) return;
+
     const container = document.querySelector("main, article, .Main-content, #content, .sqs-block-content") || document.body;
     if (!container) return;
+
     const block = document.createElement("section");
     block.id = "ar-tldr-block";
     block.style.margin = "1rem 0";
@@ -66,16 +75,20 @@
     block.style.border = "1px solid #dbe3ec";
     block.style.borderRadius = "8px";
     block.style.background = "#f8fbff";
+
     const title = document.createElement("h2");
     title.textContent = "TLDR";
     title.style.margin = "0 0 0.45rem 0";
     title.style.fontSize = "1rem";
+
     const body = document.createElement("p");
     body.textContent = summary;
     body.style.margin = "0";
     body.style.lineHeight = "1.55";
+
     block.appendChild(title);
     block.appendChild(body);
+
     const firstHeading = container.querySelector("h1, h2");
     if (firstHeading && firstHeading.parentNode) {
       firstHeading.parentNode.insertBefore(block, firstHeading.nextSibling);
@@ -87,23 +100,20 @@
       container.appendChild(block);
     }
   }
+
   fetch("https://schema.alanranger.com/the-art-of-garden-photography-coventry-may-and-july_schema.json")
     .then((r) => r.ok ? r.json() : null)
     .then((json) => {
       if (!json) return;
       appendJsonLd(json);
       injectTldrBlock(json.description || json.name || "");
-    })
-    .catch(console.error);
-  fetch("https://schema.alanranger.com/the-art-of-garden-photography-coventry-may-and-july_faq.json")
-    .then((r) => r.ok ? r.json() : null)
-    .then((faqJson) => {
-      if (!faqJson) return;
-      const faqType = String(faqJson?.["@type"] || "").toLowerCase();
+
+      if (!INLINE_FAQ_PAYLOAD) return;
+      const faqType = String(INLINE_FAQ_PAYLOAD?.["@type"] || "").toLowerCase();
       if (faqType !== "faqpage") return;
       if (hasExistingFaqSignal()) return;
-      appendJsonLd(faqJson);
+      appendJsonLd(INLINE_FAQ_PAYLOAD);
     })
-    .catch(() => {});
+    .catch(console.error);
 })();
 </script>

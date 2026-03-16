@@ -33,7 +33,7 @@
 <!-- Auto-fetch Product Schema from GitHub and inject inline JSON-LD -->
 <script>
 (function() {
-  const INLINE_FAQ_PAYLOAD = null;
+  const INLINE_FAQ_PAYLOAD = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is included in Photography Workshops CHESTERTON WINDMILL - Warwickshire?", "acceptedAnswer": {"@type": "Answer", "text": "Photography Workshops CHESTERTON WINDMILL - Warwickshire is listed on this page with an in-person delivery format."}}, {"@type": "Question", "name": "What dates are currently listed for Photography Workshops CHESTERTON WINDMILL - Warwickshire?", "acceptedAnswer": {"@type": "Answer", "text": "Current listed dates include 30 Mar 2026, 20 Apr 2026, 21 Apr 2026, plus additional listed dates."}}, {"@type": "Question", "name": "Is Photography Workshops CHESTERTON WINDMILL - Warwickshire online or in person?", "acceptedAnswer": {"@type": "Answer", "text": "Photography Workshops CHESTERTON WINDMILL - Warwickshire is presented as an in-person format on this page."}}], "@id": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-chesterton-windmill#faq"};
 
   function appendJsonLd(payload) {
     if (!payload || typeof payload !== "object") return;

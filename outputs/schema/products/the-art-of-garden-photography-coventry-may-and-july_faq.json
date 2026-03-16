@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What dates are currently listed for The Art of GARDEN PHOTOGRAPHY - Coventry - May and July?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 17 May 2026, 29 May 2026, 12 Jul 2026."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is The Art of GARDEN PHOTOGRAPHY - Coventry - May and July online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",

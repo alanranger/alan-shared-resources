@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What dates are currently listed for LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 16 May 2026, 30 May 2026, 15 Aug 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Where does LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov take place?",
       "acceptedAnswer": {
         "@type": "Answer",

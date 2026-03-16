@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May is listed on this page with a 4 hr format, an in-person delivery format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What dates are currently listed for BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 20 Apr 2026, 21 Apr 2026, 22 Apr 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 01 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page describes this as a 4 hr format."
+      }
+    }
+  ],
+  "@id": "https://www.alanranger.com/photo-workshops-uk/bluebell-woodlands-photography-workshops#faq"
+}

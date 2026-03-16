@@ -33,7 +33,7 @@
 <!-- Auto-fetch Product Schema from GitHub and inject inline JSON-LD -->
 <script>
 (function() {
-  const INLINE_FAQ_PAYLOAD = null;
+  const INLINE_FAQ_PAYLOAD = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is included in NORTHUMBERLAND Photography Workshops - Mar 18 - 21?", "acceptedAnswer": {"@type": "Answer", "text": "NORTHUMBERLAND Photography Workshops - Mar 18 - 21 is listed on this page with a 4 day format, an in-person delivery format."}}, {"@type": "Question", "name": "What dates are currently listed for NORTHUMBERLAND Photography Workshops - Mar 18 - 21?", "acceptedAnswer": {"@type": "Answer", "text": "Current listed dates include 20 Nov 2026, 18 Mar 2027."}}, {"@type": "Question", "name": "How long is NORTHUMBERLAND Photography Workshops - Mar 18 - 21?", "acceptedAnswer": {"@type": "Answer", "text": "The page describes this as a 4 day format."}}], "@id": "https://www.alanranger.com/photo-workshops-uk/coastal-northumberland-photography-workshops#faq"};
 
   function appendJsonLd(payload) {
     if (!payload || typeof payload !== "object") return;

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in Professional Black and White Photography Course | Coventry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enter the date of the event on Customer Information Notes Field when you go through the checkout process. Black and White Photography Course for beginners"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What dates are currently listed for Professional Black and White Photography Course | Coventry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 20 Apr 2026, 21 Apr 2026, 22 Apr 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Professional Black and White Photography Course | Coventry suitable for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Black and White Photography Course for beginners Professional Black and White Photography Course | Coventry Enter the date of the event on Customer Information Notes Field when you go through the checkout process."
+      }
+    }
+  ],
+  "@id": "https://www.alanranger.com/photography-services-near-me/black-and-white-photography-course#faq"
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What dates are currently listed for Landscape YORKSHIRE DALES Photography Workshop - 10 - 12 Apr?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 10 Apr 2026, 8 May 2026, 28 Aug 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where does Landscape YORKSHIRE DALES Photography Workshop - 10 - 12 Apr take place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Landscape YORKSHIRE DALES Photography Workshop - 10 - 12 Apr is listed with location details for Yorkshire on this page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is Landscape YORKSHIRE DALES Photography Workshop - 10 - 12 Apr?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page describes this as a 3 Days format."
+      }
+    }
+  ],
+  "@id": "https://www.alanranger.com/photo-workshops-uk/yorkshire-dales-photography-workshops#faq"
+}

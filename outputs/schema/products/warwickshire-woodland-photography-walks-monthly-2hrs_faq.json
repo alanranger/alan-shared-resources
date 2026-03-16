@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What dates are currently listed for WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 19 Apr 2026, 20 Apr 2026, 21 Apr 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Where does WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs take place?",
       "acceptedAnswer": {
         "@type": "Answer",

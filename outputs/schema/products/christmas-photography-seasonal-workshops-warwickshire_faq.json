@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What dates are currently listed for Christmas Photography Seasonal Workshops | Warwickshire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 20 Apr 2026, 21 Apr 2026, 22 Apr 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is Christmas Photography Seasonal Workshops | Warwickshire online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",

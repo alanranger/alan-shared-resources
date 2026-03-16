@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What dates are currently listed for Online Photography Classes 121 - Zoom - Package Options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 1 Apr 2026."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is Online Photography Classes 121 - Zoom - Package Options online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",

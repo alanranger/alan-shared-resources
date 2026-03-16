@@ -12,6 +12,14 @@
     },
     {
       "@type": "Question",
+      "name": "What dates are currently listed for NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 10 Apr 2026, 8 May 2026, 28 Aug 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Where does NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 take place?",
       "acceptedAnswer": {
         "@type": "Answer",

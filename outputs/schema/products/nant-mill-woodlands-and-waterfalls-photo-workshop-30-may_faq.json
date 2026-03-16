@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in NANT MILL Woodlands and Waterfalls Photo Workshop 30 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NANT MILL Woodlands and Waterfalls Photo Workshop 30 May is listed on this page with prices from £125.00 / £150.00, an in-person delivery format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What dates are currently listed for NANT MILL Woodlands and Waterfalls Photo Workshop 30 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Current listed dates include 10 Apr 2026, 20 Apr 2026, 21 Apr 2026, plus additional listed dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What experience level is NANT MILL Woodlands and Waterfalls Photo Workshop 30 May aimed at?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This is described as suitable for Beginners photographers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What price options are shown for NANT MILL Woodlands and Waterfalls Photo Workshop 30 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page currently shows prices from £125.00 / £150.00 / £175.00, with options visible at checkout."
+      }
+    }
+  ],
+  "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-nant-mill#faq"
+}

@@ -7,7 +7,7 @@
       "name": "What is included in KERRY - Southern Ireland Photography Workshop - Mar 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "KERRY - Southern Ireland Photography Workshop - Mar 2026 is listed on this page with a 5 days format, an in-person delivery format."
+        "text": "KERRY - Southern Ireland Photography Workshop - Mar 2026 is listed on this page with prices from £1 / £995.00, a 5 days format, an in-person delivery format."
       }
     },
     {
@@ -20,10 +20,26 @@
     },
     {
       "@type": "Question",
+      "name": "What experience level is KERRY - Southern Ireland Photography Workshop - Mar 2026 aimed at?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This is described as suitable for Beginners photographers."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "How long is KERRY - Southern Ireland Photography Workshop - Mar 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The page describes this as a 5 days format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What price options are shown for KERRY - Southern Ireland Photography Workshop - Mar 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page currently shows prices from £1 / £995.00 / £575.00, with options visible at checkout."
       }
     }
   ],

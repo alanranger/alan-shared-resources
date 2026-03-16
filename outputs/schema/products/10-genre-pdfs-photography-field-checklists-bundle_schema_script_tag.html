@@ -1,0 +1,121 @@
+<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
+
+<script>
+(function(){
+  // Remove Squarespace's built-in, short Product JSON-LD
+  const removeSquarespaceProduct = () => {
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(el => {
+      const txt = el.textContent.trim();
+      if (txt.includes('"@type":"Product"')) {
+        try {
+          const j = JSON.parse(txt);
+          const looksLikeSquarespace =
+            txt.length < 1500 &&
+            !j.aggregateRating &&
+            !j.review &&
+            j.offers &&
+            j.name &&
+            !txt.includes('"hasMerchantReturnPolicy"');
+          if (looksLikeSquarespace) el.remove();
+        } catch(e){}
+      }
+    });
+  };
+  // Run several times to catch async Squarespace hydration
+  removeSquarespaceProduct();
+  document.addEventListener('DOMContentLoaded', removeSquarespaceProduct);
+  window.addEventListener('load', () => setTimeout(removeSquarespaceProduct, 1000));
+  const obs = new MutationObserver(removeSquarespaceProduct);
+  obs.observe(document.documentElement, { childList: true, subtree: true });
+})();
+</script>
+
+<!-- Auto-fetch Product Schema from GitHub and inject inline JSON-LD -->
+<script>
+(function() {
+  function appendJsonLd(payload) {
+    if (!payload || typeof payload !== "object") return;
+    const s = document.createElement("script");
+    s.type = "application/ld+json";
+    s.text = JSON.stringify(payload);
+    document.head.appendChild(s);
+  }
+
+  function hasExistingFaqSignal() {
+    const schemaBlocks = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+    const hasFaqSchema = schemaBlocks.some((block) => /"@type"\s*:\s*"FAQPage"/i.test(block.textContent || ""));
+    if (hasFaqSchema) return true;
+    // Only trust obvious FAQ headings in main content (avoid false positives from global nav/footer).
+    const contentRoot = document.querySelector("main, article, .Main-content, #content, .sqs-block-content") || document.body;
+    const headings = Array.from((contentRoot || document).querySelectorAll("h1,h2,h3,h4"));
+    return headings.some((h) => /(^|\s)(faqs?|frequently asked questions)(\s|$)/i.test(String(h.textContent || "").trim()));
+  }
+
+  function hasExistingTldrSignal() {
+    if (document.getElementById("ar-tldr-block")) return true;
+    const headings = Array.from(document.querySelectorAll("h1,h2,h3,h4"));
+    return headings.some((h) => /(^|\s)(tl;?dr|tldr|summary|quick answer)(\s|$)/i.test(String(h.textContent || "")));
+  }
+
+  function injectTldrBlock(summaryText) {
+    if (hasExistingTldrSignal()) return;
+    const summary = String(summaryText || "").replace(/\s+/g, " ").trim();
+    if (summary.length < 40) return;
+
+    const container = document.querySelector("main, article, .Main-content, #content, .sqs-block-content") || document.body;
+    if (!container) return;
+
+    const block = document.createElement("section");
+    block.id = "ar-tldr-block";
+    block.style.margin = "1rem 0";
+    block.style.padding = "0.85rem 1rem";
+    block.style.border = "1px solid #dbe3ec";
+    block.style.borderRadius = "8px";
+    block.style.background = "#f8fbff";
+
+    const title = document.createElement("h2");
+    title.textContent = "TLDR";
+    title.style.margin = "0 0 0.45rem 0";
+    title.style.fontSize = "1rem";
+
+    const body = document.createElement("p");
+    body.textContent = summary;
+    body.style.margin = "0";
+    body.style.lineHeight = "1.55";
+
+    block.appendChild(title);
+    block.appendChild(body);
+
+    const firstHeading = container.querySelector("h1, h2");
+    if (firstHeading && firstHeading.parentNode) {
+      firstHeading.parentNode.insertBefore(block, firstHeading.nextSibling);
+      return;
+    }
+    if (container.firstChild) {
+      container.insertBefore(block, container.firstChild);
+    } else {
+      container.appendChild(block);
+    }
+  }
+
+  fetch("https://schema.alanranger.com/10-genre-pdfs-photography-field-checklists-bundle_schema.json")
+    .then((r) => r.ok ? r.json() : null)
+    .then((json) => {
+      if (!json) return;
+      appendJsonLd(json);
+      injectTldrBlock(json.description || json.name || "");
+    })
+    .catch(console.error);
+
+  fetch("https://schema.alanranger.com/10-genre-pdfs-photography-field-checklists-bundle_faq.json")
+    .then((r) => r.ok ? r.json() : null)
+    .then((faqJson) => {
+      if (!faqJson) return;
+      const faqType = String(faqJson?.["@type"] || "").toLowerCase();
+      if (faqType !== "faqpage") return;
+      if (hasExistingFaqSignal()) return;
+      appendJsonLd(faqJson);
+    })
+    .catch(() => {});
+})();
+</script>

@@ -4,6 +4,14 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "What is included in WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs is listed on this page with an in-person delivery format."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -16,14 +24,6 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Informal woodland photography walks in and around Warwickshire Woodlands - All Levels and types of camera welcome - Length 2 hrs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who is WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs best suited for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs is designed for photographers who want structured guidance in this format."
       }
     }
   ],

@@ -4,6 +4,14 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "What is included in Christmas Photography Seasonal Workshops | Warwickshire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Christmas Photography Seasonal Workshops | Warwickshire is listed on this page with a 1 day format, an in-person delivery format."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is Christmas Photography Seasonal Workshops | Warwickshire online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -16,22 +24,6 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The page describes this as a 1 day format."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Christmas Photography Seasonal Workshops | Warwickshire suitable for beginners?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Christmas Photography Seasonal Workshops | Warwickshire is described for learners building confidence and core skills."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who is Christmas Photography Seasonal Workshops | Warwickshire best suited for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Christmas Photography Seasonal Workshops | Warwickshire is designed for photographers who want structured guidance in this format."
       }
     }
   ],

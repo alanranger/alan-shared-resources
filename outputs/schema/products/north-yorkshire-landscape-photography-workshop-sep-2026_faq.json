@@ -4,6 +4,14 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "What is included in NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 is listed on this page with a 4 days format, an in-person delivery format."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -16,22 +24,6 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The page describes this as a 4 days format."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 suitable for beginners?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 is described for learners building confidence and core skills."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who is NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 best suited for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026 is designed for photographers who want structured guidance in this format."
       }
     }
   ],

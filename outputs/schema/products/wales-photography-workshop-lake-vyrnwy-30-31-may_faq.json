@@ -4,6 +4,14 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "What is included in WALES Photography Workshop | Lake Vyrnwy 30-31 May?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WALES Photography Workshop | Lake Vyrnwy 30-31 May is listed on this page with a 2 days format, an in-person delivery format."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is WALES Photography Workshop | Lake Vyrnwy 30-31 May online or in person?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -16,22 +24,6 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The page describes this as a 2 days format."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is WALES Photography Workshop | Lake Vyrnwy 30-31 May suitable for beginners?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "WALES Photography Workshop | Lake Vyrnwy 30-31 May is described for learners building confidence and core skills."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who is WALES Photography Workshop | Lake Vyrnwy 30-31 May best suited for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "WALES Photography Workshop | Lake Vyrnwy 30-31 May is designed for photographers who want structured guidance in this format."
       }
     }
   ],

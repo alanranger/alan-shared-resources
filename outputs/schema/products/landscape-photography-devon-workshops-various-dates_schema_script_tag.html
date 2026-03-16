@@ -33,8 +33,6 @@
 <!-- Auto-fetch Product Schema from GitHub and inject inline JSON-LD -->
 <script>
 (function() {
-  const INLINE_FAQ_PAYLOAD = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is included in Landscape Photography DEVON Workshops - Various Dates?", "acceptedAnswer": {"@type": "Answer", "text": "Landscape Photography DEVON Workshops - Various Dates is listed on this page with a 4 days format, an in-person delivery format."}}, {"@type": "Question", "name": "Is Landscape Photography DEVON Workshops - Various Dates online or in person?", "acceptedAnswer": {"@type": "Answer", "text": "Landscape Photography DEVON Workshops - Various Dates is presented as an in-person format on this page."}}, {"@type": "Question", "name": "How long is Landscape Photography DEVON Workshops - Various Dates?", "acceptedAnswer": {"@type": "Answer", "text": "The page describes this as a 4 days format."}}], "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#faq"};
-
   function appendJsonLd(payload) {
     if (!payload || typeof payload !== "object") return;
     const s = document.createElement("script");
@@ -107,13 +105,20 @@
       if (!json) return;
       appendJsonLd(json);
       injectTldrBlock(json.description || json.name || "");
-
-      if (!INLINE_FAQ_PAYLOAD) return;
-      const faqType = String(INLINE_FAQ_PAYLOAD?.["@type"] || "").toLowerCase();
-      if (faqType !== "faqpage") return;
-      if (hasExistingFaqSignal()) return;
-      appendJsonLd(INLINE_FAQ_PAYLOAD);
     })
     .catch(console.error);
+
+  if (!hasExistingFaqSignal() && "https://schema.alanranger.com/landscape-photography-devon-workshops-various-dates_faq.json") {
+    fetch("https://schema.alanranger.com/landscape-photography-devon-workshops-various-dates_faq.json")
+      .then((r) => r.ok ? r.json() : null)
+      .then((faqJson) => {
+        if (!faqJson) return;
+        const faqType = String(faqJson?.["@type"] || "").toLowerCase();
+        if (faqType !== "faqpage") return;
+        if (hasExistingFaqSignal()) return;
+        appendJsonLd(faqJson);
+      })
+      .catch(() => {});
+  }
 })();
 </script>

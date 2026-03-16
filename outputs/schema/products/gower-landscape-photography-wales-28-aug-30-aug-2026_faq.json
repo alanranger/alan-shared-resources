@@ -4,26 +4,26 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Is GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 online or in person?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 is presented as an in-person format on this page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page describes this as a 3 days format."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 suitable for beginners?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 is designed to support learners at an early stage, based on the page description and course framing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What will I learn from GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The page describes practical skills, structured guidance, and hands-on learning outcomes aligned to GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I bring or prepare for GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Prepare your camera kit and review the page details before attending, so you can apply the techniques covered in GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026."
+        "text": "GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 is described for learners building confidence and core skills."
       }
     },
     {
@@ -31,7 +31,7 @@
       "name": "Who is GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 best suited for?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 is best suited to photographers who want clearer guidance and practical next steps based on the topic covered on this page."
+        "text": "GOWER Landscape Photography Wales - 28 Aug - 30 Aug 2026 is designed for photographers who want structured guidance in this format."
       }
     }
   ],

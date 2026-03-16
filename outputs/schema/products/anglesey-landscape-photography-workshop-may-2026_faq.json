@@ -4,26 +4,26 @@
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "Is Landscape Photography Workshop Anglesey Island | Wales online or in person?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Landscape Photography Workshop Anglesey Island | Wales is presented as an in-person format on this page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is Landscape Photography Workshop Anglesey Island | Wales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page describes this as a 3 days format."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is Landscape Photography Workshop Anglesey Island | Wales suitable for beginners?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Landscape Photography Workshop Anglesey Island | Wales is designed to support learners at an early stage, based on the page description and course framing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What will I learn from Landscape Photography Workshop Anglesey Island | Wales?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The page describes practical skills, structured guidance, and hands-on learning outcomes aligned to Landscape Photography Workshop Anglesey Island | Wales."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I bring or prepare for Landscape Photography Workshop Anglesey Island | Wales?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Prepare your camera kit and review the page details before attending, so you can apply the techniques covered in Landscape Photography Workshop Anglesey Island | Wales."
+        "text": "Landscape Photography Workshop Anglesey Island | Wales is described for learners building confidence and core skills."
       }
     },
     {
@@ -31,7 +31,7 @@
       "name": "Who is Landscape Photography Workshop Anglesey Island | Wales best suited for?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Landscape Photography Workshop Anglesey Island | Wales is best suited to photographers who want clearer guidance and practical next steps based on the topic covered on this page."
+        "text": "Landscape Photography Workshop Anglesey Island | Wales is designed for photographers who want structured guidance in this format."
       }
     }
   ],

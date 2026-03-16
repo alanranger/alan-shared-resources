@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long is Lightroom Courses for Beginners Photo Editing - Coventry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The page describes this as a 2 hr format."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Lightroom Courses for Beginners Photo Editing - Coventry suitable for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lightroom Courses for Beginners Photo Editing - Coventry is described for learners building confidence and core skills."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is Lightroom Courses for Beginners Photo Editing - Coventry best suited for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lightroom Courses for Beginners Photo Editing - Coventry is designed for photographers who want structured guidance in this format."
+      }
+    }
+  ],
+  "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#faq"
+}

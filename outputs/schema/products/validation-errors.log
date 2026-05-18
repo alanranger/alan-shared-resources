@@ -2,7 +2,7 @@ Product Schema Validation Errors
 ============================================================
 
 
-Product: MACRO Photography Workshops Warwickshire - Feb and Mar
+Product: MACRO Photography Workshops Warwickshire - Various
 URL: https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
@@ -74,7 +74,7 @@ Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 
 
-Product: EXMOOR Photography Workshop - Sat 23rd - Sun 24th May 2026
+Product: EXMOOR Photography Workshop - Sat 18 - Sun 19 Jul 2026
 URL: https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
@@ -290,7 +290,7 @@ Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 
 
-Product: WALES Photography Workshop | Lake Vyrnwy 30-31 May
+Product: WALES Photography Workshop | Lake Vyrnwy 10-11 Oct
 URL: https://www.alanranger.com/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph

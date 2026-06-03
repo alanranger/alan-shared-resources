@@ -1,0 +1,11 @@
+gap_tile,product_slug,active_4plus_reviews,booking_participants_all_years,booking_match_high,booking_match_medium,verdict,recommended_action
+Anglesey,landscape-photography-workshops-anglesey,5,44,3,4,COVERED,"Ian Blake (Llanddwyn), Janice Jordan, Jeremy Troth already on slug. No change needed for gallery tile."
+Wales Pistyll / Vyrnwy,wales-photography-workshop-pistyll-rhaeadr,4,47,5,3,IMPROVED,"Lonnie Morris 2023 review moved from Gower slug to pistyll-rhaeadr (applied 2026-05-31). Remaining slug reviews still weak/generic — fresh pull still needed for location-specific quote."
+Somerset,somerset-landscape-photography-workshops,1,0,0,0,FIXED,"Karen Clothier Trustpilot quote (was first-name Karen on fine-art slug). Karen Barber restored to Lake District. Applied 2026-05-31."
+Dartmoor,dartmoor-photography-workshops,0,0,0,0,NO_DATA,"No Dartmoor rows in booking sheets 2015–2026. Zero review quotes mention Dartmoor. Need new Trustpilot/Google reviews or participant outreach."
+Exmoor / Lynmouth,exmoor-photography-workshops-lynmouth,1,0,0,0,WEAK,"No Exmoor/Lynmouth workshop label in bookings (Devon uses Hartland Quay). Only Angie Rondeau 2018 — generic one-liner. Devon Hartland has 4 strong reviews (separate tile)."
+Yorkshire Dales,yorkshire-dales-photography-workshops,1,13,0,1,FIXED,"Chris Stamp Apr 2026 review moved to yorkshire-dales-photography-workshops (was north-yorkshire-landscape-photography excluded). Applied 2026-05-31."
+North Yorkshire,north-yorkshire-landscape-photography-workshop,0,4,0,0,EXCLUDED,"All NY slug reviews excluded (contamination rule). Do not use for tile until clean workshop-specific quotes exist."
+Northumberland,coastal-northumberland-photography-workshops,9,37,9,2,COVERED,"Strong Trustpilot corpus + booking proof (Joyce James; Garry Such; Glyn Fletcher; Ester Riodran; Con McHugh excluded but valid text)."
+Suffolk,suffolk-landscape-photography-workshops,5,27,5,1,COVERED,"Joyce James; Janice Jordan; Tracey Jones; Frederick Stubbs — booking + quote match."
+Ireland / Dingle,ireland-photography-workshops-dingle,2,11,0,2,MIS_TAG,"Janice/Patrick Jordan reviews describe south of France not Ireland. Robert Griffiths booked Ireland Mar 2020 — his review is Hartland Devon. No verified Ireland workshop quote found."

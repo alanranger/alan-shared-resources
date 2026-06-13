@@ -13912,25 +13912,6 @@ Lightroom Courses for Beginners Photo Editing - Coventry,https://www.alanranger.
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
-            ""name"": ""Sofiagzagdo""
-          },
-          ""reviewBody"": ""This is a great photography course! I had very little knowledge about photography and a lot of questions… Alan is super knowledgeable, patient and takes the time to answer and explain all your doubts. The main focus of the session concentrated on composition which I throughly enjoyed and wished to learn. I can’t wait to take another of Alan’s courses and continue learning more especially his Lightroom knowledge. Extremely well thought out course and great teacher."",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2026-05-02"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Google""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
             ""name"": ""Anisha Gohil""
           },
           ""reviewBody"": ""An insightful session on Lightroom course. Will be implementing this into our teaching practice."",
@@ -14340,6 +14321,25 @@ Lightroom Courses for Beginners Photo Editing - Coventry,https://www.alanranger.
             ""worstRating"": ""1""
           },
           ""datePublished"": ""2015-06-02"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Trustpilot""
+          }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
+            ""name"": ""Geoff""
+          },
+          ""reviewBody"": ""I had a personal training session and learned a lot.  It was very well put together, went at my pace and taught me so much more about Lightroom.  Would recommend Alan to anyone wanting to improve their software skills with Lightroom."",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2015-06-01"",
           ""publisher"": {
             ""@type"": ""Organization"",
             ""name"": ""Trustpilot""
@@ -16781,63 +16781,6 @@ NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026,https://www.alanranger
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
-            ""name"": ""Paul Keating""
-          },
-          ""reviewBody"": ""Great instructions and explanations. Brilliant to be able to have a photo walk with a pro by your side!"",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2026-04-18"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Google""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
-            ""name"": ""Miles Huckle""
-          },
-          ""reviewBody"": ""An excellent day! Learned loads. Many thanks."",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2026-04-18"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Google""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
-            ""name"": ""Chris Stamp""
-          },
-          ""reviewBody"": ""Great Workshop in the Yorkshire Dales. Alan clearly knows his stuff and his experience was evident in his professional guidance. His comments in the photo review sessions were  brutally honest but his dry sense of humour helped soften the blows!"",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2026-04-13"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Google""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
             ""name"": ""James Cameron""
           },
           ""reviewBody"": ""Alan is relatively not that well known and it is only time until he is. My advice to everyone reading this, is to book a session and approach it with an open mind and you will get tonnes of value from the time spent with him."",
@@ -16932,7 +16875,7 @@ NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026,https://www.alanranger
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 8
+        ""reviewCount"": 5
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/north-yorkshire-landscape-photography#product""
     }
@@ -16982,7 +16925,7 @@ NORTH YORKSHIRE Landscape Photography Workshop - Sep 2026,https://www.alanranger
   },
   ""@id"": ""https://www.alanranger.com/north-yorkshire-landscape-photography#event""
 }
-</script>",8,5.0,Yes,north-yorkshire-landscape-photography-workshop-sep-2026_schema_squarespace_ready.html,north-yorkshire-landscape-photography-workshop-sep-2026_schema.json
+</script>",5,5.0,Yes,north-yorkshire-landscape-photography-workshop-sep-2026_schema_squarespace_ready.html,north-yorkshire-landscape-photography-workshop-sep-2026_schema.json
 PEAK DISTRICT HEATHER Photography Workshops - 15-16 Aug,https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -23106,6 +23049,82 @@ Landscape YORKSHIRE DALES Photography Workshop - 16 - 18 Apr,https://www.alanran
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
+            ""name"": ""Paul Keating""
+          },
+          ""reviewBody"": ""Great instructions and explanations. Brilliant to be able to have a photo walk with a pro by your side!"",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2026-04-18"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Google""
+          }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
+            ""name"": ""Miles Huckle""
+          },
+          ""reviewBody"": ""An excellent day! Learned loads. Many thanks."",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2026-04-18"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Google""
+          }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
+            ""name"": ""Chris Stamp""
+          },
+          ""reviewBody"": ""Great Workshop in the Yorkshire Dales. Alan clearly knows his stuff and his experience was evident in his professional guidance. His comments in the photo review sessions were  brutally honest but his dry sense of humour helped soften the blows!"",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2026-04-13"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Google""
+          }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
+            ""name"": ""Sofiagzagdo""
+          },
+          ""reviewBody"": ""This is a great photography course! I had very little knowledge about photography and a lot of questions… Alan is super knowledgeable, patient and takes the time to answer and explain all your doubts. The main focus of the session concentrated on composition which I throughly enjoyed and wished to learn. I can’t wait to take another of Alan’s courses and continue learning more especially his Lightroom knowledge. Extremely well thought out course and great teacher."",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2026-05-02"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Google""
+          }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
             ""name"": ""Nicola""
           },
           ""reviewBody"": ""Went through the basics to introduce you to photography and you can either sign on to continue the course over the next few weeks with Alan or get out there and start snapping. He is very enthusiastic and passionate about photography and it is impossible not to let it rub off on you. Really enjoyed it!"",
@@ -23198,7 +23217,7 @@ Landscape YORKSHIRE DALES Photography Workshop - 16 - 18 Apr,https://www.alanran
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 5
+        ""reviewCount"": 9
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/yorkshire-dales-photography-workshops#product""
     }
@@ -23248,7 +23267,7 @@ Landscape YORKSHIRE DALES Photography Workshop - 16 - 18 Apr,https://www.alanran
   },
   ""@id"": ""https://www.alanranger.com/yorkshire-dales-photography-workshops#event""
 }
-</script>",5,5.0,Yes,landscape-yorkshire-dales-photography-workshop-16-18-apr_schema_squarespace_ready.html,landscape-yorkshire-dales-photography-workshop-16-18-apr_schema.json
+</script>",9,5.0,Yes,landscape-yorkshire-dales-photography-workshop-16-18-apr_schema_squarespace_ready.html,landscape-yorkshire-dales-photography-workshop-16-18-apr_schema.json
 Photography Gift Vouchers | Digital eCard | Email Delivery,https://www.alanranger.com/photography-services-near-me/photography-gift-vouchers,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>

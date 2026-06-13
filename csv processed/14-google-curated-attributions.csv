@@ -1,0 +1,57 @@
+﻿reviewer_name,review_date,product_slug,source_rule,category
+Martin Millington,2026-01-11,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
+kim pratt,2025-11-08,abstract-and-macro-photography-workshops,booking_sheet_confirmed,booking_match
+Anant Bhatia,2025-09-01,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
+Joanne Tapp,2025-08-29,peak-district-heather-photography-workshop,booking_sheet_confirmed,booking_match
+Iglo Losa,2025-08-19,peak-district-heather-photography-workshop,booking_sheet_confirmed,booking_match
+Shelly Soo,2024-12-15,lake-district-photography-workshop,alan_confirmed,booking_match
+Anne Veal,2024-11-16,peak-district-heather-photography-workshop,booking_sheet_confirmed,booking_match
+Robert Blann,2024-11-11,peak-district-heather-photography-workshop,booking_sheet_confirmed,booking_match
+PAMELA DIGBY,2024-03-09,suffolk-landscape-photography-workshops,booking_sheet_confirmed,booking_match
+Ian S. Bolton,2023-10-06,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
+Joanne galloway,2023-08-20,garden-photography-workshop,booking_sheet_confirmed,booking_match
+Huw Jones,2021-11-14,lake-district-photography-workshop,booking_sheet_confirmed,booking_match
+Phil Martin,2021-08-09,landscape-photography-devon-hartland-quay,booking_sheet_confirmed,booking_match
+David Andringa,2021-07-15,landscape-photography-workshops-anglesey,booking_sheet_confirmed,booking_match
+Dennis Jeffrey,2020-04-27,lake-district-photography-workshop,alan_confirmed,booking_match
+Con McHugh,2020-04-23,ireland-photography-workshops-dingle,booking_sheet_confirmed,booking_match
+Ina Wilkening,2020-04-19,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
+Anne Watkinson,2019-02-25,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
+Laura Byrne,2017-02-21,fireworks-photography-workshop-kenilworth,booking_sheet_confirmed,booking_match
+Bill,2025-08-18,beginners-photography-course,quote_inferred_no_booking,no_match
+Richard Hill,2025-03-10,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
+Dave Sutton,2024-08-16,camera-sensor-clean,quote_inferred_no_booking,no_match
+Robert Mulley,2023-08-21,beginners-photography-course,quote_inferred_no_booking,no_match
+chris brown,2022-11-10,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
+Matthew Payton,2022-01-24,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
+Ash Routen,2020-06-27,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
+Chris Dunn,2025-05-07,nan,quote_hint,non_workshop_likely
+Karen & Dave,2025-03-25,nan,quote_hint,non_workshop_likely
+Mary Hamilton,2024-08-16,nan,quote_hint,non_workshop_likely
+Mike,2023-11-09,nan,quote_hint,non_workshop_likely
+Clare,2023-08-18,nan,quote_hint,non_workshop_likely
+Kasia jan,2021-02-25,nan,quote_hint,non_workshop_likely
+Chris Johnson,2020-04-27,nan,quote_hint,non_workshop_likely
+Jan & Gary Boulter,2020-04-11,nan,quote_hint,non_workshop_likely
+Matthew Partridge,2026-06-11,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+Jimmy Concannon,2026-01-03,intermediates-intentions-photography-project-course,quote_hint,quote_only_no_booking
+Patricia Pearl,2025-12-15,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+John Ellis,2025-12-09,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+Michael Simm,2025-08-24,premium-photography-academy-membership,quote_hint,quote_only_no_booking
+Peter Orton,2025-08-15,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+Michael Rowley,2025-07-29,camera-sensor-clean,quote_hint,quote_only_no_booking
+Cheryl,2025-03-19,beginners-photography-course,quote_hint,quote_only_no_booking
+peter martin,2024-11-30,intermediates-intentions-photography-project-course,quote_hint,quote_only_no_booking
+Kirsty Lilley,2024-08-18,beginners-photography-course,quote_hint,quote_only_no_booking
+Cameron Holden,2024-07-13,beginners-photography-course,quote_hint,quote_only_no_booking
+Barbara V,2024-03-11,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+Holly McDonnell,2023-08-18,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+Peter Hagger,2021-08-11,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+Nicholas Barber,2021-08-11,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+Daren Baker,2021-04-09,premium-photography-academy-membership,quote_hint,quote_only_no_booking
+Kim Cunningham,2021-03-07,beginners-photography-course,quote_hint,quote_only_no_booking
+John Flack,2020-04-24,monthly-online-photography-mentoring,quote_hint,quote_only_no_booking
+David Sewell,2018-11-14,beginners-photography-course,quote_hint,quote_only_no_booking
+Ann,2018-11-14,beginners-photography-course,quote_hint,quote_only_no_booking
+NicholasEJones,2018-10-09,beginners-photography-course,quote_hint,quote_only_no_booking
+Levi Watts,2018-09-04,beginners-photography-course,quote_hint,quote_only_no_booking

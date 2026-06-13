@@ -162,25 +162,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "lonnie morris"
-          },
-          "reviewBody": "I love Alan's workshops.  I've been to 2 3day workshops. Alan is helpful when you need it but let's you get on with it at other times. I have learnt a lot from his sessions and enjoyed them. His feedback is valuable. He's well organised and thorough. His work before the workshops makes for a really good experience.  He chooses nice places to stay and the social aspect is good too. I'd recommend the workshops although the Gower in June is going to be a challenge because of the time of year. Although it's nicer to stand outdoors in the summer, workshops in autumn and winter would be my preference. Anyway, if you're thinking of booking or buying a gift for someone.....do it!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2023-02-21",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Paula Greenlees"
           },
           "reviewBody": "I learnt so much from the 'Get Off Auto' course. The sessions were well explained with visual examples, along with a printed guide to everything that was covered. Each week's homework challenged my skills and I will use these to continue to improve my photography. I think I am now looking at composition in a more complex way and hope to join some of the workshops in the field.",
@@ -465,7 +446,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.89",
-        "reviewCount": 19
+        "reviewCount": 18
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops#product"
     },
@@ -1800,6 +1781,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Ken Thomas"
+          },
+          "reviewBody": "I attended a workshop for Autumn photography at Batsford arboretum with Alan. Alan immediately made me relaxed and made the whole experience fantastic. I gained lots of knowledge on technique, composition and correct use of my equipment thanks to the time given to explain things. I would definitely go on another workshop.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2023-10-30",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Phillip Parsons"
           },
           "reviewBody": "Really brilliant day very pleased with the images, shame about the weather.Thank you Alan",
@@ -1810,44 +1810,6 @@
             "worstRating": "1"
           },
           "datePublished": "2021-10-30",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Ian Hardwick"
-          },
-          "reviewBody": "Batsford Arboretum Workshop  I attended the Workshop as a relative novice and by the end of it, whilst there were no competition winners, the standard of pictures I took were a huge improvement  over what I could manage before.  Alan is clearly knowledgeable, has a great eye for a picture, and provides as much or as little interaction as you require.  A very enjoyable morning",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-28",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Linda Newbery"
-          },
-          "reviewBody": "I've been on several in-person workshops with Alan and have enjoyed all of them. He very generously provides his online Academy too: a wealth of advice on a range of topics, all invaluable for those of us who want to improve our photography skills and feel confident in a range of situations. It's much appreciated.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-28",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1879,6 +1841,44 @@
             "name": "Clifford Porter"
           },
           "reviewBody": "Autumn Photo workshop at Batsford Arboretum on Wednesday 27 October 2021.  A great day with Alan and another 3 in the group.  Very relaxed style of tuition.  Loved the panning trees technique as motorsport photography is my 1st priority!  Thank you. The Lake District events look good.  Maybe next year.  Thank you Alan, I learned so much. Even the visitors enjoyed the Redwood trees.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-10-28",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Ian Hardwick"
+          },
+          "reviewBody": "Batsford Arboretum Workshop  I attended the Workshop as a relative novice and by the end of it, whilst there were no competition winners, the standard of pictures I took were a huge improvement  over what I could manage before.  Alan is clearly knowledgeable, has a great eye for a picture, and provides as much or as little interaction as you require.  A very enjoyable morning",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-10-28",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Linda Newbery"
+          },
+          "reviewBody": "I've been on several in-person workshops with Alan and have enjoyed all of them. He very generously provides his online Academy too: a wealth of advice on a range of topics, all invaluable for those of us who want to improve our photography skills and feel confident in a range of situations. It's much appreciated.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -1962,25 +1962,6 @@
             "worstRating": "1"
           },
           "datePublished": "2021-11-03",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Elaine Cash"
-          },
-          "reviewBody": "Joined Alan on a Batsford autumn colour workshop recently which was just lovely. My first visit to Batsford which is stunning,   Alan was very professional, helping us all with set ups and composition. He had his camera to “show” but all his attention was on the group. I learnt so much and although the sun didn’t appear, I now have the tools to use in the future, thanks to Alan.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-11-02",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -2402,6 +2383,82 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Martin Morris"
+          },
+          "reviewBody": "Beginners camera course, was an excellent introduction into using the camera and getting off automatic mode. Highly recommend Alan.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-05-21",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Paul Bailey"
+          },
+          "reviewBody": "Beginners photography class: I’ve had a DSLR for years and I’ve learnt so much more about it and what it can do in the 3 sessions. Alan knows his stuff!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-04-15",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Michael Harrott"
+          },
+          "reviewBody": "Beginners Camera Class Good informative sessions at a good pace to enable learning and understanding. Now starting to understand the basics of how my camera works and how to set it up. Enjoyed it",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-04-15",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Alex Rainer"
+          },
+          "reviewBody": "Beginners camera course, 3 x 2 hour session over three weeks to master the basics of photography. I was one of 3 participants, nice small group. Alan was very patient, as we all have very different camera to work through setting. Have a much better understanding on my camera and critical setting for getting good images. Would highly recommend the course. HG",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-04-15",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Roz"
           },
           "reviewBody": "I am in New Orleans USA and needed a location shoot in Coventry. I emailed several photographers and Alan was the only one that  promptly replied back and discussed the job with me. He not only worked within my budget but gave me quality deliverables, exactly as I needed. Would definitely work with again!",
@@ -2630,25 +2687,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Britt van zeeland"
-          },
-          "reviewBody": "Joined for the 3 week beginner course. Alan is super knowledgeable, I find the resources given most valuable as it allows me to revisit and expand my learning beyond what we covered in class. Could have done with the longer course I feel. Thank you",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-09-25",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Cat Harris"
           },
           "reviewBody": "Great course, lots of information and resources. Small group therefore not overlooked. Highly recommend.",
@@ -2690,6 +2728,25 @@
             "name": "KrishnaKumar Kuttan"
           },
           "reviewBody": "Sessions on Beginner’s course from Alan is very impressive in understanding on technical aspects on how camera works. Enjoyed the sessions and hopefully improve my camera skills.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-09-25",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Britt van zeeland"
+          },
+          "reviewBody": "Joined for the 3 week beginner course. Alan is super knowledgeable, I find the resources given most valuable as it allows me to revisit and expand my learning beyond what we covered in class. Could have done with the longer course I feel. Thank you",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -2782,25 +2839,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Paul Jackson"
-          },
-          "reviewBody": "Had a great day with Alan on his woodland photography day. Very knowledgeable and a great teacher. Great tips from compositions and editing. Highly recommended.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-05-26",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Michael Auinger"
           },
           "reviewBody": "Alan is an amazing photographer! The photos are excellent and were sent on the same day (digital version). It all went really smooth. Definitely calling him again when in need for a photoshoot",
@@ -2811,63 +2849,6 @@
             "worstRating": "1"
           },
           "datePublished": "2025-05-23",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Murat Yavanirmak"
-          },
-          "reviewBody": "It was a great experience with Alan in the bluebell field. Good tips from Alan for great shots. Highly recommended.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-05-22",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Kerrie Porter"
-          },
-          "reviewBody": "I joined Alan for a long exposure photography lesson at Kenilworth Castle on a beautiful May evening. While the sunny weather wasn’t ideal for long exposure shots, the session was still fantastic. Over the course of two hours, our small group (typically allows 6 people per event) received insightful guidance from Alan, who proved to be an excellent tutor. His deep knowledge and approachable teaching style made the lesson valuable for both beginners and advanced photographers alike. He helped us set up our cameras and provided clear explanations of the fundamental principles, ensuring everyone got the most out of the experience.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-05-21",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Bassam Al Jazy"
-          },
-          "reviewBody": "I recently attended the Landscape Photography Devon Workshop with Mr. Alan Ranger, and it was an outstanding experience from start to finish. The workshop was well-organized, with a detailed schedule and excellent information about each location — including the best times for sunrise, sunset, high tide, and low tide. Everything we needed to know was clearly explained and thoughtfully planned.  The choice of locations was perfect for training and practice. Each spot offered unique opportunities to experiment with composition, light, and timing. I must admit, I learned a lot of useful techniques, creative ideas, and ways to think differently about each shot — especially the importance of being patient and waiting for the right moment.  There were only three of us in total, which made the experience even more personal and interactive. I also learned a great deal from my fellow participants. The commuting distances between locations were short and comfortable, and Alan proved to be not only an excellent tutor but also an excellent driver!  Overall, this workshop was both educational and inspiring. I’m truly grateful for the experience and hope to join Alan again for more workshops in other locations.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-10-04",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -4670,9 +4651,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Mike McMahon"
+            "name": "Sarah Joyce"
           },
-          "reviewBody": "Did an excellent bluebells workshop with Alan over the weekend . Alan is a great guy and always on hand should you need any advice . The woods alan uses is private so you have no worries of lots of people getting into your shots  . Highly recommended",
+          "reviewBody": "Very well organised & enjoyable workshop. Alan provided great information in advance of the day from meeting point arrangements to kit list and suggestions for shots that we might think about beforehand. His workshops are for small groups so there was plenty of opportunity to ask for his advice, demonstration and discuss topics relevant to each participant. Although it was a very overcast day, Alan showed us how to make the best of the conditions.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -4689,9 +4670,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Sarah Joyce"
+            "name": "Mike McMahon"
           },
-          "reviewBody": "Very well organised & enjoyable workshop. Alan provided great information in advance of the day from meeting point arrangements to kit list and suggestions for shots that we might think about beforehand. His workshops are for small groups so there was plenty of opportunity to ask for his advice, demonstration and discuss topics relevant to each participant. Although it was a very overcast day, Alan showed us how to make the best of the conditions.",
+          "reviewBody": "Did an excellent bluebells workshop with Alan over the weekend . Alan is a great guy and always on hand should you need any advice . The woods alan uses is private so you have no worries of lots of people getting into your shots  . Highly recommended",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -4756,25 +4737,6 @@
             "worstRating": "1"
           },
           "datePublished": "2026-04-26",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Sofiagzagdo"
-          },
-          "reviewBody": "This is a great photography course! I had very little knowledge about photography and a lot of questions… Alan is super knowledgeable, patient and takes the time to answer and explain all your doubts. The main focus of the session concentrated on composition which I throughly enjoyed and wished to learn. I can’t wait to take another of Alan’s courses and continue learning more especially his Lightroom knowledge. Extremely well thought out course and great teacher.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-05-02",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -4879,6 +4841,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Murat Yavanirmak"
+          },
+          "reviewBody": "It was a great experience with Alan in the bluebell field. Good tips from Alan for great shots. Highly recommended.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-05-22",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Phil Houghton"
           },
           "reviewBody": "Thoroughly enjoyed our (early) morning shoot, photographing Bluebells. Alan spent time with each of us and was all too keen to answer questions at all levels, from beginner to expert.  The joining instructions were next level, giving tips and tricks to try and implement during the shoot, and equipment to aspire to. Cheers for a great session.",
@@ -4974,44 +4955,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Chan Jandu"
-          },
-          "reviewBody": "A great day spent learning about woodland photography, in fact as a beginner, I learnt a lot more about basic photography and how to use my camera.    Highly recommend spending time with Alan to get some great tips.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-07-01",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "David Orchard"
-          },
-          "reviewBody": "A good session and well organised.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-04-25",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Stephen Frost"
           },
           "reviewBody": "Well organised photo shoot. Communication was first class with written advice on equipment and camera settings. I would highly recommend this event.",
@@ -5041,6 +4984,44 @@
             "worstRating": "1"
           },
           "datePublished": "2024-04-22",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Anna Rokitowska"
+          },
+          "reviewBody": "I had the the professional lesson about the manual settings on my camera with Alan. Alan is very professional and supportive. The material was very interesting and the discussions were truly inspiring. He has an impressive knowledge about the photography. I particularly enjoyed all the instructions, which made the content easily understandable. Alan showed me and taught me so many new things during my lesson. I also took a part in his few workshops which I really enjoyed. Especially workshop in the forest full of bluebells. Unforgettable experience. I can highly recommend Alan to everyone who would like to start the adventure with photography or improve the photography skills.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2024-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Ian Hope"
+          },
+          "reviewBody": "Recently attended a workshop in private bluebell woods with Alan. This gave us extensive photo opportunities in an area usually closed to the public. Alan talked us through a variety of technical and compositional suggestions before letting us loose (with due regard to the environment). Alan was on hand to give constructive critical advice as needed.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2023-10-24",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -5125,7 +5106,7 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.96",
+        "ratingValue": "5.0",
         "reviewCount": 25
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/bluebell-woodlands-photography-workshops#product"
@@ -7989,6 +7970,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "John Kitteringham"
+          },
+          "reviewBody": "Very enjoyable weekend landscape photography workshop with Alan in the Lake District.  Despite some challenging weather conditions I learnt an enormous amount and had a lot of fun.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-10-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Shelly Soo"
           },
           "reviewBody": "I have thoroughly enjoyed the Lake District photography workshop with a lovely small group.  We were blessed with excellent weather those few days.  Alan drove us to areas of Lake District that I have never been. I have learnt simple basic stuff (setting up of tripods) to using of ND filters (borrowed from Alan) to Lightroom editing whenever opportunities arose. Alan is a good teacher with very clear mindset of how to take a good photograph.  He however, did leave us to try and compose our own photos ... I have enjoyed and learnt much from the feedback session. Thank you Alan.",
@@ -8113,25 +8113,6 @@
             "worstRating": "1"
           },
           "datePublished": "2023-09-28",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Andrew Senior"
-          },
-          "reviewBody": "S[ent the day on the Secrets of Woodland Photography.  Alan helped to demystify woodland photography, especially trying to find  a way through the complexity of the clutered environment, or embracing it.  The opportunity to put the discussion into practice and then have careful consideration of the images is invalueable.  The day went very quickly.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2023-09-27",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -8574,44 +8555,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Martin Morris"
-          },
-          "reviewBody": "Beginners camera course, was an excellent introduction into using the camera and getting off automatic mode. Highly recommend Alan.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-05-21",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Michael White"
-          },
-          "reviewBody": "My wife and I want to offer our highest recommendations for Alan Ranger’s workshop in Anglesey, Wales. The sites to which Alan guided us were spectacular, the included accommodations were very pleasant, his photographic instruction was excellent, and the entire trip was meticulously planned and executed.  Alan approaches photography as an art, an art that is mediated by technology, but nonetheless an art. Thus, much of the workshop involved developing artistic appreciations of the landscape. Technical questions were certainly addressed, but the core of the workshop was concerned with how to best represent the beauty that we saw. And we saw a great deal of beauty. As much as I enjoyed the photography, the experience of watching the day break on a beautiful Welch beach would have been worth the price of admission. Back in London we spoke with someone who grew up on Anglesey. When we told him where Alan had taken us, he said that these were the places he would have gone. You will not be disappointed.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-05-20",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Paul Farrington"
           },
           "reviewBody": "Enjoyable & informative day. Two interesting locations visited",
@@ -8838,7 +8781,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 15
+        "reviewCount": 13
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#product"
     },
@@ -8938,6 +8881,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Bassam Al Jazy"
+          },
+          "reviewBody": "I recently attended the Landscape Photography Devon Workshop with Mr. Alan Ranger, and it was an outstanding experience from start to finish. The workshop was well-organized, with a detailed schedule and excellent information about each location — including the best times for sunrise, sunset, high tide, and low tide. Everything we needed to know was clearly explained and thoughtfully planned.  The choice of locations was perfect for training and practice. Each spot offered unique opportunities to experiment with composition, light, and timing. I must admit, I learned a lot of useful techniques, creative ideas, and ways to think differently about each shot — especially the importance of being patient and waiting for the right moment.  There were only three of us in total, which made the experience even more personal and interactive. I also learned a great deal from my fellow participants. The commuting distances between locations were short and comfortable, and Alan proved to be not only an excellent tutor but also an excellent driver!  Overall, this workshop was both educational and inspiring. I’m truly grateful for the experience and hope to join Alan again for more workshops in other locations.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-10-04",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Robert Griffiths"
           },
           "reviewBody": "Despite absolutely appalling weather, I had an amazing weekend at Hartland Quay and its environs with Alan. His enthusiasm to capture images and learn photography in the most challenging conditions was infectious.   If we were unable to venture outside, we spent our time learning some extremely useful methods in Lightroom & Photoshop together with a variety of other software packages.  I would highly recommend Alan if you are wanting to not only have a great experience in stunning scenery on his workshops, but also in the classroom to improve your photography beyond expectation. You won't be disappointed.  Thank you Alan",
@@ -9014,7 +8976,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 4
+        "reviewCount": 5
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#product"
     },
@@ -9235,6 +9197,32 @@
           }
         }
       },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "lonnie morris"
+          },
+          "reviewBody": "I love Alan's workshops.  I've been to 2 3day workshops. Alan is helpful when you need it but let's you get on with it at other times. I have learnt a lot from his sessions and enjoyed them. His feedback is valuable. He's well organised and thorough. His work before the workshops makes for a really good experience.  He chooses nice places to stay and the social aspect is good too. I'd recommend the workshops although the Gower in June is going to be a challenge because of the time of year. Although it's nicer to stand outdoors in the summer, workshops in autumn and winter would be my preference. Anyway, if you're thinking of booking or buying a gift for someone.....do it!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2023-02-21",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": 1
+      },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop#product"
     },
     {
@@ -9425,6 +9413,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Michael White"
+          },
+          "reviewBody": "My wife and I want to offer our highest recommendations for Alan Ranger’s workshop in Anglesey, Wales. The sites to which Alan guided us were spectacular, the included accommodations were very pleasant, his photographic instruction was excellent, and the entire trip was meticulously planned and executed.  Alan approaches photography as an art, an art that is mediated by technology, but nonetheless an art. Thus, much of the workshop involved developing artistic appreciations of the landscape. Technical questions were certainly addressed, but the core of the workshop was concerned with how to best represent the beauty that we saw. And we saw a great deal of beauty. As much as I enjoyed the photography, the experience of watching the day break on a beautiful Welch beach would have been worth the price of admission. Back in London we spoke with someone who grew up on Anglesey. When we told him where Alan had taken us, he said that these were the places he would have gone. You will not be disappointed.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-05-20",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Janice Jordan"
           },
           "reviewBody": "Just back from a other workshop in Wales with Alan.  As usual it was packed with a range of locations with a chance to practice different photographic styles, all with Alan on hand to answer questions and give advice. I would recommend anyone at any level to give it a go.",
@@ -9515,8 +9522,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.6",
-        "reviewCount": 5
+        "ratingValue": "4.67",
+        "reviewCount": 6
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-anglesey#product"
     },
@@ -9827,6 +9834,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Sofiagzagdo"
+          },
+          "reviewBody": "This is a great photography course! I had very little knowledge about photography and a lot of questions… Alan is super knowledgeable, patient and takes the time to answer and explain all your doubts. The main focus of the session concentrated on composition which I throughly enjoyed and wished to learn. I can’t wait to take another of Alan’s courses and continue learning more especially his Lightroom knowledge. Extremely well thought out course and great teacher.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-05-02",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Anisha Gohil"
           },
           "reviewBody": "An insightful session on Lightroom course. Will be implementing this into our teaching practice.",
@@ -9856,6 +9882,44 @@
             "worstRating": "1"
           },
           "datePublished": "2024-08-06",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jeanette Waters"
+          },
+          "reviewBody": "I was thrilled to find this site and organise a Zoom meeting with Alan. He understood the lightroom problem, helped me sort it out,. Didn't rush and it was so easy to follow what I had to do. Problem sorted and I can now get on and enjoy the programme. I would definitely use Alan again.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-09-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Mattia Tosi"
+          },
+          "reviewBody": "I would recommend Alan to everyone! I've done the Beginner's Photography course, the Lightroom course and two workshops and thanks to these and Alan's coaching and honest feedback, my photography improved significantly. Thanks Alan!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-09-13",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -10202,67 +10266,11 @@
             "@type": "Organization",
             "name": "Trustpilot"
           }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Geoff"
-          },
-          "reviewBody": "I had a personal training session and learned a lot.  It was very well put together, went at my pace and taught me so much more about Lightroom.  Would recommend Alan to anyone wanting to improve their software skills with Lightroom.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2015-06-01",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Latisha"
-          },
-          "reviewBody": "Really informative and helpful guidance to understand the technicality of your camera as well as advice on how to take 200 self explanatory photos that capture the moment rather than 1000. Alans expertise and passion for photography really shone through. We covered mainly theory and introduction to using lightroom.       Only areas of improvement I would have like to have seen were:  - More free resources to take home i.e. presentation slides, website links for further information  - More practical exercises preferably outside  - More guidance preperation beforehand - for me it was knowing the slides would not be available so bringing the relevant material along to the tuition.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2015-03-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Ann"
-          },
-          "reviewBody": "As usual a very full and interesting course.  Lightroom is a complicated programme to get to grips with and Alan explained the various aspects well.  Review, practise and study in between classes is essential to understanding what you have done and are going to do.  Thoroughly enjoyed the course.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.84",
+        "ratingValue": "4.88",
         "reviewCount": 25
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#product"
@@ -11051,6 +11059,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "David Orchard"
+          },
+          "reviewBody": "A good session and well organised.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2024-04-25",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Customer"
           },
           "reviewBody": "I’ve been on a few of Alan’s courses as well as 1-2-1 mentoring and weekend away. His knowledge is first class and expertly given and I can see a massive difference. Not just in my images but also in my approach to taking an image, how to critique it and then to process it using a standard workflow. Would recommend Alan who want so improve regardless of what level you are at",
@@ -11125,8 +11152,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": 4
+        "ratingValue": "4.8",
+        "reviewCount": 5
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/monthly-online-photography-mentoring#product"
     },
@@ -11735,63 +11762,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Paul Bailey"
-          },
-          "reviewBody": "Beginners photography class: I’ve had a DSLR for years and I’ve learnt so much more about it and what it can do in the 3 sessions. Alan knows his stuff!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-04-15",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Michael Harrott"
-          },
-          "reviewBody": "Beginners Camera Class Good informative sessions at a good pace to enable learning and understanding. Now starting to understand the basics of how my camera works and how to set it up. Enjoyed it",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-04-15",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Alex Rainer"
-          },
-          "reviewBody": "Beginners camera course, 3 x 2 hour session over three weeks to master the basics of photography. I was one of 3 participants, nice small group. Alan was very patient, as we all have very different camera to work through setting. Have a much better understanding on my camera and critical setting for getting good images. Would highly recommend the course. HG",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-04-15",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Chris Stamp"
           },
           "reviewBody": "Great Workshop in the Yorkshire Dales. Alan clearly knows his stuff and his experience was evident in his professional guidance. His comments in the photo review sessions were  brutally honest but his dry sense of humour helped soften the blows!",
@@ -11905,7 +11875,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 11
+        "reviewCount": 8
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/north-yorkshire-landscape-photography#product"
     },
@@ -14185,6 +14155,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Paul Jackson"
+          },
+          "reviewBody": "Had a great day with Alan on his woodland photography day. Very knowledgeable and a great teacher. Great tips from compositions and editing. Highly recommended.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-05-26",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Holly Pownall"
           },
           "reviewBody": "Went on a woodland walk session which was enjoyable and informative.",
@@ -14195,6 +14184,25 @@
             "worstRating": "1"
           },
           "datePublished": "2025-04-14",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Chan Jandu"
+          },
+          "reviewBody": "A great day spent learning about woodland photography, in fact as a beginner, I learnt a lot more about basic photography and how to use my camera.    Highly recommend spending time with Alan to get some great tips.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-07-01",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -14280,44 +14288,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Anna Rokitowska"
-          },
-          "reviewBody": "I had the the professional lesson about the manual settings on my camera with Alan. Alan is very professional and supportive. The material was very interesting and the discussions were truly inspiring. He has an impressive knowledge about the photography. I particularly enjoyed all the instructions, which made the content easily understandable. Alan showed me and taught me so many new things during my lesson. I also took a part in his few workshops which I really enjoyed. Especially workshop in the forest full of bluebells. Unforgettable experience. I can highly recommend Alan to everyone who would like to start the adventure with photography or improve the photography skills.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-05-01",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Ken Thomas"
-          },
-          "reviewBody": "I attended a workshop for Autumn photography at Batsford arboretum with Alan. Alan immediately made me relaxed and made the whole experience fantastic. I gained lots of knowledge on technique, composition and correct use of my equipment thanks to the time given to explain things. I would definitely go on another workshop.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2023-10-30",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Nigel Capelle"
           },
           "reviewBody": "The landscape photography workshop in Snowdonia proved to be an enlightening experience, offering a comprehensive understanding of capturing nature's beauty. Led by Alan, the workshop adeptly combined theoretical insights with practical fieldwork, enhancing participants' technical skills and creative vision. The breathtaking Snowdonia vistas provided an ideal backdrop for mastering composition, lighting and exposure techniques, fostering a deeper appreciation for the art of landscape photography. The hands-on guidance and personalised feedback was commendable, enabling me to elevate my photography skills. Overall, the workshop's rich content, picturesque location and skilled mentor rendered it an indispensable opportunity for aspiring and seasoned photographers alike. I also enjoyed the relaxed social aspects of the workshop with first class accommodation provided.",
@@ -14394,25 +14364,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Ian Hope"
-          },
-          "reviewBody": "Recently attended a workshop in private bluebell woods with Alan. This gave us extensive photo opportunities in an area usually closed to the public. Alan talked us through a variety of technical and compositional suggestions before letting us loose (with due regard to the environment). Alan was on hand to give constructive critical advice as needed.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2023-10-24",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Louise Rickitt"
           },
           "reviewBody": "Beautiful print received of a stunning photograph which I’ll frame for a present.",
@@ -14451,6 +14402,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Andrew Senior"
+          },
+          "reviewBody": "S[ent the day on the Secrets of Woodland Photography.  Alan helped to demystify woodland photography, especially trying to find  a way through the complexity of the clutered environment, or embracing it.  The opportunity to put the discussion into practice and then have careful consideration of the images is invalueable.  The day went very quickly.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2023-09-27",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Diana WRIGHT"
           },
           "reviewBody": "Great Get off Auto course, well structured, clearly explained with good examples - feel motivated to try new skills now.",
@@ -14461,44 +14431,6 @@
             "worstRating": "1"
           },
           "datePublished": "2021-09-12",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jeanette Waters"
-          },
-          "reviewBody": "I was thrilled to find this site and organise a Zoom meeting with Alan. He understood the lightroom problem, helped me sort it out,. Didn't rush and it was so easy to follow what I had to do. Problem sorted and I can now get on and enjoy the programme. I would definitely use Alan again.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-09-10",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Mattia Tosi"
-          },
-          "reviewBody": "I would recommend Alan to everyone! I've done the Beginner's Photography course, the Lightroom course and two workshops and thanks to these and Alan's coaching and honest feedback, my photography improved significantly. Thanks Alan!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-09-13",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -14565,6 +14497,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Ian Harrop"
+          },
+          "reviewBody": "The woodland walks that I have been on have been interesting and well worth it",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-03-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Charlie Budd"
           },
           "reviewBody": "I've really enjoyed the couple of woodland walks I've been on - Alan has been generous with his snippets of advice, and there's always been a lovely bunch of people who love woodland and photography.",
@@ -14602,8 +14553,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.87",
-        "reviewCount": 23
+        "ratingValue": "4.82",
+        "reviewCount": 22
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#product"
     },

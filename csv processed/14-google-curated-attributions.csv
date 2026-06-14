@@ -1,13 +1,9 @@
 ﻿reviewer_name,review_date,product_slug,source_rule,category
-Matthew Partridge,2026-06-11,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
 Jimmy Concannon,2026-01-03,beginners-photography-course,quote_inferred_no_booking,no_match
 Indianna,2026-01-02,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
 Patricia Pearl,2025-12-15,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
 John Ellis,2025-12-09,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
 Anant Bhatia,2025-09-01,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
-Iglo Losa,2025-08-19,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
-Bill,2025-08-18,peak-district-heather-photography-workshop,booking_sheet_confirmed,booking_match
-Peter Orton,2025-08-15,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
 Michael Rowley,2025-07-29,camera-sensor-clean,quote_inferred_no_booking,no_match
 Chris Dunn,2025-05-07,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
 Karen & Dave,2025-03-25,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
@@ -21,8 +17,6 @@ Kirsty Lilley,2024-08-18,monthly-online-photography-mentoring,quote_inferred_no_
 Dave Sutton,2024-08-16,camera-sensor-clean,quote_inferred_no_booking,no_match
 Cameron Holden,2024-07-13,beginners-photography-course,quote_inferred_no_booking,no_match
 Huw Jones,2021-11-14,lake-district-photography-workshop,booking_sheet_confirmed,booking_match
-Barbara V,2024-03-11,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-PAMELA DIGBY,2024-03-09,suffolk-landscape-photography-workshops,booking_sheet_confirmed,booking_match
 Anne Watkinson,2019-02-25,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
 Ian S. Bolton,2023-10-06,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
 Robert Mulley,2023-08-21,beginners-photography-course,quote_inferred_no_booking,no_match

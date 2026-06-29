@@ -1,0 +1,239 @@
+<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
+
+<script>
+(function(){
+  // Remove Squarespace's built-in, short Product JSON-LD
+  const removeSquarespaceProduct = () => {
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(el => {
+      const txt = el.textContent.trim();
+      if (txt.includes('"@type":"Product"')) {
+        try {
+          const j = JSON.parse(txt);
+          const looksLikeSquarespace =
+            txt.length < 1500 &&
+            !j.aggregateRating &&
+            !j.review &&
+            j.offers &&
+            j.name &&
+            !txt.includes('"hasMerchantReturnPolicy"');
+          if (looksLikeSquarespace) el.remove();
+        } catch(e){}
+      }
+    });
+  };
+  // Run several times to catch async Squarespace hydration
+  removeSquarespaceProduct();
+  document.addEventListener('DOMContentLoaded', removeSquarespaceProduct);
+  window.addEventListener('load', () => setTimeout(removeSquarespaceProduct, 1000));
+  const obs = new MutationObserver(removeSquarespaceProduct);
+  obs.observe(document.documentElement, { childList: true, subtree: true });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.alanranger.com/#org",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "telephone": "+44 781 701 7994",
+      "email": "info@alanranger.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.alanranger.com/#localbusiness",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "priceRange": "£50–£500",
+      "email": "info@alanranger.com",
+      "telephone": "+44 781 701 7994",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.alanranger.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Photo Workshops UK",
+          "item": "https://www.alanranger.com/photo-workshops-uk"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dartmoor Photography Workshop - Landscapes - 2nd - 4th Apr",
+          "item": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop"
+        }
+      ],
+      "@id": "https://www.alanranger.com/dartmoor-photography-landscape-workshop#breadcrumbs"
+    },
+    {
+      "@type": "Product",
+      "name": "DARTMOOR Photography Workshop - Landscapes - 2nd - 4th Apr",
+      "sku": "SQ5540434",
+      "brand": {
+        "@type": "Brand",
+        "name": "Alan Ranger Photography"
+      },
+      "description": "Join me on this Landscape Dartmoor Photography Workshop - in the iconic woodlands, and landscape of Dartmoor Tors Summary Location: Dartmoor - South Devon Dates: Fri 2 nd - Sun 4 th Apr 2027 Participants: Max 4 Fitness: 3. Hard Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera and Tripod Photography Workshop Event Details Dartmoor Description: This is a 3-day, 2-night residential landscape photography workshop based around Dartmoor National Park in South Devon, open to all levels from beginner to advanced. Dartmoor is one of England's most atmospheric wild...",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1707237329064-99H533NMXCONH5J276LM/dartmoor+photography+workshop.jpg",
+      "url": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop",
+      "offers": {
+        "@type": "Offer",
+        "sku": "SQ5540434",
+        "price": "875.00",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-06-29",
+        "priceValidUntil": "2027-06-29",
+        "url": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop",
+        "@id": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop#offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Alan Ranger Photography",
+          "url": "https://www.alanranger.com"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "doesNotShip": true,
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 28,
+          "refundType": "http://schema.org/FullRefund",
+          "applicableCountry": "GB",
+          "returnMethod": "http://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnShippingFees",
+          "returnShippingFeesAmount": {
+            "@type": "MonetaryAmount",
+            "value": "50.00",
+            "currency": "GBP"
+          }
+        }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Clinton Rindfuss"
+          },
+          "reviewBody": "I wanted to learn some of the basics of photography in terms of the technicalities. I came away with much more than that.... We got a good appreciation for photography as an art form too.   Highly recommend.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2016-01-09",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jill Groves"
+          },
+          "reviewBody": "A great course that makes having a DSLR camera worthwhile. Without the knowledge I learnt on Alan's course I might as well own just a compact point and shoot camera. Even though I was trying to use my camera effectively, I now have the understanding and confidence to select settings to hopefully get the photos I want to achieve! Looking forward to putting the theory into practice now! Thank you",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": 2
+      },
+      "@id": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop#product"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "DARTMOOR Photography Workshop - Landscapes - 2nd - 4th Apr",
+  "startDate": "2026-07-04",
+  "endDate": "2026-07-04",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "Join me on this Landscape Dartmoor Photography Workshop - in the iconic woodlands, and landscape of Dartmoor TorsSummaryLocation: Dartmoor - South DevonDates: Fri 2nd - Sun 4th Apr 2027Participants: Max 4Fitness: 3. HardExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodPhotography Workshop Event Details DartmoorDescription: This is a 3-day, 2-night residential landscape photography workshop based around Dartmoor National Park in South Devon, open to all levels from beginner to advanced. Dartmoor is one of England's most atmospheric wild landscapes — a vast sweep of rugged open moor, dramatic granite tors, ancient stunted woodland and serene rivers running through hidden valleys — and across a weekend you'll learn to read and photograph this dramatic terrain in its ever-changing light.Over three days we range across the moor and its woodlands, working a variety of locations as the conditions dictate — from the sculptural granite tors and big moorland vistas to the mossy, otherworldly ancient woods and tumbling rivers. The focus is on three things that make a strong landscape image here: composing order from a wild, expansive scene, controlling exposure and depth of field across big tonal ranges, and timing your shoot to the moods of Dartmoor light, with optional sunrise and sunset shoots and evening picture reviews. Throughout, the emphasis isn't just on the grand vista but on learning to see it — composing with intention, working intimate detail as readily as the wide view, and reading light and weather as a harmony rather than chasing the obvious shot. Be prepared for some longer walks over rougher ground — this is a more demanding workshop that takes you to the moor's most rewarding spots.With a maximum of just four photographers, this is genuinely personal tuition — Alan plans each day around the season and the forecast, and sends a detailed location itinerary a few days ahead. Accommodation, breakfast and evening meals are included, so all you have to think about is your photography, and you'll come away with a varied portfolio of dramatic Dartmoor landscapes — moors, tors and ancient woodland — and the field craft to capture wild country anywhere. An extra night's accommodation is available the day before if required — please request in advance, subject to hotel availability.",
+  "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1707237329064-99H533NMXCONH5J276LM/dartmoor+photography+workshop.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Cotswolds",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "addressCountry": "GB"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Alan Ranger Photography",
+    "url": "https://www.alanranger.com",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+    "email": "info@alanranger.com",
+    "telephone": "+44 781 701 7994",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Hathaway Road",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "postalCode": "CV4 9HW",
+      "addressCountry": "GB"
+    }
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Alan Ranger"
+  },
+  "@id": "https://www.alanranger.com/dartmoor-photography-landscape-workshop#event"
+}
+</script>

@@ -26,19 +26,13 @@ Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 
 
-Product: Beginners Portrait Photography Course - Coventry - 1 Day
+Product: Beginners Portrait Photography Course - Coventry - 11 Oct 2025
 URL: https://www.alanranger.com/photography-services-near-me/beginners-portrait-photography-course
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 
 
-Product: Professional Black and White Photography Course | Coventry
-URL: https://www.alanranger.com/photography-services-near-me/black-and-white-photography-course
-Rich Results Validation Errors:
-  - Missing Product/Course/Event object in @graph
-
-
-Product: BLUEBELL WOODLANDS Photography - Warks - 20 Apr- 30 Apr
+Product: BLUEBELL WOODLANDS Photography - Warks - 20 Apr - 30 Apr
 URL: https://www.alanranger.com/photo-workshops-uk/bluebell-woodlands-photography-workshops
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
@@ -62,7 +56,7 @@ Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 
 
-Product: DARTMOOR Photography Workshop - Landscapes - 9th - 11th Oct
+Product: DARTMOOR Photography Workshop - Landscapes - 2nd - 4th Apr
 URL: https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
@@ -74,7 +68,7 @@ Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 
 
-Product: EXMOOR Photography Workshop - Sat 18 - Sun 19 Jul 2026
+Product: EXMOOR Photography Workshop - Sat 8 - Sun 9 May 2027
 URL: https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
@@ -224,7 +218,7 @@ Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 
 
-Product: LAVENDER FIELD Photography Workshop - Gloucestershire July
+Product: LAVENDER FIELD Photography Workshop - Glouc or Warks July
 URL: https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
@@ -298,6 +292,18 @@ Rich Results Validation Errors:
 
 Product: Photography Gift Vouchers | Digital eCard | Email Delivery
 URL: https://www.alanranger.com/photography-services-near-me/photography-gift-vouchers
+Rich Results Validation Errors:
+  - Missing Product/Course/Event object in @graph
+
+
+Product: Professional Black and White Photography Course | Coventry
+URL: https://www.alanranger.com/photography-services-near-me/black-and-white-photography-course
+Rich Results Validation Errors:
+  - Missing Product/Course/Event object in @graph
+
+
+Product: Photography Masterclasses-Learn and improve your photography
+URL: https://www.alanranger.com/photography-services-near-me/photography-masterclasses-coventry
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 

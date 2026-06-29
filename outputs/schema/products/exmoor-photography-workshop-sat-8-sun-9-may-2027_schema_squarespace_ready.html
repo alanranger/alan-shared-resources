@@ -1,0 +1,221 @@
+<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
+
+<script>
+(function(){
+  // Remove Squarespace's built-in, short Product JSON-LD
+  const removeSquarespaceProduct = () => {
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(el => {
+      const txt = el.textContent.trim();
+      if (txt.includes('"@type":"Product"')) {
+        try {
+          const j = JSON.parse(txt);
+          const looksLikeSquarespace =
+            txt.length < 1500 &&
+            !j.aggregateRating &&
+            !j.review &&
+            j.offers &&
+            j.name &&
+            !txt.includes('"hasMerchantReturnPolicy"');
+          if (looksLikeSquarespace) el.remove();
+        } catch(e){}
+      }
+    });
+  };
+  // Run several times to catch async Squarespace hydration
+  removeSquarespaceProduct();
+  document.addEventListener('DOMContentLoaded', removeSquarespaceProduct);
+  window.addEventListener('load', () => setTimeout(removeSquarespaceProduct, 1000));
+  const obs = new MutationObserver(removeSquarespaceProduct);
+  obs.observe(document.documentElement, { childList: true, subtree: true });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.alanranger.com/#org",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "telephone": "+44 781 701 7994",
+      "email": "info@alanranger.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.alanranger.com/#localbusiness",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "priceRange": "£50–£500",
+      "email": "info@alanranger.com",
+      "telephone": "+44 781 701 7994",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.alanranger.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Photo Workshops UK",
+          "item": "https://www.alanranger.com/photo-workshops-uk"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Exmoor Photography Workshop - Sat 8 - Sun 9 May 2027",
+          "item": "https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth"
+        }
+      ],
+      "@id": "https://www.alanranger.com/exmoor-photography-workshops-lynmouth#breadcrumbs"
+    },
+    {
+      "@type": "Product",
+      "name": "EXMOOR Photography Workshop - Sat 8 - Sun 9 May 2027",
+      "sku": "SQ8057321",
+      "brand": {
+        "@type": "Brand",
+        "name": "Alan Ranger Photography"
+      },
+      "description": "Lynmouth - Exmoor Photography Workshop - Join me for this exciting and inspiring trip to explore and capture the stunning coastal landscapes and breathtaking natural beauty of North Devon.Summary Location: Lynmouth - Exmoor Dates: Sat 8 10:30 - Sun 9 May 14:00 2027 2 Days/1 Night Participants:Max 4 (1 Car, transport between locations included)Fitness: 1. Easy (5-15 min walks)Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera and Tripod Exmoor Photography Workshop Event Details Lynmouth Description: This is a 2-day, 1-night residential seascape photography...",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1714638630127-79B9OMJPFF60L8Q9VLJL/Timeless+Memories.jpg",
+      "url": "https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth",
+      "offers": {
+        "@type": "Offer",
+        "sku": "SQ8057321",
+        "price": "575.00",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-06-29",
+        "priceValidUntil": "2027-06-29",
+        "url": "https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth",
+        "@id": "https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth#offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Alan Ranger Photography",
+          "url": "https://www.alanranger.com"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "doesNotShip": true,
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 28,
+          "refundType": "http://schema.org/FullRefund",
+          "applicableCountry": "GB",
+          "returnMethod": "http://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnShippingFees",
+          "returnShippingFeesAmount": {
+            "@type": "MonetaryAmount",
+            "value": "50.00",
+            "currency": "GBP"
+          }
+        }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Angie Rondeau"
+          },
+          "reviewBody": "Great, always love the awesome photos",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-04-07",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": 1
+      },
+      "@id": "https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth#product"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "EXMOOR Photography Workshop - Sat 8 - Sun 9 May 2027",
+  "startDate": "2026-07-04",
+  "endDate": "2026-07-04",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "Lynmouth - Exmoor Photography Workshop - Join me for this exciting and inspiring trip to explore and capture the stunning coastal landscapes and breathtaking natural beauty of North Devon.SummaryLocation: Lynmouth - ExmoorDates: Sat 8 10:30 - Sun 9 May 14:00 2027 2 Days/1 NightParticipants:Max 4 (1 Car, transport between locations included)Fitness: 1. Easy (5-15 min walks)Experience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodExmoor Photography Workshop Event DetailsLynmouthDescription: This is a 2-day, 1-night residential seascape photography workshop based at Lynmouth on the dramatic Exmoor coast of North Devon, open to all levels from beginner to advanced. Lynmouth is a photographer's paradise — where the East and West Lyn rivers meet the sea beneath towering cliffs, fringed by secluded bays, weathered rock formations and the quaint harbour village with its iconic Rhenish Tower. It's a compact, richly varied coastline that rewards a focused weekend of shooting.Over two days we work the area's finest coastal locations — from the secluded bays and rock formations around Lynmouth and the sweeping Valley of Rocks to Watersmeet, Heddon's Mouth and Porlock Weir. The focus is on three things that make a strong seascape: composing rock, water and sky into a balanced frame, using long exposure to turn the moving sea into mood, and timing your shoot to the light and the tide. Throughout, the emphasis isn't just on the grand view but on learning to see it — composing with intention, working intimate detail as readily as the wide vista, and reading light and tide as a harmony rather than chasing the obvious shot. The days follow the conditions — full days on location with tuition, an optional sunset shoot, and an optional sunrise, with evenings for relaxed picture reviews.With a maximum of just four photographers and transport between locations included, this is genuinely personal, hassle-free tuition — Alan plans each day around the tides, the season and the forecast, and sends a detailed location itinerary a few days ahead. Accommodation and breakfast are included, so all you have to think about is your photography, and you'll come away with a portfolio of dramatic Exmoor seascapes and the field craft to read light and tide on any coast. An extra night's accommodation is available the day before if required — please request in advance, subject to hotel availability.",
+  "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1714638630127-79B9OMJPFF60L8Q9VLJL/Timeless+Memories.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Cotswolds",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "addressCountry": "GB"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Alan Ranger Photography",
+    "url": "https://www.alanranger.com",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+    "email": "info@alanranger.com",
+    "telephone": "+44 781 701 7994",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Hathaway Road",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "postalCode": "CV4 9HW",
+      "addressCountry": "GB"
+    }
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Alan Ranger"
+  },
+  "@id": "https://www.alanranger.com/exmoor-photography-workshops-lynmouth#event"
+}
+</script>

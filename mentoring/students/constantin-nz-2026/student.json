@@ -1,0 +1,213 @@
+{
+  "student": {
+    "displayName": "Constantin",
+    "parentFacingName": "Constantin"
+  },
+  "project": {
+    "id": "nz-bridges-2026",
+    "title": "New Zealand Project 2026",
+    "subtitle": "Auckland & Queenstown — architecture, bridges & landscape",
+    "startDate": "2026-07-23",
+    "endDate": "2026-08-02",
+    "dateLabel": "23 Jul – 2 Aug 2026"
+  },
+  "placeholders": {
+    "dropbox": "[Alan: paste link]",
+    "zoom": "[Alan: confirm date and time]"
+  },
+  "links": {
+    "dashboard": "https://www.alanranger.com/academy/dashboard",
+    "modulesMap": "https://www.alanranger.com/academy/online-photography-course/",
+    "exams": "https://www.alanranger.com/academy/photography-exams-certification",
+    "practicePacks": "https://www.alanranger.com/practice-pack-library",
+    "qa": "https://www.alanranger.com/academy/photography-questions-answers"
+  },
+  "kit": [
+    { "item": "Canon EOS R6 III", "for": "Your main body — fast, quiet, and strong in low light for bridges and blue hour." },
+    { "item": "RF 24–70mm f/2.8L", "for": "Wide-to-standard work: bridge spans, town architecture, walk-around frames." },
+    { "item": "RF 100–500mm L", "for": "Compression and detail — distant peaks, cables, texture studies. Use a monopod when tired." },
+    { "item": "Tripod", "for": "Essential for Harbour Bridge long exposures and any slow shutter work." },
+    { "item": "Monopod", "for": "Optional support for the 100–500 on long days." },
+    { "item": "Lightroom on iPad", "for": "Edit selects between phases; straighten verticals before Zoom." }
+  ],
+  "beforeFly": [
+    {
+      "order": 1,
+      "title": "#42 Architecture Photography Guide",
+      "url": "https://www.alanranger.com/blog-on-photography/architecture-photography-guide",
+      "extra": "Architecture photography assignment (PDF #58)",
+      "extraUrl": "https://www.alanranger.com/academy/online-photography-course/",
+      "why": "Direct prep for bridge/structure shooting; keystoning & composition",
+      "time": "~45 min + practice",
+      "priority": "Essential"
+    },
+    {
+      "order": 2,
+      "title": "#29 What Are Leading Lines In Photography",
+      "url": "https://www.alanranger.com/blog-on-photography/what-are-leading-lines-in-photography",
+      "extra": "Cert 2 exam — Leading Lines",
+      "extraUrl": "https://www.alanranger.com/academy/photography-exams-certification",
+      "why": "Cables, spans, and railings on bridges",
+      "time": "~45 min + exam",
+      "priority": "Essential"
+    },
+    {
+      "order": 3,
+      "title": "#27 What Is Framing In Photography",
+      "url": "https://www.alanranger.com/blog-on-photography/what-is-framing-in-photography",
+      "extra": "Cert 2 exam — Framing",
+      "extraUrl": "https://www.alanranger.com/academy/photography-exams-certification",
+      "why": "Frame bridges through arches, vegetation, foreground",
+      "time": "~45 min + exam",
+      "priority": "Essential"
+    },
+    {
+      "order": 4,
+      "title": "#15 What Is Focal Length In Photography",
+      "url": "https://www.alanranger.com/blog-on-photography/what-is-focal-length-in-photography",
+      "extra": "Foundation exam — Focal Length",
+      "extraUrl": "https://www.alanranger.com/academy/photography-exams-certification",
+      "why": "Your 24–70 vs 100–500 choice at each bridge",
+      "time": "~45 min + exam",
+      "priority": "Essential"
+    },
+    {
+      "order": 5,
+      "title": "#41 How To Take Long Exposure Photos",
+      "url": "https://www.alanranger.com/blog-on-photography/how-to-take-long-exposure-photos",
+      "extra": "Practice pack — Architecture Photography Practice Assignment",
+      "extraUrl": "https://www.alanranger.com/practice-pack-library",
+      "why": "Harbour Bridge blue hour; tripod technique",
+      "time": "~45 min + practice",
+      "priority": "Essential"
+    },
+    {
+      "order": 6,
+      "title": "Applied: UK Architectural Exterior Photography",
+      "url": "https://www.alanranger.com/academy/dashboard",
+      "extra": null,
+      "why": "Exterior lines, weather, permission awareness",
+      "time": "~30 min",
+      "priority": "Recommended"
+    },
+    {
+      "order": 7,
+      "title": "Field checklist: Architecture Photography Guide Checklist",
+      "url": "https://www.alanranger.com/academy/dashboard",
+      "extra": "Pocket reference — open from Academy / Clinics",
+      "extraUrl": "https://www.alanranger.com/academy/dashboard",
+      "why": "Pocket reference on location",
+      "time": "5 min review",
+      "priority": "Recommended"
+    }
+  ],
+  "ukHomework": "One local bridge or large building — 5 images (wide, telephoto detail, leading lines, vertical correction check, B&W). Upload to Dropbox; note settings.",
+  "phaseA": {
+    "dates": "23–24 Jul",
+    "locations": [
+      {
+        "when": "Day 1 AM",
+        "name": "Grafton Bridge",
+        "refs": [
+          { "label": "#42 Architecture", "url": "https://www.alanranger.com/blog-on-photography/architecture-photography-guide" },
+          { "label": "#29 Leading Lines", "url": "https://www.alanranger.com/blog-on-photography/what-are-leading-lines-in-photography" }
+        ],
+        "notes": "Urban; 24–70; watch converging verticals — keep camera level."
+      },
+      {
+        "when": "Day 1 PM",
+        "name": "Nga Hau Mangere Bridge",
+        "refs": [
+          { "label": "#09 Depth of Field", "url": "https://www.alanranger.com/blog-on-photography/what-is-depth-of-field" },
+          { "label": "Practice pack — Lines, Shapes And Geometry", "url": "https://www.alanranger.com/practice-pack-library" }
+        ],
+        "notes": "Walk the span; detail textures + wide context."
+      },
+      {
+        "when": "Day 2",
+        "name": "Auckland Harbour Bridge (viewpoint)",
+        "refs": [
+          { "label": "#41 Long Exposure", "url": "https://www.alanranger.com/blog-on-photography/how-to-take-long-exposure-photos" },
+          { "label": "Applied — Long Exposure Seascapes", "url": "https://www.alanranger.com/academy/dashboard" }
+        ],
+        "notes": "Tripod; blue hour if weather allows. Safety first — public viewpoints only."
+      }
+    ],
+    "eachShoot": {
+      "label": "Field checklist — Long Exposure Photography Guide",
+      "url": "https://www.alanranger.com/academy/dashboard",
+      "notes": "Timer, remote, watch wind shake on 100–500."
+    },
+    "gear": "Tripod (Harbour/evening), monopod optional for 100–500, lens cloth for sea spray."
+  },
+  "phaseB": {
+    "dates": "25–26 Jul",
+    "goal": "8–12 edited images + short notes for review.",
+    "items": [
+      { "title": "Lightroom edit all Phase A selects on iPad", "purpose": "Consistent exposure, straighten verticals", "url": null },
+      { "title": "Write 3 reflections (location / intent / one improvement)", "purpose": "Zoom discussion", "url": null },
+      { "title": "Pass Architecture exam (c2-13)", "purpose": "Locks in architecture concepts", "url": "https://www.alanranger.com/academy/photography-exams-certification" },
+      { "title": "Pass Leading Lines + Framing exams", "purpose": "Tied to bridge work", "url": "https://www.alanranger.com/academy/photography-exams-certification" },
+      { "title": "Optional: Long Exposure exam (c2-12)", "purpose": "Validates night/slow shutter theory", "url": "https://www.alanranger.com/academy/photography-exams-certification" }
+    ],
+    "upload": "Dropbox folder Auckland-Bridges — RAW or JPG + 8–12 exports + reflections."
+  },
+  "phaseC": {
+    "dates": "24 Jul – 1 Aug",
+    "focus": "Structures, architecture, landscape (Remarkables, lakefront, bungy bridges, town architecture).",
+    "themes": [
+      {
+        "theme": "Landscape scale",
+        "refs": [
+          { "label": "#37 Mastering Landscape", "url": "https://www.alanranger.com/blog-on-photography/mastering-landscape-photography-tips-and-techniques" },
+          { "label": "Practice pack — Landscapes", "url": "https://www.alanranger.com/practice-pack-library" }
+        ],
+        "activity": "Golden hour lake/mountain frames"
+      },
+      {
+        "theme": "Minimalism",
+        "refs": [
+          { "label": "#39 Minimalist Photography", "url": "https://www.alanranger.com/blog-on-photography/what-is-minimalist-photography" },
+          { "label": "Practice pack — Minimalism", "url": "https://www.alanranger.com/practice-pack-library" }
+        ],
+        "activity": "Simplify busy scenic views"
+      },
+      {
+        "theme": "B&W structure",
+        "refs": [
+          { "label": "#44 B&W for Beginners", "url": "https://www.alanranger.com/blog-on-photography/black-and-white-photography-for-beginners" },
+          { "label": "B&W assignment PDF", "url": "https://www.alanranger.com/academy/online-photography-course/" }
+        ],
+        "activity": "Overcast days"
+      },
+      {
+        "theme": "Compression",
+        "refs": [
+          { "label": "#15 Focal Length", "url": "https://www.alanranger.com/blog-on-photography/what-is-focal-length-in-photography" }
+        ],
+        "activity": "100–500 on distant peaks/structures — same scene, multiple focal lengths"
+      },
+      {
+        "theme": "Storytelling set",
+        "refs": [
+          { "label": "#28 Art of Storytelling", "url": "https://www.alanranger.com/blog-on-photography/the-art-of-storytelling-photography" }
+        ],
+        "activity": "5-image mini-sequence for one location"
+      }
+    ],
+    "assignment": "15 best images — 5 landscape, 5 architecture/structure, 5 detail/abstract. Notes per image. Upload to Dropbox."
+  },
+  "phaseD": [
+    { "month": "Aug", "focus": "Technical consistency — exposure & sharpness", "modules": "Finish remaining Foundation exams (modules 01–15)", "url": "https://www.alanranger.com/academy/photography-exams-certification" },
+    { "month": "Sep", "focus": "Editing & workflow", "modules": "Applied Photography Editing Workflow + Gear #24 Photo Editing Software", "url": "https://www.alanranger.com/blog-on-photography/photo-editing-software" },
+    { "month": "Oct", "focus": "Composition depth", "modules": "Complete Cert 2 exams 01–08", "url": "https://www.alanranger.com/academy/photography-exams-certification" },
+    { "month": "Nov", "focus": "Portfolio curation", "modules": "RPS How to Plan an LRPS Panel (if pursuing distinctions)", "url": "https://www.alanranger.com/academy/dashboard" },
+    { "month": "Dec", "focus": "Competition readiness", "modules": "Applied Landscape Vision Framework + Alan-set competition entry", "url": "https://www.alanranger.com/academy/dashboard" }
+  ],
+  "progress": {
+    "lessons": ["#42 Architecture", "#29 Leading Lines", "#27 Framing", "#15 Focal Length", "#41 Long Exposure", "#09 Depth of Field", "#37 Landscape", "#39 Minimalism", "#44 B&W", "#28 Storytelling"],
+    "exams": ["Architecture (c2-13)", "Leading Lines (c2-03)", "Framing (c2-02)", "Focal Length (Foundation)", "Long Exposure (c2-12, optional)"],
+    "assignments": ["UK bridge homework (5 images)", "Auckland upload (8–12)", "Queenstown set (15)", "3 reflections"],
+    "uploads": ["Before-fly Dropbox", "Auckland-Bridges", "Queenstown set"]
+  }
+}

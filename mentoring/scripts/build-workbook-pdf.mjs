@@ -1,22 +1,27 @@
 #!/usr/bin/env node
 /**
  * Build mentoring student workbook PDF from student.json + CSS.
- * Usage: node mentoring/scripts/build-workbook-pdf.mjs [student-id]
+ * Usage: node mentoring/scripts/build-workbook-pdf.mjs [student-id] [--v2]
+ * --v2 writes Constantin-NZ-Project-Workbook-2026-v2.pdf (v1 fallback preserved separately).
  * Rule: never emit placeholders — real URLs only in student.json.
  */
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { createRequire } from 'module';
+import { diagrams } from '../templates/viewpoint-diagrams.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const studentId = process.argv[2] || 'constantin-nz-2026';
+const buildV2 = process.argv.includes('--v2');
 const dataPath = path.join(root, 'students', studentId, 'student.json');
 const cssPath = path.join(root, 'templates', 'workbook.css');
 const outDir = path.join(root, 'output');
-const htmlOut = path.join(outDir, `${studentId}.html`);
-const pdfName = 'Constantin-NZ-Project-Workbook-2026.pdf';
+const htmlOut = path.join(outDir, `${studentId}${buildV2 ? '-v2' : ''}.html`);
+const pdfName = buildV2
+  ? 'Constantin-NZ-Project-Workbook-2026-v2.pdf'
+  : 'Constantin-NZ-Project-Workbook-2026.pdf';
 const pdfOut = path.join(outDir, pdfName);
 const pdfTmp = path.join(outDir, `_build-tmp-${Date.now()}.pdf`);
 const driveOutbox = path.join(
@@ -64,6 +69,93 @@ function zoomBox() {
 }
 function dropboxBoxShort() {
   return dropboxBox();
+}
+function linkList(items) {
+  return (items || []).map((x) => `<li>${a(x.url, x.label)}</li>`).join('');
+}
+function refSearchPanel(loc) {
+  if (!loc.referenceSearches?.length) return '';
+  return `<div class="panel panel-ref">
+    <div class="panel-label">Reference images — inspiration only, not to copy</div>
+    <p class="panel-note">Other photographers' work for the specific shots this page teaches. Study the approach; make your own frame.</p>
+    <ul class="panel-links">${linkList(loc.referenceSearches)}</ul>
+  </div>`;
+}
+function mapsPanel(loc) {
+  if (!loc.maps?.length) return '';
+  return `<div class="panel panel-maps">
+    <div class="panel-label">Navigate — Google Maps</div>
+    <ul class="panel-links">${linkList(loc.maps)}</ul>
+  </div>`;
+}
+function cameraPanel(loc) {
+  const c = loc.cameraSettings;
+  if (!c) return '';
+  return `<div class="panel panel-camera">
+    <div class="panel-label">Camera settings — starting point (adjust on site)</div>
+    <p class="panel-note">${c.conditions} · Canon R6 III · RF 24–70 / RF 100–500 · tripod where noted</p>
+    <table class="settings-table"><tbody>
+      <tr><th>ISO</th><td>${c.iso}</td></tr>
+      <tr><th>Aperture</th><td>${c.aperture}</td></tr>
+      <tr><th>Shutter</th><td>${c.shutter}</td></tr>
+      <tr><th>Focal length</th><td>${c.focal}</td></tr>
+    </tbody></table>
+  </div>`;
+}
+function diagramPanel(loc) {
+  const svg = diagrams[loc.diagramKey];
+  if (!svg) return '';
+  return `<div class="panel panel-diagram"><div class="panel-label">Viewpoint diagram</div>${svg}</div>`;
+}
+function locExtras(loc) {
+  if (!buildV2) return '';
+  return `${mapsPanel(loc)}${diagramPanel(loc)}${cameraPanel(loc)}${refSearchPanel(loc)}`;
+}
+function fieldInteract() {
+  if (!buildV2) return '';
+  return `<div class="field-interact">
+    <div class="tick-row"><span class="tick"></span> Shot made <span class="tick"></span> Verticals checked <span class="tick"></span> Settings noted</div>
+    <div class="rate-row"><span class="rate-label">Rate this frame</span>${[1, 2, 3, 4, 5].map((n) => `<span class="rate-box">${n}</span>`).join('')}</div>
+    <label>Composition sketch</label><div class="sketch-box"></div>
+  </div>`;
+}
+function reflectionBlock(n, long) {
+  const intent = long ? 'Intent — what I wanted the image to say' : 'Intent';
+  const improve = long ? 'One improvement for next time' : 'One improvement';
+  return `<div class="field-block">
+    <h2>Reflection ${n}</h2>
+    <label>Location</label><div class="line"></div>
+    ${fieldInteract()}
+    <label>${intent}</label><div class="line area"></div>
+    <label>${improve}</label><div class="line area"></div>
+  </div>`;
+}
+function mentorPage() {
+  if (!buildV2) return '';
+  return `<section class="sheet">
+  <div class="sheet-inner prose-page">
+    ${head('Meet your mentor')}
+    <p>I'm Alan Ranger — a professional photographer and photography educator based in Coventry, working across the UK.</p>
+    <p>I came to this late and sideways. Before photography I worked in IT and business change management, at board level, until I went full-time with the camera in 2013. That background matters more than it sounds: I'm interested in why a picture works, not just how it was taken. Understanding the mechanism is what lets you repeat a good frame instead of hoping for another one.</p>
+    <p>I'm a Qualified Associate of the British Institute of Professional Photography (ABIPP) and an Associate of the Royal Photographic Society (ARPS), with over 20 years behind the camera and 15 years teaching. I've taught thousands of people — workshops across the UK, courses, private tuition, and mentoring at every level from first camera to RPS distinction.</p>
+    <p>What I care about in teaching is the same thing I care about in my own work: not imitating how the world looks, but photographing the excitement of how it feels. That's the harder job, and it's the one worth learning.</p>
+    <p>You'll get honest feedback from me. Not flattery — you don't improve from being told everything is lovely. You bring the work, I'll tell you what I see.</p>
+  </div>
+</section>`;
+}
+function pathwayPage() {
+  if (!buildV2) return '';
+  return `<section class="sheet">
+  <div class="sheet-inner prose-page">
+    ${head('Where this leads')}
+    <h2>Your EPQ project</h2>
+    <p>You're building the photographic artefact for an EPQ on structural photography and design engineering. My role is the photography: planning what to shoot, shooting direction, technical development, editing, critique and portfolio workflow. Your school handles the academic side — the essay, the research framework and the assessment.</p>
+    <h2>Competitions</h2>
+    <p>Three are in view: the Sony World Photography Awards Youth competition, the Rotary Young Photographer competition, and the AOP Student Photography Awards, which has a category for architecture and built infrastructure. One body of work, three uses. I'll help you make the photographs and build the portfolio stronger — you and your family handle entries, deadlines and submissions. <strong>Always check each competition's current published rules; requirements and dates change year to year.</strong></p>
+    <h2>RPS distinctions</h2>
+    <p>Separate from both, and worth knowing about. The Royal Photographic Society runs a tiered set of distinctions — Licentiate (LRPS), Associate (ARPS) and Fellow. LRPS is the realistic first target, and it's a recognised statement that your work meets a standard. I mentor photographers through LRPS and ARPS, and to date every client I've mentored has passed.</p>
+  </div>
+</section>`;
 }
 
 const cycle = ['Learn', 'Practise', 'Photograph', 'Review', 'Reflect', 'Improve', 'Repeat'];
@@ -137,6 +229,8 @@ ${css}
   </div>
 </section>
 
+${mentorPage()}
+
 <section class="sheet">
   <div class="sheet-inner">
     ${head('Before you fly')}
@@ -191,6 +285,7 @@ ${d.phaseA.locations.map((loc) => `
       ${(loc.photograph || []).map((x) => `<li>${x}</li>`).join('')}
     </ol>
     <p class="gear-line"><strong>Gear:</strong> ${loc.gear}</p>
+    ${locExtras(loc)}
     <div class="callout"><div class="label">Safety</div><p style="margin:0">${loc.safety}</p></div>
   </div>
 </section>`).join('')}
@@ -265,6 +360,7 @@ ${[1, 2, 3, 4, 5].map((n) => `
         <div style="flex:1"><label>Date</label><div class="line"></div></div>
       </div>
       <label>Conditions (light / weather)</label><div class="line"></div>
+      ${fieldInteract()}
       <label>What I tried</label><div class="line area"></div>
       <label>What I would change</label><div class="line area"></div>
     </div>
@@ -275,28 +371,18 @@ ${[1, 2, 3, 4, 5].map((n) => `
   <div class="sheet-inner">
     ${head('Reflection prompts')}
     <p class="lead">Use the Phase B template — short reflections for Zoom.</p>
-    ${[1, 2, 3].map((n) => `
-    <div class="field-block">
-      <h2>Reflection ${n}</h2>
-      <label>Location</label><div class="line"></div>
-      <label>Intent — what I wanted the image to say</label><div class="line area"></div>
-      <label>One improvement for next time</label><div class="line area"></div>
-    </div>`).join('')}
+    ${[1, 2, 3].map((n) => reflectionBlock(n, true)).join('')}
   </div>
 </section>
 
 <section class="sheet">
   <div class="sheet-inner">
     ${head('More space to write')}
-    ${[4, 5].map((n) => `
-    <div class="field-block">
-      <h2>Reflection ${n}</h2>
-      <label>Location</label><div class="line"></div>
-      <label>Intent</label><div class="line area"></div>
-      <label>One improvement</label><div class="line area"></div>
-    </div>`).join('')}
+    ${[4, 5].map((n) => reflectionBlock(n, false)).join('')}
   </div>
 </section>
+
+${pathwayPage()}
 
 <section class="sheet">
   <div class="sheet-inner">

@@ -361,6 +361,98 @@ th {
   margin-top: 5mm;
 }
 
+.panel {
+  border: 1px solid var(--rule);
+  background: #fff;
+  padding: 3mm 4mm;
+  margin: 3mm 0;
+}
+.panel-label {
+  font-size: 7.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--orange);
+  margin-bottom: 1.5mm;
+}
+.panel-note { font-size: 8.5pt; color: var(--charcoal-soft); margin: 0 0 2mm; }
+.panel-links {
+  margin: 0;
+  padding-left: 4mm;
+  font-size: 8.5pt;
+}
+.panel-links li { margin-bottom: 1mm; }
+.settings-table { margin: 0; font-size: 8.5pt; }
+.settings-table th {
+  background: transparent;
+  color: var(--orange-dark);
+  font-size: 8pt;
+  width: 22mm;
+  border-bottom: 1px solid var(--rule);
+  padding: 1mm 2mm 1mm 0;
+}
+.settings-table td {
+  border-bottom: 1px solid var(--rule);
+  padding: 1mm 0;
+}
+.view-diagram {
+  width: 100%;
+  max-height: 38mm;
+  display: block;
+  margin-top: 1mm;
+}
+.prose-page p { font-size: 9.5pt; margin-bottom: 3mm; }
+.prose-page h2 {
+  font-size: 11pt;
+  color: var(--orange-dark);
+  margin: 4mm 0 2mm;
+}
+.field-interact {
+  margin: 2mm 0 3mm;
+  padding: 2.5mm 0;
+  border-top: 1px dotted var(--rule);
+  border-bottom: 1px dotted var(--rule);
+}
+.tick-row, .rate-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3mm;
+  font-size: 8pt;
+  margin-bottom: 2mm;
+}
+.tick {
+  display: inline-block;
+  width: 3.5mm;
+  height: 3.5mm;
+  border: 1.5px solid var(--orange);
+  margin-right: 1mm;
+  vertical-align: middle;
+}
+.rate-label {
+  font-size: 7.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--orange-dark);
+  margin-right: 2mm;
+}
+.rate-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5mm;
+  height: 5mm;
+  border: 1.5px solid var(--navy);
+  font-size: 7.5pt;
+  font-weight: 700;
+}
+.sketch-box {
+  min-height: 22mm;
+  border: 1px solid var(--rule);
+  background: #fffef8;
+  margin-bottom: 2mm;
+}
+
 @media print {
   html, body { background: #fff; }
   .sheet {

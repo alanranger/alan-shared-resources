@@ -133,7 +133,23 @@
           { "label": "#42 Architecture", "url": "https://www.alanranger.com/blog-on-photography/architecture-photography-guide" },
           { "label": "#29 Leading Lines", "url": "https://www.alanranger.com/blog-on-photography/what-are-leading-lines-in-photography" },
           { "label": "#27 Framing", "url": "https://www.alanranger.com/blog-on-photography/what-is-framing-in-photography" }
-        ]
+        ],
+        "diagramKey": "grafton",
+        "maps": [
+          { "label": "Grafton Gully paths (look back at arch)", "url": "https://maps.google.com/?q=Grafton+Gully+Walkway+Auckland" },
+          { "label": "Karangahape / Symonds Street deck access", "url": "https://maps.google.com/?q=Grafton+Bridge+Karangahape+Road+Auckland" }
+        ],
+        "referenceSearches": [
+          { "label": "Arch from below — reference only", "url": "https://www.google.com/search?tbm=isch&q=Grafton+Bridge+Auckland+arch+underside+photography" },
+          { "label": "Vierendeel approach frames — reference only", "url": "https://www.google.com/search?tbm=isch&q=Grafton+Bridge+Vierendeel+concrete+frame+Auckland" }
+        ],
+        "cameraSettings": {
+          "conditions": "Daylight on deck; deeper shade in the gully",
+          "iso": "100–400",
+          "aperture": "f/8–f/11",
+          "shutter": "1/125–1/250 s",
+          "focal": "24–70 mm at 35–50 mm (100–500 for rib detail)"
+        }
       },
       {
         "name": "Ngā Hau Māngere",
@@ -154,7 +170,23 @@
           { "label": "#09 Depth of Field", "url": "https://www.alanranger.com/blog-on-photography/what-is-depth-of-field" },
           { "label": "Practice pack — Lines, Shapes And Geometry", "url": "https://www.alanranger.com/blog-on-photography/lines-shapes-and-geometry-photography-assignment" },
           { "label": "#29 Leading Lines", "url": "https://www.alanranger.com/blog-on-photography/what-are-leading-lines-in-photography" }
-        ]
+        ],
+        "diagramKey": "ngahau",
+        "maps": [
+          { "label": "Onehunga abutment / shared path start", "url": "https://maps.google.com/?q=Old+M%C4%81ngere+Bridge+Reserve+Onehunga" },
+          { "label": "Māngere abutment / shared path end", "url": "https://maps.google.com/?q=Ng%C4%81+Hau+M%C4%81ngere+Bridge+M%C4%81ngere" }
+        ],
+        "referenceSearches": [
+          { "label": "Curved deck along the arch — reference only", "url": "https://www.google.com/search?tbm=isch&q=Ng%C4%81+Hau+M%C4%81ngere+bridge+curved+deck+photography" },
+          { "label": "Kahawai balustrade detail — reference only", "url": "https://www.google.com/search?tbm=isch&q=Ng%C4%81+Hau+M%C4%81ngere+bridge+balustrade+detail" }
+        ],
+        "cameraSettings": {
+          "conditions": "Open harbour daylight; wind on deck",
+          "iso": "100–200",
+          "aperture": "f/8–f/11",
+          "shutter": "1/250–1/500 s (hold steady in wind)",
+          "focal": "24–70 mm for deck sweep; 100–500 for balustrade detail"
+        }
       },
       {
         "name": "Auckland Harbour Bridge",
@@ -176,7 +208,25 @@
           { "label": "Applied — Long Exposure Seascapes", "url": "https://www.alanranger.com/blog-on-photography/long-exposure-seascapes-guide" },
           { "label": "#15 Focal Length", "url": "https://www.alanranger.com/blog-on-photography/what-is-focal-length-in-photography" },
           { "label": "Field checklist — Long Exposure", "url": "https://www.alanranger.com/blog-on-photography/long-exposure-photography-guide" }
-        ]
+        ],
+        "diagramKey": "harbour",
+        "maps": [
+          { "label": "Northcote Point lookout", "url": "https://maps.google.com/?q=Northcote+Point+Auckland+Harbour+Bridge+view" },
+          { "label": "Stokes Point lookout", "url": "https://maps.google.com/?q=Stokes+Point+Northcote+Auckland" },
+          { "label": "Westhaven / city-side harbour edge", "url": "https://maps.google.com/?q=Westhaven+Marina+Auckland+Harbour+Bridge+view" }
+        ],
+        "referenceSearches": [
+          { "label": "Nippon clip-ons beside original truss — reference only", "url": "https://www.google.com/search?tbm=isch&q=Auckland+Harbour+Bridge+Nippon+clip+on+engineering+photography" },
+          { "label": "Blue hour long exposure — reference only", "url": "https://www.google.com/search?tbm=isch&q=Auckland+Harbour+Bridge+blue+hour+long+exposure" },
+          { "label": "Steel truss compression study — reference only", "url": "https://www.google.com/search?tbm=isch&q=Auckland+Harbour+Bridge+truss+telephoto+photography" }
+        ],
+        "cameraSettings": {
+          "conditions": "Daylight for truss detail; blue hour for long exposure",
+          "iso": "100 (200 max if needed)",
+          "aperture": "f/8–f/11",
+          "shutter": "1/250 s daylight · 15–30 s at blue hour on tripod",
+          "focal": "24–70 mm context · 100–500 mm for truss compression"
+        }
       }
     ],
     "eachShoot": {

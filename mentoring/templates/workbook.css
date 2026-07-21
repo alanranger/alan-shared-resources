@@ -524,17 +524,24 @@ th {
   margin: 3mm 0;
   background: #fff;
   border: 1px solid var(--rule);
-  padding: 2.5mm;
+  padding: 3mm;
+  display: flex;
+  gap: 4mm;
+  align-items: center;
 }
 .photo-example img {
-  width: 100%;
-  max-height: 38mm;
-  object-fit: cover;
+  max-height: 52mm;
+  max-width: 55%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   display: block;
 }
 .photo-caption {
+  flex: 1;
+  min-width: 0;
   font-size: 8.5pt;
-  margin: 2mm 0 0;
+  margin: 0;
   color: var(--charcoal-soft);
 }
 .timeline {
@@ -588,4 +595,3 @@ th {
 }
 .loc-links .panel { flex: 1; margin: 0; min-width: 0; }
 .loc-v3 .photo-example { margin: 3mm 0 0; }
-.loc-v3 .photo-example img { max-height: 44mm; }

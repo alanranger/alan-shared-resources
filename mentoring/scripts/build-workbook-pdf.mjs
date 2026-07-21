@@ -45,7 +45,7 @@ function refs(list) {
   return (list || []).map((r) => a(r.url, r.label)).join(' · ');
 }
 function head(title) {
-  return `<div class="page-head"><h1>${title}</h1><img class="emblem" src="${asset('emblem.png')}" alt=""/></div>`;
+  return `<div class="page-head"><h1>${title}</h1><img class="emblem" src="${asset('logo-icon-black.png')}" alt="Alan Ranger Photography"/></div>`;
 }
 function dropboxBox() {
   return `<div class="callout">
@@ -162,21 +162,38 @@ ${css}
 <section class="sheet">
   <div class="sheet-inner">
     ${head('Phase A — Auckland')}
-    <p class="lead">${d.phaseA.dates} · Grafton · Nga Hau Mangere · Harbour Bridge</p>
-    ${d.phaseA.locations.map((loc) => `
-      <div class="loc-card">
-        <div class="when">${loc.when}</div>
-        <h3>${loc.name}</h3>
-        <p class="refs">${refs(loc.refs)}</p>
-        <p>${loc.notes}</p>
-      </div>`).join('')}
-    <h2>Each shoot</h2>
+    <p class="lead">${d.phaseA.dates}</p>
+    <p>${d.phaseA.intro || ''}</p>
+    <ul class="kit-list">
+      ${d.phaseA.locations.map((loc) => `<li><strong>${loc.name}</strong>${loc.where}</li>`).join('')}
+    </ul>
+    <h2>Across all three</h2>
     <p>${a(d.phaseA.eachShoot.url, d.phaseA.eachShoot.label)} — ${d.phaseA.eachShoot.notes}</p>
-    <h2>Essential gear</h2>
     <p>${d.phaseA.gear}</p>
-    <div class="callout"><div class="label">Safety</div><p style="margin:0">Public viewpoints only. Never stop in traffic or climb barriers for a shot.</p></div>
+    <div class="callout"><div class="label">Safety</div><p style="margin:0">Public paths and viewpoints only. Never stop on a motorway, hard shoulder, or climb barriers for a shot.</p></div>
   </div>
 </section>
+
+${d.phaseA.locations.map((loc) => `
+<section class="sheet">
+  <div class="sheet-inner loc-brief">
+    ${head(loc.name)}
+    <p class="where"><strong>Where:</strong> ${loc.where}</p>
+    <p class="refs">${refs(loc.refs)}</p>
+    <h2>History</h2>
+    <p>${loc.history}</p>
+    <h2>Engineering</h2>
+    <p>${loc.engineering}</p>
+    <h2>Why it matters</h2>
+    <p>${loc.whyItMatters}</p>
+    <h2>What to photograph</h2>
+    <ol class="photo-list">
+      ${(loc.photograph || []).map((x) => `<li>${x}</li>`).join('')}
+    </ol>
+    <p class="gear-line"><strong>Gear:</strong> ${loc.gear}</p>
+    <div class="callout"><div class="label">Safety</div><p style="margin:0">${loc.safety}</p></div>
+  </div>
+</section>`).join('')}
 
 <section class="sheet">
   <div class="sheet-inner">

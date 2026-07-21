@@ -111,42 +111,80 @@
   ],
   "ukHomework": "Before you fly: shoot one local bridge or large building — 5 images (wide, telephoto detail, leading lines, vertical correction check, B&W). Upload to your Dropbox folder and note your settings.",
   "phaseA": {
-    "dates": "23–24 Jul",
+    "dates": "23–24 Jul · Auckland",
+    "intro": "Three bridges, three eras of engineering. Shoot each as a structure with a story — not a postcard silhouette.",
     "locations": [
       {
-        "when": "Day 1 AM",
         "name": "Grafton Bridge",
+        "where": "Walk the deck from the Karangahape Road / Symonds Street end toward Grafton. Also drop into Grafton Gully paths and look back up at the arch from below (public paths only).",
+        "history": "Opened 28 April 1910. Designed by Robert Forbes Moore and Karl Rosegger Agster for the Ferro-Concrete Company of Australasia. At opening it was claimed as the world’s largest-span reinforced-concrete arch bridge. It replaced an unstable earlier timber crossing of Grafton Gully and linked the CBD / Karangahape Road with Grafton and the Domain side of the city.",
+        "engineering": "Twin three-pinned ferro-concrete arches carry the roadway across a deep urban gully. Approach spans use Vierendeel frames — open rectangular concrete frames rather than solid walls. The material choice (concrete over a cheaper steel tender) was deliberate: lower long-term maintenance. Cracks in the 1930s led to reinforcing repairs; the bridge is now a Category 1 historic place.",
+        "whyItMatters": "This is early 20th-century civil engineering showing off: concrete was still a young structural material, and Auckland bet on a record-breaking arch instead of a routine steel span. Photographing it well means showing how mass, void and curve work together — the same problems every architecture photographer faces with keystoning and verticals.",
+        "photograph": [
+          "From the deck: keep the camera level and let the railing / kerb lines pull into the vanishing point — do not tilt up to ‘fit’ the towers of the city beyond.",
+          "From the gully: shoot the underside of the twin arches — the repeating rib geometry and the pin joints are the story, not a wide skyline grab.",
+          "Isolate Vierendeel approach frames as a rhythm study (pattern / negative space) with the 100–500 or the long end of the 24–70.",
+          "Texture close-ups: weathered concrete, expansion joints, iron railings — B&W often clarifies form better than colour here.",
+          "One frame that shows scale: a pedestrian or bus on the deck against the arch curve."
+        ],
+        "gear": "24–70 for deck and mid views; 100–500 for frame/rib details. Tripod optional in the gully if shade is deep.",
+        "safety": "Stay on public paths. Do not climb barriers or enter the motorway corridor beneath Symonds Street.",
         "refs": [
           { "label": "#42 Architecture", "url": "https://www.alanranger.com/blog-on-photography/architecture-photography-guide" },
-          { "label": "#29 Leading Lines", "url": "https://www.alanranger.com/blog-on-photography/what-are-leading-lines-in-photography" }
-        ],
-        "notes": "Urban; 24–70; watch converging verticals — keep camera level."
+          { "label": "#29 Leading Lines", "url": "https://www.alanranger.com/blog-on-photography/what-are-leading-lines-in-photography" },
+          { "label": "#27 Framing", "url": "https://www.alanranger.com/blog-on-photography/what-is-framing-in-photography" }
+        ]
       },
       {
-        "when": "Day 1 PM",
-        "name": "Nga Hau Mangere Bridge",
+        "name": "Ngā Hau Māngere",
+        "where": "Onehunga–Māngere shared path bridge across the Manukau Harbour (the walking/cycling bridge, not the SH20 motorway spans beside it). Walk the full curved deck; shoot from both Onehunga and Māngere abutments and from mid-span looking along the arch.",
+        "history": "Ngā Hau Māngere (‘the winds of Māngere’) replaces the Old Māngere Bridge — a 1915 ferro-concrete road bridge (same designer family as Grafton) that served for a century before closing in 2018 and being dismantled. Before that, Māori used a natural basalt causeway across the harbour at low tide; a timber bridge followed in 1875. The new bridge reuses the old abutments but lifts clearance for small boats.",
+        "engineering": "Purpose-built for walking, cycling and fishing — roughly 260 m long and about 8 m wide, with a main span on a horizontal curve. The signature element is a ~60 m fabricated steel arch. Balustrades carry kahawai-inspired colour and patterning — structure and local identity designed as one piece, not bolted-on decoration.",
+        "whyItMatters": "You are photographing a contemporary civic bridge that answers a 100-year-old crossing with modern steel and community use. Contrast it mentally with Grafton (historic concrete arch) and the Harbour Bridge (motorway steel) — same city, three different briefs for ‘what a bridge is for’.",
+        "photograph": [
+          "Stand at mid-span and shoot along the curved deck so the steel arch and the path sweep together — geometry first, harbour second.",
+          "From an abutment, separate the slender pedestrian bridge from the chunky motorway spans beyond — two engineering eras in one frame.",
+          "Detail the kahawai balustrade colour and pattern against water or sky; use shallow depth of field (#09) so the pattern reads, not clutter.",
+          "Look for reflections in the Manukau at high tide; at low tide use mudflat texture as a foreground lead into the arch.",
+          "Lines / shapes assignment: find triangles where arch, deck and pier meet — one clean graphic frame."
+        ],
+        "gear": "24–70 for deck and arch; 100–500 for balustrade and joint details. Monopod helpful if windy on the harbour.",
+        "safety": "Shared path — watch bikes. Fishing platforms get slippery. Stay off the motorway bridge entirely.",
         "refs": [
           { "label": "#09 Depth of Field", "url": "https://www.alanranger.com/blog-on-photography/what-is-depth-of-field" },
-          { "label": "Practice pack — Lines, Shapes And Geometry", "url": "https://www.alanranger.com/blog-on-photography/lines-shapes-and-geometry-photography-assignment" }
-        ],
-        "notes": "Walk the span; detail textures + wide context."
+          { "label": "Practice pack — Lines, Shapes And Geometry", "url": "https://www.alanranger.com/blog-on-photography/lines-shapes-and-geometry-photography-assignment" },
+          { "label": "#29 Leading Lines", "url": "https://www.alanranger.com/blog-on-photography/what-are-leading-lines-in-photography" }
+        ]
       },
       {
-        "when": "Day 2",
-        "name": "Auckland Harbour Bridge (viewpoint)",
+        "name": "Auckland Harbour Bridge",
+        "where": "Shoot from public land only — Northcote Point / Stokes Point lookouts on the North Shore, or Westhaven / city-side harbour edges with a clear view of the span. Do not attempt to walk or stop on the motorway deck.",
+        "history": "Opened 30 May 1959 by Lord Cobham after decades of debate. Designed in Britain by Freeman Fox & Partners; built by Dorman Long and Cleveland Bridge (the same firms behind Sydney Harbour Bridge). Steel sections were fabricated in England and floated into place. An austerity four-lane design omitted footpaths — a decision Auckland still lives with. By 1969 traffic forced the ‘Nippon clip-ons’: extra box-girder lanes prefabricated in Japan and bolted onto the original piers.",
+        "engineering": "Through-arch / box-truss steel bridge, about 1,020 m long. Main navigation span ~244 m with ~43 m clearance at high tide so shipping can pass. Six piers in the Waitematā. The clip-ons are orthotropic steel boxes — a different structural language bolted beside the original truss — which is why the silhouette looks ‘thickened’ compared with 1959 photos. Tolls ended in 1984; today it carries on the order of 170,000 vehicles a day.",
+        "whyItMatters": "This is Auckland’s defining harbour crossing and New Zealand’s largest bridge span — the moment the North Shore became a car commute instead of a ferry city. Photographically it is about scale, steel rhythm, and the contrast between the original truss and the later clip-ons — plus light on water.",
+        "photograph": [
+          "Find a viewpoint where the main arch reads as a clear curve against sky or harbour — eliminate street clutter from the bottom of the frame.",
+          "Use the 100–500 to compress pier spacing and emphasise the repeating steel diagonals of the truss.",
+          "At blue hour / dusk: long exposure to smooth Waitematā water and turn traffic into light streaks on the deck (tripod essential).",
+          "One frame that shows the clip-on boxes as a distinct add-on beside the original structure — engineering history in silhouette.",
+          "Include a ship or ferry under the navigation span for scale if one passes — otherwise a yacht mast or harbour edge for foreground depth."
+        ],
+        "gear": "Tripod mandatory for dusk/long exposure. 24–70 for context; 100–500 for truss compression. Lens cloth for salt spray.",
+        "safety": "Public viewpoints only. Never stop on the motorway, hard shoulder, or climb barriers. Wind on the shore can shake a tall tripod — weight the legs.",
         "refs": [
           { "label": "#41 Long Exposure", "url": "https://www.alanranger.com/blog-on-photography/how-to-take-long-exposure-photos" },
-          { "label": "Applied — Long Exposure Seascapes", "url": "https://www.alanranger.com/blog-on-photography/long-exposure-seascapes-guide" }
-        ],
-        "notes": "Tripod; blue hour if weather allows. Safety first — public viewpoints only."
+          { "label": "Applied — Long Exposure Seascapes", "url": "https://www.alanranger.com/blog-on-photography/long-exposure-seascapes-guide" },
+          { "label": "#15 Focal Length", "url": "https://www.alanranger.com/blog-on-photography/what-is-focal-length-in-photography" },
+          { "label": "Field checklist — Long Exposure", "url": "https://www.alanranger.com/blog-on-photography/long-exposure-photography-guide" }
+        ]
       }
     ],
     "eachShoot": {
       "label": "Field checklist — Long Exposure Photography Guide",
       "url": "https://www.alanranger.com/blog-on-photography/long-exposure-photography-guide",
-      "notes": "Timer, remote, watch wind shake on 100–500."
+      "notes": "For Harbour Bridge dusk work: timer or remote, mirror/electronic shutter if available, and watch wind shake on the 100–500."
     },
-    "gear": "Tripod (Harbour/evening), monopod optional for 100–500, lens cloth for sea spray."
+    "gear": "Tripod for Harbour Bridge evening work; monopod optional for 100–500 on long walks; lens cloth for sea spray."
   },
   "phaseB": {
     "dates": "25–26 Jul",

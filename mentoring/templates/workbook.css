@@ -111,7 +111,7 @@ a:hover { color: var(--orange); }
   margin: 0;
   line-height: 1.15;
 }
-.page-head .emblem { width: 12mm; height: auto; }
+.page-head .emblem { width: 11mm; height: auto; object-fit: contain; }
 
 .lead {
   font-size: 11pt;
@@ -275,6 +275,27 @@ th {
   padding: 2.5mm 0 2.5mm 4mm;
   margin: 0 0 4mm;
 }
+.loc-brief .where {
+  font-size: 9.5pt;
+  margin-bottom: 2mm;
+  color: var(--charcoal-soft);
+}
+.loc-brief .refs { font-size: 8.5pt; margin-bottom: 3mm; }
+.loc-brief h2 {
+  font-size: 10pt;
+  margin: 3.5mm 0 1.5mm;
+  color: var(--orange-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.loc-brief p { font-size: 9pt; margin-bottom: 2.5mm; }
+.photo-list {
+  margin: 0 0 3mm;
+  padding-left: 5mm;
+  font-size: 9pt;
+}
+.photo-list li { margin-bottom: 1.8mm; }
+.gear-line { font-size: 9pt; margin: 2mm 0 3mm; }
 .loc-card h3 { margin: 0 0 1mm; font-size: 11.5pt; color: var(--navy); }
 .loc-card .when {
   font-size: 8.5pt;

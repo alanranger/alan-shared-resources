@@ -577,3 +577,15 @@ th {
   font-weight: 700;
   color: var(--orange-dark);
 }
+.loc-v3 h2 { margin: 3mm 0 1.5mm; }
+.loc-v3 p { font-size: 9pt; margin-bottom: 2mm; }
+.loc-v3 .photo-list { font-size: 9pt; margin-bottom: 2mm; }
+.callout-safety { margin: 3mm 0; }
+.loc-links {
+  display: flex;
+  gap: 4mm;
+  margin-top: 3mm;
+}
+.loc-links .panel { flex: 1; margin: 0; min-width: 0; }
+.loc-v3 .photo-example { margin: 3mm 0 0; }
+.loc-v3 .photo-example img { max-height: 44mm; }

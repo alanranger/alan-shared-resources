@@ -167,19 +167,26 @@ function pathwayPage() {
 const cycle = ['Learn', 'Practise', 'Photograph', 'Review', 'Improve', 'Repeat'];
 const photoExamples = {
   grafton: {
-    file: '04-architecture-examples/southwold-mono-ii.jpg',
+    file: '04-architecture-examples/coventry-cathedral-texture.jpg',
     caption:
-      'Southwold Mono II strips a pier structure to tone and line. The repeating verticals carry the eye while the sky stays quiet — a reminder that concrete bridges reward the same discipline: decide what the frame is about, then remove everything that competes with it.'
+      'Here I let texture and scale carry the frame — weathered stone, window tracery and a lone figure dwarfed by the wall. There is no wide establishing shot; the structure is read through surface and proportion. At Grafton, do the same: let the concrete and the arch\u2019s mass speak, and use a person only to show how big it really is.'
   },
   ngahau: {
-    file: '04-architecture-examples/coventry-cathedral-texter.jpg',
+    file: '04-architecture-examples/bormes-roofs.jpg',
     caption:
-      'Coventry Cathedral Texter treats surface as subject. Pattern, material and light do the work — no need for a wide establishing view. On Ngā Hau Māngere, look for the same opportunity in balustrade colour, steel joints and the curve of the deck.'
+      'Compressed rooftops become pure rhythm — repeated tiles, staggered angles, warm light raking across the pattern. The long lens stacks the layers so shape matters more than place. On Ng\u0101 Hau M\u0101ngere, look for the same: let the curve of the deck, the steel arch and the balustrade pattern line up into one graphic idea, not a record of the whole bridge.'
+  },
+  harbour: {
+    file: '04-architecture-examples/southwold-mono-ii.jpg',
+    caption:
+      'Black and white strips this pier to line, tone and the steady rhythm of its legs; a long exposure smooths the water so nothing competes with the structure. That restraint is the lesson for the Harbour Bridge at dusk — simplify to steel and light, let a slow shutter quiet the harbour, and decide what the photograph is about before the sky turns.'
   }
 };
 const locV3 = {
   'Grafton Bridge': {
     why: 'Early reinforced concrete at civic scale — mass, void and curve in one walkable structure.',
+    context:
+      'Opened 1910 and once claimed as the world\u2019s largest reinforced-concrete arch. Twin three-pinned ferro-concrete arches span a deep urban gully, with open Vierendeel approach frames. Concrete was chosen over cheaper steel for lower maintenance; it is now a Category 1 historic place.',
     challenge:
       'Make one frame where the bridge is understood through shape and negative space, not a documentary wide shot.',
     mentor:
@@ -187,6 +194,8 @@ const locV3 = {
   },
   'Ngā Hau Māngere': {
     why: 'A contemporary pedestrian bridge beside a motorway crossing — three eras of “what a bridge is for” in one harbour.',
+    context:
+      'Ng\u0101 Hau M\u0101ngere — \u201cthe winds of M\u0101ngere\u201d — replaced a 1915 concrete road bridge on the old harbour crossing. About 260 m of walking-and-cycling deck curves on plan around a ~60 m steel arch, with kahawai-patterned balustrades: structure and local identity designed as one.',
     challenge:
       'Find one graphic frame where curve, deck and arch read as a single designed shape — geometry before scenery.',
     mentor:
@@ -194,6 +203,8 @@ const locV3 = {
   },
   'Auckland Harbour Bridge': {
     why: 'Auckland’s defining harbour crossing — scale, steel rhythm, and the visible story of the Nippon clip-ons.',
+    context:
+      'Opened 1959, designed by Freeman Fox and built by the firms behind Sydney Harbour Bridge. A through-truss steel span about 1,020 m long, with a ~244 m main navigation span. By 1969 traffic forced the Japanese \u201cclip-on\u201d box-girder lanes bolted beside the original truss — which is why the silhouette looks thickened.',
     challenge:
       'From a legal viewpoint, make one frame that shows original truss and later clip-on as two structural languages.',
     mentor:
@@ -211,7 +222,8 @@ function photoExampleBlock(key) {
 }
 function locPageV3(loc) {
   const v3 = locV3[loc.name] || {};
-  const lookFor = (loc.photograph || []).slice(0, 4);
+  const lookFor = (loc.photograph || []).slice(0, 3);
+  const context = v3.context || `${loc.history} ${loc.engineering}`;
   return `<section class="sheet">
   <div class="sheet-inner loc-brief loc-v3">
     ${head(loc.name)}
@@ -219,15 +231,15 @@ function locPageV3(loc) {
     <h2>Why I chose this location</h2>
     <p>${v3.why || loc.whyItMatters}</p>
     <h2>Context</h2>
-    <p>${loc.history} ${loc.engineering}</p>
+    <p>${context}</p>
     <h2>What to look for</h2>
     <ul class="photo-list">${lookFor.map((x) => `<li>${x}</li>`).join('')}</ul>
     <h2>Photography challenge</h2>
     <p>${v3.challenge || 'One open-ended frame that works in the light and time you actually have.'}</p>
     <div class="callout mentor-callout"><div class="label">Mentor's note</div><p style="margin:0">${v3.mentor || 'Look first. Decide what the photograph is about, then choose the lens that helps you say it.'}</p></div>
-    ${mapsPanel(loc)}${refSearchPanel(loc)}
+    <div class="callout callout-safety"><div class="label">Safety</div><p style="margin:0">${loc.safety}</p></div>
     ${photoExampleBlock(loc.diagramKey)}
-    <div class="callout"><div class="label">Safety</div><p style="margin:0">${loc.safety}</p></div>
+    <div class="loc-links">${mapsPanel(loc)}${refSearchPanel(loc)}</div>
   </div>
 </section>`;
 }

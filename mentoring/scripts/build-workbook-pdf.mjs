@@ -11,22 +11,27 @@ import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { createRequire } from 'module';
 import { diagrams } from '../templates/viewpoint-diagrams.mjs';
+import { orientation } from '../templates/orientation-diagrams.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const studentId = process.argv[2] || 'constantin-nz-2026';
 const buildV2 = process.argv.includes('--v2');
-const buildV3 = process.argv.includes('--v3');
+const buildV31 = process.argv.includes('--v31');
+const buildV3 = process.argv.includes('--v3') || buildV31;
+const v31 = buildV31;
 const dataPath = path.join(root, 'students', studentId, 'student.json');
 const cssPath = path.join(root, 'templates', 'workbook.css');
 const outDir = path.join(root, 'output');
-const versionSuffix = buildV3 ? '-v3' : buildV2 ? '-v2' : '';
+const versionSuffix = buildV31 ? '-v3-1' : buildV3 ? '-v3' : buildV2 ? '-v2' : '';
 const htmlOut = path.join(outDir, `${studentId}${versionSuffix}.html`);
-const pdfName = buildV3
-  ? 'Constantin-NZ-Project-Workbook-2026-v3.pdf'
-  : buildV2
-    ? 'Constantin-NZ-Project-Workbook-2026-v2.pdf'
-    : 'Constantin-NZ-Project-Workbook-2026.pdf';
+const pdfName = buildV31
+  ? 'Constantin-NZ-Project-Workbook-2026-v3-1.pdf'
+  : buildV3
+    ? 'Constantin-NZ-Project-Workbook-2026-v3.pdf'
+    : buildV2
+      ? 'Constantin-NZ-Project-Workbook-2026-v2.pdf'
+      : 'Constantin-NZ-Project-Workbook-2026.pdf';
 const pdfOut = path.join(outDir, pdfName);
 const pdfTmp = path.join(outDir, `_build-tmp-${Date.now()}.pdf`);
 const driveOutbox = path.join(
@@ -78,6 +83,12 @@ function dropboxBoxShort() {
 }
 function linkList(items) {
   return (items || []).map((x) => `<li>${a(x.url, x.label)}</li>`).join('');
+}
+function inlineLinks(items) {
+  return (items || []).map((x) => a(x.url, x.label)).join(' · ');
+}
+function adminRef() {
+  return `<div class="callout callout-ref"><p style="margin:0">Upload your selects to your Dropbox folder and book your Zoom review exactly as set out under <strong>How this works</strong> — same folder, same booking link, same <strong>prepaid</strong> code.</p></div>`;
 }
 function refSearchPanel(loc) {
   if (!loc.referenceSearches?.length) return '';
@@ -220,6 +231,32 @@ function photoExampleBlock(key) {
     <p class="photo-caption"><strong>Why this photograph works.</strong> ${ex.caption}</p>
   </div>`;
 }
+function locFiguresV31(loc) {
+  const ex = photoExamples[loc.diagramKey];
+  const diagram = orientation[loc.diagramKey] || '';
+  const photo = ex
+    ? `<figure class="photo-fig"><img src="${wbImg(ex.file)}" alt="Alan Ranger photograph"/></figure>`
+    : '';
+  const caption = ex
+    ? `<p class="photo-caption"><strong>Why this photograph works.</strong> ${ex.caption}</p>`
+    : '';
+  const refs = loc.referenceSearches?.length
+    ? `<span><span class="nav-lbl">Reference — inspiration only</span> ${inlineLinks(loc.referenceSearches)}</span>`
+    : '';
+  return `<div class="loc-figs">
+      <figure class="orient-fig">${diagram}</figure>
+      ${photo}
+    </div>
+    ${caption}
+    <div class="loc-nav">
+      <span><span class="nav-lbl">Navigate — Google Maps</span> ${inlineLinks(loc.maps)}</span>
+      ${refs}
+    </div>`;
+}
+function locBottomV3(loc) {
+  return `${photoExampleBlock(loc.diagramKey)}
+    <div class="loc-links">${mapsPanel(loc)}${refSearchPanel(loc)}</div>`;
+}
 function locPageV3(loc) {
   const v3 = locV3[loc.name] || {};
   const lookFor = (loc.photograph || []).slice(0, 3);
@@ -238,8 +275,7 @@ function locPageV3(loc) {
     <p>${v3.challenge || 'One open-ended frame that works in the light and time you actually have.'}</p>
     <div class="callout mentor-callout"><div class="label">Mentor's note</div><p style="margin:0">${v3.mentor || 'Look first. Decide what the photograph is about, then choose the lens that helps you say it.'}</p></div>
     <div class="callout callout-safety"><div class="label">Safety</div><p style="margin:0">${loc.safety}</p></div>
-    ${photoExampleBlock(loc.diagramKey)}
-    <div class="loc-links">${mapsPanel(loc)}${refSearchPanel(loc)}</div>
+    ${v31 ? locFiguresV31(loc) : locBottomV3(loc)}
   </div>
 </section>`;
 }
@@ -316,14 +352,15 @@ ${css}
 <section class="sheet">
   <div class="sheet-inner prose-page mentor-v3">
     ${head('Meet your mentor')}
-    <div class="mentor-layout">
-      <div class="mentor-text">
-        <blockquote class="pull-quote">Understanding why a picture works is what allows you to do it again.</blockquote>
-        <p>I'm Alan Ranger — professional photographer and educator based in Coventry. I came to photography from an IT and business background; what I care about in teaching is the same as in my own work: not imitating how the world looks, but photographing how it feels.</p>
-        <p>Over 20 years behind the camera and 15 years teaching. ABIPP and ARPS as post-nominals — you'll get honest feedback, not flattery. You bring the work; I'll tell you what I see.</p>
-      </div>
-      <img class="mentor-photo" src="${wbImg('02-mentor/alan-teaching.jpg')}" alt="Alan Ranger teaching online"/>
+    <blockquote class="pull-quote">Understanding why a picture works is what allows you to do it again.</blockquote>
+    <div class="mentor-cols">
+      <p>I'm Alan Ranger — professional photographer and educator based in Coventry. I came to photography from an IT and business background; what I care about in teaching is the same as in my own work: not imitating how the world looks, but photographing how it feels.</p>
+      <p>Over 20 years behind the camera and 15 years teaching. ABIPP and ARPS as post-nominals — you'll get honest feedback, not flattery. You bring the work; I'll tell you what I see.</p>
     </div>
+    <figure class="mentor-figure">
+      <img src="${wbImg('02-mentor/alan-teaching.jpg')}" alt="Alan Ranger teaching one to one at his desk"/>
+      <figcaption>Working through a student's own images, one to one — the way we'll review yours.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -344,7 +381,7 @@ ${css}
     </table>
     <h2>UK bridge homework</h2>
     <p>${d.ukHomework}</p>
-    ${dropboxBox()}
+    ${v31 ? adminRef() : dropboxBox()}
   </div>
 </section>
 
@@ -370,8 +407,8 @@ ${d.phaseA.locations.map((loc) => locPageV3(loc)).join('')}
     <p>This handbook does not teach Lightroom. The workflow is simple: review everything you shot → identify the strongest frames → make a first edit → upload to Dropbox → book your Zoom → we work through your own images together and refine from there.</p>
     <div class="callout mentor-callout"><div class="label">Mentor's note</div><p style="margin:0">Do not worry about mastering Lightroom before the trip. We will work through your own images together during Zoom sessions.</p></div>
     <p><strong>Before Zoom:</strong> pass Architecture (c2-13), Leading Lines (c2-03) and Framing (c2-02) exams where linked · upload 8–12 edited Auckland exports to your Dropbox folder.</p>
-    ${dropboxBox()}
-    ${zoomBox()}
+    ${v31 ? adminRef() : dropboxBox()}
+    ${v31 ? '' : zoomBox()}
   </div>
 </section>
 
@@ -379,12 +416,13 @@ ${d.phaseA.locations.map((loc) => locPageV3(loc)).join('')}
   <div class="sheet-inner">
     ${head('Phase C — Queenstown')}
     <p class="lead">${d.phaseC.dates}</p>
+    ${v31 ? `<figure class="scene-fig"><img src="${wbImg('06-queenstown/alan-landscape-scene.jpg')}" alt="Mountain lake landscape by Alan Ranger"/><figcaption>One of Alan\u2019s own landscapes — the quiet, simplified seeing the Southern Lakes reward.</figcaption></figure>` : ''}
     <p>${d.phaseC.focus}</p>
     <div class="panel"><div class="panel-label">Photographic opportunities</div>
       <ul class="photo-list">${d.phaseC.themes.map((t) => `<li><strong>${t.theme}</strong> — ${t.activity}. ${refs(t.refs)}</li>`).join('')}</ul>
     </div>
     <p>${d.phaseC.assignment}</p>
-    ${dropboxBox()}
+    ${v31 ? adminRef() : dropboxBox()}
   </div>
 </section>
 

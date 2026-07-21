@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 /**
  * Build mentoring student workbook PDF from student.json + CSS.
- * Usage: node mentoring/scripts/build-workbook-pdf.mjs [student-id] [--v2]
+ * Usage: node mentoring/scripts/build-workbook-pdf.mjs [student-id] [--v2|--v3]
  * --v2 writes Constantin-NZ-Project-Workbook-2026-v2.pdf (v1 fallback preserved separately).
+ * --v3 writes Constantin-NZ-Project-Workbook-2026-v3.pdf (MC-52 premium handbook).
  * Rule: never emit placeholders — real URLs only in student.json.
  */
 import fs from 'fs';
@@ -15,13 +16,17 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const studentId = process.argv[2] || 'constantin-nz-2026';
 const buildV2 = process.argv.includes('--v2');
+const buildV3 = process.argv.includes('--v3');
 const dataPath = path.join(root, 'students', studentId, 'student.json');
 const cssPath = path.join(root, 'templates', 'workbook.css');
 const outDir = path.join(root, 'output');
-const htmlOut = path.join(outDir, `${studentId}${buildV2 ? '-v2' : ''}.html`);
-const pdfName = buildV2
-  ? 'Constantin-NZ-Project-Workbook-2026-v2.pdf'
-  : 'Constantin-NZ-Project-Workbook-2026.pdf';
+const versionSuffix = buildV3 ? '-v3' : buildV2 ? '-v2' : '';
+const htmlOut = path.join(outDir, `${studentId}${versionSuffix}.html`);
+const pdfName = buildV3
+  ? 'Constantin-NZ-Project-Workbook-2026-v3.pdf'
+  : buildV2
+    ? 'Constantin-NZ-Project-Workbook-2026-v2.pdf'
+    : 'Constantin-NZ-Project-Workbook-2026.pdf';
 const pdfOut = path.join(outDir, pdfName);
 const pdfTmp = path.join(outDir, `_build-tmp-${Date.now()}.pdf`);
 const driveOutbox = path.join(
@@ -41,6 +46,7 @@ if (!d.dropbox?.url || !d.zoom?.url) {
 }
 let css = fs.readFileSync(cssPath, 'utf8');
 const asset = (name) => pathToFileURL(path.join(root, 'assets', name)).href;
+const wbImg = (sub) => pathToFileURL(path.join(root, 'assets', 'workbook-images', sub)).href;
 
 function a(href, text) {
   if (!href) return text || '';
@@ -158,9 +164,289 @@ function pathwayPage() {
 </section>`;
 }
 
-const cycle = ['Learn', 'Practise', 'Photograph', 'Review', 'Reflect', 'Improve', 'Repeat'];
+const cycle = ['Learn', 'Practise', 'Photograph', 'Review', 'Improve', 'Repeat'];
+const photoExamples = {
+  grafton: {
+    file: '04-architecture-examples/southwold-mono-ii.jpg',
+    caption:
+      'Southwold Mono II strips a pier structure to tone and line. The repeating verticals carry the eye while the sky stays quiet — a reminder that concrete bridges reward the same discipline: decide what the frame is about, then remove everything that competes with it.'
+  },
+  ngahau: {
+    file: '04-architecture-examples/coventry-cathedral-texter.jpg',
+    caption:
+      'Coventry Cathedral Texter treats surface as subject. Pattern, material and light do the work — no need for a wide establishing view. On Ngā Hau Māngere, look for the same opportunity in balustrade colour, steel joints and the curve of the deck.'
+  }
+};
+const locV3 = {
+  'Grafton Bridge': {
+    why: 'Early reinforced concrete at civic scale — mass, void and curve in one walkable structure.',
+    challenge:
+      'Make one frame where the bridge is understood through shape and negative space, not a documentary wide shot.',
+    mentor:
+      'Look first. Decide whether the story is the arch, the approach frames, or the city beyond — then choose lens and position to match.'
+  },
+  'Ngā Hau Māngere': {
+    why: 'A contemporary pedestrian bridge beside a motorway crossing — three eras of “what a bridge is for” in one harbour.',
+    challenge:
+      'Find one graphic frame where curve, deck and arch read as a single designed shape — geometry before scenery.',
+    mentor:
+      'Contrast is your friend here: slender shared path against heavy motorway spans, or pattern against open water.'
+  },
+  'Auckland Harbour Bridge': {
+    why: 'Auckland’s defining harbour crossing — scale, steel rhythm, and the visible story of the Nippon clip-ons.',
+    challenge:
+      'From a legal viewpoint, make one frame that shows original truss and later clip-on as two structural languages.',
+    mentor:
+      'Long exposure is an option, not a requirement. Adapt to wind, light and what the harbour is doing that hour.'
+  }
+};
 
-const html = `<!DOCTYPE html>
+function photoExampleBlock(key) {
+  const ex = photoExamples[key];
+  if (!ex) return '';
+  return `<div class="photo-example">
+    <img src="${wbImg(ex.file)}" alt="Alan Ranger photograph"/>
+    <p class="photo-caption"><strong>Why this photograph works.</strong> ${ex.caption}</p>
+  </div>`;
+}
+function locPageV3(loc) {
+  const v3 = locV3[loc.name] || {};
+  const lookFor = (loc.photograph || []).slice(0, 4);
+  return `<section class="sheet">
+  <div class="sheet-inner loc-brief loc-v3">
+    ${head(loc.name)}
+    <p class="loc-opportunity">${loc.whyItMatters.split('.')[0]}.</p>
+    <h2>Why I chose this location</h2>
+    <p>${v3.why || loc.whyItMatters}</p>
+    <h2>Context</h2>
+    <p>${loc.history} ${loc.engineering}</p>
+    <h2>What to look for</h2>
+    <ul class="photo-list">${lookFor.map((x) => `<li>${x}</li>`).join('')}</ul>
+    <h2>Photography challenge</h2>
+    <p>${v3.challenge || 'One open-ended frame that works in the light and time you actually have.'}</p>
+    <div class="callout mentor-callout"><div class="label">Mentor's note</div><p style="margin:0">${v3.mentor || 'Look first. Decide what the photograph is about, then choose the lens that helps you say it.'}</p></div>
+    ${mapsPanel(loc)}${refSearchPanel(loc)}
+    ${photoExampleBlock(loc.diagramKey)}
+    <div class="callout"><div class="label">Safety</div><p style="margin:0">${loc.safety}</p></div>
+  </div>
+</section>`;
+}
+function htmlV3() {
+  return `<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"/>
+<title>${d.project.title} — ${d.student.displayName}</title>
+<style>
+@font-face { font-family: Brown; src: url("${asset('Brown-Regular.otf')}") format("opentype"); font-weight: 400; }
+@font-face { font-family: Brown; src: url("${asset('Brown-Bold.otf')}") format("opentype"); font-weight: 700; }
+@font-face { font-family: Brown; src: url("${asset('Brown-Light.otf')}") format("opentype"); font-weight: 300; }
+${css}
+</style>
+</head>
+<body>
+
+<section class="sheet cover cover-photo">
+  <img class="cover-bg" src="${wbImg('01-cover/constantin-nz-cover.jpg')}" alt=""/>
+  <div class="cover-overlay">
+    <img class="logo" src="${asset('logo-white.png')}" alt="Alan Ranger Photography"/>
+    <div>
+      <hr class="rule"/>
+      <h1>${d.project.title}<span class="accent">${d.project.subtitle}</span></h1>
+      <p class="meta">For ${d.student.fullName || d.student.displayName}</p>
+      <p class="meta">${d.project.dateLabel}</p>
+      <p class="creds">Alan Ranger · ARPS · ABIPP</p>
+    </div>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Welcome')}
+    <p class="lead">A structured photography project — not a holiday itinerary.</p>
+    <p>Constantin — this handbook supports your New Zealand trip as a development opportunity: three Auckland bridges, Queenstown landscapes, and the mentoring work that continues when you are home. Use it to prepare, to shoot with intention, and to arrive at each Zoom review ready to talk about your choices.</p>
+    <p>You are 16, you carry an R6 III, and you are learning a professional workflow. That means honest engagement, safety first at every viewpoint, and curiosity about why a frame works — not filling in forms before we speak.</p>
+    <p>Every Academy link in here is real. Work through the essentials before you fly; the rest supports you on location and after. Safe travels — Alan.</p>
+  </div>
+</section>
+
+<section class="sheet cycle-page">
+  <div class="sheet-inner">
+    ${head('How this works')}
+    <p class="lead">Two ideas work together: the mentoring loop (how learning develops over time) and the Vision Framework (how to think while making each photograph).</p>
+    <div class="cycle-wrap cycle-compact">
+      <div class="cycle-row">
+        ${cycle.map((s, i) => `<div class="cycle-step cycle-step-sm"><span class="n">${i + 1}</span><span class="t">${s}</span></div>`).join('')}
+      </div>
+    </div>
+    <p class="loop-plain"><strong>Complete Academy prep → shoot → edit selects → upload to Dropbox → book your review → we discuss → you apply it on the next shoot.</strong></p>
+    <h2>Alan Ranger Vision Framework — 30 · 50 · 10 · 10</h2>
+    <p>See 30% · Design 50% · Shoot 10% · Review 10%. The largest investment is before the shutter — observation and composition, not settings rescue in post.</p>
+    <img class="vision-framework" src="${wbImg('03-vision-framework/alan-30-50-10-10-framework.png')}" alt="See 30%, Design 50%, Shoot 10%, Review 10%"/>
+    ${dropboxBoxShort()}
+    ${zoomBox()}
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Your field kit')}
+    <p class="lead">What you are carrying — and when each item earns its place in the bag.</p>
+    <ul class="kit-list">
+      ${d.kit.map((k) => `<li><strong>${k.item}</strong>${k.for}</li>`).join('')}
+    </ul>
+    <div class="callout"><div class="label">Choose for the situation</div>
+      <p style="margin:0">24–70 for responsive general work · 100–500 for isolation and compression · tripod only when stability or long exposure genuinely needs it · monopod when the telephoto is tiring, not by default.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner prose-page mentor-v3">
+    ${head('Meet your mentor')}
+    <div class="mentor-layout">
+      <div class="mentor-text">
+        <blockquote class="pull-quote">Understanding why a picture works is what allows you to do it again.</blockquote>
+        <p>I'm Alan Ranger — professional photographer and educator based in Coventry. I came to photography from an IT and business background; what I care about in teaching is the same as in my own work: not imitating how the world looks, but photographing how it feels.</p>
+        <p>Over 20 years behind the camera and 15 years teaching. ABIPP and ARPS as post-nominals — you'll get honest feedback, not flattery. You bring the work; I'll tell you what I see.</p>
+      </div>
+      <img class="mentor-photo" src="${wbImg('02-mentor/alan-teaching.jpg')}" alt="Alan Ranger teaching online"/>
+    </div>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Before you fly')}
+    <p class="lead">Academy prep in order. Allow ~45 min per essential lesson plus practice where noted.</p>
+    <table>
+      <thead><tr><th>#</th><th>Academy item</th><th>Why</th><th>Priority</th></tr></thead>
+      <tbody>
+        ${d.beforeFly.map((r) => `<tr>
+          <td>${r.order}</td>
+          <td>${a(r.url, r.title)}${r.extra ? `<br/>${a(r.extraUrl, r.extra)}` : ''}</td>
+          <td>${r.why}</td>
+          <td class="priority">${r.priority}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>
+    <h2>UK bridge homework</h2>
+    <p>${d.ukHomework}</p>
+    ${dropboxBox()}
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Phase A — Auckland')}
+    <p class="lead">${d.phaseA.dates} · Three engineering eras, three photographic opportunities.</p>
+    <p>${d.phaseA.intro}</p>
+    <ul class="kit-list">
+      ${d.phaseA.locations.map((loc) => `<li><strong>${loc.name}</strong>${loc.where.split('.')[0]}.</li>`).join('')}
+    </ul>
+    <div class="callout mentor-callout"><div class="label">Mentor's tip</div><p style="margin:0">Do not try to photograph everything. In the conditions you actually have, find the strongest opportunity at each bridge — one clear idea beats a checklist of angles.</p></div>
+    <div class="callout"><div class="label">Safety</div><p style="margin:0">Public paths and viewpoints only. Never stop on a motorway, hard shoulder, or climb barriers for a shot.</p></div>
+  </div>
+</section>
+
+${d.phaseA.locations.map((loc) => locPageV3(loc)).join('')}
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Before your first Zoom')}
+    <p class="lead">${d.phaseB.dates} · Select, edit lightly, upload — we refine together on screen.</p>
+    <p>This handbook does not teach Lightroom. The workflow is simple: review everything you shot → identify the strongest frames → make a first edit → upload to Dropbox → book your Zoom → we work through your own images together and refine from there.</p>
+    <div class="callout mentor-callout"><div class="label">Mentor's note</div><p style="margin:0">Do not worry about mastering Lightroom before the trip. We will work through your own images together during Zoom sessions.</p></div>
+    <p><strong>Before Zoom:</strong> pass Architecture (c2-13), Leading Lines (c2-03) and Framing (c2-02) exams where linked · upload 8–12 edited Auckland exports to your Dropbox folder.</p>
+    ${dropboxBox()}
+    ${zoomBox()}
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Phase C — Queenstown')}
+    <p class="lead">${d.phaseC.dates}</p>
+    <p>${d.phaseC.focus}</p>
+    <div class="panel"><div class="panel-label">Photographic opportunities</div>
+      <ul class="photo-list">${d.phaseC.themes.map((t) => `<li><strong>${t.theme}</strong> — ${t.activity}. ${refs(t.refs)}</li>`).join('')}</ul>
+    </div>
+    <p>${d.phaseC.assignment}</p>
+    ${dropboxBox()}
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Phase D — August to December')}
+    <p class="lead">A high-level roadmap after you are home — likely focus each month, not a rigid syllabus.</p>
+    <div class="timeline">
+      ${d.phaseD.map((m) => `<div class="timeline-item"><span class="timeline-month">${m.month}</span><span class="timeline-focus">${m.focus}</span><span class="timeline-modules">${a(m.url, m.modules)}${m.url2 ? ` · ${a(m.url2, m.label2)}` : ''}</span></div>`).join('')}
+    </div>
+    <p class="footer-note">Pass mark for Academy exams: <strong>80%</strong>. Competition eligibility and dates are checked together when a body of work exists.</p>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Looking back')}
+    <p class="lead">Preparation for your next mentoring conversation — not homework to submit.</p>
+    <ul class="prompt-list">
+      <li>Which images feel strongest so far, and why?</li>
+      <li>Which location was most challenging, and what did you learn?</li>
+      <li>Was there an unexpected result you want to discuss?</li>
+      <li>What technique or decision improved between shoots?</li>
+      <li>Which frame(s) do you most want reviewed on Zoom?</li>
+      <li>What question do you want to bring to the next session?</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner prose-page">
+    ${head('Where this leads')}
+    <h2>Your EPQ project</h2>
+    <p>You are building the photographic artefact for an EPQ on structural photography and design engineering. I support the photography — planning, shooting direction, technical development, editing, critique and portfolio workflow. Your school manages the academic requirements and assessment.</p>
+    <h2>Competitions</h2>
+    <p>Possible routes — subject to current eligibility, deadlines and rules: Sony World Photography Awards Youth, Rotary Young Photographer, AOP Student Awards (architecture and built infrastructure category). We review suitable entries together after the first body of work exists. <strong>Always check each competition's published rules; requirements change year to year.</strong></p>
+    <h2>RPS distinctions</h2>
+    <p>A future pathway, separate from the EPQ. Licentiate (LRPS) and Associate (ARPS) are recognised standards. I mentor photographers through LRPS and ARPS, and to date every client I've mentored has passed.</p>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner closing-page">
+    ${head('Before you go')}
+    <p class="lead">A last word from Alan.</p>
+    <p>The purpose of this project is not simply to return from New Zealand with more photographs. It is to return with a stronger way of seeing, deciding and making them.</p>
+    <p>Look first. Decide what the photograph is about. Then choose the lens and settings that help you say it. I am looking forward to seeing what you make.</p>
+    <p class="sign-off">Alan Ranger · ARPS · ABIPP</p>
+  </div>
+</section>
+
+<section class="sheet">
+  <div class="sheet-inner">
+    ${head('Quick links')}
+    <ul class="kit-list">
+      <li><strong>Dashboard</strong>${a(d.links.dashboard, d.links.dashboard)}</li>
+      <li><strong>Modules map</strong>${a(d.links.modulesMap, d.links.modulesMap)}</li>
+      <li><strong>Exams</strong>${a(d.links.exams, d.links.exams)}</li>
+      <li><strong>Practice packs</strong>${a(d.links.practicePacks, d.links.practicePacks)}</li>
+      <li><strong>Q&amp;A with Alan</strong>${a(d.links.qa, d.links.qa)}</li>
+      <li><strong>Your Dropbox</strong>${a(d.dropbox.url, d.dropbox.label)}</li>
+      <li><strong>Book Zoom</strong>${a(d.zoom.url, d.zoom.label)} — code <strong>${d.zoom.code}</strong></li>
+    </ul>
+    <p class="footer-note">Alan Ranger Photography · ARPS · ABIPP · alanranger.com</p>
+  </div>
+</section>
+
+</body>
+</html>`;
+}
+
+const cycleLegacy = ['Learn', 'Practise', 'Photograph', 'Review', 'Reflect', 'Improve', 'Repeat'];
+
+const html = buildV3 ? htmlV3() : `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -210,10 +496,10 @@ ${css}
     ${zoomBox()}
     <div class="cycle-wrap cycle-compact">
       <div class="cycle-row">
-        ${cycle.slice(0, 4).map((s, i) => `<div class="cycle-step cycle-step-sm"><span class="n">${i + 1}</span><span class="t">${s}</span></div>`).join('')}
+        ${cycleLegacy.slice(0, 4).map((s, i) => `<div class="cycle-step cycle-step-sm"><span class="n">${i + 1}</span><span class="t">${s}</span></div>`).join('')}
       </div>
       <div class="cycle-row">
-        ${cycle.slice(4).map((s, i) => `<div class="cycle-step cycle-step-sm"><span class="n">${i + 5}</span><span class="t">${s}</span></div>`).join('')}
+        ${cycleLegacy.slice(4).map((s, i) => `<div class="cycle-step cycle-step-sm"><span class="n">${i + 5}</span><span class="t">${s}</span></div>`).join('')}
       </div>
     </div>
   </div>

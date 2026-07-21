@@ -460,3 +460,120 @@ th {
     box-shadow: none;
   }
 }
+
+/* —— V3 (MC-52) —— */
+.cover-photo {
+  padding: 0;
+  display: block;
+  background: var(--navy);
+}
+.cover-photo .cover-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.42;
+}
+.cover-photo .cover-overlay {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 26mm 22mm 24mm;
+  background: linear-gradient(180deg, rgba(17,24,39,0.55) 0%, rgba(17,24,39,0.82) 100%);
+}
+.vision-framework {
+  width: 100%;
+  max-height: 42mm;
+  object-fit: contain;
+  margin: 3mm 0 4mm;
+  display: block;
+}
+.mentor-layout {
+  display: flex;
+  gap: 5mm;
+  align-items: flex-start;
+}
+.mentor-text { flex: 1; min-width: 0; }
+.mentor-photo {
+  width: 52mm;
+  height: auto;
+  object-fit: cover;
+  border-left: 3px solid var(--orange);
+}
+.pull-quote {
+  margin: 0 0 4mm;
+  padding: 3mm 0 3mm 4mm;
+  border-left: 4px solid var(--orange);
+  font-size: 11pt;
+  font-weight: 700;
+  color: var(--navy);
+  font-style: normal;
+}
+.loc-v3 .loc-opportunity {
+  font-size: 10pt;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 3mm;
+}
+.mentor-callout { margin: 3mm 0; }
+.photo-example {
+  margin: 3mm 0;
+  background: #fff;
+  border: 1px solid var(--rule);
+  padding: 2.5mm;
+}
+.photo-example img {
+  width: 100%;
+  max-height: 38mm;
+  object-fit: cover;
+  display: block;
+}
+.photo-caption {
+  font-size: 8.5pt;
+  margin: 2mm 0 0;
+  color: var(--charcoal-soft);
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5mm;
+  margin: 4mm 0;
+}
+.timeline-item {
+  display: grid;
+  grid-template-columns: 14mm 1fr;
+  grid-template-rows: auto auto;
+  gap: 0.5mm 3mm;
+  padding: 2.5mm 0;
+  border-bottom: 1px solid var(--rule);
+}
+.timeline-month {
+  grid-row: 1 / span 2;
+  font-weight: 700;
+  font-size: 11pt;
+  color: var(--orange-dark);
+}
+.timeline-focus {
+  font-weight: 700;
+  font-size: 9.5pt;
+  color: var(--navy);
+}
+.timeline-modules {
+  font-size: 8.5pt;
+  color: var(--charcoal-soft);
+}
+.prompt-list {
+  margin: 0;
+  padding-left: 5mm;
+  font-size: 10pt;
+}
+.prompt-list li { margin-bottom: 3mm; }
+.closing-page .sign-off {
+  margin-top: 8mm;
+  font-weight: 700;
+  color: var(--orange-dark);
+}

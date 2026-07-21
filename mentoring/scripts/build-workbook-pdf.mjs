@@ -83,7 +83,7 @@ function refSearchPanel(loc) {
   if (!loc.referenceSearches?.length) return '';
   return `<div class="panel panel-ref">
     <div class="panel-label">Reference images — inspiration only, not to copy</div>
-    <p class="panel-note">Other photographers' work for the specific shots this page teaches. Study the approach; make your own frame.</p>
+    <p class="panel-note">Other photographers' work — study the approach, then make your own frame.</p>
     <ul class="panel-links">${linkList(loc.referenceSearches)}</ul>
   </div>`;
 }

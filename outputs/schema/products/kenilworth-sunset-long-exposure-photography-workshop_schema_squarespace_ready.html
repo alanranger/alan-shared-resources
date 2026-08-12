@@ -1,0 +1,331 @@
+<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
+
+<script>
+(function(){
+  // Remove Squarespace's built-in, short Product JSON-LD
+  const removeSquarespaceProduct = () => {
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(el => {
+      const txt = el.textContent.trim();
+      if (txt.includes('"@type":"Product"')) {
+        try {
+          const j = JSON.parse(txt);
+          const looksLikeSquarespace =
+            txt.length < 1500 &&
+            !j.aggregateRating &&
+            !j.review &&
+            j.offers &&
+            j.name &&
+            !txt.includes('"hasMerchantReturnPolicy"');
+          if (looksLikeSquarespace) el.remove();
+        } catch(e){}
+      }
+    });
+  };
+  // Run several times to catch async Squarespace hydration
+  removeSquarespaceProduct();
+  document.addEventListener('DOMContentLoaded', removeSquarespaceProduct);
+  window.addEventListener('load', () => setTimeout(removeSquarespaceProduct, 1000));
+  const obs = new MutationObserver(removeSquarespaceProduct);
+  obs.observe(document.documentElement, { childList: true, subtree: true });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.alanranger.com/#org",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "telephone": "+44 781 701 7994",
+      "email": "info@alanranger.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.alanranger.com/#localbusiness",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "priceRange": "£50–£500",
+      "email": "info@alanranger.com",
+      "telephone": "+44 781 701 7994",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.alanranger.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Photo Workshops UK",
+          "item": "https://www.alanranger.com/photo-workshops-uk"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kenilworth Sunset Long Exposure Photography Workshop",
+          "item": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth"
+        }
+      ],
+      "@id": "https://www.alanranger.com/long-exposure-photography-kenilworth#breadcrumbs"
+    },
+    {
+      "@type": "Product",
+      "name": "KENILWORTH Sunset Long Exposure Photography Workshop",
+      "sku": "SQ9140400",
+      "brand": {
+        "@type": "Brand",
+        "name": "Alan Ranger Photography"
+      },
+      "description": "Sunset landscape long exposure photography workshop shoots around Kenilworth Castle - Warwickshire - Various Dates | Long Exposures | Open to all levels| Book Today Summary Location: Warwickshire - Kenilworth Dates:Mon 11 May 2026 - 18:30 - 20:30 Tue 1 Sep 2026 - 18:00 - 20:00 Wed 23 Sep 2026 - 17:45 - 19:45 Mon 22 Mar 2027 - 18:00 - 20:00 Wed 14 Apr 2027 - 18:30 - 20:30 Participants: Max 6 Fitness: 1. Easy Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera and Tripod Photography Workshop Event Details Kenilworth Description: This Long Exposure Photography...",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1712472502735-OHOKCDKMCP1BAMQ0JQUA/kenilworth+defenses.jpg",
+      "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth",
+      "offers": [
+        {
+          "@type": "Offer",
+          "sku": "SQ9140400",
+          "price": "50.00",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-08-12",
+          "priceValidUntil": "2027-08-12",
+          "name": "Tue 1 Sep 2026 - 18:00 - 20:00",
+          "priceSpecification": {
+            "price": "50.00",
+            "priceCurrency": "GBP"
+          },
+          "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#offer1",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": true,
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 28,
+            "refundType": "http://schema.org/FullRefund",
+            "applicableCountry": "GB",
+            "returnMethod": "http://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/ReturnShippingFees",
+            "returnShippingFeesAmount": {
+              "@type": "MonetaryAmount",
+              "value": "50.00",
+              "currency": "GBP"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "sku": "SQ8220723",
+          "price": "50.00",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-08-12",
+          "priceValidUntil": "2027-08-12",
+          "name": "Wed 23 Sep 2026 - 17:45 - 19:45",
+          "priceSpecification": {
+            "price": "50.00",
+            "priceCurrency": "GBP"
+          },
+          "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#offer2",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": true,
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 28,
+            "refundType": "http://schema.org/FullRefund",
+            "applicableCountry": "GB",
+            "returnMethod": "http://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/ReturnShippingFees",
+            "returnShippingFeesAmount": {
+              "@type": "MonetaryAmount",
+              "value": "50.00",
+              "currency": "GBP"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "sku": "SQ0932604",
+          "price": "50.00",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-08-12",
+          "priceValidUntil": "2027-08-12",
+          "name": "Mon 22 Mar 2027 - 18:00 - 20:00",
+          "priceSpecification": {
+            "price": "50.00",
+            "priceCurrency": "GBP"
+          },
+          "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#offer3",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": true,
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 28,
+            "refundType": "http://schema.org/FullRefund",
+            "applicableCountry": "GB",
+            "returnMethod": "http://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/ReturnShippingFees",
+            "returnShippingFeesAmount": {
+              "@type": "MonetaryAmount",
+              "value": "50.00",
+              "currency": "GBP"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "sku": "SQ1178418",
+          "price": "50.00",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-08-12",
+          "priceValidUntil": "2027-08-12",
+          "name": "Wed 14 Apr 2027 - 18:30 - 20:30",
+          "priceSpecification": {
+            "price": "50.00",
+            "priceCurrency": "GBP"
+          },
+          "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#offer4",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": true,
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 28,
+            "refundType": "http://schema.org/FullRefund",
+            "applicableCountry": "GB",
+            "returnMethod": "http://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/ReturnShippingFees",
+            "returnShippingFeesAmount": {
+              "@type": "MonetaryAmount",
+              "value": "50.00",
+              "currency": "GBP"
+            }
+          }
+        }
+      ],
+      "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#product"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "KENILWORTH Sunset Long Exposure Photography Workshop",
+  "startDate": "2026-08-23",
+  "endDate": "2026-08-23",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "Sunset landscape long exposure photography workshop shoots around Kenilworth Castle - Warwickshire - Various Dates | Long Exposures | Open to all levels| Book TodaySummaryLocation: Warwickshire - KenilworthDates:Mon 11 May 2026 - 18:30 - 20:30Tue 1 Sep 2026 - 18:00 - 20:00Wed 23 Sep 2026 - 17:45 - 19:45Mon 22 Mar 2027 - 18:00 - 20:00Wed 14 Apr 2027 - 18:30 - 20:30Participants: Max 6Fitness: 1. EasyExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodPhotography Workshop Event Details KenilworthDescription: This Long Exposure Photography Workshop is an evening shoot around the floodlit ruins of Kenilworth Castle in Warwickshire, open to all levels and any camera. Once one of England's mightiest fortresses and Robert Dudley's Elizabethan palace, the castle makes a dramatic subject against a darkening sky — and this workshop is built around the magic of long exposure at dusk, when the fading light, the castle's silhouette and a slow shutter combine to create atmospheric images that capture a sense of place, not just a record of a building.The long-exposure craft is the floor we build on, and we'll cover it properly: calculating exposure times for the movement and mood you want, focusing and exposing confidently in low light, and balancing ISO, shutter and aperture as the light drops. But the real work is learning to see. As the sky changes you'll compose the castle with intention — finding the frame beyond the obvious silhouette, working detail and texture as readily as the grand wide view, and reading the interplay of fading light, floodlight and deep shadow as a harmony rather than a problem to fight. The aim is an image with mood and restraint, where every element earns its place.It's a small group of no more than six, taught personally and pitched at exactly your level, so whether long exposure is new to you or you're refining your technique, you get real one-to-one guidance in the field. You'll come away with a set of atmospheric long-exposure images of one of England's most romantic castles — and a sharper, more intentional way of seeing light, movement and mood after dark anywhere.",
+  "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1712472502735-OHOKCDKMCP1BAMQ0JQUA/kenilworth+defenses.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "Warwickshire",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "addressCountry": "GB"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Alan Ranger Photography",
+    "url": "https://www.alanranger.com",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+    "email": "info@alanranger.com",
+    "telephone": "+44 781 701 7994",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Hathaway Road",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "postalCode": "CV4 9HW",
+      "addressCountry": "GB"
+    }
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Alan Ranger"
+  },
+  "@id": "https://www.alanranger.com/long-exposure-photography-kenilworth#event"
+}
+</script>

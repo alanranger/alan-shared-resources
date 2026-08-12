@@ -1,4 +1,5 @@
 ﻿reviewer_name,review_date,current_slug,booking_slug,name_score,confidence,days_after_event,participant_from_booking,workshop_location,event_date,action
+John Madigan,2023-10-26,secrets-of-woodland-photography-workshop,batsford-arboretum-photography-workshops,1.0,high,4,John Madigan,Batsford,2023-10-22,auto_correct
 Martin Morris,2026-05-21,beginners-photography-course,secrets-of-woodland-photography-workshop,0.92,high,26,Ruth Martin Martin,Blubebell Woodlands,2026-04-25,auto_correct
 Brain Smith Dsouza,2026-05-19,landscape-peak-district-photography-workshops-derbyshire,secrets-of-woodland-photography-workshop,0.92,high,23,Michael Smith,Blubebell Woodlands,2026-04-26,auto_correct
 Paul Farrington,2026-05-19,landscape-peak-district-photography-workshops-derbyshire,peak-district-heather-photography-workshop,1.0,high,3,Paul Farrington,Peak District Photography Workshops Padley Gorge,2026-05-16,auto_correct
@@ -21,7 +22,6 @@ Mattia Tosi,2021-09-13,lightroom-courses-for-beginners-coventry,landscape-photog
 Gillian Taylor,2025-05-29,beginners-photography-course,peak-district-heather-photography-workshop,1.0,high,5,Gillian Taylor,Peak District,2025-05-24,auto_correct
 Shahida Badiani,2025-05-26,beginners-photography-course,peak-district-heather-photography-workshop,0.92,high,2,Sabina Badiani,Peak District,2025-05-24,auto_correct
 Geraint Williams,2025-04-21,bluebell-woodlands-photography-workshops,secrets-of-woodland-photography-workshop,1.0,high,2,Geraint Williams,Blubebell Woodlands,2025-04-19,flag_manual
-John Madigan,2023-10-26,secrets-of-woodland-photography-workshop,batsford-arboretum-photography-workshops,1.0,high,4,John Madigan,Batsford,2023-10-22,auto_correct
 Shelly Soo,2024-09-26,lake-district-photography-workshop,abstract-and-macro-photography-workshops,1.0,high,11,Shelly Soo,Abstract & Macro,2024-09-15,flag_manual
 David Proctor,2024-05-03,secrets-of-woodland-photography-workshop,bluebell-woodlands-photography-workshops,1.0,high,4,David Proctor,Bluebell Woodlands,2024-04-29,auto_correct
 Ian Hope,2023-10-24,bluebell-woodlands-photography-workshops,garden-photography-workshop,1.0,high,60,Ian Hope,Sezincote-Mughal palace,2023-08-25,flag_manual

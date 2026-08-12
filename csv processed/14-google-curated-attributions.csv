@@ -1,4 +1,6 @@
 ﻿reviewer_name,review_date,product_slug,source_rule,category
+Sarah Kuner,2026-07-19,beginners-photography-course,quote_inferred_no_booking,no_match
+Joanne galloway,2023-08-20,bluebell-woodlands-photography-workshops,booking_sheet_confirmed,booking_match
 Jimmy Concannon,2026-01-03,beginners-photography-course,quote_inferred_no_booking,no_match
 Indianna,2026-01-02,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
 Patricia Pearl,2025-12-15,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
@@ -20,8 +22,6 @@ Huw Jones,2021-11-14,lake-district-photography-workshop,booking_sheet_confirmed,
 Anne Watkinson,2019-02-25,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
 Ian S. Bolton,2023-10-06,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
 Robert Mulley,2023-08-21,beginners-photography-course,quote_inferred_no_booking,no_match
-Joanne galloway,2023-08-20,bluebell-woodlands-photography-workshops,booking_sheet_confirmed,booking_match
-Clare,2023-08-18,bluebell-woodlands-photography-workshops,booking_sheet_confirmed,booking_match
 chris brown,2022-11-10,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
 John Flack,2020-04-24,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
 Matthew Payton,2022-01-24,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match

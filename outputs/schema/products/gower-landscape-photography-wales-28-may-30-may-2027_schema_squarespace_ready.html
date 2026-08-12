@@ -1,0 +1,221 @@
+<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
+
+<script>
+(function(){
+  // Remove Squarespace's built-in, short Product JSON-LD
+  const removeSquarespaceProduct = () => {
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(el => {
+      const txt = el.textContent.trim();
+      if (txt.includes('"@type":"Product"')) {
+        try {
+          const j = JSON.parse(txt);
+          const looksLikeSquarespace =
+            txt.length < 1500 &&
+            !j.aggregateRating &&
+            !j.review &&
+            j.offers &&
+            j.name &&
+            !txt.includes('"hasMerchantReturnPolicy"');
+          if (looksLikeSquarespace) el.remove();
+        } catch(e){}
+      }
+    });
+  };
+  // Run several times to catch async Squarespace hydration
+  removeSquarespaceProduct();
+  document.addEventListener('DOMContentLoaded', removeSquarespaceProduct);
+  window.addEventListener('load', () => setTimeout(removeSquarespaceProduct, 1000));
+  const obs = new MutationObserver(removeSquarespaceProduct);
+  obs.observe(document.documentElement, { childList: true, subtree: true });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.alanranger.com/#org",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "telephone": "+44 781 701 7994",
+      "email": "info@alanranger.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.alanranger.com/#localbusiness",
+      "name": "Alan Ranger Photography",
+      "url": "https://www.alanranger.com",
+      "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+      "priceRange": "£50–£500",
+      "email": "info@alanranger.com",
+      "telephone": "+44 781 701 7994",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "45 Hathaway Road",
+        "addressLocality": "Coventry",
+        "addressRegion": "West Midlands",
+        "postalCode": "CV4 9HW",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.alanranger.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Photo Workshops UK",
+          "item": "https://www.alanranger.com/photo-workshops-uk"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Gower Landscape Photography Wales - 28 May - 30 May 2027",
+          "item": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop"
+        }
+      ],
+      "@id": "https://www.alanranger.com/landscape-photography-wales-photo-workshop#breadcrumbs"
+    },
+    {
+      "@type": "Product",
+      "name": "GOWER Landscape Photography Wales - 28 May - 30 May 2027",
+      "sku": "SQ5141863",
+      "brand": {
+        "@type": "Brand",
+        "name": "Alan Ranger Photography"
+      },
+      "description": "Stunning shorelines and beauty of South Wales and the Gower Peninsular. Max 3 places for this residential photography workshop - landscape photography wales Summary Location: South Wales - Gower Peninsular Dates:Fri 28 th May - Sun 30 th May 2027 - 3 Days/2 Nights Participants: Max 4 Fitness: 3. Hard Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera and Tripod Landscape photography Wales Photography Workshop Event Details Gower Description: This is a 3-day, 2-night residential landscape photography workshop on the Gower Peninsula in South Wales — the UK's very...",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1715702409761-590M3MJ45KYXBDH1KSM0/Gower+%2305+-+May+2024.jpg",
+      "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop",
+      "offers": {
+        "@type": "Offer",
+        "sku": "SQ5141863",
+        "price": "825.00",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-08-12",
+        "priceValidUntil": "2027-08-12",
+        "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop",
+        "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop#offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Alan Ranger Photography",
+          "url": "https://www.alanranger.com"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "doesNotShip": true,
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 28,
+          "refundType": "http://schema.org/FullRefund",
+          "applicableCountry": "GB",
+          "returnMethod": "http://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnShippingFees",
+          "returnShippingFeesAmount": {
+            "@type": "MonetaryAmount",
+            "value": "50.00",
+            "currency": "GBP"
+          }
+        }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "lonnie morris"
+          },
+          "reviewBody": "I love Alan's workshops.  I've been to 2 3day workshops. Alan is helpful when you need it but let's you get on with it at other times. I have learnt a lot from his sessions and enjoyed them. His feedback is valuable. He's well organised and thorough. His work before the workshops makes for a really good experience.  He chooses nice places to stay and the social aspect is good too. I'd recommend the workshops although the Gower in June is going to be a challenge because of the time of year. Although it's nicer to stand outdoors in the summer, workshops in autumn and winter would be my preference. Anyway, if you're thinking of booking or buying a gift for someone.....do it!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2023-02-21",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": 1
+      },
+      "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop#product"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "GOWER Landscape Photography Wales - 28 May - 30 May 2027",
+  "startDate": "2026-09-10",
+  "endDate": "2026-09-13",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "description": "Stunning shorelines and beauty of South Wales and the Gower Peninsular. Max 3 places for this residential photography workshop - landscape photography walesSummaryLocation: South Wales - Gower PeninsularDates:Fri 28th May - Sun 30th May 2027 - 3 Days/2 NightsParticipants: Max 4Fitness: 3. HardExperience Level: Beginner to AdvancedEquipment Needed: DSLR or Mirrorless Camera and TripodLandscape photography Wales Photography Workshop Event Details GowerDescription: This is a 3-day, 2-night residential landscape photography workshop on the Gower Peninsula in South Wales — the UK's very first Area of Outstanding Natural Beauty, and one of the finest stretches of coast for landscape photography in Wales. Open to all levels from beginner to advanced, it takes you along 19 miles of dramatic shoreline west of Swansea, where lofty limestone cliffs, golden sandy beaches and jagged rocky shores meet wild moorland, dunes and tranquil salt marshes.Over three days we work the peninsula's most iconic locations as the light and tides allow — from the sweeping expanse of Rhossili Bay and the dramatic outline of Worms Head to the wreck of the Helvetia and the snug cove of Pwll Du. The focus is on three things that make a strong coastal image: composing cliffs, beaches and rock forms into a balanced frame, mastering long exposure to draw movement out of sea and sky, and timing each shoot from dawn to dusk to catch the best light and tide. Throughout, the emphasis isn't just on the famous viewpoint but on learning to see it — composing with intention, working intimate detail as readily as the wide vista, and reading light and colour as a harmony rather than chasing the obvious shot. You'll photograph at sunrise and sunset, the richest hours on this coast, and return to locations in changing conditions to capture them at their best.With a small group taught personally, this is genuinely one-to-one tuition — Alan plans each day around the season, the forecast and the tide times, and sends a detailed location itinerary a few days ahead. Be prepared for some longer walks over cliff paths and rougher coastal ground to reach the best viewpoints. Accommodation and breakfast are included, so all you have to think about is your photography, and you'll come away with a varied portfolio of the Gower's iconic Welsh coastline — and the field craft to read light, tide and weather on any shore. An extra night's accommodation is available the day before if required — please request in advance, subject to hotel availability.",
+  "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1715702409761-590M3MJ45KYXBDH1KSM0/Gower+%2305+-+May+2024.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "North Yorkshire Moors and Coast",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "addressCountry": "GB"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Alan Ranger Photography",
+    "url": "https://www.alanranger.com",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/b859ad2b-1442-4595-b9a4-410c32299bf8/ALAN+RANGER+photography+LOGO+BLACK.+switched+small.png?format=1500w",
+    "email": "info@alanranger.com",
+    "telephone": "+44 781 701 7994",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Hathaway Road",
+      "addressLocality": "Coventry",
+      "addressRegion": "West Midlands",
+      "postalCode": "CV4 9HW",
+      "addressCountry": "GB"
+    }
+  },
+  "performer": {
+    "@type": "Person",
+    "name": "Alan Ranger"
+  },
+  "@id": "https://www.alanranger.com/landscape-photography-wales-photo-workshop#event"
+}
+</script>

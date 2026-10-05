@@ -1,43 +1,25 @@
 ﻿reviewer_name,review_date,product_slug,source_rule,category
-Sarah Kuner,2026-07-19,beginners-photography-course,quote_inferred_no_booking,no_match
-Joanne galloway,2023-08-20,bluebell-woodlands-photography-workshops,booking_sheet_confirmed,booking_match
-Jimmy Concannon,2026-01-03,beginners-photography-course,quote_inferred_no_booking,no_match
-Indianna,2026-01-02,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
-Patricia Pearl,2025-12-15,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-John Ellis,2025-12-09,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Anant Bhatia,2025-09-01,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
-Michael Rowley,2025-07-29,camera-sensor-clean,quote_inferred_no_booking,no_match
-Chris Dunn,2025-05-07,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Karen & Dave,2025-03-25,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Cheryl,2025-03-19,beginners-photography-course,quote_inferred_no_booking,no_match
-Richard Hill,2025-03-10,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Shelly Soo,2024-12-15,lake-district-photography-workshop,alan_confirmed,booking_match
-Robert Blann,2024-11-11,peak-district-heather-photography-workshop,booking_sheet_confirmed,booking_match
-peter martin,2024-11-30,intermediates-intentions-photography-project-course,quote_inferred_no_booking,no_match
-Anne Veal,2024-11-16,peak-district-heather-photography-workshop,booking_sheet_confirmed,booking_match
-Kirsty Lilley,2024-08-18,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Dave Sutton,2024-08-16,camera-sensor-clean,quote_inferred_no_booking,no_match
-Cameron Holden,2024-07-13,beginners-photography-course,quote_inferred_no_booking,no_match
-Huw Jones,2021-11-14,lake-district-photography-workshop,booking_sheet_confirmed,booking_match
-Anne Watkinson,2019-02-25,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
-Ian S. Bolton,2023-10-06,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
-Robert Mulley,2023-08-21,beginners-photography-course,quote_inferred_no_booking,no_match
-chris brown,2022-11-10,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-John Flack,2020-04-24,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Matthew Payton,2022-01-24,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Peter Hagger,2021-08-11,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Nicholas Barber,2021-08-11,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Phil Martin,2021-08-09,landscape-photography-devon-hartland-quay,booking_sheet_confirmed,booking_match
-David Andringa,2021-07-15,bluebell-woodlands-photography-workshops,booking_sheet_confirmed,booking_match
-Daren Baker,2021-04-09,premium-photography-academy-membership,quote_inferred_no_booking,no_match
-Kim Cunningham,2021-03-07,beginners-photography-course,quote_inferred_no_booking,no_match
-Kasia jan,2021-02-25,lightroom-courses-for-beginners-coventry,quote_inferred_no_booking,no_match
-Ash Routen,2020-06-27,monthly-online-photography-mentoring,quote_inferred_no_booking,no_match
-Con McHugh,2020-04-23,ireland-photography-workshops-dingle,booking_sheet_confirmed,booking_match
-Dennis Jeffrey,2020-04-27,lightroom-courses-for-beginners-coventry,quote_inferred_no_booking,no_match
-Ina Wilkening,2020-04-19,secrets-of-woodland-photography-workshop,booking_sheet_confirmed,booking_match
-David Sewell,2018-11-14,beginners-photography-course,quote_inferred_no_booking,no_match
-Ann,2018-11-14,beginners-photography-course,quote_inferred_no_booking,no_match
-NicholasEJones,2018-10-09,beginners-photography-course,quote_inferred_no_booking,no_match
-Levi Watts,2018-09-04,beginners-photography-course,quote_inferred_no_booking,no_match
-Laura Byrne,2017-02-21,fireworks-photography-workshop-kenilworth,booking_sheet_confirmed,booking_match
+Sam Franklin,2026-09-23,long-exposure-photography-kenilworth,named Kenilworth long-exposure workshop,text_keyword_reattribution
+Simon Chatterley,2026-09-23,long-exposure-photography-kenilworth,named Kenilworth long-exposure workshop,text_keyword_reattribution
+Penelope Ulander,2026-09-15,landscape-photography-devon-hartland-quay,named Hartland Quay,text_keyword_reattribution
+John Madigan,2023-10-26,photography-workshops-lavender-fields,named lavender fields,text_keyword_reattribution
+Kate Clay,2026-07-16,beginners-photography-course,beginners course,text_keyword_reattribution
+Dean Le Page,2026-06-03,private-online-photography-classes-zoom,Zoom / online 1-1,text_keyword_reattribution
+Mahmood Esmail,2026-05-27,lightroom-courses-for-beginners-coventry,named Lightroom course,text_keyword_reattribution
+Sue Green,2026-05-27,lightroom-courses-for-beginners-coventry,named Lightroom course,text_keyword_reattribution
+Michael White,2026-05-20,landscape-photography-workshops-anglesey,named Anglesey residential,text_keyword_reattribution
+Sofiagzagdo,2026-05-02,lightroom-courses-for-beginners-coventry,named Lightroom course,text_keyword_reattribution
+V Webb,2026-04-26,bluebell-woodlands-photography-workshops,named bluebell,text_keyword_reattribution
+Sandra Dawkes,2025-09-29,private-online-photography-classes-zoom,Zoom / online 1-1,text_keyword_reattribution
+Jack,2025-11-21,private-online-photography-classes-zoom,Zoom / online 1-1,text_keyword_reattribution
+Graham Rousell,2025-11-20,camera-sensor-clean,sensor clean service language,text_keyword_reattribution
+Nicholas Barber,2025-10-24,private-online-photography-classes-zoom,Zoom / online 1-1,text_keyword_reattribution
+Atmos,2025-10-20,beginners-photography-course,beginners course,text_keyword_reattribution
+Mattia Tosi,2021-09-13,lightroom-courses-for-beginners-coventry,named Lightroom course,text_keyword_reattribution
+Kerrie Porter,2025-05-21,long-exposure-photography-kenilworth,named Kenilworth long-exposure workshop,text_keyword_reattribution
+Shelly Soo,2024-09-26,lightroom-courses-for-beginners-coventry,named Lightroom course,text_keyword_reattribution
+Kelly Westwood,2024-02-19,lightroom-courses-for-beginners-coventry,named Lightroom course,text_keyword_reattribution
+Emoke Ispan,2023-10-11,lightroom-courses-for-beginners-coventry,named Lightroom course,text_keyword_reattribution
+Sarah Kuner,2026-07-19,private-online-photography-classes-zoom,Zoom / online 1-1,text_keyword_reattribution
+Joanne galloway,2023-08-20,photography-workshops-lavender-fields,named lavender fields,text_keyword_reattribution
+Kasia jan,2021-02-25,private-online-photography-classes-zoom,Zoom / online 1-1,text_keyword_reattribution

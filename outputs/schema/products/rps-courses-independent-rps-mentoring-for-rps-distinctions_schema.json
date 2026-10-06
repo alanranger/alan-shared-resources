@@ -479,7 +479,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-06-11",
+          "datePublished": "2026-11-06",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -489,16 +489,16 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "john simpson"
+            "name": "Patricia Pearl"
           },
-          "reviewBody": "Alan is very good at what he does. John Simpson",
+          "reviewBody": "Alan is very professional in his approach, and is able to communicate well – sharing a wealth of his expert photographic knowledge. Highly recommended  as a tutor/ mentor",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-08-15",
+          "datePublished": "2025-12-15",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -536,7 +536,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2024-03-11",
+          "datePublished": "2024-11-03",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -556,6 +556,44 @@
             "worstRating": "1"
           },
           "datePublished": "2024-08-16",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Scott Dance"
+          },
+          "reviewBody": "Had a meeting with Alan , very supportive and honest with feedback of my work. Encouraging and good points raised in a professional manner",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-12-18",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Peter Hagger"
+          },
+          "reviewBody": "Had a very good mentoring session last night with Alan, plenty of work for me to do but soem very good feedback.  Feel more positive about my photography  Had another session this week in November 2021 and this was a really useful session and once again it left me feeling positive.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-11-08",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -658,8 +696,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": 10
+        "ratingValue": "4.92",
+        "reviewCount": 12
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#product"
     }

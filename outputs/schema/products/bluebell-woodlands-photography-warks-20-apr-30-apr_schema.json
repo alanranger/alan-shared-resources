@@ -1603,7 +1603,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-07-11",
+          "datePublished": "2025-11-07",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1622,7 +1622,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-07-10",
+          "datePublished": "2025-10-07",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1708,6 +1708,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Or Shachar"
+          },
+          "reviewBody": "Great workshop in a really nice location. Alan was very friendly and professional and had the right balance of helping and letting us challenge ourselves. Highly recommended :)",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-04-23",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Geraint Williams"
           },
           "reviewBody": "An excellent workshop with Alan, the weather may not have read the script, but that didn't stop me trying different compositions and techniques to capture the Bluebells. Alan has an excellent teaching style and very knowledgeable which he is keen to share.",
@@ -1736,7 +1755,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-07-01",
+          "datePublished": "2025-01-07",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1812,7 +1831,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2024-05-03",
+          "datePublished": "2024-03-05",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1831,7 +1850,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2024-05-02",
+          "datePublished": "2024-02-05",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1850,7 +1869,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2024-05-01",
+          "datePublished": "2024-01-05",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1888,7 +1907,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2023-05-04",
+          "datePublished": "2023-04-05",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1946,25 +1965,6 @@
             "worstRating": "1"
           },
           "datePublished": "2019-05-09",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Norman"
-          },
-          "reviewBody": "Excellent workshop in a great location.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-05-08",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"

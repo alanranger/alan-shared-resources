@@ -158,6 +158,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Adrian Thomas"
+          },
+          "reviewBody": "Alan always makes me feel comfortable when I go on his courses. I was getting in a rut with my photography, but he has given me lots of energy to continue to get back on the horse again.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-07-18",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "John Madigan"
           },
           "reviewBody": "Lavender fields and flowers another rewarding subject to photograph steered by Alan.  A good couple of hours.",
@@ -267,8 +286,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.67",
-        "reviewCount": 6
+        "ratingValue": "4.71",
+        "reviewCount": 7
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields#product"
     }

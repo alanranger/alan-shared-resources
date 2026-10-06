@@ -21,5 +21,7 @@
     "note": "Generated from 02 exclude_from_manifest / manual_paste_page \u2014 do not hand-edit"
   },
   "pass_reviews": true,
-  "pass_manifest_pathkeys": true
+  "pass_manifest_pathkeys": true,
+  "mentoring_schema_cdn_match": true,
+  "notes": "Proof compares all products-manifest entries + org JSONs + mentoring schema (manual-paste, not in manifest). No git push."
 }

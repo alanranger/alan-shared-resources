@@ -1,0 +1,13 @@
+{
+  "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
+  "scriptLen": 0,
+  "finds": {
+    "INSTALL: Squarespace > Pages > [store page": 164672,
+    "SCHEMA_HOST: 'https://schema.alanranger.com/'": 166019,
+    "var AR_NO_REVIEWS": -1,
+    "Core Schema Suppressor v2.1": -1
+  },
+  "hasCoreOnPage": false,
+  "commentPrefix": "----------------------------------\n     INSTALL: Squarespace > Pages > [store page, e.g. photo-workshops-uk]\n              > Settings (gear) > Advanced > Page Header Code Injection\n              Paste this entire block. Save.\n     SCOPE:   Cascades to all product detail pages under /photo-workshops-uk/.\n              No-ops on the hub listing page, 0-variant products, and in the\n              Squarespace editor.\n     ROLLBACK: Delete this block from the header injection. Done.\n     DATA:    Reads ONLY existing sources - no new infrastructure:\n              1. https://schema.alanranger.com/products-manifest.json\n              2. The product's hosted schema JSON (rating + reviews)\n              3. The page's own ?format=json (live variants/prices/stock)\n                 -> with fix18 fallback to Static.SQUARESPACE_CONTEXT.product\n     ================================================================= -->\n<script>\n(function () {\n  'use strict';\n\n  /* ---------- CONFIG (safe to tweak) ---------- */\n  var CFG = {\n    VISIBLE_CARDS: 6,        /* cards shown before \"Show all N dates\" */\n    EXPAND_THRESHOLD: 8,     /* expander appears when variants > this */\n    REVIEWS_VISIBLE: 4,      /* review cards shown before \"Show all\" */",
+  "coreSuppressorPreview": ""
+}

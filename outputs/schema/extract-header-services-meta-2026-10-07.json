@@ -1,0 +1,13 @@
+{
+  "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
+  "scriptLen": 44220,
+  "finds": {
+    "INSTALL: Squarespace > Pages > [store page": -1,
+    "SCHEMA_HOST: 'https://schema.alanranger.com/'": 151463,
+    "var AR_NO_REVIEWS": 151517,
+    "Core Schema Suppressor v2.1": 124644
+  },
+  "hasCoreOnPage": true,
+  "commentPrefix": "",
+  "coreSuppressorPreview": "Core Schema Suppressor v2.1 (Code-Block Safe) -->\n\n<script>\n(function(){\n  const CORE_TYPES = new Set([\"Product\",\"Organization\",\"LocalBusiness\",\"WebSite\",\"WebPage\",\"BreadcrumbList\",\"SearchAction\",\"Place\",\"Service\",\"FAQPage\"]);\n  const CANONICAL_ID_SUFFIXES = [\"#org\",\"#website\",\"#webpage\",\"#breadcrumbs\",\"#service\",\"#person\",\"#primaryimage\"];\n  const getTypes = (node) => {\n    if (!node) return [];\n    return Array.isArray(node[\"@type\"]) ? node[\"@type\"] : [node[\"@type\"]].filter(Boolean);\n  };\n  const isCanonical = (node) => {\n    const id = String(node && node[\"@id\"] || \"\");\n    if (CANONICAL_ID_SUFFIXES.some((suffix) => id.includes(suffix))) return true;\n    if (node && Array.isArray(node[\"@graph\"])) return true;\n    return false;\n  };\n  const shouldSuppressNode = (node) => {\n    const nodeTypes = getTypes(node);\n    if (!nodeTypes.some((t) => CORE_TYPES.has(t))) return false;\n    if (isCanonical(node)) return false;\n    return true;\n  };\n  const suppressSquarespaceCore = () => {\n    document.querySelectorAll('script[type=\"application/ld+json\"], script[data-type=\"application/ld+json\"]').forEach((el) => {\n      if (el.id === \"arp-critical-schema\") return;\n      const txt = (el.textContent || \"\").trim();\n      if (!txt) return;\n      try {\n        const json = JSON.parse(txt);\n        const nodes = Array.isArray(json[\"@graph\"]) ? json[\"@graph\"] : [json];\n        const kept = nodes.filter((node) => !shouldSuppressNode(node || {}));\n        if (kept.length === nodes.length) return;\n        if (kept.length === 0) {\n          el.remove();\n          return;\n        }\n        const nextJson = Array.isArray(json[\"@graph\"])\n          ? { ...(json || {}), \"@graph\": kept }\n          : kept[0];\n        el.textContent = JSON.stringify(nextJson);\n      } catch (e) {}\n    });\n  };\n  // Run several times to catch async Squarespace hydration\n  suppressSquarespaceCore();\n  document.addEventListener('DOMContentLoaded', suppressSquarespaceCore);\n  window.addEventListener('load', () => se"
+}

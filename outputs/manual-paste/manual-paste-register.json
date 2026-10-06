@@ -1,0 +1,35 @@
+{
+  "updatedAt": "2026-10-06T22:06:37.247714",
+  "note": "Flag needsRepaste only when review payload hash changes. Paste files are ready under this folder / CDN JSON.",
+  "pages": [
+    {
+      "id": "mentoring",
+      "url": "https://www.alanranger.com/photography-mentoring-online-assignments",
+      "needsRepaste": false,
+      "reviewCount": 4,
+      "pasteFile": "mentoring-service-node.json"
+    },
+    {
+      "id": "homepage",
+      "url": "https://www.alanranger.com/",
+      "needsRepaste": false,
+      "pasteFile": "organization-homepage-reviews.json",
+      "reason": "unchanged"
+    },
+    {
+      "id": "about",
+      "url": "https://www.alanranger.com/about-alan-ranger",
+      "needsRepaste": false,
+      "pasteFile": "organization-about-reviews.json",
+      "reason": "unchanged"
+    },
+    {
+      "id": "academy",
+      "url": "https://www.alanranger.com/alan-ranger-photography-academy",
+      "needsRepaste": false,
+      "pasteFile": "alan-ranger-academy-photography-foundation-course-ebook_schema.json",
+      "reason": "tracked for Monday brief; confirm live Academy header paste source with Alan if hash workflow needed",
+      "note": "Academy header is hard-coded in Squarespace; generator seeds register entry only."
+    }
+  ]
+}

@@ -493,7 +493,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.92",
-        "reviewCount": 13
+        "reviewCount": 13,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#product"
     }

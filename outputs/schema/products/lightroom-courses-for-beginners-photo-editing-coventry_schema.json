@@ -710,8 +710,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.84",
-        "reviewCount": 25
+        "ratingValue": "4.79",
+        "reviewCount": 47,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#product"
     }

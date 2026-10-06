@@ -744,14 +744,16 @@ Lightroom Courses for Beginners Photo Editing - Coventry,https://www.alanranger.
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.84"",
-        ""reviewCount"": 25
+        ""ratingValue"": ""4.79"",
+        ""reviewCount"": 47,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#product""
     }
   ]
 }
-</script>",25,4.84,Yes,lightroom-courses-for-beginners-photo-editing-coventry_schema_squarespace_ready.html,lightroom-courses-for-beginners-photo-editing-coventry_schema.json
+</script>",47,4.79,Yes,lightroom-courses-for-beginners-photo-editing-coventry_schema_squarespace_ready.html,lightroom-courses-for-beginners-photo-editing-coventry_schema.json
 RPS Courses - Independent RPS Mentoring for RPS Distinctions,https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -1503,7 +1505,9 @@ RPS Courses - Independent RPS Mentoring for RPS Distinctions,https://www.alanran
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.92"",
-        ""reviewCount"": 13
+        ""reviewCount"": 13,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#product""
     }
@@ -1867,7 +1871,9 @@ Professional Digital DSLR Camera Sensor Clean | Coventry,https://www.alanranger.
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 11
+        ""reviewCount"": 11,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/camera-sensor-clean#product""
     }
@@ -2697,8 +2703,10 @@ WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs,https://www.alanranger.
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.92"",
-        ""reviewCount"": 25
+        ""ratingValue"": ""4.94"",
+        ""reviewCount"": 32,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#product""
     }
@@ -2748,7 +2756,7 @@ WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs,https://www.alanranger.
   },
   ""@id"": ""https://www.alanranger.com/woodland-photography-walk-warwickshire#event""
 }
-</script>",25,4.92,Yes,warwickshire-woodland-photography-walks-monthly-2hrs_schema_squarespace_ready.html,warwickshire-woodland-photography-walks-monthly-2hrs_schema.json
+</script>",32,4.94,Yes,warwickshire-woodland-photography-walks-monthly-2hrs_schema_squarespace_ready.html,warwickshire-woodland-photography-walks-monthly-2hrs_schema.json
 4 x 2hr Private Photography Classes - Face to Face Coventry,https://www.alanranger.com/photography-services-near-me/four-private-photography-classes,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -3261,7 +3269,9 @@ WARWICKSHIRE Woodland PHOTOGRAPHY WALKS - Monthly - 2hrs,https://www.alanranger.
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.95"",
-        ""reviewCount"": 19
+        ""reviewCount"": 19,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/four-private-photography-classes#product""
     }
@@ -4631,8 +4641,10 @@ BATSFORD Arboretum Autumn Photography Workshops 23 - 31 Oct,https://www.alanrang
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.96"",
-        ""reviewCount"": 25
+        ""ratingValue"": ""4.85"",
+        ""reviewCount"": 89,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#product""
     }
@@ -4682,7 +4694,7 @@ BATSFORD Arboretum Autumn Photography Workshops 23 - 31 Oct,https://www.alanrang
   },
   ""@id"": ""https://www.alanranger.com/batsford-arboretum-photography-workshops#event""
 }
-</script>",25,4.96,Yes,batsford-arboretum-autumn-photography-workshops-23-31-oct_schema_squarespace_ready.html,batsford-arboretum-autumn-photography-workshops-23-31-oct_schema.json
+</script>",89,4.85,Yes,batsford-arboretum-autumn-photography-workshops-23-31-oct_schema_squarespace_ready.html,batsford-arboretum-autumn-photography-workshops-23-31-oct_schema.json
 Monthly Pick N Mix Subscription | Interest Free Payment Plan,https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -5285,7 +5297,9 @@ Monthly Pick N Mix Subscription | Interest Free Payment Plan,https://www.alanran
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 1
+        ""reviewCount"": 1,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#product""
     }
@@ -7300,8 +7314,10 @@ BLUEBELL WOODLANDS Photography - Warks - 20 Apr - 30 Apr,https://www.alanranger.
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.88"",
-        ""reviewCount"": 25
+        ""ratingValue"": ""4.84"",
+        ""reviewCount"": 64,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/bluebell-woodlands-photography-workshops#product""
     }
@@ -7351,7 +7367,7 @@ BLUEBELL WOODLANDS Photography - Warks - 20 Apr - 30 Apr,https://www.alanranger.
   },
   ""@id"": ""https://www.alanranger.com/bluebell-woodlands-photography-workshops#event""
 }
-</script>",25,4.88,Yes,bluebell-woodlands-photography-warks-20-apr-30-apr_schema_squarespace_ready.html,bluebell-woodlands-photography-warks-20-apr-30-apr_schema.json
+</script>",64,4.84,Yes,bluebell-woodlands-photography-warks-20-apr-30-apr_schema_squarespace_ready.html,bluebell-woodlands-photography-warks-20-apr-30-apr_schema.json
 Annual Pick N Mix Subscription | Interest Free Payment Plan,https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -7699,7 +7715,9 @@ Annual Pick N Mix Subscription | Interest Free Payment Plan,https://www.alanrang
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 2
+        ""reviewCount"": 2,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription#product""
     }
@@ -8109,7 +8127,9 @@ Quarterly Pick N Mix Subscription | Interest Free Payments,https://www.alanrange
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.67"",
-        ""reviewCount"": 3
+        ""reviewCount"": 3,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription#product""
     }
@@ -9095,14 +9115,16 @@ Beginners Photography Course | 3 Weekly Evening Classes,https://www.alanranger.c
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""5.0"",
-        ""reviewCount"": 25
+        ""ratingValue"": ""4.9"",
+        ""reviewCount"": 140,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/beginners-photography-course#product""
     }
   ]
 }
-</script>",25,5.0,Yes,beginners-photography-course-3-weekly-evening-classes_schema_squarespace_ready.html,beginners-photography-course-3-weekly-evening-classes_schema.json
+</script>",140,4.9,Yes,beginners-photography-course-3-weekly-evening-classes_schema_squarespace_ready.html,beginners-photography-course-3-weekly-evening-classes_schema.json
 Intermediates Intentions Photography Project Course,https://www.alanranger.com/photography-services-near-me/intermediates-intentions-photography-project-course,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -9369,7 +9391,9 @@ Intermediates Intentions Photography Project Course,https://www.alanranger.com/p
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 6
+        ""reviewCount"": 6,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/intermediates-intentions-photography-project-course#product""
     }
@@ -9721,7 +9745,9 @@ DEVON Landscape Photography  Workshops - Various Dates,https://www.alanranger.co
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 8
+        ""reviewCount"": 8,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#product""
     }
@@ -10188,7 +10214,9 @@ CHESTERTON WINDMILL Photography Workshops - Warwickshire,https://www.alanranger.
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.71"",
-        ""reviewCount"": 7
+        ""reviewCount"": 7,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/photography-workshops-chesterton-windmill#product""
     }
@@ -10508,7 +10536,9 @@ FAIRY GLEN and Fairy Falls Long Exposure Photography,https://www.alanranger.com/
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 2
+        ""reviewCount"": 2,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen#product""
     }
@@ -10843,7 +10873,9 @@ LAVENDER FIELD Photography Workshop - Glouc or Warks July,https://www.alanranger
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.8"",
-        ""reviewCount"": 5
+        ""reviewCount"": 5,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields#product""
     }
@@ -11295,7 +11327,9 @@ Poppy Fields Photography Workshops | Worcestershire,https://www.alanranger.com/p
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.82"",
-        ""reviewCount"": 11
+        ""reviewCount"": 11,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/poppy-fields-photography-workshops#product""
     }
@@ -11515,7 +11549,9 @@ BURNHAM ON SEA Long Exposure Photography Workshop 8 May,https://www.alanranger.c
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.0"",
-        ""reviewCount"": 1
+        ""reviewCount"": 1,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshops-burnham#product""
     }
@@ -12240,7 +12276,9 @@ LAKE DISTRICT Photography Workshops - Jan - Mar - Sep - Nov,https://www.alanrang
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.95"",
-        ""reviewCount"": 21
+        ""reviewCount"": 21,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#product""
     }
@@ -12736,7 +12774,9 @@ Fine Art Photography Prints - Canvas wrap-round - Multi Size,https://www.alanran
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 3
+        ""reviewCount"": 3,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#product""
     }
@@ -13224,7 +13264,9 @@ Fine Art Photography Prints - Unframed Prints - Multi Sizes,https://www.alanrang
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.8"",
-        ""reviewCount"": 5
+        ""reviewCount"": 5,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#product""
     }
@@ -13744,7 +13786,9 @@ Fine Art Photography Prints - Unframed Prints - Multi Sizes,https://www.alanrang
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.92"",
-        ""reviewCount"": 12
+        ""reviewCount"": 12,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#product""
     }
@@ -14140,7 +14184,9 @@ Framed Fine Art Photography Prints - Multiple Sizes,https://www.alanranger.com/p
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 4
+        ""reviewCount"": 4,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints#product""
     }
@@ -14504,7 +14550,9 @@ NORTHUMBERLAND Photography Workshops - Mar 18 - 21,https://www.alanranger.com/ph
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.82"",
-        ""reviewCount"": 11
+        ""reviewCount"": 11,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/coastal-northumberland-photography-workshops#product""
     }
@@ -14835,7 +14883,9 @@ ANGLESEY Landscape Photography Workshop -  May 2027,https://www.alanranger.com/p
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.71"",
-        ""reviewCount"": 7
+        ""reviewCount"": 7,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-anglesey#product""
     }
@@ -15074,7 +15124,9 @@ NANT MILL Woodlands and Waterfalls Photo Workshop 7 Jun,https://www.alanranger.c
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 2
+        ""reviewCount"": 2,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-nant-mill#product""
     }
@@ -15333,7 +15385,9 @@ KERRY - Southern Ireland Photography Workshop - Mar 2026,https://www.alanranger.
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 3
+        ""reviewCount"": 3,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/ireland-photography-workshops-dingle#product""
     }
@@ -15611,7 +15665,9 @@ NORFOLK Landscape Photography Workshop  - Coastal 20 - 22 Nov,https://www.alanra
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.75"",
-        ""reviewCount"": 4
+        ""reviewCount"": 4,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshop-norfolk#product""
     }
@@ -15832,7 +15888,9 @@ Beginners Portrait Photography Course - Coventry 11 Oct -25,https://www.alanrang
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 1
+        ""reviewCount"": 1,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/beginners-portrait-photography-course#product""
     }
@@ -16122,7 +16180,9 @@ SUFFOLK Landscape Photography Workshops - 5th-7th Feb,https://www.alanranger.com
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 7
+        ""reviewCount"": 7,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/suffolk-landscape-photography-workshops#product""
     }
@@ -16765,7 +16825,9 @@ MACRO Photography Workshops Warwickshire - Various,https://www.alanranger.com/ph
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.89"",
-        ""reviewCount"": 19
+        ""reviewCount"": 19,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops#product""
     }
@@ -17065,7 +17127,9 @@ NORTH YORKSHIRE Landscape Photography Workshop - Jun 2027,https://www.alanranger
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 5
+        ""reviewCount"": 5,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/north-yorkshire-landscape-photography#product""
     }
@@ -17345,7 +17409,9 @@ Christmas Photography Seasonal Workshops - Warwickshire UK,https://www.alanrange
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 2
+        ""reviewCount"": 2,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/christmas-photography-workshops#product""
     }
@@ -17677,7 +17743,9 @@ YORKSHIRE DALES Landscape  Photography Workshop - 16 - 18 Apr,https://www.alanra
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 7
+        ""reviewCount"": 7,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/yorkshire-dales-photography-workshops#product""
     }
@@ -17953,7 +18021,9 @@ WALES Photography Workshop | Lake Vyrnwy 10-11 Oct,https://www.alanranger.com/ph
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 4
+        ""reviewCount"": 4,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr#product""
     }
@@ -18231,7 +18301,9 @@ DORSET Landscape Photography Workshop Purbeck 9 Apr,https://www.alanranger.com/p
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 4
+        ""reviewCount"": 4,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/dorset-landscape-photography-workshop#product""
     }
@@ -18640,7 +18712,9 @@ URBAN ARCHITECTURE Photography Workshops - Coventry 9 Sep,https://www.alanranger
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.91"",
-        ""reviewCount"": 11
+        ""reviewCount"": 11,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/urban-architecture-photography-workshops-coventry#product""
     }
@@ -19219,7 +19293,9 @@ KENILWORTH Sunset Long Exposure Photography Workshop,https://www.alanranger.com/
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.92"",
-        ""reviewCount"": 13
+        ""reviewCount"": 13,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#product""
     }
@@ -19550,7 +19626,9 @@ SNOWDONIA Landscape Photography  - Sat 6 - Sun 7 Mar 2027,https://www.alanranger
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 7
+        ""reviewCount"": 7,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/landscape-photography-snowdonia-workshops#product""
     }
@@ -19887,7 +19965,9 @@ The Art of GARDEN PHOTOGRAPHY  - Coventry -  May and July,https://www.alanranger
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.6"",
-        ""reviewCount"": 5
+        ""reviewCount"": 5,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop#product""
     }
@@ -20108,7 +20188,9 @@ GOWER Landscape Photography Wales - 28 May - 30 May 2027,https://www.alanranger.
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 1
+        ""reviewCount"": 1,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop#product""
     }
@@ -20424,7 +20506,9 @@ Fireworks Photography Workshop | Long Exposure | Kenilworth,https://www.alanrang
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.83"",
-        ""reviewCount"": 6
+        ""reviewCount"": 6,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/fireworks-photography-workshop-kenilworth#product""
     }
@@ -20645,7 +20729,9 @@ EXMOOR Photography Workshop - Sat 12 - Sun 13 Jun 2027,https://www.alanranger.co
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 1
+        ""reviewCount"": 1,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth#product""
     }
@@ -20870,7 +20956,9 @@ SEZINCOTE Garden Photography Workshop - Gloucs 29 May,https://www.alanranger.com
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 1
+        ""reviewCount"": 1,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/sezincote-garden-photography-workshop#product""
     }
@@ -21542,7 +21630,9 @@ PEAK DISTRICT HEATHER Photography Workshops - 14-15 Aug,https://www.alanranger.c
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 14
+        ""reviewCount"": 14,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop#product""
     }
@@ -22338,8 +22428,10 @@ PEAK DISTRICT HEATHER Photography Workshops - 14-15 Aug,https://www.alanranger.c
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.96"",
-        ""reviewCount"": 25
+        ""ratingValue"": ""4.94"",
+        ""reviewCount"": 31,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#product""
     }
@@ -22389,7 +22481,7 @@ PEAK DISTRICT HEATHER Photography Workshops - 14-15 Aug,https://www.alanranger.c
   },
   ""@id"": ""https://www.alanranger.com/secrets-of-woodland-photography-workshop#event""
 }
-</script>",25,4.96,Yes,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema_squarespace_ready.html,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema.json
+</script>",31,4.94,Yes,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema_squarespace_ready.html,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema.json
 DARTMOOR Photography Workshop - Landscapes - 2nd - 4th Apr,https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -22578,7 +22670,9 @@ DARTMOOR Photography Workshop - Landscapes - 2nd - 4th Apr,https://www.alanrange
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.5"",
-        ""reviewCount"": 2
+        ""reviewCount"": 2,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop#product""
     }
@@ -23513,7 +23607,9 @@ Online Photography Classes 121 - Zoom - Package Options,https://www.alanranger.c
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 20
+        ""reviewCount"": 20,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#product""
     }
@@ -23842,7 +23938,9 @@ Photography Gift Vouchers | Digital eCard | Email Delivery,https://www.alanrange
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 1
+        ""reviewCount"": 1,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/photography-gift-vouchers#product""
     }
@@ -24433,7 +24531,9 @@ Photography Masterclasses-Learn and improve your photography,https://www.alanran
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.8"",
-        ""reviewCount"": 15
+        ""reviewCount"": 15,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-services-near-me/photography-masterclasses-coventry#product""
     }
@@ -24668,7 +24768,9 @@ Photography Mentor Online — Monthly Mentoring,https://www.alanranger.com/photo
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 4
+        ""reviewCount"": 4,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/photography-mentoring-online-assignments#product""
     }
@@ -24884,7 +24986,9 @@ Free Online Photography Course,https://www.alanranger.com/free-online-photograph
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 3
+        ""reviewCount"": 3,
+        ""bestRating"": ""5"",
+        ""worstRating"": ""1""
       },
       ""@id"": ""https://www.alanranger.com/free-online-photography-course#product""
     }

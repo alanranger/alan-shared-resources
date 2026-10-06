@@ -1973,8 +1973,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.88",
-        "reviewCount": 25
+        "ratingValue": "4.84",
+        "reviewCount": 64,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/bluebell-woodlands-photography-workshops#product"
     }

@@ -557,7 +557,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.89",
-        "reviewCount": 19
+        "reviewCount": 19,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops#product"
     }

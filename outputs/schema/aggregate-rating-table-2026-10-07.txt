@@ -1,0 +1,58 @@
+
+pathKey                                                                           old_reviewCount new_reviewCount old_ratingValue new_ratingValue new_review_array
+-------                                                                           --------------- --------------- --------------- --------------- ----------------
+/photography-services-near-me/lightroom-courses-for-beginners-coventry                         25              47 4.88            4.79                          25
+/photography-services-near-me/rps-mentoring-photography-course                                 12              13 4.92            4.92                          13
+/photography-services-near-me/camera-sensor-clean                                              10              11 5.0             5.0                           11
+/photo-workshops-uk/woodland-photography-walk-warwickshire                                     25              32 4.92            4.94                          25
+/photography-services-near-me/four-private-photography-classes                                 19              19 4.95            4.95                          19
+/photo-workshops-uk/batsford-arboretum-photography-workshops                                   25              89 5.0             4.85                          25
+/photography-services-near-me/monthly-pick-n-mix-subscription                                   1               1 5.0             5.0                            1
+/photo-workshops-uk/bluebell-woodlands-photography-workshops                                   25              64 4.88            4.84                          25
+/photography-services-near-me/annual-pick-n-mix-subscription                                    2               2 5.0             5.0                            2
+/photography-services-near-me/quarterly-pick-n-mix-subscription                                 3               3 4.67            4.67                           3
+/photography-services-near-me/beginners-photography-course                                     25             140 5.0             4.9                           25
+/photography-services-near-me/intermediates-intentions-photography-project-course               7               6 5.0             5.0                            6
+/photo-workshops-uk/landscape-photography-devon-hartland-quay                                   9               8 5.0             5.0                            8
+/photo-workshops-uk/photography-workshops-chesterton-windmill                                   7               7 4.71            4.71                           7
+/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen                               2               2 5.0             5.0                            2
+/photo-workshops-uk/photography-workshops-lavender-fields                                       7               5 4.71            4.8                            5
+/photo-workshops-uk/poppy-fields-photography-workshops                                         11              11 4.82            4.82                          11
+/photo-workshops-uk/long-exposure-photography-workshops-burnham                                 1               1 4.0             4.0                            1
+/photo-workshops-uk/lake-district-photography-workshop                                         20              21 4.95            4.95                          21
+/photography-services-near-me/fine-art-photography-prints-canvas                                3               3 5.0             5.0                            3
+/photography-services-near-me/fine-art-photography-prints-unframed                              5               5 4.8             4.8                            5
+/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire                   11              12 4.91            4.92                          12
+/photography-services-near-me/framed-fine-art-photography-prints                                4               4 5.0             5.0                            4
+/photo-workshops-uk/coastal-northumberland-photography-workshops                               11              11 4.82            4.82                          11
+/photo-workshops-uk/landscape-photography-workshops-anglesey                                    6               7 4.67            4.71                           7
+/photo-workshops-uk/landscape-photography-workshops-nant-mill                                   2               2 5.0             5.0                            2
+/photo-workshops-uk/ireland-photography-workshops-dingle                                        3               3 5.0             5.0                            3
+/photo-workshops-uk/landscape-photography-workshop-norfolk                                      4               4 4.75            4.75                           4
+/photography-services-near-me/beginners-portrait-photography-course                             1               1 5.0             5.0                            1
+/photo-workshops-uk/suffolk-landscape-photography-workshops                                     7               7 5.0             5.0                            7
+/photo-workshops-uk/abstract-and-macro-photography-workshops                                   19              19 4.89            4.89                          19
+/photo-workshops-uk/north-yorkshire-landscape-photography                                       5               5 5.0             5.0                            5
+/photo-workshops-uk/christmas-photography-workshops                                             2               2 5.0             5.0                            2
+/photo-workshops-uk/yorkshire-dales-photography-workshops                                       6               7 5.0             5.0                            7
+/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr                                  4               4 5.0             5.0                            4
+/photo-workshops-uk/dorset-landscape-photography-workshop                                       4               4 5.0             5.0                            4
+/photo-workshops-uk/urban-architecture-photography-workshops-coventry                          10              11 4.9             4.91                          11
+/photo-workshops-uk/long-exposure-photography-kenilworth                                       16              13 4.94            4.92                          13
+/photo-workshops-uk/landscape-photography-snowdonia-workshops                                   7               7 5.0             5.0                            7
+/photo-workshops-uk/garden-photography-workshop                                                 4               5 4.5             4.6                            5
+/photo-workshops-uk/landscape-photography-wales-photo-workshop                                  1               1 5.0             5.0                            1
+/photo-workshops-uk/fireworks-photography-workshop-kenilworth                                   6               6 4.83            4.83                           6
+/photo-workshops-uk/exmoor-photography-workshops-lynmouth                                       1               1 5.0             5.0                            1
+/photo-workshops-uk/sezincote-garden-photography-workshop                                       2               1 5.0             5.0                            1
+/photo-workshops-uk/peak-district-heather-photography-workshop                                 14              14 5.0             5.0                           14
+/photo-workshops-uk/secrets-of-woodland-photography-workshop                                   25              31 4.96            4.94                          25
+/photo-workshops-uk/dartmoor-photography-landscape-workshop                                     2               2 4.5             4.5                            2
+/photography-services-near-me/private-online-photography-classes-zoom                          25              20 5.0             5.0                           20
+/photography-services-near-me/photography-gift-vouchers                                         1               1 5.0             5.0                            1
+/photography-services-near-me/black-and-white-photography-course                                                                                                 1
+/photography-services-near-me/photography-masterclasses-coventry                               15              15 4.8             4.8                           15
+/free-online-photography-course                                                                 3               3 5.0             5.0                            3
+
+
+

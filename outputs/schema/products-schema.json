@@ -649,8 +649,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.84",
-        "reviewCount": 25
+        "ratingValue": "4.79",
+        "reviewCount": 47,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#product"
     },
@@ -1308,7 +1310,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.92",
-        "reviewCount": 13
+        "reviewCount": 13,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#product"
     },
@@ -1572,7 +1576,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 11
+        "reviewCount": 11,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/camera-sensor-clean#product"
     },
@@ -2302,8 +2308,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.92",
-        "reviewCount": 25
+        "ratingValue": "4.94",
+        "reviewCount": 32,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#product"
     },
@@ -2722,7 +2730,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.95",
-        "reviewCount": 19
+        "reviewCount": 19,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/four-private-photography-classes#product"
     },
@@ -3992,8 +4002,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.96",
-        "reviewCount": 25
+        "ratingValue": "4.85",
+        "reviewCount": 89,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#product"
     },
@@ -4502,7 +4514,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 1
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#product"
     },
@@ -6417,8 +6431,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.88",
-        "reviewCount": 25
+        "ratingValue": "4.84",
+        "reviewCount": 64,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/bluebell-woodlands-photography-workshops#product"
     },
@@ -6672,7 +6688,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 2
+        "reviewCount": 2,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription#product"
     },
@@ -6982,7 +7000,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.67",
-        "reviewCount": 3
+        "reviewCount": 3,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription#product"
     },
@@ -7868,8 +7888,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": 25
+        "ratingValue": "4.9",
+        "reviewCount": 140,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#product"
     },
@@ -8042,7 +8064,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 6
+        "reviewCount": 6,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/intermediates-intentions-photography-project-course#product"
     },
@@ -8294,7 +8318,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 8
+        "reviewCount": 8,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#product"
     },
@@ -8617,7 +8643,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.71",
-        "reviewCount": 7
+        "reviewCount": 7,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-chesterton-windmill#product"
     },
@@ -8793,7 +8821,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 2
+        "reviewCount": 2,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen#product"
     },
@@ -8984,7 +9014,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": 5
+        "reviewCount": 5,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields#product"
     },
@@ -9292,7 +9324,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.82",
-        "reviewCount": 11
+        "reviewCount": 11,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/poppy-fields-photography-workshops#product"
     },
@@ -9368,7 +9402,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.0",
-        "reviewCount": 1
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshops-burnham#product"
     },
@@ -9949,7 +9985,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.95",
-        "reviewCount": 21
+        "reviewCount": 21,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#product"
     },
@@ -10301,7 +10339,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 3
+        "reviewCount": 3,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#product"
     },
@@ -10689,7 +10729,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": 5
+        "reviewCount": 5,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#product"
     },
@@ -11109,7 +11151,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.92",
-        "reviewCount": 12
+        "reviewCount": 12,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire#product"
     },
@@ -11361,7 +11405,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 4
+        "reviewCount": 4,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints#product"
     },
@@ -11625,7 +11671,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.82",
-        "reviewCount": 11
+        "reviewCount": 11,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/coastal-northumberland-photography-workshops#product"
     },
@@ -11812,7 +11860,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.71",
-        "reviewCount": 7
+        "reviewCount": 7,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-anglesey#product"
     },
@@ -11907,7 +11957,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 2
+        "reviewCount": 2,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-nant-mill#product"
     },
@@ -12022,7 +12074,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 3
+        "reviewCount": 3,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/ireland-photography-workshops-dingle#product"
     },
@@ -12156,7 +12210,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.75",
-        "reviewCount": 4
+        "reviewCount": 4,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshop-norfolk#product"
     },
@@ -12233,7 +12289,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 1
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/beginners-portrait-photography-course#product"
     },
@@ -12423,7 +12481,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 7
+        "reviewCount": 7,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/suffolk-landscape-photography-workshops#product"
     },
@@ -12922,7 +12982,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.89",
-        "reviewCount": 19
+        "reviewCount": 19,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops#product"
     },
@@ -13078,7 +13140,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 5
+        "reviewCount": 5,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/north-yorkshire-landscape-photography#product"
     },
@@ -13214,7 +13278,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 2
+        "reviewCount": 2,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/christmas-photography-workshops#product"
     },
@@ -13402,7 +13468,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 7
+        "reviewCount": 7,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/yorkshire-dales-photography-workshops#product"
     },
@@ -13534,7 +13602,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 4
+        "reviewCount": 4,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr#product"
     },
@@ -13668,7 +13738,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 4
+        "reviewCount": 4,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/dorset-landscape-photography-workshop#product"
     },
@@ -13933,7 +14005,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.91",
-        "reviewCount": 11
+        "reviewCount": 11,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/urban-architecture-photography-workshops-coventry#product"
     },
@@ -14368,7 +14442,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.92",
-        "reviewCount": 13
+        "reviewCount": 13,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-kenilworth#product"
     },
@@ -14555,7 +14631,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 7
+        "reviewCount": 7,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-snowdonia-workshops#product"
     },
@@ -14748,7 +14826,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.6",
-        "reviewCount": 5
+        "reviewCount": 5,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop#product"
     },
@@ -14825,7 +14905,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 1
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-wales-photo-workshop#product"
     },
@@ -14997,7 +15079,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.83",
-        "reviewCount": 6
+        "reviewCount": 6,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/fireworks-photography-workshop-kenilworth#product"
     },
@@ -15074,7 +15158,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 1
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth#product"
     },
@@ -15155,7 +15241,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 1
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/sezincote-garden-photography-workshop#product"
     },
@@ -15683,7 +15771,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 14
+        "reviewCount": 14,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop#product"
     },
@@ -16335,8 +16425,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.96",
-        "reviewCount": 25
+        "ratingValue": "4.94",
+        "reviewCount": 31,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#product"
     },
@@ -16431,7 +16523,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.5",
-        "reviewCount": 2
+        "reviewCount": 2,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop#product"
     },
@@ -17222,7 +17316,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 20
+        "reviewCount": 20,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#product"
     },
@@ -17351,7 +17447,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 1
+        "reviewCount": 1,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/photography-gift-vouchers#product"
     },
@@ -17742,7 +17840,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.8",
-        "reviewCount": 15
+        "reviewCount": 15,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/photography-masterclasses-coventry#product"
     },
@@ -17877,7 +17977,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 4
+        "reviewCount": 4,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photography-mentoring-online-assignments#product"
     },
@@ -17993,7 +18095,9 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 3
+        "reviewCount": 3,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/free-online-photography-course#product"
     }

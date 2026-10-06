@@ -1,8 +1,8 @@
 {
-  "needsRepaste": true,
-  "reason": "Mentoring page schema needs re-paste \u2014 reviews changed (8 \u2192 4)",
+  "needsRepaste": false,
+  "reason": "unchanged",
   "reviewCount": 4,
-  "previousReviewCount": 8,
-  "updatedAt": "2026-10-06T16:18:11.521698",
+  "previousReviewCount": 4,
+  "updatedAt": "2026-10-06T20:18:45.851Z",
   "pasteFile": "G:\\Dropbox\\alan ranger photography\\Website Code\\alan-shared-resources\\outputs\\manual-paste\\mentoring-service-node.json"
 }

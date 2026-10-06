@@ -1328,8 +1328,10 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.96",
-        "reviewCount": 25
+        "ratingValue": "4.85",
+        "reviewCount": 89,
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#product"
     }

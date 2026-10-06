@@ -1,0 +1,13 @@
+{
+  "excludePathKeys": [
+    "/photography-mentoring-online-assignments",
+    "/photography-services-near-me/2hr-private-photography-classes-2hr"
+  ],
+  "manualPastePages": [
+    {
+      "pathKey": "/photography-mentoring-online-assignments",
+      "url": "https://www.alanranger.com/photography-mentoring-online-assignments"
+    }
+  ],
+  "note": "Generated from 02 exclude_from_manifest / manual_paste_page \u2014 do not hand-edit"
+}

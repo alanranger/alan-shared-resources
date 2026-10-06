@@ -1,4 +1,4 @@
-﻿source,reviewer_name,review_date,reference_id,product_slug,scope,priority,notes
+source,reviewer_name,review_date,reference_id,product_slug,scope,priority,notes
 Google,Richard Johnson,2026-03-27,,private-online-photography-classes-zoom,product,100,schema_fixes_zoom_retain_2026-10-06
 Google,Martin Morris,2026-05-21,,secrets-of-woodland-photography-workshop,product,100,booking_reconciled
 Google,Brain Smith Dsouza,2026-05-19,,secrets-of-woodland-photography-workshop,product,100,booking_reconciled
@@ -12,7 +12,7 @@ Google,Ruth Martin,2026-04-27,,secrets-of-woodland-photography-workshop,product,
 Google,Paul Keating,2026-04-18,,secrets-of-woodland-photography-workshop,product,100,booking_reconciled
 Google,Miles Huckle,2026-04-18,,secrets-of-woodland-photography-workshop,product,100,booking_reconciled
 Google,Roz,2026-03-20,,,business_level,100,business_level_org_2026-10-06
-Google,Francisca Solis Puello,2026-03-14,,professional-commercial-photographer-coventry,product,100,approved_apply_2026-10-06
+Google,Francisca Solis Puello,2026-03-14,,,business_level,100,approved_apply_2026-10-06; moved_business_level_2026-10-07
 Google,Paul Jackson,2025-05-26,,secrets-of-woodland-photography-workshop,product,100,approved_apply_2026-10-06
 Google,Orr Shachar,2025-10-26,,batsford-arboretum-photography-workshops,product,100,approved_apply_2026-10-06
 Google,Nicholas Barber,2025-10-24,,private-online-photography-classes-zoom,product,100,approved_apply_2026-10-06
@@ -24,7 +24,7 @@ Google,Bill,2025-08-18,,peak-district-heather-photography-workshop,product,100,b
 Google,john simpson,2025-08-15,,private-online-photography-classes-zoom,product,100,approved_apply_2026-10-06
 Google,Gillian Taylor,2025-05-29,,landscape-peak-district-photography-workshops-derbyshire,product,100,approved_apply_2026-10-06
 Google,Shahida Badiani,2025-05-26,,peak-district-heather-photography-workshop,product,100,booking_reconciled
-Google,Michael Auinger,2025-05-23,,professional-commercial-photographer-coventry,product,100,approved_apply_2026-10-06
+Google,Michael Auinger,2025-05-23,,,business_level,100,approved_apply_2026-10-06; moved_business_level_2026-10-07
 Google,Or Shachar,2025-04-23,,bluebell-woodlands-photography-workshops,product,100,approved_apply_2026-10-06
 Google,David Proctor,2024-05-03,,bluebell-woodlands-photography-workshops,product,100,booking_reconciled
 Google,Sanjay Kumar,2024-05-02,,bluebell-woodlands-photography-workshops,product,100,booking_reconciled
@@ -97,3 +97,16 @@ Google,Sean Bruen,2020-05-26,,private-online-photography-classes-zoom,product,10
 Google,George H,2020-05-18,,,business_level,100,business_level_org_2026-10-06
 Google,Chris Johnson,2020-04-27,,lightroom-courses-for-beginners-coventry,product,100,approved_apply_2026-10-06
 Google,Chris Burnard,2020-04-21,,private-online-photography-classes-zoom,product,100,approved_apply_2026-10-06
+Google,Kerrie Porter,2025-05-21,,long-exposure-photography-kenilworth,product,100,restore_pre_2026-10-07_emit
+Google,Sam Franklin,2026-09-23,,long-exposure-photography-kenilworth,product,100,restore_pre_2026-10-07_emit
+Google,Simon Chatterley,2026-09-23,,long-exposure-photography-kenilworth,product,100,restore_pre_2026-10-07_emit
+Google,Dean Le Page,2026-06-03,,private-online-photography-classes-zoom,product,100,restore_pre_2026-10-07_emit
+Google,Jack,2025-11-21,,private-online-photography-classes-zoom,product,100,restore_pre_2026-10-07_emit
+Google,Kasia jan,2021-02-25,,private-online-photography-classes-zoom,product,100,restore_pre_2026-10-07_emit
+Google,Sandra Dawkes,2025-09-29,,private-online-photography-classes-zoom,product,100,restore_pre_2026-10-07_emit
+Google,Sarah Kuner,2026-07-19,,private-online-photography-classes-zoom,product,100,restore_pre_2026-10-07_emit
+Google,Joanne galloway,2023-08-20,,photography-workshops-lavender-fields,product,100,restore_pre_2026-10-07_emit
+Google,John Madigan,2023-10-26,,photography-workshops-lavender-fields,product,100,restore_pre_2026-10-07_emit
+Google,Penelope Ulander,2026-09-15,,landscape-photography-devon-hartland-quay,product,100,restore_pre_2026-10-07_emit
+Google,peter martin,2024-11-30,,intermediates-intentions-photography-project-course,product,100,restore_pre_2026-10-07_emit
+Google,Michael Donnelly,2026-05-21,,sezincote-garden-photography-workshop,product,100,restore_pre_2026-10-07_emit

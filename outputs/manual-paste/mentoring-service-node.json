@@ -1,0 +1,96 @@
+{
+  "@type": [
+    "Service",
+    "Product"
+  ],
+  "@id": "https://www.alanranger.com/photography-mentoring-online-assignments#service",
+  "name": "Photography Mentor Online — Monthly Mentoring",
+  "url": "https://www.alanranger.com/photography-mentoring-online-assignments",
+  "description": "Online photography mentoring with monthly assignments, a personal Lightroom review of your images and 30 practice packs. £20/month, cancel anytime.",
+  "brand": {
+    "@id": "https://www.alanranger.com/#org"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": 4
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "John Ellis"
+      },
+      "reviewBody": "Alan’s advice and help is always invaluable. I’ve been taking part in the monthly mentoring sessions for the past year and I know I can always rely on him for clear and honest feedback and as a result feel I have really improved my photographic skills in a way that I could never have done by simply reading theory and articles.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "datePublished": "2025-12-09",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Patricia Willis"
+      },
+      "reviewBody": "Very encouraging and supportive. An excellent manner that left me feeling very positive that I could improve my photography.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "datePublished": "2021-11-10",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "John Flack"
+      },
+      "reviewBody": "Brilliant!!!  Had several mentoring feedback sessions and all of them have been beneficial.  Every session full of useful and relevant information.  Assessments and feedback is honest, accurate and delivered in Alan's inimitable style.  Always something I look forward to.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "datePublished": "2020-04-24",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jan & Gary Boulter"
+      },
+      "reviewBody": "Update July 2024 - another very successful meeting with Alan. Helped me focus on where I am going with a project and provided quality food for thought on both the technical and composition elements of my photography. Enjoyed as always  Great webinar on editing, really useful advice to achieve your objective for an image. Small group and interactive, with Alan showing you step by step, the various Editing options.  Really enjoyed it",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "datePublished": "2020-04-11",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Google"
+      }
+    }
+  ]
+}

@@ -222,7 +222,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-02-05",
+          "datePublished": "2026-05-02",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -241,7 +241,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-09-10",
+          "datePublished": "2025-10-09",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -279,7 +279,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2024-06-08",
+          "datePublished": "2024-08-06",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -317,26 +317,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2023-11-10",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jeanette Waters"
-          },
-          "reviewBody": "I was thrilled to find this site and organise a Zoom meeting with Alan. He understood the lightroom problem, helped me sort it out,. Didn't rush and it was so easy to follow what I had to do. Problem sorted and I can now get on and enjoy the programme. I would definitely use Alan again.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-09",
+          "datePublished": "2023-10-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -365,6 +346,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Jeanette Waters"
+          },
+          "reviewBody": "I was thrilled to find this site and organise a Zoom meeting with Alan. He understood the lightroom problem, helped me sort it out,. Didn't rush and it was so easy to follow what I had to do. Problem sorted and I can now get on and enjoy the programme. I would definitely use Alan again.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-09-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Nick B"
           },
           "reviewBody": "Only one paid for session so far, but Alan was thoughtful, helpful and professional.  He listened carefully to what I needed and made sure I got it,  The free 20 min session beforehand ensured I am using his skills appropriately - it was very helpful.  UPDATE: since then I got in a muddle with files in Lightroom. Alan sorted it out online in one session and ensured I knew what to do to stop it happening again!",
@@ -374,7 +374,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-09-07",
+          "datePublished": "2021-07-09",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -393,7 +393,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-09-04",
+          "datePublished": "2021-04-09",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -441,6 +441,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "ARTHUR"
+          },
+          "reviewBody": "Alan is a realy nice guy learnt a lot. Very informative loads of information /  handouts for  future reference. Highly recommended.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-08-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Chris Johnson"
           },
           "reviewBody": "Always come away from one of Alan’s courses feeling invigorated and keen to practice what was taught",
@@ -460,44 +479,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "ARTHUR"
-          },
-          "reviewBody": "Alan is a realy nice guy learnt a lot. Very informative loads of information /  handouts for  future reference. Highly recommended.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-03-08",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Helen Maddison"
-          },
-          "reviewBody": "I am new to photography and feel as though I got a lot from the course already.  It was explained in an easy to understand way and not too much 'technical' jargon for beginners.  Alan was very friendly and happy to answer questions from the whole group.  I am really excited to be starting the beginner course.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-01-03",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Pauli"
           },
           "reviewBody": "Excellent tuition with a knowledgeable instructor. Lots of tips, interaction and practical knowledge to help begin the photography journey",
@@ -507,7 +488,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-01-03",
+          "datePublished": "2020-03-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -526,7 +507,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-01-03",
+          "datePublished": "2020-03-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Helen Maddison"
+          },
+          "reviewBody": "I am new to photography and feel as though I got a lot from the course already.  It was explained in an easy to understand way and not too much 'technical' jargon for beginners.  Alan was very friendly and happy to answer questions from the whole group.  I am really excited to be starting the beginner course.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-03-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -555,63 +555,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Nuria Alonso"
-          },
-          "reviewBody": "The Lightroom course provided by Alan is a brilliant course covering quite a lot but giving enough practical exercises to take away. Excellent content and Alan is a very knowledgeable trainer. Small group means you can learn so much more.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-11-10",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Nuria Alonso"
-          },
-          "reviewBody": "Alan is a great teacher and the class was well structured. A lot of information provided which gives you a good fundation.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-09-04",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Steve Butler"
-          },
-          "reviewBody": "As a complete beginner, it was very helpful and informative. Now to get started putting it in to practice.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-03-01",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Julie Emmanuel-Hunt"
           },
           "reviewBody": "I learn a lot from the get off auto course, I would recommend.  I would do the rest of course but it’s to far to drive",
@@ -621,7 +564,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-01-12",
+          "datePublished": "2019-12-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -640,7 +583,64 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-01-11",
+          "datePublished": "2019-11-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Nuria Alonso"
+          },
+          "reviewBody": "The Lightroom course provided by Alan is a brilliant course covering quite a lot but giving enough practical exercises to take away. Excellent content and Alan is a very knowledgeable trainer. Small group means you can learn so much more.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-10-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Nuria Alonso"
+          },
+          "reviewBody": "Alan is a great teacher and the class was well structured. A lot of information provided which gives you a good fundation.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-04-09",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Steve Butler"
+          },
+          "reviewBody": "As a complete beginner, it was very helpful and informative. Now to get started putting it in to practice.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-01-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1071,7 +1071,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-11-06",
+          "datePublished": "2026-06-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1119,25 +1119,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Barbara V"
-          },
-          "reviewBody": "Working towards a distinction I found mentoring with Alan extremely helpful, he is very knowledgeable about all aspects of photography and processing.  He worked with me at a pace which was just right for me.  I thoroughly recommend mentoring with Alan.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-11-03",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Mary Hamilton"
           },
           "reviewBody": "I chose Alan Ranger for photography processing instruction because he produces images of exceptional quality.  I was pleasantly surprised to discover that Alan is an outstanding teacher.  Alan explains how I could improve my images, then demonstrates several methods of enhancement.  I can recommend Alan's course to any photographer who wishes to optimise their image processing workflow.",
@@ -1148,6 +1129,25 @@
             "worstRating": "1"
           },
           "datePublished": "2024-08-16",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Barbara V"
+          },
+          "reviewBody": "Working towards a distinction I found mentoring with Alan extremely helpful, he is very knowledgeable about all aspects of photography and processing.  He worked with me at a pace which was just right for me.  I thoroughly recommend mentoring with Alan.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2024-03-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1185,7 +1185,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-11-08",
+          "datePublished": "2021-08-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1223,7 +1223,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-07-08",
+          "datePublished": "2019-08-07",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1242,7 +1242,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-07-06",
+          "datePublished": "2019-06-07",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1394,7 +1394,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-09-07",
+          "datePublished": "2026-07-09",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1470,7 +1470,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-06-11",
+          "datePublished": "2016-11-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1790,25 +1790,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Jean Dance"
-          },
-          "reviewBody": "Inspirational, instructive and interesting",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-02-09",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Mr J Parker"
           },
           "reviewBody": "Although the light was not at its best, the locations Alan had chosen a walk that had plenty of interest, and Alan gave clear, simple explanations which helped me to take the auto off my camera - and to not put it back on since. Alan is very personable and pitch advance at the level needed. It was a small group and meant that you could engage on a detailed discussion if required. An enjoyable day in good company at a good pace, even though it was very wet under foot. Thank you Alan",
@@ -1818,7 +1799,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-01-12",
+          "datePublished": "2020-12-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jean Dance"
+          },
+          "reviewBody": "Inspirational, instructive and interesting",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-09-02",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1837,7 +1837,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-01-09",
+          "datePublished": "2020-09-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1856,7 +1856,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-01-08",
+          "datePublished": "2020-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1875,7 +1875,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-01-08",
+          "datePublished": "2020-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1894,7 +1894,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-01-08",
+          "datePublished": "2020-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -1923,130 +1923,16 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Charles Budd"
+            "name": "Diana Saville"
           },
-          "reviewBody": "Really enjoyed the woodland walk - and I learned a few things about how to look differently and therefore see more. Thanks Alan and the rest of the lovely group too.",
+          "reviewBody": "Good length walk with like minded enthusiasts over even ground, not to strenuous.",
           "reviewRating": {
             "@type": "Rating",
-            "ratingValue": "5",
+            "ratingValue": "4",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-12-04",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Janice Jordan"
-          },
-          "reviewBody": "A relaxed ramble around Crackley Woods with fellow photographers.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-11-09",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Anne Watkinson"
-          },
-          "reviewBody": "Despite a few showers this was an excellent photographic morning spent in n Crackley Woods. Alan was on hand to make sure that the whole group got the most out of the spectacular autumn colours with composition and other camera skills. All skill levels were catered for.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-11-06",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Caroline Key"
-          },
-          "reviewBody": "Lovely day - in a beautiful setting, with wonderful help and guidance from Alan. Thoroughly enjoyed it, learnt loads, came home with some photos to be proud of",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-11-06",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "John  Grant"
-          },
-          "reviewBody": "Always some really pleasant people to speak to on Alan's workshops in addition to tapping into whatever help you may wish to pick up.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-11-06",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Wendy Anthony"
-          },
-          "reviewBody": "We really enjoyed this photowalk in a little wood we would otherwise not have found. There were only 3 of us, and Alan, as 2 others had had to cancel, which made for a very pleasant session. We picked up a few tips and have some interesting photos as a result. A good way to spend a morning!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-09-06",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jeremy Troth"
-          },
-          "reviewBody": "As ever, Alan went out of his way to encourage me and help with both my composition and the technical side of my photography. I would definitely use him again and would thoroughly recommend him.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-09-04",
+          "datePublished": "2019-12-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2065,102 +1951,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-07-11",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Anne Watkinson"
-          },
-          "reviewBody": "A lovely morning with my camera in Ryton Wood. Lots of helpful tips from Alan and a new technique learned",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-07-04",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jeremy Troth"
-          },
-          "reviewBody": "As always, Alan's knowledge, expertise and enthusiasm show.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-03-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jean Dance"
-          },
-          "reviewBody": "The Woodland Photo Walk in Moseley Wood / Bog was most enjoyable. Thanks Alan for another great morning.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-03-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jean Dance"
-          },
-          "reviewBody": "I have had tuition from Alan for a number of years, It is a journey and I have a long way to go. I value his honesty, it is always forthright, sometimes harsh but this is a challenge.When Alan says 'well done' this gives me encouragement and determination to master these challenges.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-02-07",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Diana Saville"
-          },
-          "reviewBody": "Good length walk with like minded enthusiasts over even ground, not to strenuous.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-01-12",
+          "datePublished": "2019-11-07",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2179,7 +1970,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-01-11",
+          "datePublished": "2019-11-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Janice Jordan"
+          },
+          "reviewBody": "A relaxed ramble around Crackley Woods with fellow photographers.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-09-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2198,7 +2008,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-01-09",
+          "datePublished": "2019-09-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2217,7 +2027,102 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-01-09",
+          "datePublished": "2019-09-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jean Dance"
+          },
+          "reviewBody": "I have had tuition from Alan for a number of years, It is a journey and I have a long way to go. I value his honesty, it is always forthright, sometimes harsh but this is a challenge.When Alan says 'well done' this gives me encouragement and determination to master these challenges.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-07-02",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Anne Watkinson"
+          },
+          "reviewBody": "Despite a few showers this was an excellent photographic morning spent in n Crackley Woods. Alan was on hand to make sure that the whole group got the most out of the spectacular autumn colours with composition and other camera skills. All skill levels were catered for.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-06-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Caroline Key"
+          },
+          "reviewBody": "Lovely day - in a beautiful setting, with wonderful help and guidance from Alan. Thoroughly enjoyed it, learnt loads, came home with some photos to be proud of",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-06-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John  Grant"
+          },
+          "reviewBody": "Always some really pleasant people to speak to on Alan's workshops in addition to tapping into whatever help you may wish to pick up.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-06-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Wendy Anthony"
+          },
+          "reviewBody": "We really enjoyed this photowalk in a little wood we would otherwise not have found. There were only 3 of us, and Alan, as 2 others had had to cancel, which made for a very pleasant session. We picked up a few tips and have some interesting photos as a result. A good way to spend a morning!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-06-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2236,7 +2141,102 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-01-06",
+          "datePublished": "2019-06-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jeremy Troth"
+          },
+          "reviewBody": "As always, Alan's knowledge, expertise and enthusiasm show.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-05-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jean Dance"
+          },
+          "reviewBody": "The Woodland Photo Walk in Moseley Wood / Bog was most enjoyable. Thanks Alan for another great morning.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-05-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Charles Budd"
+          },
+          "reviewBody": "Really enjoyed the woodland walk - and I learned a few things about how to look differently and therefore see more. Thanks Alan and the rest of the lovely group too.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-04-12",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jeremy Troth"
+          },
+          "reviewBody": "As ever, Alan went out of his way to encourage me and help with both my composition and the technical side of my photography. I would definitely use him again and would thoroughly recommend him.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-04-09",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Anne Watkinson"
+          },
+          "reviewBody": "A lovely morning with my camera in Ryton Wood. Lots of helpful tips from Alan and a new technique learned",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-04-07",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2255,7 +2255,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-12",
+          "datePublished": "2018-12-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2328,6 +2328,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Matthew Payton"
+          },
+          "reviewBody": "I've booked a block of 4 two hour 1-1 sessions with Alan in order to gain the knowledge and experience that I need to start my journey into photography. I'm a complete novice at this, but having completed my first session, I already feel comfortable and confident that Alan will guide me through the world of photography.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2022-01-24",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "KP"
           },
           "reviewBody": "Great workshop with 1-2-1 help when required taking into account the experience of each photographer. Lovely evening, many thanks",
@@ -2337,7 +2356,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-09-04",
+          "datePublished": "2019-04-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2356,7 +2375,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-05-03",
+          "datePublished": "2019-03-05",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2375,7 +2394,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-05-01",
+          "datePublished": "2019-01-05",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2394,7 +2413,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-11-08",
+          "datePublished": "2018-08-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2413,7 +2432,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-10-11",
+          "datePublished": "2014-11-10",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -2512,8 +2531,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": 10
+        "ratingValue": "4.91",
+        "reviewCount": 11
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/four-private-photography-classes#product"
     },
@@ -3508,7 +3527,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-07-05",
+          "datePublished": "2025-05-07",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -3547,6 +3566,63 @@
             "worstRating": "1"
           },
           "datePublished": "2023-10-24",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sheila Coughlan"
+          },
+          "reviewBody": "Fantastic tutoring. he is the master of explaining. will be using my camera to it's full potential . thanks Alan",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-11-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Elaine Cash"
+          },
+          "reviewBody": "Joined Alan on a Batsford autumn colour workshop recently which was just lovely. My first visit to Batsford which is stunning,   Alan was very professional, helping us all with set ups and composition. He had his camera to “show” but all his attention was on the group. I learnt so much and although the sun didn’t appear, I now have the tools to use in the future, thanks to Alan.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-11-02",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Paul Goby"
+          },
+          "reviewBody": "A very interesting workshop at Batsford Arboretum. Well done for completing this in very challenging weather conditions.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-11-01",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -3708,82 +3784,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Sheila Coughlan"
+            "name": "Di"
           },
-          "reviewBody": "Fantastic tutoring. he is the master of explaining. will be using my camera to it's full potential . thanks Alan",
+          "reviewBody": "I had a fantastic day with Alan Ranger at Batsford. He packed so much into the day and explained some of the basic techniques very clearly, he was very  patient. I learnt loads and felt the day was well worth it and great value. I am now looking forward to a 3 day workshop in the lakes. Thank you.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-03-11",
+          "datePublished": "2018-11-04",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Elaine Cash"
-          },
-          "reviewBody": "Joined Alan on a Batsford autumn colour workshop recently which was just lovely. My first visit to Batsford which is stunning,   Alan was very professional, helping us all with set ups and composition. He had his camera to “show” but all his attention was on the group. I learnt so much and although the sun didn’t appear, I now have the tools to use in the future, thanks to Alan.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-02-11",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Paul Goby"
-          },
-          "reviewBody": "A very interesting workshop at Batsford Arboretum. Well done for completing this in very challenging weather conditions.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-01-11",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Bean counter"
-          },
-          "reviewBody": "I recently attended one of Alan's workshops at Batsford Arboretum. The information that Alan provided in advance was very comprehensive, and included not just equipment required but also advice on clothing and food and drink. Not surprisingly, the theme of the workshop was 'Autumn leaves', and Alan started by stressing the importance of composition:no matter how expensive your kit or how technically skilled you are, these are of little value if what's in the frame is not interesting. After giving us some advice and a short demonstration he sent us off for half an hour to select our subject matter.  He then provided each of us with hands on guidance on how to take the best shots from both an artistic and technical point of view.  For example, he showed me some tricks available in my camera that I didn't know existed, and I'd never realized just how beautiful an oak leaf can be. In a few hours I learned a lot about photography in general and my camera's features in particular. For me, a very successful and inspiring day.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-11-10",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
           }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.96",
+        "ratingValue": "5.0",
         "reviewCount": 25
       },
       "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#product"
@@ -4283,7 +4302,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-07",
+          "datePublished": "2018-07-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -5829,44 +5848,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Pravin Pawar"
-          },
-          "reviewBody": "I had an incredible experience training with Alan. His passion for photography is truly infectious, and his ability to break down complex techniques into easy-to-understand lessons made learning both fun and effective. Whether you're a complete beginner or looking to refine your skills, he tailors each session to your level and goals.  What stood out most was his hands-on approach—plenty of practical exercises, real-time feedback, and creative challenges that helped me grow in confidence behind the camera. He also has a great eye for detail and composition, and his tips on lighting and editing were game-changers for me.  Highly recommend to anyone serious about improving their photography. Professional, patient, and inspiring—this trainer is the real deal!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-11-07",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Soon Leong"
-          },
-          "reviewBody": "I had a half day session with Alan back in May for bluebell photography. Alan is very knowledgeable about the area and offer many tips for taking good pictures of the bluebells and wood in general. Would highly recommend Alan to anyone with all level of skills.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-10-07",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Anna Kopytek"
           },
           "reviewBody": "Course was excellent. An eye opener for me. Things I may have read or heard before finally put into place. Great tutor (thank you for your patience Alan 😀)",
@@ -5896,6 +5877,63 @@
             "worstRating": "1"
           },
           "datePublished": "2025-07-16",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Pravin Pawar"
+          },
+          "reviewBody": "I had an incredible experience training with Alan. His passion for photography is truly infectious, and his ability to break down complex techniques into easy-to-understand lessons made learning both fun and effective. Whether you're a complete beginner or looking to refine your skills, he tailors each session to your level and goals.  What stood out most was his hands-on approach—plenty of practical exercises, real-time feedback, and creative challenges that helped me grow in confidence behind the camera. He also has a great eye for detail and composition, and his tips on lighting and editing were game-changers for me.  Highly recommend to anyone serious about improving their photography. Professional, patient, and inspiring—this trainer is the real deal!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-07-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Soon Leong"
+          },
+          "reviewBody": "I had a half day session with Alan back in May for bluebell photography. Alan is very knowledgeable about the area and offer many tips for taking good pictures of the bluebells and wood in general. Would highly recommend Alan to anyone with all level of skills.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-07-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Stuart Hurcomb"
+          },
+          "reviewBody": "I did the Bluebells session which was excellent. Alan is very knowledgabel and approachable when discussing different topics, he has a wealth of knowledge, you just need to engage and ask questions. The session was an early start and very enjoyable, just a shame the bluebell area was not as perfect as it could have been, but not Alans fault. A very good experience all round and I am keen to do other sessions.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-07-01",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -5981,16 +6019,54 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Stuart Hurcomb"
+            "name": "David Proctor"
           },
-          "reviewBody": "I did the Bluebells session which was excellent. Alan is very knowledgabel and approachable when discussing different topics, he has a wealth of knowledge, you just need to engage and ask questions. The session was an early start and very enjoyable, just a shame the bluebell area was not as perfect as it could have been, but not Alans fault. A very good experience all round and I am keen to do other sessions.",
+          "reviewBody": "I have done two workshops with Alan and both have been excellent. His teaching style is very much geared to the individual participants and the workshop numbers are limited so that everyone gets the amount of time / help that they need. His knowledge, both technical and of the locations used, is second to none. If anyone is considering doing a photography workshop I would have no hesitation whatsoever in recommending Alan.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-01-07",
+          "datePublished": "2024-05-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sanjay Kumar"
+          },
+          "reviewBody": "Alan was very helpful and took time to explain. Meeting points and location for photography were excellent. Good weather was ice on the cake.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2024-05-02",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Anna Rokitowska"
+          },
+          "reviewBody": "I had the the professional lesson about the manual settings on my camera with Alan. Alan is very professional and supportive. The material was very interesting and the discussions were truly inspiring. He has an impressive knowledge about the photography. I particularly enjoyed all the instructions, which made the content easily understandable. Alan showed me and taught me so many new things during my lesson. I also took a part in his few workshops which I really enjoyed. Especially workshop in the forest full of bluebells. Unforgettable experience. I can highly recommend Alan to everyone who would like to start the adventure with photography or improve the photography skills.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2024-05-01",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -6057,63 +6133,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "David Proctor"
-          },
-          "reviewBody": "I have done two workshops with Alan and both have been excellent. His teaching style is very much geared to the individual participants and the workshop numbers are limited so that everyone gets the amount of time / help that they need. His knowledge, both technical and of the locations used, is second to none. If anyone is considering doing a photography workshop I would have no hesitation whatsoever in recommending Alan.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-03-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Sanjay Kumar"
-          },
-          "reviewBody": "Alan was very helpful and took time to explain. Meeting points and location for photography were excellent. Good weather was ice on the cake.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-02-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Anna Rokitowska"
-          },
-          "reviewBody": "I had the the professional lesson about the manual settings on my camera with Alan. Alan is very professional and supportive. The material was very interesting and the discussions were truly inspiring. He has an impressive knowledge about the photography. I particularly enjoyed all the instructions, which made the content easily understandable. Alan showed me and taught me so many new things during my lesson. I also took a part in his few workshops which I really enjoyed. Especially workshop in the forest full of bluebells. Unforgettable experience. I can highly recommend Alan to everyone who would like to start the adventure with photography or improve the photography skills.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Ian Hope"
           },
           "reviewBody": "Recently attended a workshop in private bluebell woods with Alan. This gave us extensive photo opportunities in an area usually closed to the public. Alan talked us through a variety of technical and compositional suggestions before letting us loose (with due regard to the environment). Alan was on hand to give constructive critical advice as needed.",
@@ -6142,7 +6161,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2023-04-05",
+          "datePublished": "2023-05-04",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -6171,25 +6190,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Diana"
-          },
-          "reviewBody": "The bluebell workshop run by Alan was definitely worth the very early start. The location is beautiful with so many wonderful photographic opportunities. Alan was on hand to help when needed and he gave us lots of ideas as to where we should go and ideas for  composition. I can certainly recommend this workshop, you will not be disappointed.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-05-09",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Con McHugh"
           },
           "reviewBody": "I am really enjoying the Intentions course focusing on the homeless",
@@ -6199,7 +6199,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-05-09",
+          "datePublished": "2019-09-05",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Diana"
+          },
+          "reviewBody": "The bluebell workshop run by Alan was definitely worth the very early start. The location is beautiful with so many wonderful photographic opportunities. Alan was on hand to help when needed and he gave us lots of ideas as to where we should go and ideas for  composition. I can certainly recommend this workshop, you will not be disappointed.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-09-05",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -6435,7 +6454,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-11-09",
+          "datePublished": "2014-09-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -7318,25 +7337,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Jimmy Concannon"
-          },
-          "reviewBody": "As a novice to photography I engaged with Alan to put me in the right direction. From the offset Alan was an inspiration, he has a depth of knowledge which he is willing to pass on. He got me going in the right direction from the first lesson, explained what I should be doing and gave me a better understanding of what to look for whilst taking pictures. During my course I got a good understanding of light, bracketing, settings, the subject, colours, noise, etc. Alan is a very good teacher who makes you feel relaxed. I would highly recommend any novice take a course with Alan it is money very well spent.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-03-01",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Marie Rushworth"
           },
           "reviewBody": "I've just attended a 3 week total beginners course with Alan. Alan has an absolute wealth of knowledge but that doesn't stop him forgetting what it is to be a beginner. His course is excellent. His course material and delivery is professional, informative and fun. Alan himself is quite the character, and enjoys a bit of banter. But he is kind and thoughtful, and you can see he is passionate about a newbies aspirations in photography. I wouldn't hesitate to recommend Alan and I'm looking forward to attending more courses as my confidence grows.",
@@ -7394,6 +7394,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Jimmy Concannon"
+          },
+          "reviewBody": "As a novice to photography I engaged with Alan to put me in the right direction. From the offset Alan was an inspiration, he has a depth of knowledge which he is willing to pass on. He got me going in the right direction from the first lesson, explained what I should be doing and gave me a better understanding of what to look for whilst taking pictures. During my course I got a good understanding of light, bracketing, settings, the subject, colours, noise, etc. Alan is a very good teacher who makes you feel relaxed. I would highly recommend any novice take a course with Alan it is money very well spent.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-01-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Laura Simpson"
           },
           "reviewBody": "I attended the beginners camera course, would definitely recommend, didn't realise just how much there was to know before starting the course! Nice small group which helps give you time to ask questions.",
@@ -7442,25 +7461,6 @@
             "worstRating": "1"
           },
           "datePublished": "2025-10-16",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Richard Hill"
-          },
-          "reviewBody": "Alan is such a friendly host, full of knowledge and a strong history of photography. His people skills and approach to tutoring is very positive. If you’re looking for a tutor, feedback on your current skills or anything in the photography world, I could not recommend Alan Ranger photography enough! Thank you Alan, see you again soon for a day out!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-10-03",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -7641,6 +7641,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Richard Hill"
+          },
+          "reviewBody": "Alan is such a friendly host, full of knowledge and a strong history of photography. His people skills and approach to tutoring is very positive. If you’re looking for a tutor, feedback on your current skills or anything in the photography world, I could not recommend Alan Ranger photography enough! Thank you Alan, see you again soon for a day out!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-03-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Paul Fuller"
           },
           "reviewBody": "I received a gift card for a big birthday and I recently completed the Beginners course over an very extended period. This was only possible due to Alan's flexibility and patience. With the remaining credit I am now having some one to one tuition and guidance on a project I have in mind. The first meeting on the project went extremely well and Alan provided some highly practical advice and valuable insights into how to approach the assignment. I look forward to continuing our collaboration into the future.",
@@ -7769,7 +7788,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2015-02-07",
+          "datePublished": "2015-07-02",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -7788,7 +7807,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2015-02-03",
+          "datePublished": "2015-03-02",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -7952,25 +7971,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Dave Cross"
-          },
-          "reviewBody": "I recently attended Alan's \"Hartland Quay - Devon Seascapes\" workshop. I am a relative novice where photography is concerned but never felt out of place. Alan provides help with clear explanation and with honest feedback and guidance on how things can be improved. The workshop was a small group and Alan was able to give us all attention where and when needed. I learnt a lot over the course of three packed days of photo opportunities and I hope to attend another workshop in the future.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-11-09",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Penelope Ulander"
           },
           "reviewBody": "Alan Ranger came highly recommended by a friend working on his RPS associate distinction. I'm so glad I joined his Hartland Quay workshop earlier this month. I have some beautiful shots to add to my portfolio. The location is iconic but Alan's abundant local knowledge of these rocky shores, their potential dangers and swift tides was priceless for enjoying a stress free environment where safety is paramount. The curriculum has been painstakingly curated and pre-shoot briefs and post-shoot processing and feedback sessions are all part of a very well rounded workshop.",
@@ -7990,6 +7990,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Dave Cross"
+          },
+          "reviewBody": "I recently attended Alan's \"Hartland Quay - Devon Seascapes\" workshop. I am a relative novice where photography is concerned but never felt out of place. Alan provides help with clear explanation and with honest feedback and guidance on how things can be improved. The workshop was a small group and Alan was able to give us all attention where and when needed. I learnt a lot over the course of three packed days of photo opportunities and I hope to attend another workshop in the future.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-09-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Bassam Al Jazy"
           },
           "reviewBody": "I recently attended the Landscape Photography Devon Workshop with Mr. Alan Ranger, and it was an outstanding experience from start to finish. The workshop was well-organized, with a detailed schedule and excellent information about each location — including the best times for sunrise, sunset, high tide, and low tide. Everything we needed to know was clearly explained and thoughtfully planned.  The choice of locations was perfect for training and practice. Each spot offered unique opportunities to experiment with composition, light, and timing. I must admit, I learned a lot of useful techniques, creative ideas, and ways to think differently about each shot — especially the importance of being patient and waiting for the right moment.  There were only three of us in total, which made the experience even more personal and interactive. I also learned a great deal from my fellow participants. The commuting distances between locations were short and comfortable, and Alan proved to be not only an excellent tutor but also an excellent driver!  Overall, this workshop was both educational and inspiring. I’m truly grateful for the experience and hope to join Alan again for more workshops in other locations.",
@@ -7999,7 +8018,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-04-10",
+          "datePublished": "2025-10-04",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -8018,7 +8037,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-01-10",
+          "datePublished": "2025-10-01",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -8037,7 +8056,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-09-08",
+          "datePublished": "2021-08-09",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -8056,7 +8075,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-03-07",
+          "datePublished": "2020-07-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -8075,7 +8094,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-03-05",
+          "datePublished": "2020-05-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -8094,7 +8113,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-03-04",
+          "datePublished": "2020-04-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -8113,7 +8132,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-09-06",
+          "datePublished": "2019-06-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -8326,26 +8345,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-04-11",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Gillian Perry"
-          },
-          "reviewBody": "I saw an advert for a workshop I really wanted to do that was cancelled.  I was not upset about the cancellation as the reason was due to a change in conditions and the I was pleased it didn't go ahead when there would be nothing to photograph.  It then took many attempts to find a date that worked for myself and for Alan.    The details for joining the workshop came a couple of days before the event.  It did recommend a filter that I didn't have but it was too late to buy it from Amazon.  No real problem through as we did really need it.  The first 15 minutes of the workshop were tuition and I picked up a few very useful tips from the workshop which I will use in future.  The rest of the workshop is you photograph the subject and move around the site at your own pace but not too far from the group so Alan can move around each individual and answer questions, review photos and give advice.  You are expected to ask questions and learn more that way.  I personally find that I don't think of questions until much later when the learning experience has really soaked in.  So it would have been good to stop and specifically talk about a topic.    I plan to visit the location again on a different day and try again now I have seen my photos.  I will definitely consider booking again in the future depending on the subjects.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-09-05",
+          "datePublished": "2019-11-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -8364,7 +8364,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-08",
+          "datePublished": "2018-08-04",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Gillian Perry"
+          },
+          "reviewBody": "I saw an advert for a workshop I really wanted to do that was cancelled.  I was not upset about the cancellation as the reason was due to a change in conditions and the I was pleased it didn't go ahead when there would be nothing to photograph.  It then took many attempts to find a date that worked for myself and for Alan.    The details for joining the workshop came a couple of days before the event.  It did recommend a filter that I didn't have but it was too late to buy it from Amazon.  No real problem through as we did really need it.  The first 15 minutes of the workshop were tuition and I picked up a few very useful tips from the workshop which I will use in future.  The rest of the workshop is you photograph the subject and move around the site at your own pace but not too far from the group so Alan can move around each individual and answer questions, review photos and give advice.  You are expected to ask questions and learn more that way.  I personally find that I don't think of questions until much later when the learning experience has really soaked in.  So it would have been good to stop and specifically talk about a topic.    I plan to visit the location again on a different day and try again now I have seen my photos.  I will definitely consider booking again in the future depending on the subjects.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -8594,7 +8613,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-08-12",
+          "datePublished": "2019-12-08",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -8951,63 +8970,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Janice Jordan"
-          },
-          "reviewBody": "A very pleasant evening in the Sunflower field.  Although the group got quite spread out doing their own thing, Alan ensured he found each of us over the course of the evening to give some composition feedback and ideas.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-09-06",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Norman"
-          },
-          "reviewBody": "Excellent tuition and location",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-09-04",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Sharon Hill"
-          },
-          "reviewBody": "Great location. Struggled with the composition and settings but did receive some help and managed to come away with some reasonable images.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-09-04",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Tina Jackson"
           },
           "reviewBody": "Great evening shooting the poppyfields with Alan ready to give advice and tips without interfering, thanks Alan",
@@ -9017,7 +8979,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-06-11",
+          "datePublished": "2019-11-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -9036,7 +8998,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-06-11",
+          "datePublished": "2019-11-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -9055,7 +9017,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-06-10",
+          "datePublished": "2019-10-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -9074,7 +9036,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-06-10",
+          "datePublished": "2019-10-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -9093,7 +9055,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-06-08",
+          "datePublished": "2019-08-06",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Janice Jordan"
+          },
+          "reviewBody": "A very pleasant evening in the Sunflower field.  Although the group got quite spread out doing their own thing, Alan ensured he found each of us over the course of the evening to give some composition feedback and ideas.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-06-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -9132,6 +9113,44 @@
             "worstRating": "1"
           },
           "datePublished": "2019-06-06",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Norman"
+          },
+          "reviewBody": "Excellent tuition and location",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-04-09",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sharon Hill"
+          },
+          "reviewBody": "Great location. Struggled with the composition and settings but did receive some help and managed to come away with some reasonable images.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-04-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -9434,7 +9453,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2025-01-10",
+          "datePublished": "2025-10-01",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -9624,7 +9643,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-06",
+          "datePublished": "2018-06-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -9643,7 +9662,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-06",
+          "datePublished": "2018-06-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -10111,25 +10130,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Viktoria B."
-          },
-          "reviewBody": "I attended only one evening workshop but it was a good session to practice and review what you've previously learned. Good opportunity to consciously think about application of all the photography elements, not just snap away. Also good opportunity to meet fellow enthusiasts and exchange experience and learn from that too.   Would recommend the workshops.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2014-12-09",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "lucy st"
           },
           "reviewBody": "Alan not only shares his expert knowledge with his students, but will offer guidance and advice which which enables you to develop your skills with confidence.  Alan is enthusiastic,  approachable and welcoming his courses are informative as well as being fun. You will walk away from any of Alans courses with more enthusiasm, new ideas and skills to go out and start taking better photos.",
@@ -10139,7 +10139,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-10-11",
+          "datePublished": "2014-11-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Viktoria B."
+          },
+          "reviewBody": "I attended only one evening workshop but it was a good session to practice and review what you've previously learned. Good opportunity to consciously think about application of all the photography elements, not just snap away. Also good opportunity to meet fellow enthusiasts and exchange experience and learn from that too.   Would recommend the workshops.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2014-09-12",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -10453,26 +10472,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2015-02-12",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "rbegg"
-          },
-          "reviewBody": "A worthwhile 3 hour session (with stretching breaks!). Whether you are a complete beginner or know a bit, like me, it helps to bring together the basics and give ideas to develop further. It give a good overview of the concept of photography, practical camera settings and picture composition.  It really consolidated bits I'd picked up along the way and motivates to move forward with some pointers and confidence.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2014-12-11",
+          "datePublished": "2015-12-02",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -10491,7 +10491,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-10-12",
+          "datePublished": "2014-12-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "rbegg"
+          },
+          "reviewBody": "A worthwhile 3 hour session (with stretching breaks!). Whether you are a complete beginner or know a bit, like me, it helps to bring together the basics and give ideas to develop further. It give a good overview of the concept of photography, practical camera settings and picture composition.  It really consolidated bits I'd picked up along the way and motivates to move forward with some pointers and confidence.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2014-11-12",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -10854,7 +10873,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-09-06",
+          "datePublished": "2019-06-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -10873,7 +10892,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-09-04",
+          "datePublished": "2019-04-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -10892,7 +10911,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2015-03-09",
+          "datePublished": "2015-09-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -11144,7 +11163,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2015-01-06",
+          "datePublished": "2015-06-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -11299,7 +11318,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-12-05",
+          "datePublished": "2016-05-12",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -11318,7 +11337,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-12-01",
+          "datePublished": "2016-01-12",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -11540,7 +11559,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-03-07",
+          "datePublished": "2019-07-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -11689,7 +11708,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-03-05",
+          "datePublished": "2019-05-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -11803,7 +11822,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-06-02",
+          "datePublished": "2018-02-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -11822,7 +11841,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-06-02",
+          "datePublished": "2018-02-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12033,7 +12052,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-02-06",
+          "datePublished": "2020-06-02",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12105,25 +12124,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "PAMELA DIGBY"
-          },
-          "reviewBody": "I recently attended a 3 day course with Alan in Southwold  I was keen to learn more about long exposure and the course fulfilled this  There was plenty of time for other genre .  I thoroughly recommend these short courses.  The accommodation was excellent. Pam",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-09-03",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Ian Blake"
           },
           "reviewBody": "It was a great weekend with Alan - a small group so we had plenty of space but still social. Alan was able to inspire me to extend my photography both in the type of shorts (minimalism), the angles that I choose and the technical details. Thanks!",
@@ -12134,6 +12134,25 @@
             "worstRating": "1"
           },
           "datePublished": "2024-03-26",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "PAMELA DIGBY"
+          },
+          "reviewBody": "I recently attended a 3 day course with Alan in Southwold  I was keen to learn more about long exposure and the course fulfilled this  There was plenty of time for other genre .  I thoroughly recommend these short courses.  The accommodation was excellent. Pam",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2024-03-09",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -12381,7 +12400,26 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-11-09",
+          "datePublished": "2026-09-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "kim pratt"
+          },
+          "reviewBody": "A wonderful experience, Alan is very knowledgeable man. I came away with  valuable knowledge to practice at home with how to work around Marco photography.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-11-08",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -12410,25 +12448,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "kim pratt"
-          },
-          "reviewBody": "A wonderful experience, Alan is very knowledgeable man. I came away with  valuable knowledge to practice at home with how to work around Marco photography.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-08-11",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "pyers tucker"
           },
           "reviewBody": "Great macro photography course with Alan for my first macro photographs, now posted on instragram. Good, helpful, understandable introduction then great location to practice, with Alan coming round regularly to see how getting on, look at images just taken, critique and suggest followed with quick review and comments on screen from memory card. Very helpful and productive day. Thank you Alan",
@@ -12438,7 +12457,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2024-11-06",
+          "datePublished": "2024-06-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -12457,7 +12476,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2024-11-06",
+          "datePublished": "2024-06-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -12590,7 +12609,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-08-06",
+          "datePublished": "2019-06-08",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12609,45 +12628,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-08-04",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Richard Ambrose"
-          },
-          "reviewBody": "I found Alan to be highly a  competent tutor, easily approachable, knowledgeable and patient. An enjoyable and engaging experience.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-08-02",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Nick Board"
-          },
-          "reviewBody": "Excellent balance between theory and practical with level of detail of instruction to suit varying levels of expertise in the group Timings of session just right and good sense of humour!!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2019-08-02",
+          "datePublished": "2019-04-08",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12666,7 +12647,45 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-08-02",
+          "datePublished": "2019-02-08",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Nick Board"
+          },
+          "reviewBody": "Excellent balance between theory and practical with level of detail of instruction to suit varying levels of expertise in the group Timings of session just right and good sense of humour!!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-02-08",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Richard Ambrose"
+          },
+          "reviewBody": "I found Alan to be highly a  competent tutor, easily approachable, knowledgeable and patient. An enjoyable and engaging experience.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2019-02-08",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12685,7 +12704,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-08-01",
+          "datePublished": "2019-01-08",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12704,7 +12723,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-05",
+          "datePublished": "2018-05-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12803,7 +12822,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-12",
+          "datePublished": "2018-12-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12822,7 +12841,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-04-10",
+          "datePublished": "2016-10-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12841,7 +12860,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-04-06",
+          "datePublished": "2016-06-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -12860,7 +12879,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-02-05",
+          "datePublished": "2016-05-02",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13110,7 +13129,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-09-12",
+          "datePublished": "2016-12-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13129,7 +13148,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-01-08",
+          "datePublished": "2016-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13260,7 +13279,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-12-03",
+          "datePublished": "2020-03-12",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -13279,7 +13298,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-09-11",
+          "datePublished": "2016-11-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13392,7 +13411,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-03",
+          "datePublished": "2018-03-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13411,7 +13430,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-03",
+          "datePublished": "2018-03-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13430,7 +13449,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-03",
+          "datePublished": "2018-03-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13449,7 +13468,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-03",
+          "datePublished": "2018-03-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13587,7 +13606,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-02-04",
+          "datePublished": "2020-04-02",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13965,7 +13984,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-12",
+          "datePublished": "2018-12-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -13984,7 +14003,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-12",
+          "datePublished": "2018-12-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14003,7 +14022,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-05",
+          "datePublished": "2018-05-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14041,7 +14060,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2017-11-06",
+          "datePublished": "2017-06-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14060,7 +14079,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2015-07-02",
+          "datePublished": "2015-02-07",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14079,7 +14098,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-11-09",
+          "datePublished": "2014-09-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14283,7 +14302,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-03-05",
+          "datePublished": "2019-05-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14302,7 +14321,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-06-12",
+          "datePublished": "2018-12-06",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14493,7 +14512,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-12-07",
+          "datePublished": "2026-07-12",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -14512,7 +14531,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-01-08",
+          "datePublished": "2016-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14702,7 +14721,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-11-09",
+          "datePublished": "2018-09-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14721,7 +14740,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-11-05",
+          "datePublished": "2018-05-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14740,7 +14759,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-11-04",
+          "datePublished": "2018-04-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14778,7 +14797,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-11-09",
+          "datePublished": "2014-09-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14797,7 +14816,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-11-09",
+          "datePublished": "2014-09-11",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14874,7 +14893,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-07",
+          "datePublished": "2018-07-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -14974,7 +14993,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-06",
+          "datePublished": "2018-06-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -15400,6 +15419,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Dave Bayley"
+          },
+          "reviewBody": "After booking the workshop with Alan Ranger for a local spot near me.  i found Alan to be very approachable and willing to help with any questions that i had.  The day i spent with Alan was great fun and i took a lot from the course to help better my hobby.  i would recommend any one of Alan's courses to any budding togger as i feel you would learn a lot no matter your skill set.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-11-02",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Trevor Davis"
           },
           "reviewBody": "I enjoyed a very informative day with Alan at Padley Gorge and Bolehill Quarry, picking up some fresh ideas that will help improve my photography. The workshop was very well organised.",
@@ -15419,19 +15457,19 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Dave Bayley"
+            "name": "Inderjeet Boora"
           },
-          "reviewBody": "After booking the workshop with Alan Ranger for a local spot near me.  i found Alan to be very approachable and willing to help with any questions that i had.  The day i spent with Alan was great fun and i took a lot from the course to help better my hobby.  i would recommend any one of Alan's courses to any budding togger as i feel you would learn a lot no matter your skill set.",
+          "reviewBody": "The course was detailed with Alan having very good technique of teaching. He made me want to learn more. Thanks Alan",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-02-11",
+          "datePublished": "2015-08-04",
           "publisher": {
             "@type": "Organization",
-            "name": "Google"
+            "name": "Trustpilot"
           }
         },
         {
@@ -15447,26 +15485,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2015-09-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Inderjeet Boora"
-          },
-          "reviewBody": "The course was detailed with Alan having very good technique of teaching. He made me want to learn more. Thanks Alan",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2015-04-08",
+          "datePublished": "2015-05-09",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -15690,16 +15709,16 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Martin Millington"
+            "name": "Jason Read"
           },
-          "reviewBody": "Friendly chap, patient and very informative!  Shame the weather was a bit rubbish. Definitely recommend!",
+          "reviewBody": "Great day spent learning my camera, taking photos in the woods and then editing them afterwards. Great day, learnt a lot and looking forward to doing more. Would recommend Alan to anyone with an interest in photography.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-11-01",
+          "datePublished": "2026-08-02",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -15804,16 +15823,16 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Jason Read"
+            "name": "Martin Millington"
           },
-          "reviewBody": "Great day spent learning my camera, taking photos in the woods and then editing them afterwards. Great day, learnt a lot and looking forward to doing more. Would recommend Alan to anyone with an interest in photography.",
+          "reviewBody": "Friendly chap, patient and very informative!  Shame the weather was a bit rubbish. Definitely recommend!",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-02-08",
+          "datePublished": "2026-01-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -15832,7 +15851,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2026-02-01",
+          "datePublished": "2026-01-02",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -15852,6 +15871,44 @@
             "worstRating": "1"
           },
           "datePublished": "2025-08-19",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Gerard Daykin"
+          },
+          "reviewBody": "I had a great session. Found out more about my cameras and moving away from the \"auto\" setting. Seemed geared towards what was useful to me- with where I am with photography, not a \"standard\" pitch. Very much appreciated.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-07-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Chan Jandu"
+          },
+          "reviewBody": "A great day spent learning about woodland photography, in fact as a beginner, I learnt a lot more about basic photography and how to use my camera.    Highly recommend spending time with Alan to get some great tips.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-07-01",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -15890,44 +15947,6 @@
             "worstRating": "1"
           },
           "datePublished": "2025-04-14",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Gerard Daykin"
-          },
-          "reviewBody": "I had a great session. Found out more about my cameras and moving away from the \"auto\" setting. Seemed geared towards what was useful to me- with where I am with photography, not a \"standard\" pitch. Very much appreciated.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-03-07",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Chan Jandu"
-          },
-          "reviewBody": "A great day spent learning about woodland photography, in fact as a beginner, I learnt a lot more about basic photography and how to use my camera.    Highly recommend spending time with Alan to get some great tips.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-01-07",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -16032,6 +16051,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Ian S. Bolton"
+          },
+          "reviewBody": "Alan was very thorough and patient with our group. The learning schedule was set-up with just the right balance of theory and practical. We left feeling that we had learned a lot, and can now put this into practice out in the field (or should I say wood/forest).",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2023-10-06",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Andrew Senior"
           },
           "reviewBody": "S[ent the day on the Secrets of Woodland Photography.  Alan helped to demystify woodland photography, especially trying to find  a way through the complexity of the clutered environment, or embracing it.  The opportunity to put the discussion into practice and then have careful consideration of the images is invalueable.  The day went very quickly.",
@@ -16042,44 +16080,6 @@
             "worstRating": "1"
           },
           "datePublished": "2023-09-27",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Ian S. Bolton"
-          },
-          "reviewBody": "Alan was very thorough and patient with our group. The learning schedule was set-up with just the right balance of theory and practical. We left feeling that we had learned a lot, and can now put this into practice out in the field (or should I say wood/forest).",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2023-06-10",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Diana WRIGHT"
-          },
-          "reviewBody": "Great Get off Auto course, well structured, clearly explained with good examples - feel motivated to try new skills now.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-12-09",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -16108,6 +16108,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Diana WRIGHT"
+          },
+          "reviewBody": "Great Get off Auto course, well structured, clearly explained with good examples - feel motivated to try new skills now.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-09-12",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Jeremy Troth"
           },
           "reviewBody": "Had a great time on another woodland photo walk. As always, Alan is fully giving of his advice, knowledge and expertise and I would thoroughly recommend him to anyone.",
@@ -16117,7 +16136,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-08-09",
+          "datePublished": "2021-09-08",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -16136,7 +16155,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-07-09",
+          "datePublished": "2021-09-07",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -16146,16 +16165,16 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "K P"
+            "name": "Ina Wilkening"
           },
-          "reviewBody": "I’ve enjoyed two great workshops recently. Both were very enjoyable experiences. Alan worked hard to ensure there were plenty of opportunities despite the weather being against us. Thanks Alan",
+          "reviewBody": "I really love the workshops and new webseminar. I always learn a lot and they are always fun to attend.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2020-10-03",
+          "datePublished": "2020-04-19",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -16232,7 +16251,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-01-09",
+          "datePublished": "2016-09-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -16691,6 +16710,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Dean Le Page"
+          },
+          "reviewBody": "Had an introductory 1-1 zoom session to help me develop my woodland photography skills. Alan was honest and forthright in what I needed to do to improve. Will be booking some follow ups.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-06-03",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Richard Johnson"
           },
           "reviewBody": "Alan provided me with RPS Mentoring for a distinction submission. He has huge knowledge of the process and what the judges base their scoring on. I learnt a lot more than just this though, improving my choose of subjects, composition and editing for the future.",
@@ -16701,25 +16739,6 @@
             "worstRating": "1"
           },
           "datePublished": "2026-03-27",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Dean Le Page"
-          },
-          "reviewBody": "Had an introductory 1-1 zoom session to help me develop my woodland photography skills. Alan was honest and forthright in what I needed to do to improve. Will be booking some follow ups.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-03-06",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -16824,25 +16843,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Barbara Bett"
-          },
-          "reviewBody": "Recently two of us  had a  morning’s practical tuition with Alan at an outside location with the aim of improving our landscape photography. I appreciated that Alan pitched the level exactly as we had requested with challenges to make  the best possible image from the terrain in front of us, and suggestions on how to better our results. He answered our many questions with specific and considered replies.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Kirsty Lilley"
           },
           "reviewBody": "Alan is an intuitive, knowledgeable and thoughtful tutor. I have just completed 4 sessions as a beginner and can already see improvements in my photography skills.  I thoroughly enjoyed each session. They were all paced well and planned according to my levels and needs. There has been plenty of opportunities to ask questions and feedback was given at the start of each lesson on the previous weeks homework assignments. It has given me a new passion in photography and I look forward to continuing my journey. I would thoroughly recommend to anyone interested in developing their photography interest!",
@@ -16871,7 +16871,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-11-08",
+          "datePublished": "2021-08-11",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -16957,25 +16957,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Rosamund Sheppard"
-          },
-          "reviewBody": "Alan Ranger is an extremely talented artistic photographer.  His enthusiastic approach to photography makes him an excellent photography tutor that I can highly recommend.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Anne Watkinson"
           },
           "reviewBody": "Alan is an excellent tutor taking all skill levels into account. He is a very talented photographer and willingly shares his expertise with members of the group. He offers a wide variety of interesting and flexible courses covering both classes and outdoor photographic opportunities.",
@@ -16985,121 +16966,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Louise Whitehouse"
-          },
-          "reviewBody": "Have done a few classroom based courses and some photography workshops, all of which have been excellent.   Alan has really helped me develop my skills and confidence and I have recommended him to lots of other people.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "jade kerri dibb"
-          },
-          "reviewBody": "Wonderful Photographer and Trainer. I would highly recommend Alan Ranger Photography to all whom are looking for an experienced professional trainer that provides supportive, honest and friendly guidance and feedback, along with offering great workshops and all round great tutoring. He is also an amazing Photographer.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jean Dance"
-          },
-          "reviewBody": "I would unreservedly recommend Alan Ranger to teach and guide you through your photography Journey",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "paul skidmore"
-          },
-          "reviewBody": "I have attended several courses and enjoyed everyone. There are many topics to choose from and it doesn't matter what level you are at you will always gain more knowledge and experience from any of them.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "T Balcombe"
-          },
-          "reviewBody": "We attended a 'foundation' course and had a very interesting, informative and fun evening. My photography has definitely benefited and we would have taken further courses had we not moved away from Coventry, though when we get time we are hoping to attend one of Alan's 'field' days. I'm sure that anyone from beginners like ourselves upwards would enjoy and benefit from Alan's expertise if not from attending a course just reading his blog which we find excellent.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-01-05",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Andy"
-          },
-          "reviewBody": "Highly recommended! Alan really gets you thinking about your photography and puts his knowledge across in a way that's easy to understand",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-01-05",
+          "datePublished": "2018-05-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17118,7 +16985,140 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-05",
+          "datePublished": "2018-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Andy"
+          },
+          "reviewBody": "Highly recommended! Alan really gets you thinking about your photography and puts his knowledge across in a way that's easy to understand",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "T Balcombe"
+          },
+          "reviewBody": "We attended a 'foundation' course and had a very interesting, informative and fun evening. My photography has definitely benefited and we would have taken further courses had we not moved away from Coventry, though when we get time we are hoping to attend one of Alan's 'field' days. I'm sure that anyone from beginners like ourselves upwards would enjoy and benefit from Alan's expertise if not from attending a course just reading his blog which we find excellent.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "paul skidmore"
+          },
+          "reviewBody": "I have attended several courses and enjoyed everyone. There are many topics to choose from and it doesn't matter what level you are at you will always gain more knowledge and experience from any of them.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jean Dance"
+          },
+          "reviewBody": "I would unreservedly recommend Alan Ranger to teach and guide you through your photography Journey",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "jade kerri dibb"
+          },
+          "reviewBody": "Wonderful Photographer and Trainer. I would highly recommend Alan Ranger Photography to all whom are looking for an experienced professional trainer that provides supportive, honest and friendly guidance and feedback, along with offering great workshops and all round great tutoring. He is also an amazing Photographer.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Louise Whitehouse"
+          },
+          "reviewBody": "Have done a few classroom based courses and some photography workshops, all of which have been excellent.   Alan has really helped me develop my skills and confidence and I have recommended him to lots of other people.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Rosamund Sheppard"
+          },
+          "reviewBody": "Alan Ranger is an extremely talented artistic photographer.  His enthusiastic approach to photography makes him an excellent photography tutor that I can highly recommend.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-05-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17137,7 +17137,25 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2016-01-08",
+          "datePublished": "2016-08-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Emma Moxon"
+          },
+          "reviewBody": "I found Alan online and got in touch as his style of photography and tuition looked  exactly like what we were looking for. Alan responded quickly and was very professional and we went along for a 2 hour session.  In the session he was informative and knowledgeable and we learnt a lot. He explained what he could offer as well as advising on things we were not sure on and from this we decided to book his premium mentoring and also 12 121 sessions to take throughout the year. Highly recommend if you are seeking someone to give you guidance on knowledge on photography!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17205,192 +17223,159 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "KP"
+            "name": "Ian McHardy"
           },
-          "reviewBody": "Great workshop with 1-2-1 help when required taking into account the experience of each photographer. Lovely evening, many thanks",
+          "reviewBody": "I spent a very informative and enlightening morning with Alan where he gave me a greater understanding of my Sony Alpha camera . He has challenged me to take my photography away from automatic mode and take it to the next level. Alan’s tuition was clear and well presented. Many thanks Alan .",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-09-04",
+          "datePublished": "2026-05-07",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         },
         {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Mosie"
+            "name": "Andrew Morris"
           },
-          "reviewBody": "A great one to one session some helpful feedback on photos. I have come away with a much clearer understanding of the theory behind the practice.  Personalising my settings was really helpful. Would recommend to all.",
+          "reviewBody": "Would highly recommend if you're thinking about taking up photography as either a hobby or profession.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-05-03",
+          "datePublished": "2025-08-24",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         },
         {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Con McHugh"
+            "name": "Barbara Bett"
           },
-          "reviewBody": "I did a 121 with Alan as part of my Intentions Course that I am doing on the Homeless. I got what I need from the session and enjoyed it. I Also found his passion with Photography inspiring.",
+          "reviewBody": "Recently two of us  had a  morning’s practical tuition with Alan at an outside location with the aim of improving our landscape photography. I appreciated that Alan pitched the level exactly as we had requested with challenges to make  the best possible image from the terrain in front of us, and suggestions on how to better our results. He answered our many questions with specific and considered replies.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-05-01",
+          "datePublished": "2025-05-01",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         },
         {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Claire Townend"
+            "name": "John Grubb"
           },
-          "reviewBody": "Alan’s teaching was thorough and clear, he used great analogies to explain the more complex technical parts. He gave loads of tips on composition and helped me set my camera up just how I want it. His critique of my photos felt a bit brutal at times, but was all true and he has given me a lot of pointers on how to improve.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2018-11-08",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Lynseylp"
-          },
-          "reviewBody": "I initially enrolled on an introductory course with Alan through living social deals. His engaging delivery, course materials and open, honest and supportive approach encouraged me to enroll on further workshops and 1-2-1 feedback.   As a service provider the company provides relevant, up to date and comprehensive information relating not just to technical elements of photography but also tips on defeloping personal style and creative intention. The range of classes and workshops is diverse and suits a range of experience. Seasonal and locational workshops are also added often to suit varying interests. These are publicised via website, facebook and email.  I feel that with Alans expert support I am now making the transition from enthusiastic snapper to informed and inspired photographer!   Thank you",
+          "reviewBody": "Great experience, I came away very satisfied that Alan had achieved his brief and I am more confident taking good landscape photographs.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2014-10-11",
+          "datePublished": "2025-05-01",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         },
         {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Emma Moxon"
+            "name": "Ian Burns"
           },
-          "reviewBody": "We attended our first 2 hour session and also first session for premium Mentoring on Sunday and it was so helpful.  Throughout the session I was assigned tasks to do to improve my photography, detailed scoring and analysis of past photos I had taken, a practice session in the garden and a mountain of invaluable advise as well as handouts to take away and things to work on.  Alan has already proven himself to be invaluable to our progress and we look forward to continuing to work with him. If you are seeking someone who is professional, personable and extremely knowledgeable in the photography field then I would definitely recommend Alan. Thanks for all of your help so far!",
+          "reviewBody": "Alan has a passion for photography and his explanation of the subject was easy to follow as a less experienced person. Can't wait for next session with him to take my level of understanding up a level.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
+          "datePublished": "2025-03-21",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         },
         {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "John Perks"
+            "name": "chris brown"
           },
-          "reviewBody": "Great bloke  Very knowledgable and friendly personality.  Gave me more useful knowledge and some info on equipment.👍",
+          "reviewBody": "Really educational and practical 1-2-1 session with Alan.  Extremely worthwhile.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
+          "datePublished": "2022-11-10",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         },
         {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Anne Watkinson"
+            "name": "Claire Hannis"
           },
-          "reviewBody": "Alan offers exceptional tutoring with great skill and patience. I have learned a huge amount from him and can highly recommend him to anyone hoping to improve their photography skills.",
+          "reviewBody": "From the very first session with Alan, my photography skills have improved! The lessons are well thought out with clear tuition and expert instruction; skills are built step by step in terms of both theory and practice; the pace is tailored to my individual need and the level of challenge is designed to inspire. I feel passionately about photography and excited to learn - this is fuelled by Alan’s creative approach coupled with his insightful, professional knowledge. All in all - a brilliant experience and I’m so glad Alan is guiding me on this new adventure! I can definitely recommend it!",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
+          "datePublished": "2021-09-28",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         },
         {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Anne Watkinson"
+            "name": "Ash Routen"
           },
-          "reviewBody": "Alan has been invaluable in helping me get to grips with post processing- a more patient and encouraging person will be hard to find! I can highly recommend Alan for photography tuition and for help with post processing.",
+          "reviewBody": "I booked a one-to-one tutorial session with Alan at a local National Trust property. Alan was very personable and explained key concepts in an understandable manner. I took away one good piece of learning related to the technical side, and a number related to composition. Below are some of the pics that came from the session with Alan. I would recommend Alan.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
+          "datePublished": "2020-06-27",
           "publisher": {
             "@type": "Organization",
-            "name": "Trustpilot"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Matt Nuttal"
-          },
-          "reviewBody": "Even though I arrived  45 minutes late at Alan's house he still managed to calibrate my laptop and PC monitor, set up and teach me the essentials of Light Room and Nik software and give me lots of very useful hints and tips for editing RAW files. He is a great teacher and I would fully recommend a 1-2-1 session with him which is tailored to each individual. Worth every penny!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "Trustpilot"
+            "name": "Google"
           }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": 10
+        "ratingValue": "5.0",
+        "reviewCount": 8
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/2hr-private-photography-classes-2hr#product"
     },
@@ -17458,7 +17443,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-04-12",
+          "datePublished": "2018-12-04",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17607,7 +17592,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-03-07",
+          "datePublished": "2019-07-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17626,7 +17611,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2019-03-07",
+          "datePublished": "2019-07-03",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17645,7 +17630,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-10",
+          "datePublished": "2018-10-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17664,7 +17649,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-09",
+          "datePublished": "2018-09-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17683,7 +17668,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-09",
+          "datePublished": "2018-09-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17702,7 +17687,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-08",
+          "datePublished": "2018-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17721,7 +17706,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-08",
+          "datePublished": "2018-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17740,7 +17725,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2018-01-08",
+          "datePublished": "2018-08-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17759,7 +17744,7 @@
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2017-01-11",
+          "datePublished": "2017-11-01",
           "publisher": {
             "@type": "Organization",
             "name": "Trustpilot"
@@ -17862,6 +17847,257 @@
         "reviewCount": 15
       },
       "@id": "https://www.alanranger.com/photography-services-near-me/photography-masterclasses-coventry#product"
+    },
+    {
+      "@type": "Product",
+      "name": "Photography Mentor Online — Monthly Mentoring",
+      "sku": "SQ-MENTOR-MONTHLY",
+      "brand": {
+        "@type": "Brand",
+        "name": "Alan Ranger Photography"
+      },
+      "description": "Online photography mentoring with monthly assignments, a personal Lightroom review of your images and 30 practice packs. £20/month, cancel anytime.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/0ddfe780-871c-4d90-a207-82f053d68ce0/monthly+mentoring+assigments.png",
+      "url": "https://www.alanranger.com/photography-mentoring-online-assignments",
+      "offers": {
+        "@type": "Offer",
+        "sku": "SQ-MENTOR-MONTHLY",
+        "price": "20.00",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-10-06",
+        "priceValidUntil": "2027-10-06",
+        "name": "Foundation Plus — Monthly Mentoring £20/mo",
+        "url": "https://www.alanranger.com/photography-mentoring-online-assignments",
+        "@id": "https://www.alanranger.com/photography-mentoring-online-assignments#offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Alan Ranger Photography",
+          "url": "https://www.alanranger.com"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "doesNotShip": true,
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 28,
+          "refundType": "http://schema.org/FullRefund",
+          "applicableCountry": "GB",
+          "returnMethod": "http://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnShippingFees",
+          "returnShippingFeesAmount": {
+            "@type": "MonetaryAmount",
+            "value": "50.00",
+            "currency": "GBP"
+          }
+        }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Ellis"
+          },
+          "reviewBody": "Alan’s advice and help is always invaluable. I’ve been taking part in the monthly mentoring sessions for the past year and I know I can always rely on him for clear and honest feedback and as a result feel I have really improved my photographic skills in a way that I could never have done by simply reading theory and articles.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-12-09",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Patricia Willis"
+          },
+          "reviewBody": "Very encouraging and supportive. An excellent manner that left me feeling very positive that I could improve my photography.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-11-10",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Flack"
+          },
+          "reviewBody": "Brilliant!!!  Had several mentoring feedback sessions and all of them have been beneficial.  Every session full of useful and relevant information.  Assessments and feedback is honest, accurate and delivered in Alan's inimitable style.  Always something I look forward to.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-04-24",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jan & Gary Boulter"
+          },
+          "reviewBody": "Update July 2024 - another very successful meeting with Alan. Helped me focus on where I am going with a project and provided quality food for thought on both the technical and composition elements of my photography. Enjoyed as always  Great webinar on editing, really useful advice to achieve your objective for an image. Small group and interactive, with Alan showing you step by step, the various Editing options.  Really enjoyed it",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2020-04-11",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": 4
+      },
+      "@id": "https://www.alanranger.com/photography-mentoring-online-assignments#product"
+    },
+    {
+      "@type": "Product",
+      "name": "Free Online Photography Course",
+      "sku": "SQ-ACADEMY-ANNUAL",
+      "brand": {
+        "@type": "Brand",
+        "name": "Alan Ranger Photography"
+      },
+      "description": "Free online photography course from the Alan Ranger photography academy. 60 modules covering camera settings, gear, composition, genres and practical exercises. 14-day free trial; £79/year membership.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/72b72191-5a88-45c1-85cc-db9f7e0032b7/FREE+online+photography+course",
+      "url": "https://www.alanranger.com/free-online-photography-course",
+      "offers": {
+        "@type": "Offer",
+        "sku": "SQ-ACADEMY-ANNUAL",
+        "price": "79.00",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-10-06",
+        "priceValidUntil": "2027-10-06",
+        "name": "Alan Ranger Academy — Annual Membership £79/yr",
+        "url": "https://www.alanranger.com/free-online-photography-course",
+        "@id": "https://www.alanranger.com/free-online-photography-course#offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Alan Ranger Photography",
+          "url": "https://www.alanranger.com"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "doesNotShip": true,
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 28,
+          "refundType": "http://schema.org/FullRefund",
+          "applicableCountry": "GB",
+          "returnMethod": "http://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnShippingFees",
+          "returnShippingFeesAmount": {
+            "@type": "MonetaryAmount",
+            "value": "50.00",
+            "currency": "GBP"
+          }
+        }
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Catalina Christensen"
+          },
+          "reviewBody": "A fantastic free resource to learn about photography!!! Very good explanations off all the necessary concepts to get familiar with photography.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-08-25",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Bruce Radebaugh"
+          },
+          "reviewBody": "Alan's lessons are clear, concise and maybe the best on helping with excellent tips to take better photos and attract more birds .",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-08-24",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Andrew Blaxhall"
+          },
+          "reviewBody": "Great helpful material, great presentation and ideas",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-08-24",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": 3
+      },
+      "@id": "https://www.alanranger.com/free-online-photography-course#product"
     }
   ]
 }

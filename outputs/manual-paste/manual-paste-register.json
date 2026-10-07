@@ -35,18 +35,18 @@
       "id": "store-header-photo-workshops-uk",
       "url": "https://www.alanranger.com/photo-workshops-uk",
       "location": "Squarespace \u2192 Pages \u2192 photo-workshops-uk \u2192 \u2699 \u2192 Advanced \u2192 Page Header Code Injection",
-      "needsRepaste": true,
+      "needsRepaste": false,
       "pasteSnippet": "<script src=\"https://schema.alanranger.com/loaders/product-page-loader.js\" defer></script>",
-      "reason": "hosted product-page-loader.js one-liner hash changed \u2014 re-paste one-liner only",
+      "reason": "unchanged (hosted loader; Alan should not need to re-paste)",
       "note": "Option B: delete prior ar-pb header block; paste one-liner only."
     },
     {
       "id": "store-header-photography-services-near-me",
       "url": "https://www.alanranger.com/photography-services-near-me",
       "location": "Squarespace \u2192 Pages \u2192 photography-services-near-me \u2192 \u2699 \u2192 Advanced \u2192 Page Header Code Injection",
-      "needsRepaste": true,
+      "needsRepaste": false,
       "pasteSnippet": "<script src=\"https://schema.alanranger.com/loaders/product-page-loader.js\" defer></script>",
-      "reason": "hosted product-page-loader.js one-liner hash changed \u2014 re-paste one-liner only",
+      "reason": "unchanged (hosted loader; Alan should not need to re-paste)",
       "note": "Option B: delete prior ar-pb header block; paste one-liner only."
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T08:55:25.022Z",
+  "generatedAt": "2026-10-07T09:07:17.508Z",
   "summary": {
     "total": 56,
-    "pass": 45,
-    "fail": 9,
+    "pass": 54,
+    "fail": 0,
     "redirect": 2,
-    "exceptions": 22
+    "exceptions": 13
   },
   "redirects": [
     {
@@ -51,16 +51,16 @@
     {
       "pathKey": "/photography-services-near-me/camera-sensor-clean",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 7,
       "jsonLdTotal": 7,
       "dataTotal": 7,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Simona Abaidoo 2026-09-22",
       "emitCount": 7,
       "ratingValue": "5.0",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/woodland-photography-walk-warwickshire",
@@ -107,16 +107,16 @@
     {
       "pathKey": "/photography-services-near-me/monthly-pick-n-mix-subscription",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 1,
       "jsonLdTotal": 1,
       "dataTotal": 1,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Philip O'Grady 2018-07-04",
       "emitCount": 1,
       "ratingValue": "5.0",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/bluebell-woodlands-photography-workshops",
@@ -135,30 +135,30 @@
     {
       "pathKey": "/photography-services-near-me/annual-pick-n-mix-subscription",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 3,
       "jsonLdTotal": 3,
       "dataTotal": 3,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Tre Buck 2014-09-11",
       "emitCount": 3,
       "ratingValue": "4.33",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/quarterly-pick-n-mix-subscription",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 3,
       "jsonLdTotal": 3,
       "dataTotal": 3,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Bob Peapell ",
       "emitCount": 3,
       "ratingValue": "4.67",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/beginners-photography-course",
@@ -289,30 +289,30 @@
     {
       "pathKey": "/photography-services-near-me/fine-art-photography-prints-canvas",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 3,
       "jsonLdTotal": 3,
       "dataTotal": 3,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Steve Tracey 2015-06-06",
       "emitCount": 3,
       "ratingValue": "5.0",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/fine-art-photography-prints-unframed",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 5,
       "jsonLdTotal": 5,
       "dataTotal": 5,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Graham Hilling 2015-12-02",
       "emitCount": 5,
       "ratingValue": "4.8",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
@@ -331,16 +331,16 @@
     {
       "pathKey": "/photography-services-near-me/framed-fine-art-photography-prints",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 4,
       "jsonLdTotal": 4,
       "dataTotal": 4,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Grace Oliver 2026-03-24",
       "emitCount": 4,
       "ratingValue": "5.0",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/coastal-northumberland-photography-workshops",
@@ -695,16 +695,16 @@
     {
       "pathKey": "/photography-services-near-me/photography-gift-vouchers",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": 1,
       "jsonLdTotal": 1,
       "dataTotal": 1,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Julie 2018-12-04",
       "emitCount": 1,
       "ratingValue": "5.0",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/black-and-white-photography-course",
@@ -733,16 +733,16 @@
     {
       "pathKey": "/free-online-photography-course",
       "kind": "product",
-      "status": "FAIL",
+      "status": "PASS",
       "badgeTotal": null,
       "jsonLdTotal": 3,
       "dataTotal": 3,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Catalina Christensen 2025-08-25",
       "emitCount": 3,
       "ratingValue": "5.0",
-      "note": "heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-mentoring-online-assignments",
@@ -819,42 +819,6 @@
       "excerpt": "After completing the beginners course, I wasn't sure what do do next, so I signed up for some 1-2-1 sessions with Alan. His expertise and constructive critique "
     },
     {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/camera-sensor-clean",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 5.0 · 7 reviews · Google & Trustpilot"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/monthly-pick-n-mix-subscription",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 5.0 · 1 review · Google & Trustpilot"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/annual-pick-n-mix-subscription",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 4.33 · 3 reviews · Google & Trustpilot"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/quarterly-pick-n-mix-subscription",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 4.67 · 3 reviews · Google & Trustpilot"
-    },
-    {
       "type": "newest_mismatch",
       "pathKey": "/photography-services-near-me/quarterly-pick-n-mix-subscription",
       "expected": {
@@ -891,33 +855,6 @@
       "date": "",
       "proposed_slug": "lightroom-courses-for-beginners-coventry",
       "excerpt": "Alan is an outstanding photographer who can see compositions few of us see. He will devote all his expertise to enable you to improve your photography at any le"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/fine-art-photography-prints-canvas",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 5.0 · 3 reviews · Google & Trustpilot"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/fine-art-photography-prints-unframed",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 4.8 · 5 reviews · Google & Trustpilot"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/framed-fine-art-photography-prints",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 5.0 · 4 reviews · Google & Trustpilot"
     },
     {
       "type": "misattribution_candidate",
@@ -980,24 +917,6 @@
       "date": "2025-11-21",
       "proposed_slug": "beginners-photography-course",
       "excerpt": "We've just finished up a 3 week beginners photography course with Alan and really enjoyed it! Alan was a great teacher and would have a laugh with you but also "
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/photography-gift-vouchers",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": "★★★★★ 5.0 · 1 review · Google & Trustpilot"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/free-online-photography-course",
-      "fails": [
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
     }
   ]
 }

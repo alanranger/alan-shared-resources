@@ -854,6 +854,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Jill Bowman"
+          },
+          "reviewBody": "Customer review available on Google",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-10-28",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Simon Worledge"
           },
           "reviewBody": "Alan clearly has a great enthusiasm for photography that he loves to share. He easily adapts his teaching style to suit each person’s individual needs. (Now if he could just get a better line through to the weather gods…)",
@@ -1006,25 +1025,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Atmos"
-          },
-          "reviewBody": "I really enjoyed Alan’s beginner photography course. I have been taking photos for a couple of years but learned a lot in three sessions. I’m more informed on how to create better images now.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-10-20",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Dr. Yumna I S"
           },
           "reviewBody": "Very informative and a great way to start as a beginner. Learnt alot and got good feedback on assignments. Definitely recommend. 👍",
@@ -1047,6 +1047,25 @@
             "name": "Dianne Morgan"
           },
           "reviewBody": "Excellent interactive workshops to get to grips with the basics.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-10-20",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Atmos"
+          },
+          "reviewBody": "I really enjoyed Alan’s beginner photography course. I have been taking photos for a couple of years but learned a lot in three sessions. I’m more informed on how to create better images now.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -1291,35 +1310,16 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Morgan Andringa"
+            "name": "Karen Skillings"
           },
-          "reviewBody": "Great afternoon with Alan. I have learnt lots and I am sure that my photos have been improved as a result.",
+          "reviewBody": "Customer review available on Google",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
             "bestRating": "5",
             "worstRating": "1"
           },
-          "datePublished": "2021-10-25",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Mandy Waters"
-          },
-          "reviewBody": "A great afternoon at Batsford Arboretum for the autumn workshop.  Alan was very helpful giving me ideas to improve my composition, assisting with my camera settings, answering any photography questions I had. A really enjoyable afternoon and look forward to going out to practice some new techniques and skills. Thanks again",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-24",
+          "datePublished": "2021-10-27",
           "publisher": {
             "@type": "Organization",
             "name": "Google"
@@ -1328,8 +1328,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.86",
-        "reviewCount": 88,
+        "ratingValue": "4.87",
+        "reviewCount": 90,
         "bestRating": "5",
         "worstRating": "1"
       },

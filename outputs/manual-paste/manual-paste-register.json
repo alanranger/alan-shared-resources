@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-07T09:15:49.709018",
+  "updatedAt": "2026-10-07T09:19:04.552894",
   "note": "Flag needsRepaste only when review payload hash changes. Paste files are ready under this folder / CDN JSON.",
   "pages": [
     {
       "id": "mentoring",
       "url": "https://www.alanranger.com/photography-mentoring-online-assignments",
-      "needsRepaste": true,
+      "needsRepaste": false,
       "reviewCount": 8,
       "pasteFile": "mentoring-service-node.json"
     },

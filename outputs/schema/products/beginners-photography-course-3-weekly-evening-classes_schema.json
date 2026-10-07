@@ -698,6 +698,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Jack Ranger"
+          },
+          "reviewBody": "Customer review available on Google",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-10-05",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Joel Wymer"
           },
           "reviewBody": "I joined Alan for his Beginners Course. I’ve done similar courses before but a mix of Alan’s down-to-earth, simplified and easy to follow delivery meant I learnt more about the capabilities of my camera than at any previous courses.  I highly recommend Alan for his camera courses.",
@@ -921,31 +940,12 @@
             "@type": "Organization",
             "name": "Google"
           }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Kelly Westwood"
-          },
-          "reviewBody": "I thoroughly enjoyed both the beginners photography course and the lightroom course. I am a complete beginner but feel like I have learned so much. Alan is really good at giving examples and explaining things in a way you can understand. The classes are small, which makes them personal and we had lots of laughs throughout the course. Already signed up the monthly mentoring, which I’m hoping with continue to improve my knowledge and skills. Look forward to the workshops in the future. Thanks Alan.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2024-02-19",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": 139,
+        "reviewCount": 140,
         "bestRating": "5",
         "worstRating": "1"
       },

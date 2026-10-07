@@ -1,0 +1,401 @@
+{
+  "missing_overrides_newer_than_oldest_emitted": [],
+  "wrong_product_text": [
+    {
+      "slug": "lightroom-courses-for-beginners-coventry",
+      "author": "Jeanette Waters",
+      "date": "2021-09-10",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\bzoom\\b",
+      "excerpt": "I was thrilled to find this site and organise a Zoom meeting with Alan. He understood the lightroom problem, helped me sort it out,. Didn't rush and it was so e"
+    },
+    {
+      "slug": "lightroom-courses-for-beginners-coventry",
+      "author": "Helen Maddison",
+      "date": "2020-03-01",
+      "hinted_slug": "beginners-photography-course",
+      "pattern": "\\bbeginners?\\s+(photography\\s+)?(course|class)",
+      "excerpt": "I am new to photography and feel as though I got a lot from the course already. It was explained in an easy to understand way and not too much 'technical' jargo"
+    },
+    {
+      "slug": "lightroom-courses-for-beginners-coventry",
+      "author": "David McGuire",
+      "date": "2019-12-12",
+      "hinted_slug": "beginners-photography-course",
+      "pattern": "\\bbeginners?\\s+(photography\\s+)?(course|class)",
+      "excerpt": "After completing the beginners course, I wasn't sure what do do next, so I signed up for some 1-2-1 sessions with Alan. His expertise and constructive critique "
+    },
+    {
+      "slug": "lightroom-courses-for-beginners-coventry",
+      "author": "Customer",
+      "date": "2018-07-01",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I can't explain how much Alan has improved my photography, my images of today are miles away from what I used to take. I've been on a few of Alan's different of"
+    },
+    {
+      "slug": "rps-mentoring-photography-course",
+      "author": "Anne Watkinson",
+      "date": "2019-02-25",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I have had a few 1-2-1 sessions with Alan and I have found him to be an excellent teacher. Nothing is too much trouble, he is extremely patient and made sure I "
+    },
+    {
+      "slug": "camera-sensor-clean",
+      "author": "Jason",
+      "date": "2016-11-06",
+      "hinted_slug": "beginners-photography-course",
+      "pattern": "\\bbeginners?\\s+(photography\\s+)?(course|class)",
+      "excerpt": "I have just attended the 3hr beginner course and found it excellent. The delivery and passion for photography shown by Alan was evident throughout. I found the "
+    },
+    {
+      "slug": "woodland-photography-walk-warwickshire",
+      "author": "Anne Watkinson",
+      "date": "2019-11-01",
+      "hinted_slug": "secrets-of-woodland-photography-workshop",
+      "pattern": "\\bwoodland\\b",
+      "excerpt": "A well organised morning taking photos in local woodlands. Alan was always on hand to advise on composition, camera settings and any other queries we had. A ver"
+    },
+    {
+      "slug": "woodland-photography-walk-warwickshire",
+      "author": "npartridge",
+      "date": "2019-08-03",
+      "hinted_slug": "secrets-of-woodland-photography-workshop",
+      "pattern": "\\bwoodland\\b",
+      "excerpt": "A woodland photo walk was pleasant enough but too many people in the group as a result it got split up as people started to take photos and we never saw the gro"
+    },
+    {
+      "slug": "woodland-photography-walk-warwickshire",
+      "author": "Jean Dance",
+      "date": "2019-05-03",
+      "hinted_slug": "secrets-of-woodland-photography-workshop",
+      "pattern": "\\bwoodland\\b",
+      "excerpt": "The Woodland Photo Walk in Moseley Wood / Bog was most enjoyable. Thanks Alan for another great morning."
+    },
+    {
+      "slug": "woodland-photography-walk-warwickshire",
+      "author": "Charles Budd",
+      "date": "2019-04-12",
+      "hinted_slug": "secrets-of-woodland-photography-workshop",
+      "pattern": "\\bwoodland\\b",
+      "excerpt": "Really enjoyed the woodland walk - and I learned a few things about how to look differently and therefore see more. Thanks Alan and the rest of the lovely group"
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "chris brown",
+      "date": "2022-11-10",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "Really educational and practical 1-2-1 session with Alan. Extremely worthwhile."
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "Ash Routen",
+      "date": "2020-06-27",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I booked a one-to-one tutorial session with Alan at a local National Trust property. Alan was very personable and explained key concepts in an understandable ma"
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "KP",
+      "date": "2019-04-09",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "Great workshop with 1-2-1 help when required taking into account the experience of each photographer. Lovely evening, many thanks"
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "Mosie",
+      "date": "2019-03-05",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "A great one to one session some helpful feedback on photos. I have come away with a much clearer understanding of the theory behind the practice. Personalising "
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "Con McHugh",
+      "date": "2019-01-05",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I did a 121 with Alan as part of my Intentions Course that I am doing on the Homeless. I got what I need from the session and enjoyed it. I Also found his passi"
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "Lynseylp",
+      "date": "2014-11-10",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I initially enrolled on an introductory course with Alan through living social deals. His engaging delivery, course materials and open, honest and supportive ap"
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "Emma Moxon",
+      "date": null,
+      "hinted_slug": "rps-mentoring-photography-course",
+      "pattern": "\\bmentoring\\b|\\bmentor\\b",
+      "excerpt": "We attended our first 2 hour session and also first session for premium Mentoring on Sunday and it was so helpful. Throughout the session I was assigned tasks t"
+    },
+    {
+      "slug": "four-private-photography-classes",
+      "author": "Matt Nuttal",
+      "date": null,
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "Even though I arrived 45 minutes late at Alan's house he still managed to calibrate my laptop and PC monitor, set up and teach me the essentials of Light Room a"
+    },
+    {
+      "slug": "batsford-arboretum-photography-workshops",
+      "author": "Atmos",
+      "date": "2025-10-20",
+      "hinted_slug": "beginners-photography-course",
+      "pattern": "\\bbeginners?\\s+(photography\\s+)?(course|class)",
+      "excerpt": "I really enjoyed Alan\u2019s beginner photography course. I have been taking photos for a couple of years but learned a lot in three sessions. I\u2019m more informed on h"
+    },
+    {
+      "slug": "beginners-photography-course",
+      "author": "Paul Fuller",
+      "date": "2024-11-22",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I received a gift card for a big birthday and I recently completed the Beginners course over an very extended period. This was only possible due to Alan's flexi"
+    },
+    {
+      "slug": "landscape-photography-devon-hartland-quay",
+      "author": "Robert Griffiths",
+      "date": "2020-07-03",
+      "hinted_slug": "lightroom-courses-for-beginners-coventry",
+      "pattern": "\\blightroom\\b",
+      "excerpt": "Despite absolutely appalling weather, I had an amazing weekend at Hartland Quay and its environs with Alan. His enthusiasm to capture images and learn photograp"
+    },
+    {
+      "slug": "poppy-fields-photography-workshops",
+      "author": "Magdalena Osojca",
+      "date": null,
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "Really enjoyed the poppy fields workshop with Alan. He is a very knowledgeable photographer and gives everyone great one to one advice. Highly recommend :)"
+    },
+    {
+      "slug": "lake-district-photography-workshop",
+      "author": "Shelly Soo",
+      "date": "2024-09-26",
+      "hinted_slug": "lightroom-courses-for-beginners-coventry",
+      "pattern": "\\blightroom\\b",
+      "excerpt": "I have thoroughly enjoyed the Lake District photography workshop with a lovely small group. We were blessed with excellent weather those few days. Alan drove us"
+    },
+    {
+      "slug": "lake-district-photography-workshop",
+      "author": "Paul Widdowson",
+      "date": "2024-03-29",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I recently attended a 3 day workshop with Alan in the Lake District, and in that time it felt like I learned more about photography than at any other point in m"
+    },
+    {
+      "slug": "lake-district-photography-workshop",
+      "author": "Robert Griffiths",
+      "date": null,
+      "hinted_slug": "lightroom-courses-for-beginners-coventry",
+      "pattern": "\\blightroom\\b",
+      "excerpt": "Alan is an outstanding photographer who can see compositions few of us see. He will devote all his expertise to enable you to improve your photography at any le"
+    },
+    {
+      "slug": "landscape-peak-district-photography-workshops-derbyshire",
+      "author": "KP",
+      "date": "2019-04-09",
+      "hinted_slug": "peak-district-heather-photography-workshop",
+      "pattern": "\\bheather\\b",
+      "excerpt": "An enjoyable workshop in the peak district with very helpful advice given by Alan to make the most of the conditions that we had along with guidance on how to p"
+    },
+    {
+      "slug": "landscape-peak-district-photography-workshops-derbyshire",
+      "author": "Howard",
+      "date": null,
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I had a little knowledge of photography but wanted a course that would help me understand from the basic essentials onwards so that I could get more from my cam"
+    },
+    {
+      "slug": "coastal-northumberland-photography-workshops",
+      "author": "Joyce James",
+      "date": null,
+      "hinted_slug": "rps-mentoring-photography-course",
+      "pattern": "\\bmentoring\\b|\\bmentor\\b",
+      "excerpt": "Just back from a 3 day workshop with Alan up in Northumberland - this was the latest of many workshops I have attended plus other mentoring sessions including 1"
+    },
+    {
+      "slug": "landscape-photography-workshops-anglesey",
+      "author": "Mattia Tosi",
+      "date": "2021-09-13",
+      "hinted_slug": "lightroom-courses-for-beginners-coventry",
+      "pattern": "\\blightroom\\b",
+      "excerpt": "I would recommend Alan to everyone! I've done the Beginner's Photography course, the Lightroom course and two workshops and thanks to these and Alan's coaching "
+    },
+    {
+      "slug": "landscape-photography-workshops-nant-mill",
+      "author": "Anne Watkinson",
+      "date": "2019-05-03",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "An excellent weekend of photography with lots of variety and plenty of time for 1-2-1 tuition and group reviews."
+    },
+    {
+      "slug": "abstract-and-macro-photography-workshops",
+      "author": "Louise Manning",
+      "date": "2024-06-11",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I really enjoyed the recent Abstract and Macro Photography course held by Alan Ranger. I received emails prior to the event with a list of equipment and directi"
+    },
+    {
+      "slug": "abstract-and-macro-photography-workshops",
+      "author": "Doug Goddard",
+      "date": "2019-06-08",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "An enjoyable day with some good technical advice. I would have liked more time on the practical in the field and this would have allowed more one-to-one guidanc"
+    },
+    {
+      "slug": "yorkshire-dales-photography-workshops",
+      "author": "Sofiagzagdo",
+      "date": "2026-05-02",
+      "hinted_slug": "lightroom-courses-for-beginners-coventry",
+      "pattern": "\\blightroom\\b",
+      "excerpt": "This is a great photography course! I had very little knowledge about photography and a lot of questions\u2026 Alan is super knowledgeable, patient and takes the tim"
+    },
+    {
+      "slug": "urban-architecture-photography-workshops-coventry",
+      "author": "Ester  Riodran",
+      "date": null,
+      "hinted_slug": "lightroom-courses-for-beginners-coventry",
+      "pattern": "\\blightroom\\b",
+      "excerpt": "This is only the third time of meeting and spending time with Alan but so far so good. He has helped me with Lightroom and with landscape photography which has "
+    },
+    {
+      "slug": "long-exposure-photography-kenilworth",
+      "author": "Sharron",
+      "date": "2017-06-11",
+      "hinted_slug": "fireworks-photography-workshop-kenilworth",
+      "pattern": "\\bfireworks?\\b",
+      "excerpt": "Fireworks Workshop at Kenilworth Castle. Alan is at hand to guide you through this workshop which ran very smoothly and the pictures I took I am absolutely thri"
+    },
+    {
+      "slug": "long-exposure-photography-kenilworth",
+      "author": "Woody",
+      "date": "2014-09-11",
+      "hinted_slug": "fireworks-photography-workshop-kenilworth",
+      "pattern": "\\bfireworks?\\b",
+      "excerpt": "Alan's workshop on the Kenilworth Castle Fireworks display was most enjoyable. Learnt quite a few new things to allow me to improve my own photography. Obviousl"
+    },
+    {
+      "slug": "landscape-photography-snowdonia-workshops",
+      "author": "Nigel Capelle",
+      "date": "2023-10-29",
+      "hinted_slug": "rps-mentoring-photography-course",
+      "pattern": "\\bmentoring\\b|\\bmentor\\b",
+      "excerpt": "The landscape photography workshop in Snowdonia proved to be an enlightening experience, offering a comprehensive understanding of capturing nature's beauty. Le"
+    },
+    {
+      "slug": "landscape-photography-snowdonia-workshops",
+      "author": "James Cameron",
+      "date": null,
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I recently went on a workshop to Glencoe for 3 days. I had excellent tuition and advice on how to visualise and capture images. I've since had a 1-2-1 where we'"
+    },
+    {
+      "slug": "landscape-photography-snowdonia-workshops",
+      "author": "Con McHugh",
+      "date": null,
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "I have recently completed a 3 day weekend workshop in Glencoe with Alan and 3 others. It was a great location and Alan had clearly well prepared in the choice o"
+    },
+    {
+      "slug": "garden-photography-workshop",
+      "author": "Emoke Ispan",
+      "date": "2023-10-11",
+      "hinted_slug": "lightroom-courses-for-beginners-coventry",
+      "pattern": "\\blightroom\\b",
+      "excerpt": "I have attended 2 photography courses (beginners & Lightroom) and 2 workshops (garden & woodland) with Alan so far and I really enjoyed all of them! He's a grea"
+    },
+    {
+      "slug": "peak-district-heather-photography-workshop",
+      "author": "Lisa Vincent",
+      "date": "2026-05-18",
+      "hinted_slug": "private-online-photography-classes-zoom",
+      "pattern": "\\b1[- ]?2[- ]?1\\b|\\bone[- ]to[- ]one\\b|\\bprivate\\s+(online\\s+)?(class|tuition)",
+      "excerpt": "A fantastic day out to a truly magical place. Alan was great throughout the whole day giving out lots of one to one advice and guidance which was appreciated an"
+    },
+    {
+      "slug": "secrets-of-woodland-photography-workshop",
+      "author": "V Webb",
+      "date": "2026-04-26",
+      "hinted_slug": "bluebell-woodlands-photography-workshops",
+      "pattern": "\\bbluebell\\b",
+      "excerpt": "Fantastic bluebell photography workshop. Incredible location and brilliant stewardship through the woodland itself and best shots/camera setup. Thank you!"
+    },
+    {
+      "slug": "private-online-photography-classes-zoom",
+      "author": "Dean Le Page",
+      "date": "2026-06-03",
+      "hinted_slug": "secrets-of-woodland-photography-workshop",
+      "pattern": "\\bwoodland\\b",
+      "excerpt": "Had an introductory 1-1 zoom session to help me develop my woodland photography skills. Alan was honest and forthright in what I needed to do to improve. Will b"
+    },
+    {
+      "slug": "private-online-photography-classes-zoom",
+      "author": "Richard Johnson",
+      "date": "2026-03-27",
+      "hinted_slug": "rps-mentoring-photography-course",
+      "pattern": "\\bmentoring\\b|\\bmentor\\b",
+      "excerpt": "Alan provided me with RPS Mentoring for a distinction submission. He has huge knowledge of the process and what the judges base their scoring on. I learnt a lot"
+    },
+    {
+      "slug": "private-online-photography-classes-zoom",
+      "author": "Jack",
+      "date": "2025-11-21",
+      "hinted_slug": "beginners-photography-course",
+      "pattern": "\\bbeginners?\\s+(photography\\s+)?(course|class)",
+      "excerpt": "We've just finished up a 3 week beginners photography course with Alan and really enjoyed it! Alan was a great teacher and would have a laugh with you but also "
+    },
+    {
+      "slug": "private-online-photography-classes-zoom",
+      "author": "Nicholas Barber",
+      "date": "2025-10-24",
+      "hinted_slug": "rps-mentoring-photography-course",
+      "pattern": "\\bmentoring\\b|\\bmentor\\b",
+      "excerpt": "I had a 1h 1:1 online mentoring session with Alan to sort out how to deal with my images on a long holiday. He was brilliant, clear instructions and a 2 page ac"
+    },
+    {
+      "slug": "private-online-photography-classes-zoom",
+      "author": "Nicholas Barber",
+      "date": "2021-08-11",
+      "hinted_slug": "rps-mentoring-photography-course",
+      "pattern": "\\bmentoring\\b|\\bmentor\\b",
+      "excerpt": "I had a 2h f2f mentoring session with Alan. I thought I was pretty knowledgeable about photography however I was amazed how much I learned in that time. I feel "
+    },
+    {
+      "slug": "photography-masterclasses-coventry",
+      "author": "Garry Such",
+      "date": "2018-08-01",
+      "hinted_slug": "beginners-photography-course",
+      "pattern": "\\bbeginners?\\s+(photography\\s+)?(course|class)",
+      "excerpt": "Great learning experience - as a total DSLR novice 2 years a go, I started Alan's unique 5 week beginners course. Then, taking everything learned in the classro"
+    },
+    {
+      "slug": "photography-masterclasses-coventry",
+      "author": "Christopher Parker",
+      "date": "2018-08-01",
+      "hinted_slug": "rps-mentoring-photography-course",
+      "pattern": "\\bmentoring\\b|\\bmentor\\b",
+      "excerpt": "I have attended, and benefited hugely from, Alan's courses, workshops and masterclasses. Attendance at the beginners and intermediates courses have had a consid"
+    }
+  ],
+  "counts": {
+    "missing_overrides": 0,
+    "wrong_product_text": 49
+  }
+}

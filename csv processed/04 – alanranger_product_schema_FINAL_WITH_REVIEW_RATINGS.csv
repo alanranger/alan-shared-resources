@@ -536,25 +536,6 @@ Lightroom Courses for Beginners Photo Editing - Coventry,https://www.alanranger.
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
-            ""name"": ""David McGuire""
-          },
-          ""reviewBody"": ""After completing the beginners course, I wasn't sure what do do next, so I signed up for some 1-2-1 sessions with Alan. His expertise and constructive critique during the first session enabled him to tailor a session suitable for me for No 2. We discussed black and white photography and concentrated on editing some of my previous shots using software add-ons to the Lightroom program, which I already use. While I am by no means anywhere near expert quality, Alans teaching style has given me the confidence to take my photography to the next level. Alan offers as many 1-2-1 sessions as you feel you will need, but for me, I have chosen to use my other 2 sessions in a workshop situation, allowing me to get out and about with other photographers in the field and learn more techniques with guidance from Alan. One real positive that has come from this was an immediate solution to a problem I had been suffering with my photo editing. This was due to Lightroom being updated recently and my Mac not being able to cope. Since upgrading my RAM, following Alans recommendation, the performance and speed of my software has been much improved, allowing my to spend more time doing decent edits instead of waiting like I was before. Many thanks for all your help so far, and looking forward to the next one."",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2019-12-12"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Trustpilot""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
             ""name"": ""Julie Emmanuel-Hunt""
           },
           ""reviewBody"": ""I learn a lot from the get off auto course, I would recommend.  I would do the rest of course but it’s to far to drive"",
@@ -740,12 +721,31 @@ Lightroom Courses for Beginners Photo Editing - Coventry,https://www.alanranger.
             ""@type"": ""Organization"",
             ""name"": ""Trustpilot""
           }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
+            ""name"": ""Len Sutton""
+          },
+          ""reviewBody"": ""The several courses I have done with Alan i.e.  a photography masterclass, Adobe Lightroom have all been educational, informational, and above all fun and enjoyable.  Alan goes beyond just the teaching of all aspects of photography but provides advice and support at whatever level of experience you are at.  I highly recommend any course with Alan and look forward to taking another course with him to improve, enhance my knowledge and ability on how to take a ' good photo' Len Sutton -  Birmingham - 06/04/18"",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2018-06-04"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Trustpilot""
+          }
         }
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.79"",
-        ""reviewCount"": 47,
+        ""ratingValue"": ""4.78"",
+        ""reviewCount"": 46,
         ""bestRating"": ""5"",
         ""worstRating"": ""1""
       },
@@ -753,7 +753,7 @@ Lightroom Courses for Beginners Photo Editing - Coventry,https://www.alanranger.
     }
   ]
 }
-</script>",47,4.79,Yes,lightroom-courses-for-beginners-photo-editing-coventry_schema_squarespace_ready.html,lightroom-courses-for-beginners-photo-editing-coventry_schema.json
+</script>",46,4.78,Yes,lightroom-courses-for-beginners-photo-editing-coventry_schema_squarespace_ready.html,lightroom-courses-for-beginners-photo-editing-coventry_schema.json
 RPS Courses - Independent RPS Mentoring for RPS Distinctions,https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -6821,6 +6821,25 @@ BLUEBELL WOODLANDS Photography - Warks - 20 Apr - 30 Apr,https://www.alanranger.
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
+            ""name"": ""V Webb""
+          },
+          ""reviewBody"": ""Fantastic bluebell photography workshop. Incredible location and brilliant stewardship through the woodland itself and best shots/camera setup. Thank you!"",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2026-04-26"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Google""
+          }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
             ""name"": ""Anna Kopytek""
           },
           ""reviewBody"": ""Course was excellent. An eye opener for me. Things I may have read or heard before finally put into place. Great tutor (thank you for your patience Alan 😀)"",
@@ -7196,31 +7215,12 @@ BLUEBELL WOODLANDS Photography - Warks - 20 Apr - 30 Apr,https://www.alanranger.
             ""@type"": ""Organization"",
             ""name"": ""Trustpilot""
           }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
-            ""name"": ""Norman""
-          },
-          ""reviewBody"": ""Excellent workshop in a great location."",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2019-08-05"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Trustpilot""
-          }
         }
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.84"",
-        ""reviewCount"": 64,
+        ""ratingValue"": ""4.85"",
+        ""reviewCount"": 65,
         ""bestRating"": ""5"",
         ""worstRating"": ""1""
       },
@@ -7272,7 +7272,7 @@ BLUEBELL WOODLANDS Photography - Warks - 20 Apr - 30 Apr,https://www.alanranger.
   },
   ""@id"": ""https://www.alanranger.com/bluebell-woodlands-photography-workshops#event""
 }
-</script>",64,4.84,Yes,bluebell-woodlands-photography-warks-20-apr-30-apr_schema_squarespace_ready.html,bluebell-woodlands-photography-warks-20-apr-30-apr_schema.json
+</script>",65,4.85,Yes,bluebell-woodlands-photography-warks-20-apr-30-apr_schema_squarespace_ready.html,bluebell-woodlands-photography-warks-20-apr-30-apr_schema.json
 Annual Pick N Mix Subscription | Interest Free Payment Plan,https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -8716,6 +8716,25 @@ Beginners Photography Course | 3 Weekly Evening Classes,https://www.alanranger.c
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
+            ""name"": ""Deb Moffat""
+          },
+          ""reviewBody"": ""Was a complete beginner and found this very useful to get confidence with my camera. Alan has so much knowledge and expertise to impart. Good atmosphere and some laughs along the way."",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2026-01-20"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Google""
+          }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
             ""name"": ""Joint Rollason""
           },
           ""reviewBody"": ""Excellent course to get a grip of the basics. Would highly recommend."",
@@ -8735,16 +8754,16 @@ Beginners Photography Course | 3 Weekly Evening Classes,https://www.alanranger.c
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
-            ""name"": ""Deb Moffat""
+            ""name"": ""Jack""
           },
-          ""reviewBody"": ""Was a complete beginner and found this very useful to get confidence with my camera. Alan has so much knowledge and expertise to impart. Good atmosphere and some laughs along the way."",
+          ""reviewBody"": ""We've just finished up a 3 week beginners photography course with Alan and really enjoyed it! Alan was a great teacher and would have a laugh with you but also covered a lot each week.  Alan taught us all of the basics of our camera and gave us a great starting point to go away and practice. Along with the 3 sessions we also get access to an online portal with loads of further lessons and guides so we can keep practicing in our own time."",
           ""reviewRating"": {
             ""@type"": ""Rating"",
             ""ratingValue"": ""5"",
             ""bestRating"": ""5"",
             ""worstRating"": ""1""
           },
-          ""datePublished"": ""2026-01-20"",
+          ""datePublished"": ""2025-11-21"",
           ""publisher"": {
             ""@type"": ""Organization"",
             ""name"": ""Google""
@@ -9015,31 +9034,12 @@ Beginners Photography Course | 3 Weekly Evening Classes,https://www.alanranger.c
             ""@type"": ""Organization"",
             ""name"": ""Google""
           }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
-            ""name"": ""Sarah Meharg""
-          },
-          ""reviewBody"": ""Attended the beginners photography course. The course exceeded expectations. Lots of different learning methods, very engaging and  an amazing about of learning"",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2024-10-02"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Google""
-          }
         }
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.9"",
-        ""reviewCount"": 142,
+        ""reviewCount"": 144,
         ""bestRating"": ""5"",
         ""worstRating"": ""1""
       },
@@ -9047,7 +9047,7 @@ Beginners Photography Course | 3 Weekly Evening Classes,https://www.alanranger.c
     }
   ]
 }
-</script>",142,4.9,Yes,beginners-photography-course-3-weekly-evening-classes_schema_squarespace_ready.html,beginners-photography-course-3-weekly-evening-classes_schema.json
+</script>",144,4.9,Yes,beginners-photography-course-3-weekly-evening-classes_schema_squarespace_ready.html,beginners-photography-course-3-weekly-evening-classes_schema.json
 Intermediates Intentions Photography Project Course,https://www.alanranger.com/photography-services-near-me/intermediates-intentions-photography-project-course,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -17051,25 +17051,6 @@ NORTH YORKSHIRE Landscape Photography Workshop - Jun 2027,https://www.alanranger
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
-            ""name"": ""Irene Matthews""
-          },
-          ""reviewBody"": ""Not a happy experience!"",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""1"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2018-12-04"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Trustpilot""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
             ""name"": ""James Cameron""
           },
           ""reviewBody"": ""Alan is relatively not that well known and it is only time until he is. My advice to everyone reading this, is to book a session and approach it with an open mind and you will get tonnes of value from the time spent with him."",
@@ -17163,8 +17144,8 @@ NORTH YORKSHIRE Landscape Photography Workshop - Jun 2027,https://www.alanranger
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
-        ""ratingValue"": ""4.33"",
-        ""reviewCount"": 6,
+        ""ratingValue"": ""5.0"",
+        ""reviewCount"": 5,
         ""bestRating"": ""5"",
         ""worstRating"": ""1""
       },
@@ -17216,7 +17197,7 @@ NORTH YORKSHIRE Landscape Photography Workshop - Jun 2027,https://www.alanranger
   },
   ""@id"": ""https://www.alanranger.com/north-yorkshire-landscape-photography#event""
 }
-</script>",6,4.33,Yes,north-yorkshire-landscape-photography-workshop-jun-2027_schema_squarespace_ready.html,north-yorkshire-landscape-photography-workshop-jun-2027_schema.json
+</script>",5,5.0,Yes,north-yorkshire-landscape-photography-workshop-jun-2027_schema_squarespace_ready.html,north-yorkshire-landscape-photography-workshop-jun-2027_schema.json
 Christmas Photography Seasonal Workshops - Warwickshire UK,https://www.alanranger.com/photo-workshops-uk/christmas-photography-workshops,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -22180,25 +22161,6 @@ PEAK DISTRICT HEATHER Photography Workshops - 14-15 Aug,https://www.alanranger.c
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
-            ""name"": ""V Webb""
-          },
-          ""reviewBody"": ""Fantastic bluebell photography workshop. Incredible location and brilliant stewardship through the woodland itself and best shots/camera setup. Thank you!"",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2026-04-26"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Google""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
             ""name"": ""Paul Keating""
           },
           ""reviewBody"": ""Great instructions and explanations. Brilliant to be able to have a photo walk with a pro by your side!"",
@@ -22574,12 +22536,31 @@ PEAK DISTRICT HEATHER Photography Workshops - 14-15 Aug,https://www.alanranger.c
             ""@type"": ""Organization"",
             ""name"": ""Google""
           }
+        },
+        {
+          ""@type"": ""Review"",
+          ""author"": {
+            ""@type"": ""Person"",
+            ""name"": ""Ina Wilkening""
+          },
+          ""reviewBody"": ""I really love the workshops and new webseminar. I always learn a lot and they are always fun to attend."",
+          ""reviewRating"": {
+            ""@type"": ""Rating"",
+            ""ratingValue"": ""5"",
+            ""bestRating"": ""5"",
+            ""worstRating"": ""1""
+          },
+          ""datePublished"": ""2020-04-19"",
+          ""publisher"": {
+            ""@type"": ""Organization"",
+            ""name"": ""Google""
+          }
         }
       ],
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""4.94"",
-        ""reviewCount"": 33,
+        ""reviewCount"": 32,
         ""bestRating"": ""5"",
         ""worstRating"": ""1""
       },
@@ -22631,7 +22612,7 @@ PEAK DISTRICT HEATHER Photography Workshops - 14-15 Aug,https://www.alanranger.c
   },
   ""@id"": ""https://www.alanranger.com/secrets-of-woodland-photography-workshop#event""
 }
-</script>",33,4.94,Yes,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema_squarespace_ready.html,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema.json
+</script>",32,4.94,Yes,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema_squarespace_ready.html,the-secret-of-woodland-photography-1-day-jan-apr-aug-oct_schema.json
 DARTMOOR Photography Workshop - Landscapes - 2nd - 4th Apr,https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>
@@ -23454,25 +23435,6 @@ Online Photography Classes 121 - Zoom - Package Options,https://www.alanranger.c
           ""@type"": ""Review"",
           ""author"": {
             ""@type"": ""Person"",
-            ""name"": ""Jack""
-          },
-          ""reviewBody"": ""We've just finished up a 3 week beginners photography course with Alan and really enjoyed it! Alan was a great teacher and would have a laugh with you but also covered a lot each week.  Alan taught us all of the basics of our camera and gave us a great starting point to go away and practice. Along with the 3 sessions we also get access to an online portal with loads of further lessons and guides so we can keep practicing in our own time."",
-          ""reviewRating"": {
-            ""@type"": ""Rating"",
-            ""ratingValue"": ""5"",
-            ""bestRating"": ""5"",
-            ""worstRating"": ""1""
-          },
-          ""datePublished"": ""2025-11-21"",
-          ""publisher"": {
-            ""@type"": ""Organization"",
-            ""name"": ""Google""
-          }
-        },
-        {
-          ""@type"": ""Review"",
-          ""author"": {
-            ""@type"": ""Person"",
             ""name"": ""Nicholas Barber""
           },
           ""reviewBody"": ""I had a 1h 1:1 online mentoring session with Alan to sort out how to deal with my images on a long holiday. He was brilliant, clear instructions and a 2 page accurate summary of our conversation followed the same day."",
@@ -23852,7 +23814,7 @@ Online Photography Classes 121 - Zoom - Package Options,https://www.alanranger.c
       ""aggregateRating"": {
         ""@type"": ""AggregateRating"",
         ""ratingValue"": ""5.0"",
-        ""reviewCount"": 26,
+        ""reviewCount"": 25,
         ""bestRating"": ""5"",
         ""worstRating"": ""1""
       },
@@ -23860,7 +23822,7 @@ Online Photography Classes 121 - Zoom - Package Options,https://www.alanranger.c
     }
   ]
 }
-</script>",26,5.0,Yes,online-photography-classes-121-zoom-package-options_schema_squarespace_ready.html,online-photography-classes-121-zoom-package-options_schema.json
+</script>",25,5.0,Yes,online-photography-classes-121-zoom-package-options_schema_squarespace_ready.html,online-photography-classes-121-zoom-package-options_schema.json
 1 x 2hr Private Photography Classes - Face to Face Coventry,https://www.alanranger.com/photography-services-near-me/2hr-private-photography-classes-2hr,"<!-- Squarespace Product Schema Suppressor v1.3 (Code-Block Safe) -->
 
 <script>

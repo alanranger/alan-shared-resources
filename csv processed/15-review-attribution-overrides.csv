@@ -1,4 +1,4 @@
-source,reviewer_name,review_date,reference_id,product_slug,scope,priority,notes
+﻿source,reviewer_name,review_date,reference_id,product_slug,scope,priority,notes
 Google,Richard Johnson,2026-03-27,,private-online-photography-classes-zoom,product,100,schema_fixes_zoom_retain_2026-10-06
 Google,Martin Morris,2026-05-21,,secrets-of-woodland-photography-workshop,product,100,booking_reconciled
 Google,Brain Smith Dsouza,2026-05-19,,secrets-of-woodland-photography-workshop,product,100,booking_reconciled
@@ -110,3 +110,6 @@ Google,John Madigan,2023-10-26,,photography-workshops-lavender-fields,product,10
 Google,Penelope Ulander,2026-09-15,,landscape-photography-devon-hartland-quay,product,100,restore_pre_2026-10-07_emit
 Google,peter martin,2024-11-30,,intermediates-intentions-photography-project-course,product,100,restore_pre_2026-10-07_emit
 Google,Michael Donnelly,2026-05-21,,sezincote-garden-photography-workshop,product,100,restore_pre_2026-10-07_emit
+Google,Graham Rousell,2025-11-20,,camera-sensor-clean,product,100,approved_2026-10-07_sensor_clean_text
+Google,Kate Clay,2026-07-16,,beginners-photography-course,product,100,approved_2026-10-07_beginners_text; was_on_sensor_clean
+Google,Harmit Kuner,2026-07-16,,beginners-photography-course,product,100,approved_2026-10-07_beginners_tiebreak_with_Kate

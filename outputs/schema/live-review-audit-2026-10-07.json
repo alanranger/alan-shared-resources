@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T08:41:03.164Z",
+  "generatedAt": "2026-10-07T08:55:25.022Z",
   "summary": {
     "total": 56,
-    "pass": 4,
-    "fail": 50,
+    "pass": 45,
+    "fail": 9,
     "redirect": 2,
-    "exceptions": 58
+    "exceptions": 22
   },
   "redirects": [
     {
@@ -23,36 +23,36 @@
     {
       "pathKey": "/photography-services-near-me/lightroom-courses-for-beginners-coventry",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 47,
       "jsonLdTotal": 47,
       "dataTotal": 47,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Mahmood Esmail 2026-05-27",
       "emitCount": 25,
       "ratingValue": "4.79",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/rps-mentoring-photography-course",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 12,
       "jsonLdTotal": 12,
       "dataTotal": 12,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Matthew Partridge 2026-06-11",
       "emitCount": 12,
       "ratingValue": "4.92",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/camera-sensor-clean",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
+      "badgeTotal": 7,
       "jsonLdTotal": 7,
       "dataTotal": 7,
       "headingOK": false,
@@ -60,55 +60,55 @@
       "firstReview": "Simona Abaidoo 2026-09-22",
       "emitCount": 7,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photo-workshops-uk/woodland-photography-walk-warwickshire",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 34,
       "jsonLdTotal": 34,
       "dataTotal": 34,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Mr J Parker 2020-12-01",
       "emitCount": 25,
       "ratingValue": "4.82",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/four-private-photography-classes",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 19,
       "jsonLdTotal": 19,
       "dataTotal": 19,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Ian McHardy 2026-05-07",
       "emitCount": 19,
       "ratingValue": "4.95",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/batsford-arboretum-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 88,
       "jsonLdTotal": 88,
       "dataTotal": 88,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Simon Worledge 2025-10-27",
       "emitCount": 25,
       "ratingValue": "4.86",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/monthly-pick-n-mix-subscription",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
+      "badgeTotal": 1,
       "jsonLdTotal": 1,
       "dataTotal": 1,
       "headingOK": false,
@@ -116,27 +116,27 @@
       "firstReview": "Philip O'Grady 2018-07-04",
       "emitCount": 1,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photo-workshops-uk/bluebell-woodlands-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 64,
+      "jsonLdTotal": 64,
       "dataTotal": 64,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Louise Potter 2026-04-30",
+      "emitCount": 25,
+      "ratingValue": "4.84",
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/annual-pick-n-mix-subscription",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
+      "badgeTotal": 3,
       "jsonLdTotal": 3,
       "dataTotal": 3,
       "headingOK": false,
@@ -144,13 +144,13 @@
       "firstReview": "Tre Buck 2014-09-11",
       "emitCount": 3,
       "ratingValue": "4.33",
-      "note": "badge ; heading \"\""
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photography-services-near-me/quarterly-pick-n-mix-subscription",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
+      "badgeTotal": 3,
       "jsonLdTotal": 3,
       "dataTotal": 3,
       "headingOK": false,
@@ -158,139 +158,139 @@
       "firstReview": "Bob Peapell ",
       "emitCount": 3,
       "ratingValue": "4.67",
-      "note": "badge ; heading \"\""
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photography-services-near-me/beginners-photography-course",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 142,
       "jsonLdTotal": 142,
       "dataTotal": 142,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Kate Clay 2026-07-16",
       "emitCount": 25,
       "ratingValue": "4.9",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/intermediates-intentions-photography-project-course",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 7,
       "jsonLdTotal": 7,
       "dataTotal": 7,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Michael Simm 2025-08-24",
       "emitCount": 7,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-photography-devon-hartland-quay",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 9,
+      "jsonLdTotal": 9,
       "dataTotal": 9,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Penelope Ulander 2026-09-15",
+      "emitCount": 9,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/photography-workshops-chesterton-windmill",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 7,
+      "jsonLdTotal": 7,
       "dataTotal": 7,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Angela Abraham 2019-11-04",
+      "emitCount": 7,
+      "ratingValue": "4.71",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 2,
       "jsonLdTotal": 2,
       "dataTotal": 2,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Jo Heath 2019-12-08",
       "emitCount": 2,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/photography-workshops-lavender-fields",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 7,
+      "jsonLdTotal": 7,
       "dataTotal": 7,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Adrian Thomas 2026-07-18",
+      "emitCount": 7,
+      "ratingValue": "4.71",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/poppy-fields-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 11,
       "jsonLdTotal": 11,
       "dataTotal": 11,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Tina Jackson 2019-11-06",
       "emitCount": 11,
       "ratingValue": "4.82",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/long-exposure-photography-workshops-burnham",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 1,
+      "jsonLdTotal": 1,
       "dataTotal": 1,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Mick Hughes ",
+      "emitCount": 1,
+      "ratingValue": "4.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/lake-district-photography-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 21,
       "jsonLdTotal": 21,
       "dataTotal": 21,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "John Kitteringham 2025-10-01",
       "emitCount": 21,
       "ratingValue": "4.95",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/fine-art-photography-prints-canvas",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
+      "badgeTotal": 3,
       "jsonLdTotal": 3,
       "dataTotal": 3,
       "headingOK": false,
@@ -298,41 +298,41 @@
       "firstReview": "Steve Tracey 2015-06-06",
       "emitCount": 3,
       "ratingValue": "5.0",
-      "note": "entityCount product=2; badge ; heading \"\""
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photography-services-near-me/fine-art-photography-prints-unframed",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": 4,
+      "badgeTotal": 5,
+      "jsonLdTotal": 5,
       "dataTotal": 5,
       "headingOK": false,
       "newestFirstOK": true,
-      "firstReview": "Grace Oliver 2026-03-24",
-      "emitCount": 4,
-      "ratingValue": "5.0",
-      "note": "entityCount product=2; totals badge/json/data mismatch data=5 json=4; badge ; heading \"\""
+      "firstReview": "Graham Hilling 2015-12-02",
+      "emitCount": 5,
+      "ratingValue": "4.8",
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 11,
       "jsonLdTotal": 11,
       "dataTotal": 11,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Alex McDonald 2026-05-16",
       "emitCount": 11,
       "ratingValue": "4.91",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/framed-fine-art-photography-prints",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
+      "badgeTotal": 4,
       "jsonLdTotal": 4,
       "dataTotal": 4,
       "headingOK": false,
@@ -340,361 +340,363 @@
       "firstReview": "Grace Oliver 2026-03-24",
       "emitCount": 4,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photo-workshops-uk/coastal-northumberland-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 12,
       "jsonLdTotal": 12,
       "dataTotal": 12,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Garry Such 2018-10-18",
       "emitCount": 12,
       "ratingValue": "4.67",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-photography-workshops-anglesey",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 7,
+      "jsonLdTotal": 7,
       "dataTotal": 7,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Michael White 2026-05-20",
+      "emitCount": 7,
+      "ratingValue": "4.71",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-photography-workshops-nant-mill",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 2,
+      "jsonLdTotal": 2,
       "dataTotal": 2,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Anne Watkinson 2019-05-03",
+      "emitCount": 2,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/ireland-photography-workshops-dingle",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 3,
       "jsonLdTotal": 3,
       "dataTotal": 3,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Con McHugh 2020-04-23",
       "emitCount": 3,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-photography-workshop-norfolk",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 5,
+      "jsonLdTotal": 5,
       "dataTotal": 5,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "GT 2018-12-04",
+      "emitCount": 5,
+      "ratingValue": "4.0",
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/beginners-portrait-photography-course",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 1,
+      "jsonLdTotal": 1,
       "dataTotal": 1,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Nuria Alonso 2020-06-02",
+      "emitCount": 1,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/suffolk-landscape-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 7,
       "jsonLdTotal": 7,
       "dataTotal": 7,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Ian Blake 2024-03-26",
       "emitCount": 7,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/abstract-and-macro-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 19,
+      "jsonLdTotal": 19,
       "dataTotal": 19,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "john lewis 2026-09-11",
+      "emitCount": 19,
+      "ratingValue": "4.89",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/north-yorkshire-landscape-photography",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 6,
+      "jsonLdTotal": 6,
       "dataTotal": 6,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Irene Matthews 2018-12-04",
+      "emitCount": 6,
+      "ratingValue": "4.33",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/christmas-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 2,
+      "jsonLdTotal": 2,
       "dataTotal": 2,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "NicholasEJones ",
+      "emitCount": 2,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/yorkshire-dales-photography-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 7,
+      "jsonLdTotal": 7,
       "dataTotal": 7,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Sofiagzagdo 2026-05-02",
+      "emitCount": 7,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 4,
+      "jsonLdTotal": 4,
       "dataTotal": 4,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Graham Ibbetson 2020-03-12",
+      "emitCount": 4,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/dorset-landscape-photography-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 4,
+      "jsonLdTotal": 4,
       "dataTotal": 4,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "john plevin 2018-03-04",
+      "emitCount": 4,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/urban-architecture-photography-workshops-coventry",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 12,
+      "jsonLdTotal": 12,
       "dataTotal": 12,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Jo G 2026-09-13",
+      "emitCount": 12,
+      "ratingValue": "4.42",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/long-exposure-photography-kenilworth",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 17,
+      "jsonLdTotal": 17,
       "dataTotal": 17,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Simon Chatterley 2026-09-23",
+      "emitCount": 17,
+      "ratingValue": "4.76",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-photography-snowdonia-workshops",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 7,
+      "jsonLdTotal": 7,
       "dataTotal": 7,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Nigel Capelle 2023-10-29",
+      "emitCount": 7,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/garden-photography-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 5,
       "jsonLdTotal": 5,
       "dataTotal": 5,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Caro Durk 2026-07-12",
       "emitCount": 5,
       "ratingValue": "4.6",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/landscape-photography-wales-photo-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 1,
+      "jsonLdTotal": 1,
       "dataTotal": 1,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "lonnie morris 2023-02-21",
+      "emitCount": 1,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/fireworks-photography-workshop-kenilworth",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 6,
       "jsonLdTotal": 6,
       "dataTotal": 6,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Paula Major 2018-09-11",
       "emitCount": 6,
       "ratingValue": "4.83",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/exmoor-photography-workshops-lynmouth",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 1,
+      "jsonLdTotal": 1,
       "dataTotal": 1,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Angie Rondeau 2018-07-04",
+      "emitCount": 1,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/sezincote-garden-photography-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 2,
       "jsonLdTotal": 2,
       "dataTotal": 2,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Michael Donnelly 2026-05-21",
       "emitCount": 2,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/peak-district-heather-photography-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 14,
+      "jsonLdTotal": 14,
       "dataTotal": 14,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Paul Farrington 2026-05-19",
+      "emitCount": 14,
+      "ratingValue": "5.0",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/secrets-of-woodland-photography-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 33,
+      "jsonLdTotal": 33,
       "dataTotal": 33,
-      "headingOK": false,
-      "newestFirstOK": false,
-      "firstReview": null,
-      "note": "page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop?cb=1791362307763\", waiting until \"networkidle\"\n"
+      "headingOK": true,
+      "newestFirstOK": true,
+      "firstReview": "Jason Read 2026-08-02",
+      "emitCount": 25,
+      "ratingValue": "4.94",
+      "note": ""
     },
     {
       "pathKey": "/photo-workshops-uk/dartmoor-photography-landscape-workshop",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
-      "jsonLdTotal": null,
+      "status": "PASS",
+      "badgeTotal": 2,
+      "jsonLdTotal": 2,
       "dataTotal": 2,
       "headingOK": true,
       "newestFirstOK": true,
-      "firstReview": null,
-      "emitCount": 0,
-      "ratingValue": null,
-      "note": "entityCount product=0"
+      "firstReview": "Clinton Rindfuss 2016-09-01",
+      "emitCount": 2,
+      "ratingValue": "4.5",
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/private-online-photography-classes-zoom",
       "kind": "product",
-      "status": "FAIL",
-      "badgeTotal": null,
+      "status": "PASS",
+      "badgeTotal": 26,
       "jsonLdTotal": 26,
       "dataTotal": 26,
-      "headingOK": false,
+      "headingOK": true,
       "newestFirstOK": true,
       "firstReview": "Sarah Kuner 2026-07-19",
       "emitCount": 25,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": ""
     },
     {
       "pathKey": "/photography-services-near-me/photography-gift-vouchers",
       "kind": "product",
       "status": "FAIL",
-      "badgeTotal": null,
+      "badgeTotal": 1,
       "jsonLdTotal": 1,
       "dataTotal": 1,
       "headingOK": false,
@@ -702,7 +704,7 @@
       "firstReview": "Julie 2018-12-04",
       "emitCount": 1,
       "ratingValue": "5.0",
-      "note": "badge ; heading \"\""
+      "note": "heading \"\""
     },
     {
       "pathKey": "/photography-services-near-me/black-and-white-photography-course",
@@ -818,102 +820,39 @@
     },
     {
       "type": "fail",
-      "pathKey": "/photography-services-near-me/lightroom-courses-for-beginners-coventry",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/rps-mentoring-photography-course",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
       "pathKey": "/photography-services-near-me/camera-sensor-clean",
       "fails": [
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/woodland-photography-walk-warwickshire",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/four-private-photography-classes",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/batsford-arboretum-photography-workshops",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 5.0 · 7 reviews · Google & Trustpilot"
     },
     {
       "type": "fail",
       "pathKey": "/photography-services-near-me/monthly-pick-n-mix-subscription",
       "fails": [
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/bluebell-woodlands-photography-workshops",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 5.0 · 1 review · Google & Trustpilot"
     },
     {
       "type": "fail",
       "pathKey": "/photography-services-near-me/annual-pick-n-mix-subscription",
       "fails": [
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 4.33 · 3 reviews · Google & Trustpilot"
     },
     {
       "type": "fail",
       "pathKey": "/photography-services-near-me/quarterly-pick-n-mix-subscription",
       "fails": [
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 4.67 · 3 reviews · Google & Trustpilot"
     },
     {
       "type": "newest_mismatch",
@@ -930,80 +869,12 @@
       }
     },
     {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/beginners-photography-course",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/intermediates-intentions-photography-project-course",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
+      "type": "misattribution_candidate",
       "pathKey": "/photo-workshops-uk/landscape-photography-devon-hartland-quay",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/photography-workshops-chesterton-windmill",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/photography-workshops-lavender-fields",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/poppy-fields-photography-workshops",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/long-exposure-photography-workshops-burnham",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
+      "author": "Robert Griffiths",
+      "date": "2020-07-03",
+      "proposed_slug": "lightroom-courses-for-beginners-coventry",
+      "excerpt": "Despite absolutely appalling weather, I had an amazing weekend at Hartland Quay and its environs with Alan. His enthusiasm to capture images and learn photograp"
     },
     {
       "type": "misattribution_candidate",
@@ -1023,217 +894,68 @@
     },
     {
       "type": "fail",
-      "pathKey": "/photo-workshops-uk/lake-district-photography-workshop",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
       "pathKey": "/photography-services-near-me/fine-art-photography-prints-canvas",
       "fails": [
-        "entityCount product=2",
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 5.0 · 3 reviews · Google & Trustpilot"
     },
     {
       "type": "fail",
       "pathKey": "/photography-services-near-me/fine-art-photography-prints-unframed",
       "fails": [
-        "entityCount product=2",
-        "totals badge/json/data mismatch data=5 json=4",
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "newest_mismatch",
-      "pathKey": "/photography-services-near-me/fine-art-photography-prints-unframed",
-      "expected": {
-        "author": "Graham Hilling",
-        "date": "2015-12-02",
-        "body": "Alan did a great job of imparting knowledge and making the weekend a very enjoyable experience. Locations are well resea"
-      },
-      "got": {
-        "author": "Grace Oliver",
-        "date": "2026-03-24",
-        "body": "Alan has been really helpful in teaching me how to use my camera, helping me with the creative and technical side. He’s very patient with explaining things and shares his knowledge. He’s also helped with the whole process of photographing my artwork to make into prints, I now have a clear plan on how I can start selling prints. Thank you!"
-      }
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 4.8 · 5 reviews · Google & Trustpilot"
     },
     {
       "type": "fail",
       "pathKey": "/photography-services-near-me/framed-fine-art-photography-prints",
       "fails": [
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 5.0 · 4 reviews · Google & Trustpilot"
     },
     {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/coastal-northumberland-photography-workshops",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
+      "type": "misattribution_candidate",
       "pathKey": "/photo-workshops-uk/landscape-photography-workshops-anglesey",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
+      "author": "Mattia Tosi",
+      "date": "2021-09-13",
+      "proposed_slug": "lightroom-courses-for-beginners-coventry",
+      "excerpt": "I would recommend Alan to everyone! I've done the Beginner's Photography course, the Lightroom course and two workshops and thanks to these and Alan's coaching "
     },
     {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/landscape-photography-workshops-nant-mill",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/ireland-photography-workshops-dingle",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/landscape-photography-workshop-norfolk",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photography-services-near-me/beginners-portrait-photography-course",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/suffolk-landscape-photography-workshops",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/abstract-and-macro-photography-workshops",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/north-yorkshire-landscape-photography",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
+      "type": "newest_mismatch",
       "pathKey": "/photo-workshops-uk/christmas-photography-workshops",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
+      "expected": {
+        "author": "Emma Clift",
+        "date": "28/04/2016",
+        "body": "I attended one of Alan's beginner sessions after buying a voucher from Groupon and it was certainly worth it. He gave an"
+      },
+      "got": {
+        "author": "NicholasEJones",
+        "date": "",
+        "body": "Christmas Photo Walk through Lapworth on a lovely frosty winters day, Took us through some lovely British country side looking at various photo opportunities from landscape to close up shots, ideal for all levels with a friendly group of people and a pub lunch, The day photo walk really opens your eyes to what you can photograph. Would recommend to all."
+      }
     },
     {
-      "type": "fail",
+      "type": "misattribution_candidate",
       "pathKey": "/photo-workshops-uk/yorkshire-dales-photography-workshops",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
+      "author": "Sofiagzagdo",
+      "date": "2026-05-02",
+      "proposed_slug": "lightroom-courses-for-beginners-coventry",
+      "excerpt": "This is a great photography course! I had very little knowledge about photography and a lot of questions… Alan is super knowledgeable, patient and takes the tim"
     },
     {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/dorset-landscape-photography-workshop",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
+      "type": "misattribution_candidate",
       "pathKey": "/photo-workshops-uk/urban-architecture-photography-workshops-coventry",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/long-exposure-photography-kenilworth",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/landscape-photography-snowdonia-workshops",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
+      "author": "Ester  Riodran",
+      "date": "",
+      "proposed_slug": "lightroom-courses-for-beginners-coventry",
+      "excerpt": "This is only the third time of meeting and spending time with Alan but so far so good.  He has helped me with Lightroom and with landscape photography which has"
     },
     {
       "type": "misattribution_candidate",
@@ -1244,75 +966,12 @@
       "excerpt": "I have attended 2 photography courses (beginners & Lightroom) and 2 workshops (garden & woodland) with Alan so far and I really enjoyed all of them! He's a grea"
     },
     {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/garden-photography-workshop",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/landscape-photography-wales-photo-workshop",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/fireworks-photography-workshop-kenilworth",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/exmoor-photography-workshops-lynmouth",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/sezincote-garden-photography-workshop",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/peak-district-heather-photography-workshop",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "error",
+      "type": "misattribution_candidate",
       "pathKey": "/photo-workshops-uk/secrets-of-woodland-photography-workshop",
-      "error": "page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop?cb=1791362307763\", waiting until \"networkidle\"\n"
-    },
-    {
-      "type": "fail",
-      "pathKey": "/photo-workshops-uk/dartmoor-photography-landscape-workshop",
-      "fails": [
-        "entityCount product=0"
-      ],
-      "heading": "",
-      "badgeText": ""
+      "author": "V Webb",
+      "date": "2026-04-26",
+      "proposed_slug": "bluebell-woodlands-photography-workshops",
+      "excerpt": "Fantastic bluebell photography workshop. Incredible location and brilliant stewardship through the woodland itself and best shots/camera setup. Thank you!"
     },
     {
       "type": "misattribution_candidate",
@@ -1324,23 +983,12 @@
     },
     {
       "type": "fail",
-      "pathKey": "/photography-services-near-me/private-online-photography-classes-zoom",
-      "fails": [
-        "badge ",
-        "heading \"\""
-      ],
-      "heading": "",
-      "badgeText": ""
-    },
-    {
-      "type": "fail",
       "pathKey": "/photography-services-near-me/photography-gift-vouchers",
       "fails": [
-        "badge ",
         "heading \"\""
       ],
       "heading": "",
-      "badgeText": ""
+      "badgeText": "★★★★★ 5.0 · 1 review · Google & Trustpilot"
     },
     {
       "type": "fail",

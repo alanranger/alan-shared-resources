@@ -1,7 +1,30 @@
 {
   "total": 476,
-  "kept": 476,
-  "dropped": 0,
-  "byReason": {},
-  "sample": []
+  "kept": 471,
+  "dropped": 5,
+  "byReason": {
+    "http_404": 5
+  },
+  "sample": [
+    {
+      "url": "https://www.alanranger.com/photographic-workshops-near-me/bluebell-photography-photo-workshop-warwickshire-17",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.alanranger.com/photographic-workshops-near-me/bluebell-photography-photo-workshop-warwickshire-19",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.alanranger.com/photographic-workshops-near-me/bluebell-photography-photo-workshop-warwickshire-21",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.alanranger.com/photographic-workshops-near-me/bluebell-photography-photo-workshop-warwickshire-23",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.alanranger.com/photographic-workshops-near-me/bluebell-photography-photo-workshop-warwickshire-30",
+      "reason": "http_404"
+    }
+  ]
 }

@@ -1,19 +1,7 @@
 {
-  "total": 478,
+  "total": 476,
   "kept": 476,
-  "dropped": 2,
-  "byReason": {
-    "http_301": 1,
-    "noindex": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/photo-workshops-uk/exmoor-photography-workshops-lynmouth",
-      "reason": "http_301"
-    },
-    {
-      "url": "https://www.alanranger.com/storytelling",
-      "reason": "noindex"
-    }
-  ]
+  "dropped": 0,
+  "byReason": {},
+  "sample": []
 }

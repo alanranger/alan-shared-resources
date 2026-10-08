@@ -19,7 +19,7 @@ const root = dirname(here);
 const CSV_PATH = join(root, 'csv', '06-site-urls.csv');
 const UA = 'Mozilla/5.0 (compatible; AlanSharedResources-06Prune/1.0)';
 const dryRun = process.argv.includes('--dry-run');
-const CONCURRENCY = 8;
+const CONCURRENCY = 4;
 
 function parseCsv(text) {
   const rows = [];
@@ -58,16 +58,24 @@ function hasNoindex(html, xRobots) {
   return /\bnoindex\b/i.test(robots?.[1] || '') || /\bnoindex\b/i.test(google?.[1] || '');
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function classifyUrl(url) {
   try {
-    const res = await fetch(url, {
-      redirect: 'manual',
-      headers: { 'User-Agent': UA, Accept: 'text/html' },
-      signal: AbortSignal.timeout(12000)
-    });
+    let res = null;
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      res = await fetch(url, {
+        redirect: 'manual',
+        headers: { 'User-Agent': UA, Accept: 'text/html' },
+        signal: AbortSignal.timeout(12000)
+      });
+      if (Number(res.status) !== 429) break;
+      await sleep(900 * (attempt + 1));
+    }
     const code = Number(res.status);
     if (code === 404 || code === 410) return { drop: true, reason: `http_${code}` };
     if (code >= 300 && code < 400) return { drop: true, reason: `http_${code}` };
+    if (code === 429) return { drop: false, reason: 'keep_http_429' };
     if (!res.ok) return { drop: false, reason: `keep_http_${code}` };
     const html = await res.text();
     const xRobots = res.headers.get('x-robots-tag') || '';

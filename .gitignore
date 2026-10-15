@@ -4,3 +4,7 @@ mentoring/output/
 
 # Never commit Google OAuth / local API credentials (blocks GitHub push protection)
 csv processed/credentials/
+
+# Auto-sync runtime heartbeat (local only)
+outputs/AUTO-SYNC-STATUS-LATEST.json
+

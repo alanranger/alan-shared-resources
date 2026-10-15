@@ -48,13 +48,18 @@ if (Test-Path $pruneScript) {
 
 # Stage tracked changes and key source-of-truth folders/files.
 Invoke-Git -Args @("add", "-u")
-Invoke-Git -Args @("add", "--", "csv", "csv processed", "outputs", "README.md", "STRUCTURE_AUDIT.md", "scripts")
+Invoke-Git -Args @("add", "--", "csv", "csv processed", "outputs", "README.md", "STRUCTURE_AUDIT.md", "scripts", ".gitignore")
 
-# Never stage credentials artifacts.
+# Never stage credentials artifacts (also gitignored; belt-and-braces).
 try {
-  Invoke-Git -Args @("reset", "--", "csv processed/credentials")
+  Invoke-Git -Args @("reset", "-q", "--", "csv processed/credentials")
+  Invoke-Git -Args @("rm", "-r", "--cached", "--ignore-unmatch", "--", "csv processed/credentials")
 } catch {
   # Non-fatal if folder does not exist.
+}
+$stagedCreds = & git -C $repoRoot diff --cached --name-only -- "csv processed/credentials"
+if ($stagedCreds) {
+  throw "Refusing to commit: credentials still staged:`n$($stagedCreds -join "`n")"
 }
 
 # Exit if nothing to commit.

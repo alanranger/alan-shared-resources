@@ -76,15 +76,11 @@
       "offers": {
         "@type": "Offer",
         "sku": "SQ8747213",
-        "price": "1025.00",
+        "price": "1075.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-09-29",
-        "priceValidUntil": "2027-10-07",
-        "priceSpecification": {
-          "price": "1025.00",
-          "priceCurrency": "GBP"
-        },
+        "validFrom": "2026-10-12",
+        "priceValidUntil": "2027-10-12",
         "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshop-norfolk",
         "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshop-norfolk#offer",
         "seller": {

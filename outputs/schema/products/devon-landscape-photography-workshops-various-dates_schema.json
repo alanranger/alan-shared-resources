@@ -70,89 +70,47 @@
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "description": "Hartland Quay - Landscape Photography Devon Workshop - Join me for this photo workshop to the best coastal and dramatic parts of Devon.Summary Location: North Devon - Hartland Quay Dates:Thu 25 th 12:30 - Sun 28 th 12:30 Feb 2027 - 4 Days/3 Nights Fri 3 rd Sep - Sun 5 th Sep 2027 - 3 Days/2 Nights Participants: Max 4 Fitness: 2. Moderate Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera, Tripod and ND Filters (tripod and filters can be provided)Photography Workshop Event Details Devon Description: This is a multi-day residential landscape photography workshop...",
+      "description": "Hartland Quay - Landscape Photography Devon Workshop - Join me for this photo workshop to the best coastal and dramatic parts of Devon.Summary Location: North Devon - Hartland Quay Dates:Thu 25 th 12:30 - Sun 28 th 12:30 Feb 2027 - 4 Days/3 Nights Participants: Max 4 Fitness: 2. Moderate Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera, Tripod and ND Filters (tripod and filters can be provided)Photography Workshop Event Details Devon Description: This is a multi-day residential landscape photography workshop based at Hartland Quay on the dramatic North Devon...",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1714299365471-K36RWNIKFNGJ4C70UEXB/Atlantic+Force.jpg",
       "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay",
-      "offers": [
-        {
-          "@type": "Offer",
-          "sku": "SQ3856406",
-          "price": "950.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-09-29",
-          "priceValidUntil": "2027-10-07",
-          "name": "Thu 25th 12:30 - Sun 28th 12:30 Feb 2027 - 4 Days/3 Nights",
-          "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#offer1",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
+      "offers": {
+        "@type": "Offer",
+        "sku": "SQ3856406",
+        "price": "950.00",
+        "priceCurrency": "GBP",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-10-12",
+        "priceValidUntil": "2027-10-12",
+        "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay",
+        "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#offer",
+        "seller": {
+          "@type": "Organization",
+          "name": "Alan Ranger Photography",
+          "url": "https://www.alanranger.com"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "doesNotShip": true,
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "GB"
           }
         },
-        {
-          "@type": "Offer",
-          "sku": "SQ2516659",
-          "price": "775.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-09-29",
-          "priceValidUntil": "2027-10-07",
-          "name": "Fri 3rd Sep - Sun 5th Sep 2027 - 3 Days/2 Nights",
-          "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#offer2",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 28,
+          "refundType": "http://schema.org/FullRefund",
+          "applicableCountry": "GB",
+          "returnMethod": "http://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnShippingFees",
+          "returnShippingFeesAmount": {
+            "@type": "MonetaryAmount",
+            "value": "50.00",
+            "currency": "GBP"
           }
         }
-      ],
+      },
       "review": [
         {
           "@type": "Review",

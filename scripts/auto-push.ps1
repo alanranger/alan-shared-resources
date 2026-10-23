@@ -110,15 +110,16 @@ try {
   }
   $stagedCreds = & git -C $repoRoot diff --cached --name-only -- "csv processed/credentials"
   if ($stagedCreds) {
-    throw "Refusing to commit: credentials still staged:`n$($stagedCreds -join "`n")"
+    $credList = @($stagedCreds) -join [Environment]::NewLine
+    throw "Refusing to commit: credentials still staged:`n$credList"
   }
 
-  # Exit if nothing to commit — but still recover a stuck unpushed tip.
+  # Exit if nothing to commit - but still recover a stuck unpushed tip.
   & git -C $repoRoot diff --cached --quiet
   if ($LASTEXITCODE -eq 0) {
     $ahead = Get-AheadCount
     if ($ahead -gt 0) {
-      Write-Warning "[$timestamp] Nothing new to commit, but HEAD is $ahead commit(s) ahead of $Remote/$Branch — retrying push."
+      Write-Warning "[$timestamp] Nothing new to commit, but HEAD is $ahead commit(s) ahead of $Remote/$Branch - retrying push."
       Invoke-Git -Args @("push", $Remote, $Branch)
       Write-SyncStatus -State 'ok' -Detail "Recovered stuck tip: pushed $ahead existing commit(s)."
       Write-Host "[$timestamp] Auto-sync complete (stuck tip pushed)."

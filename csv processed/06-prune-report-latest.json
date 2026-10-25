@@ -1,7 +1,18 @@
 {
   "total": 479,
-  "kept": 479,
-  "dropped": 0,
-  "byReason": {},
-  "sample": []
+  "kept": 477,
+  "dropped": 2,
+  "byReason": {
+    "http_404": 2
+  },
+  "sample": [
+    {
+      "url": "https://www.alanranger.com/photographic-workshops-near-me/batsford-arboretum-autumn-photography-1nov",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.alanranger.com/photographic-workshops-near-me/batsford-arboretum-autumn-photography-30oct",
+      "reason": "http_404"
+    }
+  ]
 }

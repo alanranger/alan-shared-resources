@@ -9,19 +9,19 @@
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "description": "Abstract and Macro Photography Workshop . Learn about camera settings, lens use, controlling Do F and composition. Various Dates in Warwickshire | Half Day Summary Location: Warwickshire Dates: Macro Photography Workshops Macro Photography - Sun Nov 28 th 2026 - 10:30 am - 12:30 pm Macro Photography - Sat May 1 st 2027 - 11 am - 1 pm Macro Photography - Sun Sep 29 th 2027 - 4:00 pm - 6:00 pm Participants: Max 4 Fitness: 1. Easy Experience Level: Beginner to Advanced Equipment Needed: Digital Camera and Tripod, Zoom or Macro Lens Macro Photography Workshop Event Details: Macro Photography and...",
+      "description": "Abstract and Macro Photography Workshop . Learn about camera settings, lens use, controlling Do F and composition. Various Dates in Warwickshire | Half Day Summary Location: Warwickshire Dates: Macro Photography Workshops Macro Photography - Sun Nov 28 th 2026 - 10:30 am - 1:30 pm Macro Photography - Sat May 1 st 2027 - 11 am - 2 pm Macro Photography - Sun Sep 29 th 2027 - 2:00 pm - 5:00 pm Participants: Max 4 Fitness: 1. Easy Experience Level: Beginner to Advanced Equipment Needed: Digital Camera and Tripod, Zoom or Macro Lens Macro Photography Workshop Event Details: Macro Photography and...",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/25c550a3-a242-4303-a11b-367dd7055dbe/Abstract%2Band%2BMacro%2BPhotography%2BWorkshops%2B%25282%2529.jpg",
       "url": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops",
       "offers": [
         {
           "@type": "Offer",
           "sku": "SQ9970442",
-          "price": "65.00",
+          "price": "75.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sun Nov 28th 2026 - 10:30am - 12:30pm",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sun Nov 28th 2026 - 10:30am - 1:30pm",
           "url": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops",
           "@id": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops#offer1",
           "seller": {
@@ -55,12 +55,12 @@
         {
           "@type": "Offer",
           "sku": "SQ2051466",
-          "price": "65.00",
+          "price": "75.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sat May 1st 2027 - 11am - 1pm",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sat May 1st 2027 - 11am - 2pm",
           "url": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops",
           "@id": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops#offer2",
           "seller": {
@@ -94,12 +94,12 @@
         {
           "@type": "Offer",
           "sku": "SQ8660736",
-          "price": "65.00",
+          "price": "75.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sun Sep 29th 2027 - 4:00pm - 6:00pm",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sun Sep 29th 2027 - 2:00pm - 5:00pm",
           "url": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops",
           "@id": "https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops#offer3",
           "seller": {
@@ -510,7 +510,7 @@
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "description": "Annual Pick N Mix Subscription: pay once up-front, from £1,200, for your first year of photography development. 15% off courses, workshops and 1-to-1 s, 4 one-hour quarterly 1-2-1 reviews and free Photography Academy membership for 12 months",
+      "description": "Annual Picknmix: pay once, from £1,200, for your photography development. 15% off courses, workshops and 1-to-1 s, 4 x 1 hour reviews and free Academy membership",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/4c6bb1a6-8752-4aea-a250-484fb1acdf75/Photography+Payment+Plan.png",
       "url": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription",
       "offers": [
@@ -520,8 +520,8 @@
           "price": "1200.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "1 x £1200 = £1200",
           "url": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription#offer1",
@@ -559,8 +559,8 @@
           "price": "1500.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "1 x £1500 = £1500",
           "url": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription#offer2",
@@ -598,8 +598,8 @@
           "price": "2000.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "1 x £2000 = £2000",
           "url": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription#offer3",
@@ -637,8 +637,8 @@
           "price": "2500.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "1 x £2500 = £2500",
           "url": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/annual-pick-n-mix-subscription#offer4",
@@ -739,29 +739,25 @@
     },
     {
       "@type": "Product",
-      "name": "BATSFORD Arboretum Autumn Photography Workshops 23 - 29 Oct",
+      "name": "BATSFORD Arboretum Autumn Photography Workshops 23 - 31 Oct",
       "sku": "SQ0818501",
       "brand": {
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "description": "Batsford Arboretum Photography Workshops in autumn. Enjoy the colour and expert photographic guidance | Half or One Day Sessions | Any Level and Camera Summary Location: Batsford Arboretum - Gloucestershire Dates: Fri 23 Oct –Thu 29 2026 Participants: Max 6 Fitness: 1. Easy Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera Photography Workshop Event Batsford Arboretum Description: For nearly fifteen years I've returned to Batsford Arboretum each autumn, and in that time I've come to know every corner of it — which spot works at which hour, where the light...",
+      "description": "Batsford Arboretum photography workshops in autumn: a guided day, 9:30 am-3 pm, in 60 acres of colour with Alan Ranger. £150 incl. entrance. Max 6, any level.Summary Location: Batsford Arboretum - Gloucestershire Dates: Sat 23 Oct and Sun 24 Oct 2027 Sat 30 Oct and Sun 31 Oct 2027 Participants: Max 6 Fitness: 1. Easy Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera Photography Workshop Event Batsford Arboretum Description: For fifteen autumns I’ve guided photographers through Batsford Arboretum’s 60 acres — more than 300 of them — and I know almost every inch...",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1715155253660-I9BNV2CJV5TPWB56WH93/Batsford+Autumn+7.jpg",
       "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
       "offers": [
         {
           "@type": "Offer",
           "sku": "SQ0818501",
-          "price": "99.00",
+          "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Fri 23  Oct 2026 AM - 8am - 11:30am",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sat 23 Oct 2027 - 9:30 - 15:00",
           "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
           "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer1",
           "seller": {
@@ -794,148 +790,15 @@
         },
         {
           "@type": "Offer",
-          "sku": "SQ7647904",
-          "price": "99.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Fri 23 Oct 2026 PM - 12pm - 3:30pm",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer2",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ9436105",
+          "sku": "SQ1204772",
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Fri 23 Oct 2026 All Day -8am - 3:30pm",
-          "priceSpecification": {
-            "price": "150.00",
-            "priceCurrency": "GBP"
-          },
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sun 24 Oct 2027 - 9:30 - 15:00",
           "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer3",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ1204772",
-          "price": "99.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sat 24  Oct 2026 AM - 8am - 11:30am",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer4",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ9290465",
-          "price": "99.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sat 24 Oct 2026 PM - 12pm - 3:30pm",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer5",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer2",
           "seller": {
             "@type": "Organization",
             "name": "Alan Ranger Photography",
@@ -970,15 +833,11 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sat 24 Oct 2026 All Day -8am - 3:30pm",
-          "priceSpecification": {
-            "price": "150.00",
-            "priceCurrency": "GBP"
-          },
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sat 30 Oct 2027 - 9:30 - 15:00",
           "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer6",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer3",
           "seller": {
             "@type": "Organization",
             "name": "Alan Ranger Photography",
@@ -1010,233 +869,14 @@
         {
           "@type": "Offer",
           "sku": "SQ0264308",
-          "price": "99.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sun 25 Oct 2026 AM - 8am - 11:30am",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer7",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ9938663",
-          "price": "99.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sun 25 Oct 2026 PM - 12pm - 3:30pm",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer8",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ0693365",
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sun 25 Oct 2026 All Day -8am - 3:30pm",
-          "priceSpecification": {
-            "price": "150.00",
-            "priceCurrency": "GBP"
-          },
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sun 31 Oct 2027 - 9:30 - 15:00",
           "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer9",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ3442432",
-          "price": "99.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Thu 29  Oct 2026 AM - 8am - 11:30am",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer10",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ8197555",
-          "price": "99.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Thu 29 Oct 2026 PM - 12pm - 3:30pm",
-          "priceSpecification": {
-            "price": "99.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer11",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "sku": "SQ9853668",
-          "price": "150.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Thu 29 Oct 2026 All Day -8am - 3:30pm",
-          "priceSpecification": {
-            "price": "150.00",
-            "priceCurrency": "GBP"
-          },
-          "url": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer12",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/batsford-arboretum-photography-workshops#offer4",
           "seller": {
             "@type": "Organization",
             "name": "Alan Ranger Photography",
@@ -1347,9 +987,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Neil W"
+            "name": "Ross HK"
           },
-          "reviewBody": "Recently I attended a photography workshop with Alan at Batsford Arboretum.  The focus of the session concentrated on composition, aiming to make you think about the photograph you have in mind.  Alan has a wealth of knowledge and has the knack of being able to explain topics in an easy to understand way pitching at the right level - he’s very happy to take questions and encourages engagement.  A very positive experience, I enjoyed my afternoon taking on board the hints and tips that Alan provided.  Thank you.",
+          "reviewBody": "Great Workshop at Batsford. Really helped with understanding composition and a great landscape to work in. Thanks Alan!",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -1366,9 +1006,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Ross HK"
+            "name": "Neil W"
           },
-          "reviewBody": "Great Workshop at Batsford. Really helped with understanding composition and a great landscape to work in. Thanks Alan!",
+          "reviewBody": "Recently I attended a photography workshop with Alan at Batsford Arboretum.  The focus of the session concentrated on composition, aiming to make you think about the photograph you have in mind.  Alan has a wealth of knowledge and has the knack of being able to explain topics in an easy to understand way pitching at the right level - he’s very happy to take questions and encourages engagement.  A very positive experience, I enjoyed my afternoon taking on board the hints and tips that Alan provided.  Thank you.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -1594,28 +1234,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Linda Newbery"
+            "name": "Ian Hardwick"
           },
-          "reviewBody": "I've been on several in-person workshops with Alan and have enjoyed all of them. He very generously provides his online Academy too: a wealth of advice on a range of topics, all invaluable for those of us who want to improve our photography skills and feel confident in a range of situations. It's much appreciated.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2021-10-28",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Nick F"
-          },
-          "reviewBody": "It was a breath of fresh air to be with Alan, his enthusiasm is addictive. The day definitely taught an old dog new tricks at a beautiful location, Batsford arboretum.",
+          "reviewBody": "Batsford Arboretum Workshop  I attended the Workshop as a relative novice and by the end of it, whilst there were no competition winners, the standard of pictures I took were a huge improvement  over what I could manage before.  Alan is clearly knowledgeable, has a great eye for a picture, and provides as much or as little interaction as you require.  A very enjoyable morning",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -1651,9 +1272,28 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Ian Hardwick"
+            "name": "Nick F"
           },
-          "reviewBody": "Batsford Arboretum Workshop  I attended the Workshop as a relative novice and by the end of it, whilst there were no competition winners, the standard of pictures I took were a huge improvement  over what I could manage before.  Alan is clearly knowledgeable, has a great eye for a picture, and provides as much or as little interaction as you require.  A very enjoyable morning",
+          "reviewBody": "It was a breath of fresh air to be with Alan, his enthusiasm is addictive. The day definitely taught an old dog new tricks at a beautiful location, Batsford arboretum.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2021-10-28",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Linda Newbery"
+          },
+          "reviewBody": "I've been on several in-person workshops with Alan and have enjoyed all of them. He very generously provides his online Academy too: a wealth of advice on a range of topics, all invaluable for those of us who want to improve our photography skills and feel confident in a range of situations. It's much appreciated.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -1770,8 +1410,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Mondays - Nov 9 - Nov 23 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer1",
@@ -1809,8 +1449,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Tuesdays - Dec 1 - Dec 15 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer2",
@@ -1848,8 +1488,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Wednesdays - Jan 13 - Jan 27 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer3",
@@ -1887,8 +1527,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Thursdays - Jan 28 - Feb 11 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer4",
@@ -1926,8 +1566,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Tuesdays - Mar 2 - Mar 16 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer5",
@@ -1965,8 +1605,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Thursdays  Apr 1 - Apr 15 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer6",
@@ -2004,8 +1644,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Wednesdays May 12 - May 26 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer7",
@@ -2043,8 +1683,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "3wks Mondays  - Jun 7  - Jun 21 Coventry",
           "url": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/beginners-photography-course#offer8",
@@ -2078,6 +1718,82 @@
         }
       ],
       "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Alvin Roussel"
+          },
+          "reviewBody": "I had a very enjoyable day with Alan and 2 other students in his Woodland Masterclass. He taught us a lot about how to look for and take good images in woodlands. The three of us ranged from beginners to more experienced and he took care to ensure that the post-processing demonstration was helpful to all three of us.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-22",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Cherie Lewis"
+          },
+          "reviewBody": "We had a fabulous day of photography in Padley Gorge and Boleshill Quarry. Alan was a great tutor - incredibly patient and informative. I learnt a lot in a short space of time and it was great to be able to put that learning into practice in a stunning location. Alan had a brilliant knowledge of the area and helped us to ‘see’ the opportunities first and foremost before looking at the technical. A brilliant day -,Alan looked after us from beginning to end and made sure we each got the most out of the session. Thank you!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-18",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Adam Riman"
+          },
+          "reviewBody": "Fantastic photography workshop in the Peaks today. Came away with a lot more creative vision and understanding.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-17",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Amanda Hillary"
+          },
+          "reviewBody": "Great day on the Peaks photography workshop. Alan was brilliant, took time to work with us all individually and so pleased with the skills and shots I came away with. The smaller group size was a huge bonus too. Highly recommend!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-17",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
         {
           "@type": "Review",
           "author": {
@@ -2253,25 +1969,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Michael Harrott"
-          },
-          "reviewBody": "Beginners Camera Class Good informative sessions at a good pace to enable learning and understanding. Now starting to understand the basics of how my camera works and how to set it up. Enjoyed it",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-04-15",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Paul Bailey"
           },
           "reviewBody": "Beginners photography class: I’ve had a DSLR for years and I’ve learnt so much more about it and what it can do in the 3 sessions. Alan knows his stuff!",
@@ -2294,6 +1991,25 @@
             "name": "Alex Rainer"
           },
           "reviewBody": "Beginners camera course, 3 x 2 hour session over three weeks to master the basics of photography. I was one of 3 participants, nice small group. Alan was very patient, as we all have very different camera to work through setting. Have a much better understanding on my camera and critical setting for getting good images. Would highly recommend the course. HG",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-04-15",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Michael Harrott"
+          },
+          "reviewBody": "Beginners Camera Class Good informative sessions at a good pace to enable learning and understanding. Now starting to understand the basics of how my camera works and how to set it up. Enjoyed it",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -2476,88 +2192,12 @@
             "@type": "Organization",
             "name": "Google"
           }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Joel Wymer"
-          },
-          "reviewBody": "I joined Alan for his Beginners Course. I’ve done similar courses before but a mix of Alan’s down-to-earth, simplified and easy to follow delivery meant I learnt more about the capabilities of my camera than at any previous courses.  I highly recommend Alan for his camera courses.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-09-26",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Britt van zeeland"
-          },
-          "reviewBody": "Joined for the 3 week beginner course. Alan is super knowledgeable, I find the resources given most valuable as it allows me to revisit and expand my learning beyond what we covered in class. Could have done with the longer course I feel. Thank you",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-09-25",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Cat Harris"
-          },
-          "reviewBody": "Great course, lots of information and resources. Small group therefore not overlooked. Highly recommend.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-09-25",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "KrishnaKumar Kuttan"
-          },
-          "reviewBody": "Sessions on Beginner’s course from Alan is very impressive in understanding on technical aspects on how camera works. Enjoyed the sessions and hopefully improve my camera skills.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-09-25",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.91",
-        "reviewCount": 151,
+        "reviewCount": 156,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -2580,8 +2220,8 @@
         "price": "195.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/OutOfStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photography-services-near-me/beginners-portrait-photography-course",
         "@id": "https://www.alanranger.com/photography-services-near-me/beginners-portrait-photography-course#offer",
         "seller": {
@@ -2865,8 +2505,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Tue 20 Apr - 5:45am - 09:45am",
           "priceSpecification": {
             "price": "99.00",
@@ -2908,8 +2548,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Tue 20 Apr - 10:30am - 14:30pm",
           "priceSpecification": {
             "price": "99.00",
@@ -2951,8 +2591,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Tue 20 Apr All day - 5:45am - 14:30pm",
           "priceSpecification": {
             "price": "150.00",
@@ -2994,8 +2634,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Thu 22 Apr - 5:45am - 09:45am",
           "priceSpecification": {
             "price": "99.00",
@@ -3037,8 +2677,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Thu 22 Apr - 10:30am - 14:30pm",
           "priceSpecification": {
             "price": "99.00",
@@ -3080,8 +2720,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Thu 22 Apr All day - 5:45am - 14:30pm",
           "priceSpecification": {
             "price": "150.00",
@@ -3123,8 +2763,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sat 24 Apr - 5:45am - 09:45am",
           "priceSpecification": {
             "price": "99.00",
@@ -3166,8 +2806,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sat 24 Apr - 10:30am - 14:30pm",
           "priceSpecification": {
             "price": "99.00",
@@ -3209,8 +2849,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sat 24 Apr All day - 5:45am - 14:30pm",
           "priceSpecification": {
             "price": "150.00",
@@ -3252,8 +2892,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun 25 Apr - 5:45am - 09:45am",
           "priceSpecification": {
             "price": "99.00",
@@ -3295,8 +2935,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun 25 Apr - 10:30am - 14:30pm",
           "priceSpecification": {
             "price": "99.00",
@@ -3338,8 +2978,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun 25 Apr All day - 5:45am - 14:30pm",
           "priceSpecification": {
             "price": "150.00",
@@ -3381,8 +3021,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Tue 27 Apr - 5:45am - 09:45am",
           "priceSpecification": {
             "price": "99.00",
@@ -3424,8 +3064,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Tue 27 Apr - 10:30am - 14:30pm",
           "priceSpecification": {
             "price": "99.00",
@@ -3467,8 +3107,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Tue 27 Apr All day - 5:45am - 14:30pm",
           "priceSpecification": {
             "price": "150.00",
@@ -3510,8 +3150,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Thu 29 Apr - 5:45am - 09:45am",
           "priceSpecification": {
             "price": "99.00",
@@ -3553,8 +3193,8 @@
           "price": "99.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Thu 29 Apr - 10:30am - 14:30pm",
           "priceSpecification": {
             "price": "99.00",
@@ -3596,8 +3236,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Thu 29 Apr All day - 5:45am - 14:30pm",
           "priceSpecification": {
             "price": "150.00",
@@ -3981,9 +3621,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Stephen Frost"
+            "name": "John Duncombe"
           },
-          "reviewBody": "Well organised photo shoot. Communication was first class with written advice on equipment and camera settings. I would highly recommend this event.",
+          "reviewBody": "Took part in Alan's recent Bluebell workshop. Weather and location were very good and Alan was helpful as always. Thanks again.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -4000,9 +3640,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "John Duncombe"
+            "name": "Stephen Frost"
           },
-          "reviewBody": "Took part in Alan's recent Bluebell workshop. Weather and location were very good and Alan was helpful as always. Thanks again.",
+          "reviewBody": "Well organised photo shoot. Communication was first class with written advice on equipment and camera settings. I would highly recommend this event.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -4137,8 +3777,8 @@
         "price": "30.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photography-services-near-me/camera-sensor-clean",
         "@id": "https://www.alanranger.com/photography-services-near-me/camera-sensor-clean#offer",
         "seller": {
@@ -4327,8 +3967,8 @@
         "price": "875.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop",
         "@id": "https://www.alanranger.com/photo-workshops-uk/dartmoor-photography-landscape-workshop#offer",
         "seller": {
@@ -4424,8 +4064,8 @@
         "price": "925.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/dorset-landscape-photography-workshop",
         "@id": "https://www.alanranger.com/photo-workshops-uk/dorset-landscape-photography-workshop#offer",
         "seller": {
@@ -4561,8 +4201,8 @@
           "price": "135.95",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "16x12 Canvas Wrap Round",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#offer1",
@@ -4600,8 +4240,8 @@
           "price": "177.95",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "24x16 Canvas Wrap Round",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#offer2",
@@ -4639,8 +4279,8 @@
           "price": "219.95",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "30x20 Canvas Wrap Round",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#offer3",
@@ -4678,8 +4318,8 @@
           "price": "306.95",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "36x24 Canvas Wrap Round",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#offer4",
@@ -4717,8 +4357,8 @@
           "price": "336.65",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "40x30 Canvas Wrap Round",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#offer5",
@@ -4756,8 +4396,8 @@
           "price": "414.95",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "48x36 Canvas Wrap Round",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#offer6",
@@ -4795,8 +4435,8 @@
           "price": "459.95",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "60x40 Canvas Wrap Round",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-canvas#offer7",
@@ -4915,8 +4555,8 @@
           "price": "50.57",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "16x12 Print",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#offer1",
@@ -4954,8 +4594,8 @@
           "price": "95.78",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "24x16 Print",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#offer2",
@@ -4993,8 +4633,8 @@
           "price": "138.86",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "30x20 Print",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#offer3",
@@ -5032,8 +4672,8 @@
           "price": "161.38",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "36x24 Print",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#offer4",
@@ -5071,8 +4711,8 @@
           "price": "217.23",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "40x30 Print",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#offer5",
@@ -5110,8 +4750,8 @@
           "price": "305.05",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "48x36 Print",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#offer6",
@@ -5149,8 +4789,8 @@
           "price": "416.85",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "60x40 Print",
           "url": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed",
           "@id": "https://www.alanranger.com/photography-services-near-me/fine-art-photography-prints-unframed#offer7",
@@ -5304,8 +4944,8 @@
         "price": "360.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "name": "4 x 2hr sessions - weekday daytime",
         "priceSpecification": {
           "price": "360.00",
@@ -5387,6 +5027,25 @@
             "name": "Barbara Bett"
           },
           "reviewBody": "Recently two of us  had a  morning’s practical tuition with Alan at an outside location with the aim of improving our landscape photography. I appreciated that Alan pitched the level exactly as we had requested with challenges to make  the best possible image from the terrain in front of us, and suggestions on how to better our results. He answered our many questions with specific and considered replies.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2025-05-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "John Grubb"
+          },
+          "reviewBody": "Great experience, I came away very satisfied that Alan had achieved his brief and I am more confident taking good landscape photographs.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -5682,8 +5341,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.94",
-        "reviewCount": 18,
+        "ratingValue": "4.95",
+        "reviewCount": 19,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -5707,8 +5366,8 @@
           "price": "133.85",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "16x12 Print (with Frame 20x16)",
           "url": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints",
           "@id": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints#offer1",
@@ -5746,8 +5405,8 @@
           "price": "191.50",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "24x16 Print (with Frame 30x20)",
           "url": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints",
           "@id": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints#offer2",
@@ -5785,8 +5444,8 @@
           "price": "267.43",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "30x20 Print (with Frame 40x30)",
           "url": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints",
           "@id": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints#offer3",
@@ -5824,8 +5483,8 @@
           "price": "356.90",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "36x24 Print (with Frame 48x36)",
           "url": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints",
           "@id": "https://www.alanranger.com/photography-services-near-me/framed-fine-art-photography-prints#offer4",
@@ -5961,8 +5620,8 @@
           "price": "45.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun May 23rd 2027 - 15:00 - 17:00",
           "url": "https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop#offer1",
@@ -6000,8 +5659,8 @@
           "price": "45.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun Jul 11th 2027 - 15:00 - 17:00",
           "url": "https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop#offer2",
@@ -6193,8 +5852,8 @@
         "price": "400.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "priceSpecification": {
           "price": "400.00",
           "priceCurrency": "GBP"
@@ -6388,8 +6047,8 @@
           "price": "1075.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri 13 Nov - 15 Nov - 3 Days 2026",
           "priceSpecification": {
             "price": "1075.00",
@@ -6431,8 +6090,8 @@
           "price": "1075.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri 22 Jan - 24 Jan - 3 Days 2027",
           "url": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/lake-district-photography-workshop#offer2",
@@ -6470,8 +6129,8 @@
           "price": "1075.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri 24 Sep - 26 Sep - 3 Days 2027",
           "priceSpecification": {
             "price": "1075.00",
@@ -6627,9 +6286,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Patsy Louer"
+            "name": "Dave Pyta"
           },
-          "reviewBody": "I recently attended a photographic workshop hosted by Alan, and I can't express how invaluable the experience was. Initially, I felt overwhelmed with the intricate settings of my camera, but Alan demystified them in a way that was both comprehensible and reassuring. Beyond the technicalities, he instilled in me the ability to 'see' a photograph – to truly understand the essence of a scene and capture it effectively. He also provided hands-on guidance with my tripod, ensuring I maximized its potential for stable, crisp shots.  For anyone keen on elevating their photography skills, whether you're a beginner or someone looking to refine your craft, I would highly recommend Alan's courses. His expertise, coupled with his patient and insightful teaching style, truly sets him apart.  I hope this helps, and I'm glad I had such a positive experience! Remember to continue practicing and experimenting with your camera; the world of photography is vast and constantly evolving!",
+          "reviewBody": "Had a fantastic weekend in the lake district with Alan Ranger on one of his residential courses with our fellow photography enthusiasts. Alan didn't just elevate our photography to another level, his skills, intimate local knowledge and organisational abilities were second to none. Alan was always receptive and willing to go the extra mile to make the experience perfect at the same time as providing honest, professional feedback and support. We will definitely be booking more workshops and weekend away with him soon. - Thank you Alan.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -6646,9 +6305,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Dave Pyta"
+            "name": "Patsy Louer"
           },
-          "reviewBody": "Had a fantastic weekend in the lake district with Alan Ranger on one of his residential courses with our fellow photography enthusiasts. Alan didn't just elevate our photography to another level, his skills, intimate local knowledge and organisational abilities were second to none. Alan was always receptive and willing to go the extra mile to make the experience perfect at the same time as providing honest, professional feedback and support. We will definitely be booking more workshops and weekend away with him soon. - Thank you Alan.",
+          "reviewBody": "I recently attended a photographic workshop hosted by Alan, and I can't express how invaluable the experience was. Initially, I felt overwhelmed with the intricate settings of my camera, but Alan demystified them in a way that was both comprehensible and reassuring. Beyond the technicalities, he instilled in me the ability to 'see' a photograph – to truly understand the essence of a scene and capture it effectively. He also provided hands-on guidance with my tripod, ensuring I maximized its potential for stable, crisp shots.  For anyone keen on elevating their photography skills, whether you're a beginner or someone looking to refine your craft, I would highly recommend Alan's courses. His expertise, coupled with his patient and insightful teaching style, truly sets him apart.  I hope this helps, and I'm glad I had such a positive experience! Remember to continue practicing and experimenting with your camera; the world of photography is vast and constantly evolving!",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -6913,24 +6572,24 @@
     {
       "@type": "Product",
       "name": "PEAK DISTRICT Photography Workshops - 1 Day Padley Gorge",
-      "sku": "SQ3794821",
+      "sku": "SQ8457424",
       "brand": {
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
       "description": "Join me in the Peak District in Hope Valley. Padley Gorge and Bolehill Quarry throughout the year on Peak District photography workshops | All levels welcome Summary Location: Peak District - Derbyshire Dates: Sat 17 th Oct 2026 - 09:30 - 16:00 Sun 1 st Nov 2026 - 09:30 - 16:00 Sat 7 th Nov 2026 - 09:30 - 16:00 Sat 22 nd May 2027 - 09:30 - 16:00 Participants: Max 6 Fitness: 3. Moderate Experience Level: Beginner to Advanced Equipment Needed: DSLR or Mirrorless Camera and Tripod Photography Workshop Event Details: Padley Gorge And Bolehill Quarry Description: This Peak District photography...",
-      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/1709626967694-M4DJSC9GYR1R1LZFYBUF/Padley+Gorge+%2304+-+Mar+2024.jpg",
+      "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/f6bd9c81-8d71-40ff-8af4-680c9b2b5874/Bolehill+Oct+2025+-+%2301.jpg",
       "url": "https://www.alanranger.com/photo-workshops-uk/landscape-peak-district-photography-workshops-derbyshire",
       "offers": [
         {
           "@type": "Offer",
-          "sku": "SQ3794821",
+          "sku": "SQ8457424",
           "price": "150.00",
           "priceCurrency": "GBP",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Padley and Bolehill Sat 17th Oct  2026 09:30am - 4:00pm",
+          "availability": "https://schema.org/OutOfStock",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Padley and Bolehill Sun 1st Nov  2026 09:30am - 4:00pm",
           "priceSpecification": {
             "price": "150.00",
             "priceCurrency": "GBP"
@@ -6967,13 +6626,13 @@
         },
         {
           "@type": "Offer",
-          "sku": "SQ8457424",
+          "sku": "SQ9037810",
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Padley and Bolehill Sun 1st Nov  2026 09:30am - 4:00pm",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Padley and Bolehill Sat 7th Nov  2026 09:30am - 4:00pm",
           "priceSpecification": {
             "price": "150.00",
             "priceCurrency": "GBP"
@@ -7010,13 +6669,13 @@
         },
         {
           "@type": "Offer",
-          "sku": "SQ9037810",
+          "sku": "SQ2363666",
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Padley and Bolehill Sat 7th Nov  2026 09:30am - 4:00pm",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Padley and Bolehill Sat 22nd May 2027 - 09:30 - 16:00",
           "priceSpecification": {
             "price": "150.00",
             "priceCurrency": "GBP"
@@ -7053,13 +6712,13 @@
         },
         {
           "@type": "Offer",
-          "sku": "SQ2363666",
+          "sku": "SQ3794821",
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Padley and Bolehill Sat 22nd May 2027 - 09:30 - 16:00",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Padley and Bolehill Sat 16th Oct  2027 09:30am - 4:00pm",
           "priceSpecification": {
             "price": "150.00",
             "priceCurrency": "GBP"
@@ -7100,9 +6759,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Colin Whittaker"
+            "name": "Alex McDonald"
           },
-          "reviewBody": "Really enjoyed the Peak District photography workshop run by Alan.",
+          "reviewBody": "Great time in the Peak District, first time using a tripod so received lots of helpful tips even as a beginner.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -7119,9 +6778,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Alex McDonald"
+            "name": "Colin Whittaker"
           },
-          "reviewBody": "Great time in the Peak District, first time using a tripod so received lots of helpful tips even as a beginner.",
+          "reviewBody": "Really enjoyed the Peak District photography workshop run by Alan.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -7330,8 +6989,8 @@
         "price": "950.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay",
         "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-devon-hartland-quay#offer",
         "seller": {
@@ -7561,8 +7220,8 @@
         "price": "1075.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshop-norfolk",
         "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshop-norfolk#offer",
         "seller": {
@@ -7712,8 +7371,8 @@
         "price": "975.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-anglesey",
         "@id": "https://www.alanranger.com/photo-workshops-uk/landscape-photography-workshops-anglesey#offer",
         "seller": {
@@ -7921,8 +7580,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/OutOfStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Coventry 3 wks - Mon 7 Sep - 21 Sep 2026",
           "url": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry",
           "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#offer1",
@@ -7960,8 +7619,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Coventry 3 wks - Thu 12 Nov - 26 Nov 2026",
           "url": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry",
           "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#offer2",
@@ -7999,8 +7658,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Coventry 3 wks - Tue 12 Jan - 26 Jan 2027",
           "url": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry",
           "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#offer3",
@@ -8038,8 +7697,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Coventry 3 wks - Thu 6 May - 20 May 2027",
           "url": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry",
           "@id": "https://www.alanranger.com/photography-services-near-me/lightroom-courses-for-beginners-coventry#offer4",
@@ -8576,8 +8235,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon 22 Mar 2027 - 18:00 - 20:00",
           "priceSpecification": {
             "price": "50.00",
@@ -8619,8 +8278,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Wed 14 Apr 2027 - 18:30 - 20:30",
           "priceSpecification": {
             "price": "50.00",
@@ -8662,8 +8321,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Wed 5 May 2027 - 18:00 - 20:00",
           "priceSpecification": {
             "price": "50.00",
@@ -8705,8 +8364,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Wed 22 Sep 2027 - 17:45 - 19:45",
           "priceSpecification": {
             "price": "50.00",
@@ -9088,8 +8747,8 @@
           "price": "125.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/OutOfStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sat 6th Mar 2027 - 10:00 - 13:30",
           "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen",
           "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen#offer1",
@@ -9127,8 +8786,8 @@
           "price": "125.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri 14th May 2027 - 10:00 - 13:30",
           "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen",
           "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen#offer2",
@@ -9166,8 +8825,8 @@
           "price": "125.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sat 9th Oct 2027 - 10:00 - 13:30",
           "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen",
           "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshop-fairy-glen#offer3",
@@ -9265,8 +8924,8 @@
         "price": "99.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshops-burnham",
         "@id": "https://www.alanranger.com/photo-workshops-uk/long-exposure-photography-workshops-burnham#offer",
         "seller": {
@@ -9334,7 +8993,7 @@
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "description": "Monthly Pick N Mix Subscription: your first year of photography development from £50 a month (£600 plan). 10% off courses, workshops and 1-to-1 s, 4 quarterly 1-2-1 reviews and free Photography Academy membership for 12 months. Interest-free",
+      "description": "Monthly Pickn Mix from £50 a month. 10% off courses, workshops and 1-to-1 s, 4 quarterly 1-2-1 reviews and free Academy membership for 12 months. Interest-free",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/7c76925a-43b0-425c-995e-4f4e0190221c/Photography+Payment+Plan.png",
       "url": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription",
       "offers": [
@@ -9344,8 +9003,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "12 x £50 = £600",
           "url": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#offer1",
@@ -9383,8 +9042,8 @@
           "price": "60.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "12 x £60 = £720",
           "url": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#offer2",
@@ -9422,8 +9081,8 @@
           "price": "65.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "12 x £65 = £780",
           "url": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#offer3",
@@ -9461,8 +9120,8 @@
           "price": "75.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "12 x £75 = £900",
           "url": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#offer4",
@@ -9500,8 +9159,8 @@
           "price": "85.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "12 x £85 = £1020",
           "url": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#offer5",
@@ -9539,8 +9198,8 @@
           "price": "100.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "12 x £100 = £1200",
           "url": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/monthly-pick-n-mix-subscription#offer6",
@@ -9640,8 +9299,8 @@
           "price": "125.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "2027 - Sat 14th Aug 18:15 21:15 - Derbyshire Surprise View",
           "url": "https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop#offer1",
@@ -9679,8 +9338,8 @@
           "price": "125.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "2027 - Sun 15 Aug - The Roaches & Ramshaw 05:45 - 08:45",
           "url": "https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop#offer2",
@@ -9718,8 +9377,8 @@
           "price": "200.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Both sessions - 14 and 15 Aug - sunset and sunrise",
           "url": "https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/peak-district-heather-photography-workshop#offer3",
@@ -9795,9 +9454,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Dave Clarke"
+            "name": "Sharon McDonald"
           },
-          "reviewBody": "Great advice and a beautiful and interesting location. Recommended....",
+          "reviewBody": "Really informative and well paced day of landscape photography, learning to compose shots and get comfortable using a tripod, whatever the weather. Thank you Alan!",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -9814,9 +9473,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Sharon McDonald"
+            "name": "Dave Clarke"
           },
-          "reviewBody": "Really informative and well paced day of landscape photography, learning to compose shots and get comfortable using a tripod, whatever the weather. Thank you Alan!",
+          "reviewBody": "Great advice and a beautiful and interesting location. Recommended....",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -10045,8 +9704,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon 5th Oct 2026 - 17:30 - 19:45",
           "priceSpecification": {
             "price": "50.00",
@@ -10088,8 +9747,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Tue 13th Apr 2027 - 18:15 - 20:15",
           "priceSpecification": {
             "price": "50.00",
@@ -10131,8 +9790,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon 10th May 2027 - 18:30 - 20:30",
           "priceSpecification": {
             "price": "50.00",
@@ -10174,8 +9833,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon 6th Sep 2027 - 18:00 - 20:00",
           "priceSpecification": {
             "price": "50.00",
@@ -10370,8 +10029,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sat 3rd Jul 2027 - 18:00 20:45",
           "url": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields",
           "@id": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields#offer1",
@@ -10409,8 +10068,8 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sat 10th Jul 2027 - 18:00 20:45",
           "url": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields",
           "@id": "https://www.alanranger.com/photo-workshops-uk/photography-workshops-lavender-fields#offer2",
@@ -10601,8 +10260,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Standard (Weekdays 9-5) - 1 x 1hr - Pay as you go    £50",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer1",
@@ -10640,8 +10299,8 @@
           "price": "170.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Standard (Weekdays 9-5) - 4 x 1hr (15% Off)          £170",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer2",
@@ -10679,8 +10338,8 @@
           "price": "240.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Standard (Weekdays 9-5) - 6 x 1hr (20% Off)          £240",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer3",
@@ -10718,8 +10377,8 @@
           "price": "300.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Standard (Weekdays 9-5) - 8 x 1hr (25% Off)          £300",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer4",
@@ -10757,8 +10416,8 @@
           "price": "450.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Standard (Weekdays 9-5) - 12 x 1hr (25% Off)         £450",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer5",
@@ -10796,8 +10455,8 @@
           "price": "75.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Premium (Eve/Weekend 9-9) - 1 x 1hr - Pay as you go  £75",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer6",
@@ -10835,8 +10494,8 @@
           "price": "255.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Premium (Eve/Weekend 9-9) - 4 x 1hr (15% Off)        £255",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer7",
@@ -10874,8 +10533,8 @@
           "price": "360.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Premium (Eve/Weekend 9-9) - 6 x 1hr (20% Off)        £360",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer8",
@@ -10913,8 +10572,8 @@
           "price": "450.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Premium (Eve/Weekend 9-9) - 8 x 1hr (25% Off)        £450",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer9",
@@ -10952,8 +10611,8 @@
           "price": "675.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Zoom Premium (Eve/Weekend 9-9) - 12 x 1hr (25% Off)       £675",
           "url": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom",
           "@id": "https://www.alanranger.com/photography-services-near-me/private-online-photography-classes-zoom#offer10",
@@ -11460,7 +11119,7 @@
         "@type": "Brand",
         "name": "Alan Ranger Photography"
       },
-      "description": "Quarterly Pick N Mix Subscription: your first year of photography development from £250 a quarter (£1,000 plan). 12.5% off courses, workshops and 1-to-1 s, 4 one-hour quarterly 1-2-1 reviews and free Photography Academy membership for 12 months. Interest-free",
+      "description": "Qtrly Pickn Mix: photography development from £250 a QTR 12.5% off courses, workshops and 1-to-1 s, 4 1 hr quarterly 1-2-1 reviews and free Academy membership",
       "image": "https://images.squarespace-cdn.com/content/v1/5013f4b2c4aaa4752ac69b17/fbab50ee-2fe8-4fe9-8804-e691b883cf4b/Photography+Payment+Plan.png",
       "url": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription",
       "offers": [
@@ -11470,8 +11129,8 @@
           "price": "250.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "4 x £250 = £1000",
           "url": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription#offer1",
@@ -11509,8 +11168,8 @@
           "price": "300.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "4 x £300 = £1200",
           "url": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription#offer2",
@@ -11548,8 +11207,8 @@
           "price": "350.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "4 x £350 = £1400",
           "url": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription#offer3",
@@ -11587,8 +11246,8 @@
           "price": "400.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "4 x 400 = £1600",
           "url": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription#offer4",
@@ -11626,8 +11285,8 @@
           "price": "500.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "4 x £500 = £2000",
           "url": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription",
           "@id": "https://www.alanranger.com/photography-services-near-me/quarterly-pick-n-mix-subscription#offer5",
@@ -11743,8 +11402,8 @@
           "price": "50.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Fri 9am-5pm 1 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer1",
@@ -11782,8 +11441,8 @@
           "price": "170.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Fri 9am-5pm 4 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer2",
@@ -11821,8 +11480,8 @@
           "price": "240.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Fri 9am-5pm 6 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer3",
@@ -11860,8 +11519,8 @@
           "price": "300.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Fri 9am-5pm  8x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer4",
@@ -11899,8 +11558,8 @@
           "price": "450.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Fri 9am-5pm 12 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer5",
@@ -11938,8 +11597,8 @@
           "price": "75.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Sun 9am-9pm 1 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer6",
@@ -11977,8 +11636,8 @@
           "price": "255.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Sun 9am-9pm 4 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer7",
@@ -12016,8 +11675,8 @@
           "price": "360.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Sun 9am-9pm 6 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer8",
@@ -12055,8 +11714,8 @@
           "price": "450.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Sun 9am-9pm 8 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer9",
@@ -12094,8 +11753,8 @@
           "price": "675.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon- Sun 9am-9pm 12 x 1hr",
           "url": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course",
           "@id": "https://www.alanranger.com/photography-services-near-me/rps-mentoring-photography-course#offer10",
@@ -12369,7 +12028,7 @@
     {
       "@type": "Product",
       "name": "The Secret of WOODLAND PHOTOGRAPHY- 1-Day Jan, Apr, Aug, Oct",
-      "sku": "SQ4894934",
+      "sku": "SQ2827052",
       "brand": {
         "@type": "Brand",
         "name": "Alan Ranger Photography"
@@ -12380,54 +12039,15 @@
       "offers": [
         {
           "@type": "Offer",
-          "sku": "SQ4894934",
-          "price": "150.00",
-          "priceCurrency": "GBP",
-          "availability": "https://schema.org/OutOfStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
-          "name": "Sun 18th Oct 2026 - 10am - 4pm",
-          "url": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#offer1",
-          "seller": {
-            "@type": "Organization",
-            "name": "Alan Ranger Photography",
-            "url": "https://www.alanranger.com"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "doesNotShip": true,
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "GB"
-            }
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
-            "merchantReturnDays": 28,
-            "refundType": "http://schema.org/FullRefund",
-            "applicableCountry": "GB",
-            "returnMethod": "http://schema.org/ReturnByMail",
-            "returnFees": "https://schema.org/ReturnShippingFees",
-            "returnShippingFeesAmount": {
-              "@type": "MonetaryAmount",
-              "value": "50.00",
-              "currency": "GBP"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
           "sku": "SQ2827052",
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun 10 Jan 2027 - 10am - 4pm",
           "url": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#offer2",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#offer1",
           "seller": {
             "@type": "Organization",
             "name": "Alan Ranger Photography",
@@ -12462,11 +12082,11 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun 2nd May 2027 - 10am - 4pm",
           "url": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop",
-          "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#offer3",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#offer2",
           "seller": {
             "@type": "Organization",
             "name": "Alan Ranger Photography",
@@ -12501,9 +12121,48 @@
           "price": "150.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun 1st Aug 2027 - 10am - 4pm",
+          "url": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop",
+          "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#offer3",
+          "seller": {
+            "@type": "Organization",
+            "name": "Alan Ranger Photography",
+            "url": "https://www.alanranger.com"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": true,
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            }
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "returnPolicyCategory": "http://schema.org/MerchantReturnFiniteReturnWindow",
+            "merchantReturnDays": 28,
+            "refundType": "http://schema.org/FullRefund",
+            "applicableCountry": "GB",
+            "returnMethod": "http://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/ReturnShippingFees",
+            "returnShippingFeesAmount": {
+              "@type": "MonetaryAmount",
+              "value": "50.00",
+              "currency": "GBP"
+            }
+          }
+        },
+        {
+          "@type": "Offer",
+          "sku": "SQ4894934",
+          "price": "150.00",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
+          "name": "Sun 17th Oct 2027 - 10am - 4pm",
           "url": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop",
           "@id": "https://www.alanranger.com/photo-workshops-uk/secrets-of-woodland-photography-workshop#offer4",
           "seller": {
@@ -13014,8 +12673,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.94",
-        "reviewCount": 31,
+        "ratingValue": "4.93",
+        "reviewCount": 30,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -13038,8 +12697,8 @@
         "price": "995.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "priceSpecification": {
           "price": "995.00",
           "priceCurrency": "GBP"
@@ -13230,8 +12889,8 @@
         "price": "50.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "priceSpecification": {
           "price": "50.00",
           "priceCurrency": "GBP"
@@ -13516,8 +13175,8 @@
         "price": "695.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr",
         "@id": "https://www.alanranger.com/photo-workshops-uk/wales-photography-workshop-pistyll-rhaeadr#offer",
         "seller": {
@@ -13708,8 +13367,8 @@
           "price": "15.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/OutOfStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri Jan 2 Hay Woods - Solihull",
           "url": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#offer1",
@@ -13747,8 +13406,8 @@
           "price": "15.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Mon Feb 2 - Tile Hill Nature Reserve - Coventry",
           "url": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#offer2",
@@ -13786,8 +13445,8 @@
           "price": "15.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/OutOfStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Sun May 3 - Millisons Wood, Meriden",
           "url": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#offer3",
@@ -13825,8 +13484,8 @@
           "price": "15.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri Oct 16 - Piles Coppice, Coventry",
           "url": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#offer4",
@@ -13864,8 +13523,8 @@
           "price": "15.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri Nov 6 - Crackley Wood, Kenilworth",
           "url": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#offer5",
@@ -13903,8 +13562,8 @@
           "price": "15.00",
           "priceCurrency": "GBP",
           "availability": "https://schema.org/InStock",
-          "validFrom": "2026-10-12",
-          "priceValidUntil": "2027-10-12",
+          "validFrom": "2026-10-25",
+          "priceValidUntil": "2027-10-25",
           "name": "Fri Dec 4 - Hay Wood - Lapworth",
           "url": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire",
           "@id": "https://www.alanranger.com/photo-workshops-uk/woodland-photography-walk-warwickshire#offer6",
@@ -14440,8 +14099,8 @@
         "price": "895.00",
         "priceCurrency": "GBP",
         "availability": "https://schema.org/InStock",
-        "validFrom": "2026-10-12",
-        "priceValidUntil": "2027-10-12",
+        "validFrom": "2026-10-25",
+        "priceValidUntil": "2027-10-25",
         "url": "https://www.alanranger.com/photo-workshops-uk/yorkshire-dales-photography-workshops",
         "@id": "https://www.alanranger.com/photo-workshops-uk/yorkshire-dales-photography-workshops#offer",
         "seller": {

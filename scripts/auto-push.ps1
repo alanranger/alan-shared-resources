@@ -97,6 +97,21 @@ try {
     }
   }
 
+  # Self-grow 06: add newly published live pages (blog feed + sitemap) so they join the audit list.
+  $addScript = Join-Path $PSScriptRoot "add-06-new-urls.mjs"
+  $addReport = Join-Path $repoRoot "csv processed\06-add-report-latest.json"
+  $addedUrls = @()
+  if (Test-Path $addScript) {
+    Write-Host "[$timestamp] Adding new live URLs to csv/06-site-urls.csv..."
+    & node $addScript
+    if (Test-Path $addReport) {
+      try {
+        $addObj = Get-Content -Raw $addReport | ConvertFrom-Json
+        $addedUrls = @($addObj.addedUrls)
+      } catch { }
+    }
+  }
+
   # Stage tracked changes and key source-of-truth folders/files.
   Invoke-Git -Args @("add", "-u")
   Invoke-Git -Args @("add", "--", "csv", "csv processed", "outputs", "README.md", "STRUCTURE_AUDIT.md", "scripts", ".gitignore")

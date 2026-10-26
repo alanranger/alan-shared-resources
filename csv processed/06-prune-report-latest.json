@@ -1,14 +1,7 @@
 {
-  "total": 478,
+  "total": 477,
   "kept": 477,
-  "dropped": 1,
-  "byReason": {
-    "http_404": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/photography-light-review-kf-pl60b",
-      "reason": "http_404"
-    }
-  ]
+  "dropped": 0,
+  "byReason": {},
+  "sample": []
 }

@@ -57,14 +57,21 @@ function hasNoindex(html, xRobots) {
   return /\bnoindex\b/i.test(robots?.[1] || '') || /\bnoindex\b/i.test(google?.[1] || '');
 }
 
+const NAMED_ENTITIES = {
+  amp: '&', quot: '"', apos: "'", rsquo: "'", lsquo: "'", ldquo: '"', rdquo: '"',
+  mdash: '—', ndash: '–', hellip: '…', nbsp: ' '
+};
+
+function decodeEntities(s) {
+  return String(s || '')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&([a-z]+);/gi, (m, name) => NAMED_ENTITIES[name.toLowerCase()] ?? m);
+}
+
 function pageTitle(html) {
   const m = String(html || '').match(/<title[^>]*>([^<]*)<\/title>/i);
-  return (m?.[1] || '')
-    .replace(/&amp;/g, '&')
-    .replace(/&#39;|&rsquo;/g, "'")
-    .replace(/&quot;/g, '"')
-    .replace(/\s+/g, ' ')
-    .trim();
+  return decodeEntities(m?.[1] || '').replace(/\s+/g, ' ').trim();
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

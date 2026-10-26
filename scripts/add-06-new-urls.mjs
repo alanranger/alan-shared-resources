@@ -7,6 +7,7 @@
  * published) plus sitemap.xml (catches new non-blog pages; lags by hours). A candidate is
  * only added when it answers 200 without redirect and is not noindex — the same rules the
  * prune step uses, so stale sitemap entries (past workshop dates) never come back.
+ * Rows with a blank title (e.g. hand-added) get the live page <title>.
  *
  * Usage:
  *   node scripts/add-06-new-urls.mjs
@@ -75,12 +76,27 @@ function writeReport(report) {
   console.log(JSON.stringify(report, null, 2));
 }
 
+const titleColumnIndex = (header) => header.findIndex((h) => String(h).toLowerCase() === 'title');
+
 function buildRow(header, urlIdx, url, title) {
   const row = header.map(() => '');
   row[urlIdx] = url;
-  const titleIdx = header.findIndex((h) => String(h).toLowerCase() === 'title');
+  const titleIdx = titleColumnIndex(header);
   if (titleIdx >= 0) row[titleIdx] = title || '';
   return row;
+}
+
+/** Rows with an empty title get the live page <title>. Returns the URLs filled. */
+async function fillBlankTitles(body, urlIdx, titleIdx) {
+  if (titleIdx < 0) return [];
+  const blank = body.filter((r) => !String(r[titleIdx] || '').trim() && /^https?:\/\//i.test(String(r[urlIdx] || '')));
+  const checked = await mapPool(blank, 4, async (row) => ({ row, ...(await classifyUrl(String(row[urlIdx]).trim())) }));
+  const filled = checked.filter((c) => c.title);
+  filled.forEach((c) => {
+    while (c.row.length <= titleIdx) c.row.push('');
+    c.row[titleIdx] = c.title;
+  });
+  return filled.map((c) => String(c.row[urlIdx]).trim());
 }
 
 async function main() {
@@ -96,6 +112,7 @@ async function main() {
   const missing = missingCandidates([...feed, ...sitemap], existing);
   const checked = await mapPool(missing, 4, async (url) => ({ url, ...(await classifyUrl(url)) }));
   const live = checked.filter((c) => c.reason === 'live').slice(0, MAX_ADD_PER_RUN);
+  const titlesFilled = await fillBlankTitles(body, urlIdx, titleColumnIndex(header));
 
   const report = {
     feedUrls: feed.length,
@@ -103,15 +120,16 @@ async function main() {
     candidates: missing.length,
     added: live.length,
     addedUrls: live.map((c) => c.url),
+    titlesFilled,
     skipped: checked.filter((c) => c.reason !== 'live').map((c) => ({ url: c.url, reason: c.reason }))
   };
   writeReport(report);
-  if (!live.length || dryRun) return report;
+  if ((!live.length && !titlesFilled.length) || dryRun) return report;
 
   const merged = insertSorted(body, urlIdx, live.map((c) => buildRow(header, urlIdx, c.url, c.title)));
   const lines = [header.map(esc).join(','), ...merged.map((r) => r.map(esc).join(','))];
   writeFileSync(CSV_PATH, lines.join('\n') + '\n', 'utf8');
-  console.log(`Wrote ${CSV_PATH} (+${live.length} rows).`);
+  console.log(`Wrote ${CSV_PATH} (+${live.length} rows, ${titlesFilled.length} titles filled).`);
   return report;
 }
 

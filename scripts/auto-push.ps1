@@ -101,6 +101,7 @@ try {
   $addScript = Join-Path $PSScriptRoot "add-06-new-urls.mjs"
   $addReport = Join-Path $repoRoot "csv processed\06-add-report-latest.json"
   $addedUrls = @()
+  $titlesFilled = @()
   if (Test-Path $addScript) {
     Write-Host "[$timestamp] Adding new live URLs to csv/06-site-urls.csv..."
     & node $addScript
@@ -108,6 +109,7 @@ try {
       try {
         $addObj = Get-Content -Raw $addReport | ConvertFrom-Json
         $addedUrls = @($addObj.addedUrls)
+        if ($addObj.PSObject.Properties['titlesFilled']) { $titlesFilled = @($addObj.titlesFilled) }
       } catch { }
     }
   }
@@ -161,6 +163,9 @@ try {
   if ($isDefaultMessage -and $addedUrls.Count -gt 0) {
     $addNote = ($addedUrls | Select-Object -First 8) -join '; '
     $Message = "$Message; add 06 new ($($addedUrls.Count)): $addNote"
+  }
+  if ($isDefaultMessage -and $titlesFilled.Count -gt 0) {
+    $Message = "$Message; fill 06 titles ($($titlesFilled.Count))"
   }
 
   Invoke-Git -Args @("commit", "-m", $Message)

@@ -1,11 +1,10 @@
 {
   "feedUrls": 60,
   "sitemapUrls": 479,
-  "candidates": 3,
-  "added": 1,
-  "addedUrls": [
-    "https://www.alanranger.com/blog-on-photography/photography-light-review-kf-pl60b"
-  ],
+  "candidates": 2,
+  "added": 0,
+  "addedUrls": [],
+  "titlesFilled": [],
   "skipped": [
     {
       "url": "https://www.alanranger.com/photographic-workshops-near-me/batsford-arboretum-autumn-photography-1nov",

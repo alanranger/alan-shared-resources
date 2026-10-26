@@ -2,17 +2,11 @@
   "feedUrls": 60,
   "sitemapUrls": 479,
   "candidates": 2,
-  "added": 0,
-  "addedUrls": [],
+  "added": 2,
+  "addedUrls": [
+    "https://www.alanranger.com/photographic-workshops-near-me/batsford-arboretum-autumn-photography-3nov",
+    "https://www.alanranger.com/photographic-workshops-near-me/batsford-arboretum-autumn-photography-2nov"
+  ],
   "titlesFilled": [],
-  "skipped": [
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/batsford-arboretum-autumn-photography-1nov",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/batsford-arboretum-autumn-photography-30oct",
-      "reason": "http_404"
-    }
-  ]
+  "skipped": []
 }

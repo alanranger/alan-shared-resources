@@ -153,9 +153,14 @@ try {
     }
   }
 
-  if ($Message -eq "chore(sync): auto-update shared resources ($timestamp)" -and $pruneCount -gt 0) {
+  $isDefaultMessage = $Message -eq "chore(sync): auto-update shared resources ($timestamp)"
+  if ($isDefaultMessage -and $pruneCount -gt 0) {
     $dropNote = ($pruneDropped | Select-Object -First 8) -join '; '
-    $Message = "chore(sync): auto-update shared resources ($timestamp); prune 06 dead/noindex ($pruneCount): $dropNote"
+    $Message = "$Message; prune 06 dead/noindex ($pruneCount): $dropNote"
+  }
+  if ($isDefaultMessage -and $addedUrls.Count -gt 0) {
+    $addNote = ($addedUrls | Select-Object -First 8) -join '; '
+    $Message = "$Message; add 06 new ($($addedUrls.Count)): $addNote"
   }
 
   Invoke-Git -Args @("commit", "-m", $Message)

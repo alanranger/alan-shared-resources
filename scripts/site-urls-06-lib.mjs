@@ -83,10 +83,20 @@ async function fetchNoRedirect(url) {
   return res;
 }
 
+const isDropCode = (code) => code === 404 || code === 410 || (code >= 300 && code < 400);
+
+/** Squarespace can answer 404 for a moment while a post is being edited — confirm before dropping. */
+async function fetchConfirmed(url) {
+  const first = await fetchNoRedirect(url);
+  if (!isDropCode(Number(first.status))) return first;
+  await sleep(5000);
+  return fetchNoRedirect(url);
+}
+
 /** drop=true for 3xx / 404 / 410 / noindex; live pages also return their <title>. */
 export async function classifyUrl(url) {
   try {
-    const res = await fetchNoRedirect(url);
+    const res = await fetchConfirmed(url);
     const code = Number(res.status);
     if (code === 404 || code === 410) return { drop: true, reason: `http_${code}` };
     if (code >= 300 && code < 400) return { drop: true, reason: `http_${code}` };

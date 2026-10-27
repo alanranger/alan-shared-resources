@@ -12,6 +12,30 @@ $repoRoot = Split-Path -Parent $PSScriptRoot
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 $statusPath = Join-Path $repoRoot "outputs\AUTO-SYNC-STATUS-LATEST.json"
 $alertPath = "C:\Users\alan\Google Drive\Claude shared resources\Cursor Outputs for Claude\ALERT-alan-shared-resources-autosync-FAILED-LATEST.md"
+$heartbeatUrl = "https://ai-geo-audit.vercel.app/api/aigeo/tool-run-report"
+
+# Heartbeat for the AI GEO silent fault monitor (check D3). Never fails the sync.
+function Send-SyncHeartbeat {
+  param([string]$State, [string]$Detail, [int]$Ahead)
+  try {
+    $pruned = Get-Variable -Name pruneCount -ValueOnly -ErrorAction SilentlyContinue
+    $added = Get-Variable -Name addedUrls -ValueOnly -ErrorAction SilentlyContinue
+    $body = [ordered]@{
+      tool    = 'shared-resources-sync'
+      flow    = 'auto-push'
+      state   = $State
+      summary = [ordered]@{
+        detail          = $Detail
+        ahead_of_origin = $Ahead
+        pruned_06       = [int]$pruned
+        added_06        = $(if ($added) { @($added).Count } else { 0 })
+      }
+    } | ConvertTo-Json -Depth 4
+    Invoke-RestMethod -Uri $heartbeatUrl -Method Post -ContentType 'application/json' -Body $body -TimeoutSec 15 | Out-Null
+  } catch {
+    Write-Warning "Heartbeat to fault monitor not sent: $($_.Exception.Message)"
+  }
+}
 
 function Invoke-Git {
   param(
@@ -43,6 +67,7 @@ function Write-SyncStatus {
   $dir = Split-Path $statusPath -Parent
   if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir -Force | Out-Null }
   ($obj | ConvertTo-Json) | Set-Content -Path $statusPath -Encoding utf8
+  Send-SyncHeartbeat -State $State -Detail $Detail -Ahead $ahead
 
   if ($State -eq 'failed') {
     $md = @"

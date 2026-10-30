@@ -12,6 +12,8 @@ import { join } from 'node:path';
 import { ROOT, parseCsv, esc, classifyUrl, mapPool } from './site-urls-06-lib.mjs';
 
 const dryRun = process.argv.includes('--dry-run');
+const onlyArg = process.argv.find((a) => a.startsWith('--file='));
+const onlyFile = onlyArg ? onlyArg.slice('--file='.length) : '';
 const CONCURRENCY = 4;
 const CSV_DIR = join(ROOT, 'csv');
 
@@ -82,7 +84,9 @@ async function pruneFile(spec) {
 
 async function main() {
   const files = [];
-  for (const spec of FILES) files.push(await pruneFile(spec));
+  const specs = onlyFile ? FILES.filter((f) => f.file === onlyFile) : FILES;
+  if (!specs.length) throw new Error(`unknown --file=${onlyFile}`);
+  for (const spec of specs) files.push(await pruneFile(spec));
   const dropped = files.flatMap((f) => f.dropped.map((d) => ({ file: f.file, ...d })));
   const liveDropped = dropped.filter((d) => d.reason === 'live');
   const report = {

@@ -1,0 +1,34 @@
+{
+  "dryRun": false,
+  "kept": 400,
+  "dropped": 0,
+  "byReason": {},
+  "files": [
+    {
+      "file": "01-blog-posts.csv",
+      "total": 322,
+      "kept": 322,
+      "dropped": 0
+    },
+    {
+      "file": "04-photography-services-courses-mentoring.csv",
+      "total": 15,
+      "kept": 15,
+      "dropped": 0
+    },
+    {
+      "file": "05-photo-workshops-uk-landscape.csv",
+      "total": 23,
+      "kept": 23,
+      "dropped": 0
+    },
+    {
+      "file": "07-product-schema-with-review-ratings.csv",
+      "total": 40,
+      "kept": 40,
+      "dropped": 0
+    }
+  ],
+  "droppedRows": [],
+  "liveDroppedCount": 0
+}

@@ -91,7 +91,7 @@ async function fetchNoRedirect(url) {
 }
 
 const isDropCode = (code) => code === 404 || code === 410 || (code >= 300 && code < 400);
-const NON_PAGE = /\.(jpe?g|png|gif|webp|avif|svg|ico|pdf|zip|mp4|mov)(\?|#|$)/i;
+const NON_PAGE = /\.(jpe?g|png|gif|webp|avif|svg|ico|pdf|zip|mp4|mov)\/?(?:\?|#|$)/i;
 
 /** Squarespace can answer 404 for a moment while a post is being edited — confirm before dropping. */
 async function fetchConfirmed(url) {

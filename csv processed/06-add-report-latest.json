@@ -1,9 +1,14 @@
 {
   "feedUrls": 60,
   "sitemapUrls": 479,
-  "candidates": 0,
+  "candidates": 1,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
-  "skipped": []
+  "skipped": [
+    {
+      "url": "https://www.alanranger.com/photography-news-blog",
+      "reason": "http_301"
+    }
+  ]
 }

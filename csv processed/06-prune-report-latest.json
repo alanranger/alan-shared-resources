@@ -1,14 +1,7 @@
 {
-  "total": 480,
+  "total": 479,
   "kept": 479,
-  "dropped": 1,
-  "byReason": {
-    "noindex": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/beginners-photography-lessons",
-      "reason": "noindex"
-    }
-  ]
+  "dropped": 0,
+  "byReason": {},
+  "sample": []
 }

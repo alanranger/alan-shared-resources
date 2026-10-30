@@ -50,9 +50,9 @@ export function urlKey(url) {
 function hasNoindex(html, xRobots) {
   if (/\bnoindex\b/i.test(String(xRobots || ''))) return true;
   const h = String(html || '');
-  // Members checklist posts: the blog-header snippet adds robots noindex when
-  // this Squarespace category class is present. The class is in the served HTML,
-  // so 06 can drop them without a full browser render.
+  // Members checklist posts: hosted blog-page-loader injects robots noindex
+  // after DOMContentLoaded when this class is present. The class is in the
+  // served HTML, so 06 can drop them without a browser render.
   if (/category-1-page-field-checklists/i.test(h)) return true;
   const robots = h.match(/<meta[^>]*name=["']robots["'][^>]*content=["']([^"']+)["']/i)
     || h.match(/<meta[^>]*content=["']([^"']+)["'][^>]*name=["']robots["']/i);

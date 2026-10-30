@@ -91,6 +91,7 @@ async function fetchNoRedirect(url) {
 }
 
 const isDropCode = (code) => code === 404 || code === 410 || (code >= 300 && code < 400);
+const NON_PAGE = /\.(jpe?g|png|gif|webp|avif|svg|ico|pdf|zip|mp4|mov)(\?|#|$)/i;
 
 /** Squarespace can answer 404 for a moment while a post is being edited — confirm before dropping. */
 async function fetchConfirmed(url) {
@@ -101,16 +102,22 @@ async function fetchConfirmed(url) {
 }
 
 /** drop=true for 3xx / 404 / 410 / noindex; live pages also return their <title>. */
-export async function classifyUrl(url) {
+export async function classifyUrl(url, opts = {}) {
   try {
     const res = await fetchConfirmed(url);
     const code = Number(res.status);
     if (code === 404 || code === 410) return { drop: true, reason: `http_${code}` };
-    if (code >= 300 && code < 400) return { drop: true, reason: `http_${code}` };
+    if (code >= 300 && code < 400) {
+      const location = res.headers.get('location') || '';
+      if (NON_PAGE.test(location)) return { drop: true, reason: 'redirect_non_page', location };
+      return { drop: true, reason: `http_${code}`, location };
+    }
     if (code === 429) return { drop: false, reason: 'keep_http_429' };
     if (!res.ok) return { drop: false, reason: `keep_http_${code}` };
     const html = await res.text();
-    if (hasNoindex(html, res.headers.get('x-robots-tag') || '')) return { drop: true, reason: 'noindex' };
+    if (!opts.keepNoindex && hasNoindex(html, res.headers.get('x-robots-tag') || '')) {
+      return { drop: true, reason: 'noindex' };
+    }
     return { drop: false, reason: 'live', title: pageTitle(html) };
   } catch (err) {
     return { drop: false, reason: `error:${String(err?.message || err).slice(0, 80)}` };

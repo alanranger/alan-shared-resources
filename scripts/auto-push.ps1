@@ -122,6 +122,21 @@ try {
     }
   }
 
+  # Catalog CSVs 01/04/05/07: drop hidden + live 404 / non-page redirects (same live-check as 06).
+  $catalogPruneScript = Join-Path $PSScriptRoot "prune-catalog-dead.mjs"
+  $catalogPruneReport = Join-Path $repoRoot "csv processed\catalog-prune-report-latest.json"
+  $catalogPruneCount = 0
+  if (Test-Path $catalogPruneScript) {
+    Write-Host "[$timestamp] Pruning dead/hidden URLs from csv/01, 04, 05, 07..."
+    & node $catalogPruneScript
+    if (Test-Path $catalogPruneReport) {
+      try {
+        $catalogObj = Get-Content -Raw $catalogPruneReport | ConvertFrom-Json
+        $catalogPruneCount = [int]($catalogObj.dropped)
+      } catch { }
+    }
+  }
+
   # Self-grow 06: add newly published live pages (blog feed + sitemap) so they join the audit list.
   $addScript = Join-Path $PSScriptRoot "add-06-new-urls.mjs"
   $addReport = Join-Path $repoRoot "csv processed\06-add-report-latest.json"
@@ -184,6 +199,9 @@ try {
   if ($isDefaultMessage -and $pruneCount -gt 0) {
     $dropNote = ($pruneDropped | Select-Object -First 8) -join '; '
     $Message = "$Message; prune 06 dead/noindex ($pruneCount): $dropNote"
+  }
+  if ($isDefaultMessage -and $catalogPruneCount -gt 0) {
+    $Message = "$Message; prune catalog dead ($catalogPruneCount)"
   }
   if ($isDefaultMessage -and $addedUrls.Count -gt 0) {
     $addNote = ($addedUrls | Select-Object -First 8) -join '; '

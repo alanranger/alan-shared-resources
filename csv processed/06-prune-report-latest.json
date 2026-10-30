@@ -1,7 +1,110 @@
 {
   "total": 478,
-  "kept": 478,
-  "dropped": 0,
-  "byReason": {},
-  "sample": []
+  "kept": 448,
+  "dropped": 30,
+  "byReason": {
+    "noindex": 30
+  },
+  "sample": [
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/aperture-field-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/architecture-photography-guide-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/black-and-white-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-drive-modes-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-dynamic-range",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-exposure-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-focus-plane",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-manual-exposure-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-metering-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-shutter-speed-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-white-balance-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/depth-of-field-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/exposure-bracketing-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/full-frame-or-crop-sensor",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/iso-camera-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/jpg-vs-raw-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/landscape-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/lens-focal-length",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/long-exposure-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/macro-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/minimalist-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/photography-compositional-balance",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-framing",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-observation",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-rules",
+      "reason": "noindex"
+    }
+  ]
 }

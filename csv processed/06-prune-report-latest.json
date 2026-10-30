@@ -1,14 +1,7 @@
 {
-  "total": 479,
+  "total": 478,
   "kept": 478,
-  "dropped": 1,
-  "byReason": {
-    "http_301": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/photography-news-blog",
-      "reason": "http_301"
-    }
-  ]
+  "dropped": 0,
+  "byReason": {},
+  "sample": []
 }

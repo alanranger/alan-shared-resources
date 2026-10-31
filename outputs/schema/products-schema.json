@@ -1722,6 +1722,63 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "G Smith"
+          },
+          "reviewBody": "I did the beginners camera course, it was the perfect level of detail and information for me. Well paced and Alan was happy to answer any questions as we went and the assignments were interesting.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Kiyara"
+          },
+          "reviewBody": "I completed the three week Beginners Camera Course and it really helped me start to understand the different settings on my camera. Alan is a great teacher!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Toby (Druid, Keeper Of Cookies)"
+          },
+          "reviewBody": "Excellent knowledge, and explained simply. Gave out small booklets every week with incredibly useful notes and referable information, so you can easily use them for future reference. Course includes YouTube videos accessible online for more reference where wanted Beginners Camera Course, had a small group of 3 taught by Alan using a PowerPoint. Gave time to ask questions",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-01",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Kate Clay"
           },
           "reviewBody": "I attended the intro 3 week course and it was excellent. I have for a long time wanted to 'get off auto' and Alan made that possible and enjoyable. I have loved practising at during the week and have already booked back to come onto another course. Thank you 🙏",
@@ -1874,9 +1931,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Deb Moffat"
+            "name": "Joint Rollason"
           },
-          "reviewBody": "Was a complete beginner and found this very useful to get confidence with my camera. Alan has so much knowledge and expertise to impart. Good atmosphere and some laughs along the way.",
+          "reviewBody": "Excellent course to get a grip of the basics. Would highly recommend.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -1893,9 +1950,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Joint Rollason"
+            "name": "Deb Moffat"
           },
-          "reviewBody": "Excellent course to get a grip of the basics. Would highly recommend.",
+          "reviewBody": "Was a complete beginner and found this very useful to get confidence with my camera. Alan has so much knowledge and expertise to impart. Good atmosphere and some laughs along the way.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -2135,69 +2192,12 @@
             "@type": "Organization",
             "name": "Google"
           }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Karen & Dave"
-          },
-          "reviewBody": "I really enjoyed the Basic Photography course. Alan showed me how to properly use my camera and I'm looking forward to booking a 1-1 session so that he can critique my shots. He also makes a great cup of tea!!!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-03-25",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Cheryl"
-          },
-          "reviewBody": "Alan's beginner photography course was excellent - exactly what I needed as a total newbie. Already booked another workshop with Alan and can't wait",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-03-19",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Richard Hill"
-          },
-          "reviewBody": "Alan is such a friendly host, full of knowledge and a strong history of photography. His people skills and approach to tutoring is very positive. If you’re looking for a tutor, feedback on your current skills or anything in the photography world, I could not recommend Alan Ranger photography enough! Thank you Alan, see you again soon for a day out!",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2025-03-10",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
-        "reviewCount": 160,
+        "reviewCount": 163,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -3609,6 +3609,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "David Rose"
+          },
+          "reviewBody": "Excellent service. Had sensor and mirror cleaned, which given the results wished I’d had done years ago.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-05",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Simona Abaidoo"
           },
           "reviewBody": "Amazing service! My camera sensor was perfectly cleaned.  Highly recommend!",
@@ -3777,7 +3796,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 9,
+        "reviewCount": 10,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -4819,6 +4838,44 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Rhia Sutherland"
+          },
+          "reviewBody": "Had a 1-1 session, found it very informative and tailored to my needs. Alan went through the fundamentals to get me off to a good start",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-09",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Linda Clegg"
+          },
+          "reviewBody": "Very knowledgeable. Clear explanation for someone who knows absolutely nothing.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-08",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Ian McHardy"
           },
           "reviewBody": "I spent a very informative and enlightening morning with Alan where he gave me a greater understanding of my Sony Alpha camera . He has challenged me to take my photography away from automatic mode and take it to the next level. Alan’s tuition was clear and well presented. Many thanks Alan .",
@@ -5155,8 +5212,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.94",
-        "reviewCount": 18,
+        "ratingValue": "4.95",
+        "reviewCount": 20,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -6497,6 +6554,63 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Cherie Lewis"
+          },
+          "reviewBody": "We had a fabulous day of photography in Padley Gorge and Boleshill Quarry. Alan was a great tutor - incredibly patient and informative. I learnt a lot in a short space of time and it was great to be able to put that learning into practice in a stunning location. Alan had a brilliant knowledge of the area and helped us to ‘see’ the opportunities first and foremost before looking at the technical. A brilliant day -,Alan looked after us from beginning to end and made sure we each got the most out of the session. Thank you!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-18",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Amanda Hillary"
+          },
+          "reviewBody": "Great day on the Peaks photography workshop. Alan was brilliant, took time to work with us all individually and so pleased with the skills and shots I came away with. The smaller group size was a huge bonus too. Highly recommend!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-17",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Adam Riman"
+          },
+          "reviewBody": "Fantastic photography workshop in the Peaks today. Came away with a lot more creative vision and understanding.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-17",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Colin Whittaker"
           },
           "reviewBody": "Really enjoyed the Peak District photography workshop run by Alan.",
@@ -6703,8 +6817,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.91",
-        "reviewCount": 11,
+        "ratingValue": "4.93",
+        "reviewCount": 14,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -7474,25 +7588,6 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Sofiagzagdo"
-          },
-          "reviewBody": "This is a great photography course! I had very little knowledge about photography and a lot of questions… Alan is super knowledgeable, patient and takes the time to answer and explain all your doubts. The main focus of the session concentrated on composition which I throughly enjoyed and wished to learn. I can’t wait to take another of Alan’s courses and continue learning more especially his Lightroom knowledge. Extremely well thought out course and great teacher.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2026-05-02",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
             "name": "Anisha Gohil"
           },
           "reviewBody": "An insightful session on Lightroom course. Will be implementing this into our teaching practice.",
@@ -7906,12 +8001,31 @@
             "@type": "Organization",
             "name": "Trustpilot"
           }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Duncan Harris"
+          },
+          "reviewBody": "An excellent course which opens so many more doors with your photograph editing.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2018-04-05",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Trustpilot"
+          }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.85",
-        "reviewCount": 40,
+        "reviewCount": 39,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -11880,6 +11994,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Alvin Roussel"
+          },
+          "reviewBody": "I had a very enjoyable day with Alan and 2 other students in his Woodland Masterclass. He taught us a lot about how to look for and take good images in woodlands. The three of us ranged from beginners to more experienced and he took care to ensure that the post-processing demonstration was helpful to all three of us.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-22",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Jason Read"
           },
           "reviewBody": "Great day spent learning my camera, taking photos in the woods and then editing them afterwards. Great day, learnt a lot and looking forward to doing more. Would recommend Alan to anyone with an interest in photography.",
@@ -12331,31 +12464,12 @@
             "@type": "Organization",
             "name": "Google"
           }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "K P"
-          },
-          "reviewBody": "I’ve enjoyed two great workshops recently. Both were very enjoyable experiences. Alan worked hard to ensure there were plenty of opportunities despite the weather being against us. Thanks Alan",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5",
-            "worstRating": "1"
-          },
-          "datePublished": "2020-03-10",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
         }
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.94",
-        "reviewCount": 31,
+        "reviewCount": 32,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -12893,6 +13007,25 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
+            "name": "Harsha Patel"
+          },
+          "reviewBody": "I very much enjoyed Alan Ranger’s residential photography weekend in North Wales, having picked up my camera again after a gap of around 20 years! Alan adapts his teaching style to suit my level of knowledge, making the experience both enjoyable and incredibly informative. I learnt a great deal and came away with a new appreciation of photography as a creative art form, rather than simply taking pictures.  The weekend was engaging, inspiring and full of learning opportunities, with Alan’s great sense of humour an added bonus. I would highly recommend Alan to everyone, from complete beginners to experienced photographers. A fantastic experience!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-10-12",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
             "name": "Graham Ibbetson"
           },
           "reviewBody": "As always great experience with a great teacher. Alan is very patient and really helps you learn. Learned a great deal on this course both in camera and post processing",
@@ -12967,7 +13100,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 4,
+        "reviewCount": 5,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -13681,9 +13814,9 @@
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Norman"
+            "name": "Jeremy Troth"
           },
-          "reviewBody": "Excellent tuition and location",
+          "reviewBody": "As ever, Alan went out of his way to encourage me and help with both my composition and the technical side of my photography. I would definitely use him again and would thoroughly recommend him.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -13699,8 +13832,8 @@
       ],
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.83",
-        "reviewCount": 35,
+        "ratingValue": "4.82",
+        "reviewCount": 34,
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -13756,6 +13889,25 @@
         }
       },
       "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sofiagzagdo"
+          },
+          "reviewBody": "This is a great photography course! I had very little knowledge about photography and a lot of questions… Alan is super knowledgeable, patient and takes the time to answer and explain all your doubts. The main focus of the session concentrated on composition which I throughly enjoyed and wished to learn. I can’t wait to take another of Alan’s courses and continue learning more especially his Lightroom knowledge. Extremely well thought out course and great teacher.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "datePublished": "2026-05-02",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google"
+          }
+        },
         {
           "@type": "Review",
           "author": {
@@ -13871,7 +14023,7 @@
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
-        "reviewCount": 6,
+        "reviewCount": 7,
         "bestRating": "5",
         "worstRating": "1"
       },

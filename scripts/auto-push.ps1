@@ -154,6 +154,14 @@ try {
     }
   }
 
+  # When 06 changes, keep csv_metadata.site_urls in lockstep so System health cannot drift.
+  $chatImport = Join-Path (Split-Path $repoRoot -Parent) "Chat AI Bot\scripts\import-csv-type-now.mjs"
+  if (($pruneCount -gt 0 -or @($addedUrls).Count -gt 0) -and (Test-Path $chatImport)) {
+    Write-Host "[$timestamp] Syncing csv_metadata site_urls from current 06..."
+    & node $chatImport site_urls
+    if ($LASTEXITCODE -ne 0) { throw "csv_metadata site_urls sync failed (exit $LASTEXITCODE)" }
+  }
+
   # Stage tracked changes and key source-of-truth folders/files.
   Invoke-Git -Args @("add", "-u")
   Invoke-Git -Args @("add", "--", "csv", "csv processed", "outputs", "README.md", "STRUCTURE_AUDIT.md", "scripts", ".gitignore")

@@ -50,7 +50,7 @@ function Invoke-Git {
 
 function Write-SyncStatus {
   param(
-    [Parameter(Mandatory = $true)][ValidateSet('ok', 'failed', 'noop')][string]$State,
+    [Parameter(Mandatory = $true)][ValidateSet('ok', 'failed', 'noop', 'paused')][string]$State,
     [string]$Detail = ""
   )
   $ahead = 0
@@ -102,6 +102,18 @@ try {
   }
 
   Write-Host "[$timestamp] Auto-sync start: $repoRoot"
+
+  # Update all (BAU runner) holds csv/.update-all.lock while it runs; skip this sync. A lock older than 6 h is stale.
+  $updateAllLock = Join-Path $repoRoot "csv\.update-all.lock"
+  if (Test-Path $updateAllLock) {
+    $lockAgeMin = [math]::Round(((Get-Date) - (Get-Item $updateAllLock).LastWriteTime).TotalMinutes)
+    if ($lockAgeMin -lt 360) {
+      Write-SyncStatus -State 'paused' -Detail "Paused for Update all (csv/.update-all.lock, $lockAgeMin min old)."
+      Write-Host "[$timestamp] Paused for Update all ($lockAgeMin min old lock). Skipping."
+      exit 0
+    }
+    Write-Warning "[$timestamp] Ignoring stale Update-all lock ($lockAgeMin min old)."
+  }
 
   # Self-clean 06: drop 3xx / 404 / 410 / noindex before commit (Squarespace export inventory).
   $pruneScript = Join-Path $PSScriptRoot "prune-06-dead-and-noindex.mjs"

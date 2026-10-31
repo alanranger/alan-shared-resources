@@ -8,3 +8,6 @@ csv processed/credentials/
 # Auto-sync runtime heartbeat (local only)
 outputs/AUTO-SYNC-STATUS-LATEST.json
 
+# Update-all runner lock (pauses auto-push while a run is in progress)
+csv/.update-all.lock
+

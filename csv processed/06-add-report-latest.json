@@ -1,7 +1,7 @@
 {
   "feedUrls": 60,
-  "sitemapUrls": 479,
-  "candidates": 31,
+  "sitemapUrls": 478,
+  "candidates": 30,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
@@ -125,10 +125,6 @@
     {
       "url": "https://www.alanranger.com/blog-on-photography/photography-composition-rules",
       "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/photography-news-blog",
-      "reason": "http_301"
     }
   ]
 }

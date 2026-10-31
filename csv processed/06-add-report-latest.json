@@ -1,7 +1,7 @@
 {
   "feedUrls": 60,
   "sitemapUrls": 478,
-  "candidates": 30,
+  "candidates": 35,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
@@ -107,7 +107,23 @@
       "reason": "noindex"
     },
     {
+      "url": "https://www.alanranger.com/blog-on-photography/photography-storytelling-composition",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/composition-photography-style",
+      "reason": "noindex"
+    },
+    {
       "url": "https://www.alanranger.com/blog-on-photography/photography-composition-observation",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-negative-spacee",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-leading-lines",
       "reason": "noindex"
     },
     {
@@ -124,6 +140,10 @@
     },
     {
       "url": "https://www.alanranger.com/blog-on-photography/photography-composition-rules",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/15-principles-to-improve-composition",
       "reason": "noindex"
     }
   ]

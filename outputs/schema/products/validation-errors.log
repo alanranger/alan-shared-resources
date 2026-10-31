@@ -2,12 +2,6 @@ Product Schema Validation Errors
 ============================================================
 
 
-Product: Photography Gift Vouchers | Digital eCard | Email Delivery
-URL: https://www.alanranger.com/photography-services-near-me/photography-gift-vouchers
-Rich Results Validation Errors:
-  - Missing Product/Course/Event object in @graph
-
-
 Product: MACRO Photography Workshops Warwickshire - Various
 URL: https://www.alanranger.com/photo-workshops-uk/abstract-and-macro-photography-workshops
 Rich Results Validation Errors:
@@ -226,6 +220,12 @@ Rich Results Validation Errors:
 
 Product: YORKSHIRE DALES Landscape  Photography Workshop - 3 Days
 URL: https://www.alanranger.com/photo-workshops-uk/yorkshire-dales-photography-workshops
+Rich Results Validation Errors:
+  - Missing Product/Course/Event object in @graph
+
+
+Product: Photography Gift Vouchers | Digital eCard | Email Delivery
+URL: https://www.alanranger.com/photography-services-near-me/photography-gift-vouchers
 Rich Results Validation Errors:
   - Missing Product/Course/Event object in @graph
 

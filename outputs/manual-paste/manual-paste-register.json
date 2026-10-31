@@ -10,20 +10,6 @@
       "pasteFile": "mentoring-service-node.json"
     },
     {
-      "id": "homepage",
-      "url": "https://www.alanranger.com/",
-      "needsRepaste": false,
-      "pasteFile": "organization-homepage-reviews.json",
-      "reason": "unchanged"
-    },
-    {
-      "id": "about",
-      "url": "https://www.alanranger.com/about-alan-ranger",
-      "needsRepaste": false,
-      "pasteFile": "organization-about-reviews.json",
-      "reason": "unchanged"
-    },
-    {
       "id": "academy",
       "url": "https://www.alanranger.com/alan-ranger-photography-academy",
       "needsRepaste": false,
@@ -34,7 +20,7 @@
     {
       "id": "store-header-photo-workshops-uk",
       "url": "https://www.alanranger.com/photo-workshops-uk",
-      "location": "Squarespace \u2192 Pages \u2192 photo-workshops-uk \u2192 \u2699 \u2192 Advanced \u2192 Page Header Code Injection",
+      "location": "Squarespace → Pages → photo-workshops-uk → ⚙ → Advanced → Page Header Code Injection",
       "needsRepaste": false,
       "pasteSnippet": "<script src=\"https://schema.alanranger.com/loaders/product-page-loader.js\" defer></script>",
       "reason": "unchanged (hosted loader; Alan should not need to re-paste)",
@@ -43,7 +29,7 @@
     {
       "id": "store-header-photography-services-near-me",
       "url": "https://www.alanranger.com/photography-services-near-me",
-      "location": "Squarespace \u2192 Pages \u2192 photography-services-near-me \u2192 \u2699 \u2192 Advanced \u2192 Page Header Code Injection",
+      "location": "Squarespace → Pages → photography-services-near-me → ⚙ → Advanced → Page Header Code Injection",
       "needsRepaste": false,
       "pasteSnippet": "<script src=\"https://schema.alanranger.com/loaders/product-page-loader.js\" defer></script>",
       "reason": "unchanged (hosted loader; Alan should not need to re-paste)",

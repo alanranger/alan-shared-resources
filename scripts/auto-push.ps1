@@ -2,21 +2,30 @@ param(
   [string]$Message = "",
   [string]$Branch = "main",
   [string]$Remote = "origin",
-  [switch]$SkipPull
+  [switch]$SkipPull,
+  # Test hooks (scripts/test-auto-push-retry.ps1): run against a throwaway repo, no heartbeat, no site checks.
+  [string]$RepoRoot = "",
+  [string]$StatusPath = "",
+  [string]$AlertPath = "",
+  [int]$RetryWaitSeconds = 20,
+  [switch]$NoHeartbeat,
+  [switch]$SkipSiteChecks
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$repoRoot = Split-Path -Parent $PSScriptRoot
+$repoRoot = $(if ($RepoRoot) { $RepoRoot } else { Split-Path -Parent $PSScriptRoot })
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$statusPath = Join-Path $repoRoot "outputs\AUTO-SYNC-STATUS-LATEST.json"
-$alertPath = "C:\Users\alan\Google Drive\Claude shared resources\Cursor Outputs for Claude\ALERT-alan-shared-resources-autosync-FAILED-LATEST.md"
+$statusPath = $(if ($StatusPath) { $StatusPath } else { Join-Path $repoRoot "outputs\AUTO-SYNC-STATUS-LATEST.json" })
+$alertPath = $(if ($AlertPath) { $AlertPath } else { "C:\Users\alan\Google Drive\Claude shared resources\Cursor Outputs for Claude\ALERT-alan-shared-resources-autosync-FAILED-LATEST.md" })
 $heartbeatUrl = "https://ai-geo-audit.vercel.app/api/aigeo/tool-run-report"
+$script:recoveredOnRetry = @()
 
 # Heartbeat for the AI GEO silent fault monitor (check D3). Never fails the sync.
 function Send-SyncHeartbeat {
   param([string]$State, [string]$Detail, [int]$Ahead)
+  if ($NoHeartbeat) { return }
   try {
     $pruned = Get-Variable -Name pruneCount -ValueOnly -ErrorAction SilentlyContinue
     $added = Get-Variable -Name addedUrls -ValueOnly -ErrorAction SilentlyContinue
@@ -37,15 +46,40 @@ function Send-SyncHeartbeat {
   }
 }
 
+# Runs git and keeps its output (stderr included). Native stderr under "Stop" would throw, so Continue here.
+function Invoke-GitCapture {
+  param([string[]]$GitArgs)
+  $prev = $ErrorActionPreference
+  $ErrorActionPreference = 'Continue'
+  try {
+    $out = & git -C $repoRoot @GitArgs 2>&1 | ForEach-Object { "$_" }
+    $code = $LASTEXITCODE
+  } finally {
+    $ErrorActionPreference = $prev
+  }
+  $text = (@($out) | Select-Object -Last 15) -join ' | '
+  return [pscustomobject]@{ Code = $code; Text = $text }
+}
+
+# -Retry (add / commit / push): wait RetryWaitSeconds and try once more; a recovery is recorded, not alerted.
 function Invoke-Git {
   param(
     [Parameter(Mandatory = $true)]
-    [string[]]$Args
+    [string[]]$Args,
+    [switch]$Retry
   )
-  & git -C $repoRoot @Args
-  if ($LASTEXITCODE -ne 0) {
-    throw "git $($Args -join ' ') failed with exit code $LASTEXITCODE"
+  $r = Invoke-GitCapture -GitArgs $Args
+  if ($r.Code -eq 0) { return }
+  $first = "git $($Args -join ' ') failed (exit $($r.Code)): $($r.Text)"
+  if (-not $Retry) { throw $first }
+  Write-Warning "$first - retrying once in $RetryWaitSeconds s"
+  Start-Sleep -Seconds $RetryWaitSeconds
+  $r2 = Invoke-GitCapture -GitArgs $Args
+  if ($r2.Code -eq 0) {
+    $script:recoveredOnRetry += "recovered on retry: $first"
+    return
   }
+  throw "$first; retry failed (exit $($r2.Code)): $($r2.Text)"
 }
 
 function Write-SyncStatus {
@@ -57,12 +91,15 @@ function Write-SyncStatus {
   try {
     $ahead = [int](& git -C $repoRoot rev-list --count "$Remote/$Branch..HEAD" 2>$null)
   } catch { $ahead = -1 }
+  $recovered = @($script:recoveredOnRetry)
+  if ($recovered.Count -and $State -ne 'failed') { $Detail = "$Detail; $($recovered -join '; ')" }
   $obj = [ordered]@{
     state       = $State
     checked_at  = (Get-Date).ToString('o')
     timestamp   = $timestamp
     ahead_of_origin = $ahead
     detail      = $Detail
+    recovered_on_retry = $recovered
   }
   $dir = Split-Path $statusPath -Parent
   if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir -Force | Out-Null }
@@ -120,7 +157,7 @@ try {
   $pruneReport = Join-Path $repoRoot "csv processed\06-prune-report-latest.json"
   $pruneDropped = @()
   $pruneCount = 0
-  if (Test-Path $pruneScript) {
+  if ((Test-Path $pruneScript) -and -not $SkipSiteChecks) {
     Write-Host "[$timestamp] Pruning dead/noindex URLs from csv/06-site-urls.csv..."
     & node $pruneScript
     if (Test-Path $pruneReport) {
@@ -138,7 +175,7 @@ try {
   $catalogPruneScript = Join-Path $PSScriptRoot "prune-catalog-dead.mjs"
   $catalogPruneReport = Join-Path $repoRoot "csv processed\catalog-prune-report-latest.json"
   $catalogPruneCount = 0
-  if (Test-Path $catalogPruneScript) {
+  if ((Test-Path $catalogPruneScript) -and -not $SkipSiteChecks) {
     Write-Host "[$timestamp] Pruning dead/hidden URLs from csv/01, 04, 05, 07..."
     & node $catalogPruneScript
     if (Test-Path $catalogPruneReport) {
@@ -154,7 +191,7 @@ try {
   $addReport = Join-Path $repoRoot "csv processed\06-add-report-latest.json"
   $addedUrls = @()
   $titlesFilled = @()
-  if (Test-Path $addScript) {
+  if ((Test-Path $addScript) -and -not $SkipSiteChecks) {
     Write-Host "[$timestamp] Adding new live URLs to csv/06-site-urls.csv..."
     & node $addScript
     if (Test-Path $addReport) {
@@ -175,8 +212,8 @@ try {
   }
 
   # Stage tracked changes and key source-of-truth folders/files.
-  Invoke-Git -Args @("add", "-u")
-  Invoke-Git -Args @("add", "--", "csv", "csv processed", "outputs", "README.md", "STRUCTURE_AUDIT.md", "scripts", ".gitignore")
+  Invoke-Git -Retry -Args @("add", "-u")
+  Invoke-Git -Retry -Args @("add", "--", "csv", "csv processed", "outputs", "README.md", "STRUCTURE_AUDIT.md", "scripts", ".gitignore")
 
   # Never stage credentials artifacts (also gitignored; belt-and-braces).
   try {
@@ -197,7 +234,7 @@ try {
     $ahead = Get-AheadCount
     if ($ahead -gt 0) {
       Write-Warning "[$timestamp] Nothing new to commit, but HEAD is $ahead commit(s) ahead of $Remote/$Branch - retrying push."
-      Invoke-Git -Args @("push", $Remote, $Branch)
+      Invoke-Git -Retry -Args @("push", $Remote, $Branch)
       Write-SyncStatus -State 'ok' -Detail "Recovered stuck tip: pushed $ahead existing commit(s)."
       Write-Host "[$timestamp] Auto-sync complete (stuck tip pushed)."
       exit 0
@@ -231,8 +268,8 @@ try {
     $Message = "$Message; fill 06 titles ($($titlesFilled.Count))"
   }
 
-  Invoke-Git -Args @("commit", "-m", $Message)
-  Invoke-Git -Args @("push", $Remote, $Branch)
+  Invoke-Git -Retry -Args @("commit", "-m", $Message)
+  Invoke-Git -Retry -Args @("push", $Remote, $Branch)
   Write-SyncStatus -State 'ok' -Detail $Message
   Write-Host "[$timestamp] Auto-sync complete."
 } catch {

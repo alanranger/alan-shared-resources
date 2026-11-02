@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-11-02T15:48:46.144Z",
+    "generatedAt": "2026-11-02T19:57:12.754Z",
     "mode": "shadow (report only)",
     "thresholds": {
       "auto": 0.85,
@@ -10,26 +10,26 @@
     "orders_loaded": 3338,
     "orders_error": null,
     "actions": {
-      "suggest": 83,
-      "auto-assign": 87,
-      "hold": 103
+      "auto-assign": 92,
+      "suggest": 82,
+      "hold": 99
     },
     "actions_with_orders": {
-      "auto-assign": 121,
+      "auto-assign": 125,
       "suggest": 51,
-      "hold": 101
+      "hold": 97
     },
     "backtest": {
-      "decisions": 129,
-      "decisions_available": 132,
+      "decisions": 141,
+      "decisions_available": 144,
       "before": {
-        "agree": 69,
-        "held": 52,
+        "agree": 85,
+        "held": 48,
         "disagree": 8
       },
       "after": {
-        "agree": 75,
-        "held": 48,
+        "agree": 90,
+        "held": 45,
         "disagree": 6
       },
       "changed_by_orders": [
@@ -112,6 +112,16 @@
           "verdict": "agree",
           "before": "held",
           "why": "order #2042: landscape-peak-district-photography-workshops-derbyshire (event date fits the review date)"
+        },
+        {
+          "review_id": "",
+          "first_name": "Linda",
+          "date": "2021-10-19",
+          "matcher": "beginners-photography-course",
+          "alan": "beginners-photography-course",
+          "verdict": "held",
+          "before": "agree",
+          "why": "hold: text names beginners-photography-course, order #2080 is for beginners-photography-classes-coventry; no transfer found"
         },
         {
           "review_id": "",
@@ -282,9 +292,9 @@
       "date": "2026-10-22",
       "current": "secrets-of-woodland-photography-workshop",
       "shadow_slug": "secrets-of-woodland-photography-workshop",
-      "score": 0.8,
-      "action": "suggest",
-      "why": "place/workshop alias: secrets-of-woodland-photography-workshop",
+      "score": 0.97,
+      "action": "auto-assign",
+      "why": "booking: 2026-10-18 Alvin Roussel: The Secret of WOODLAND PHOTOGRAPHY- (text agrees)",
       "orders_slug": "secrets-of-woodland-photography-workshop",
       "orders_score": 0.97,
       "orders_action": "auto-assign",
@@ -709,22 +719,19 @@
       "reviewer": "Jason Read",
       "date": "2026-08-02",
       "current": "secrets-of-woodland-photography-workshop",
-      "shadow_slug": "",
-      "score": 0,
-      "action": "hold",
-      "why": "booking ambiguous: 2026-08-02 Jason Read: The Secret of WOODLAND PHOTOGRAPHY- | 2026-06-18 Jason Read: The Secret of WOODLAND PHOTOGRAPHY- 1-Day Jan, Apr, Aug, Oct Woodland Masterclass",
-      "orders_slug": "",
-      "orders_score": 0,
-      "orders_action": "hold",
-      "orders_why": "booking ambiguous: 2026-08-02 Jason Read: The Secret of WOODLAND PHOTOGRAPHY- | 2026-06-18 Jason Read: The Secret of WOODLAND PHOTOGRAPHY- 1-Day Jan, Apr, Aug, Oct Woodland Masterclass",
+      "shadow_slug": "secrets-of-woodland-photography-workshop",
+      "score": 0.9,
+      "action": "auto-assign",
+      "why": "booking: 2026-08-02 Jason Read: The Secret of WOODLAND PHOTOGRAPHY-",
+      "orders_slug": "secrets-of-woodland-photography-workshop",
+      "orders_score": 0.9,
+      "orders_action": "auto-assign",
+      "orders_why": "booking: 2026-08-02 Jason Read: The Secret of WOODLAND PHOTOGRAPHY-",
       "transfer": "",
-      "candidates": [
-        "secrets-of-woodland-photography-workshop",
-        "photography-masterclasses-coventry"
-      ],
+      "candidates": [],
       "alan_decision": "secrets-of-woodland-photography-workshop",
-      "backtest": "held (Alan decided a product)",
-      "backtest_orders": "held (Alan decided a product)"
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -950,7 +957,7 @@
         "four-private-photography-classes",
         "rps-mentoring-photography-course"
       ],
-      "alan_decision": "private-online-photography-classes-zoom",
+      "alan_decision": "rps-mentoring-photography-course",
       "backtest": "held (Alan decided a product)",
       "backtest_orders": "held (Alan decided a product)"
     },
@@ -1110,7 +1117,7 @@
       "candidates": [
         "four-private-photography-classes"
       ],
-      "alan_decision": "peak-district-heather-photography-workshop",
+      "alan_decision": "landscape-peak-district-photography-workshops-derbyshire",
       "backtest": "held (Alan decided a product)",
       "backtest_orders": "held (Alan decided a product)"
     },
@@ -1570,9 +1577,9 @@
       "candidates": [
         "four-private-photography-classes"
       ],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "private-online-photography-classes-zoom",
+      "backtest": "held (Alan decided a product)",
+      "backtest_orders": "held (Alan decided a product)"
     },
     {
       "review_id": "",
@@ -2098,9 +2105,9 @@
       "orders_why": "order #3042: beginners-photography-course (booking sheet agrees)",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "beginners-photography-course",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -2375,22 +2382,19 @@
       "reviewer": "Joanne Tapp",
       "date": "2025-08-29",
       "current": "landscape-peak-district-photography-workshops-derbyshire",
-      "shadow_slug": "",
-      "score": 0,
-      "action": "hold",
-      "why": "booking ambiguous: 2025-08-17 Joanne Tapp: Heathers Peaks - Sunrise",
-      "orders_slug": "",
-      "orders_score": 0,
-      "orders_action": "hold",
-      "orders_why": "booking ambiguous: 2025-08-17 Joanne Tapp: Heathers Peaks - Sunrise",
+      "shadow_slug": "peak-district-heather-photography-workshop",
+      "score": 0.9,
+      "action": "auto-assign",
+      "why": "booking: 2025-08-17 Joanne Tapp: Heathers Peaks - Sunrise",
+      "orders_slug": "peak-district-heather-photography-workshop",
+      "orders_score": 0.9,
+      "orders_action": "auto-assign",
+      "orders_why": "booking: 2025-08-17 Joanne Tapp: Heathers Peaks - Sunrise",
       "transfer": "",
-      "candidates": [
-        "peak-district-heather-photography-workshop",
-        "landscape-peak-district-photography-workshops-derbyshire"
-      ],
-      "alan_decision": "landscape-peak-district-photography-workshops-derbyshire",
-      "backtest": "held (Alan decided a product)",
-      "backtest_orders": "held (Alan decided a product)"
+      "candidates": [],
+      "alan_decision": "peak-district-heather-photography-workshop",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -2485,7 +2489,7 @@
       "orders_why": "no booking, place or service words",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "intermediates-intentions-photography-project-course",
+      "alan_decision": "free-online-photography-course",
       "backtest": "held (Alan decided a product)",
       "backtest_orders": "held (Alan decided a product)"
     },
@@ -2524,10 +2528,9 @@
       "transfer": "",
       "candidates": [
         "bluebell-woodlands-photography-workshops",
-        "peak-district-heather-photography-workshop",
-        "landscape-peak-district-photography-workshops-derbyshire"
+        "peak-district-heather-photography-workshop"
       ],
-      "alan_decision": "secrets-of-woodland-photography-workshop",
+      "alan_decision": "peak-district-heather-photography-workshop",
       "backtest": "held (Alan decided a product)",
       "backtest_orders": "held (Alan decided a product)"
     },
@@ -2536,22 +2539,19 @@
       "reviewer": "Bill",
       "date": "2025-08-18",
       "current": "peak-district-heather-photography-workshop",
-      "shadow_slug": "",
-      "score": 0,
-      "action": "hold",
-      "why": "booking ambiguous: 2025-08-16 Bill Peet: Heathers Peaks - Sunset",
-      "orders_slug": "",
-      "orders_score": 0,
-      "orders_action": "hold",
-      "orders_why": "booking ambiguous: 2025-08-16 Bill Peet: Heathers Peaks - Sunset",
+      "shadow_slug": "peak-district-heather-photography-workshop",
+      "score": 0.9,
+      "action": "auto-assign",
+      "why": "booking: 2025-08-16 Bill Peet: Heathers Peaks - Sunset",
+      "orders_slug": "peak-district-heather-photography-workshop",
+      "orders_score": 0.9,
+      "orders_action": "auto-assign",
+      "orders_why": "booking: 2025-08-16 Bill Peet: Heathers Peaks - Sunset",
       "transfer": "",
-      "candidates": [
-        "peak-district-heather-photography-workshop",
-        "landscape-peak-district-photography-workshops-derbyshire"
-      ],
+      "candidates": [],
       "alan_decision": "peak-district-heather-photography-workshop",
-      "backtest": "held (Alan decided a product)",
-      "backtest_orders": "held (Alan decided a product)"
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -2650,9 +2650,9 @@
       "orders_why": "booking: 2025-07-02 Sunil Prasad: 3WK Beginners Course beginners course",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "beginners-photography-course",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -2669,9 +2669,9 @@
       "orders_why": "booking: 2025-05-04 Pravin Pawar: Woodland Walk",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "woodland-photography-walk-warwickshire",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -2707,28 +2707,25 @@
       "orders_why": "booking: 2025-05-20 Gerry Daykin: 1-2-1 Single Session - 1hr (Face-to-Face) Photography Lessons - Private 1-2-1 (1HR)",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "four-private-photography-classes",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
       "reviewer": "Chan Jandu",
       "date": "2025-07-01",
       "current": "secrets-of-woodland-photography-workshop",
-      "shadow_slug": "",
-      "score": 0,
-      "action": "hold",
-      "why": "booking ambiguous: 2025-04-13 Chan Jandu: Secret Woodlands | 2025-05-20 Chan Jandu: The Secret of WOODLAND PHOTOGRAPHY- 1-Day Jan, Apr, Aug, Oct The Secrets of Woodland Photography - 1-Day Masterclass",
-      "orders_slug": "",
-      "orders_score": 0,
-      "orders_action": "hold",
-      "orders_why": "booking ambiguous: 2025-04-13 Chan Jandu: Secret Woodlands | 2025-05-20 Chan Jandu: The Secret of WOODLAND PHOTOGRAPHY- 1-Day Jan, Apr, Aug, Oct The Secrets of Woodland Photography - 1-Day Masterclass",
+      "shadow_slug": "secrets-of-woodland-photography-workshop",
+      "score": 0.9,
+      "action": "auto-assign",
+      "why": "booking: 2025-04-13 Chan Jandu: Secret Woodlands",
+      "orders_slug": "secrets-of-woodland-photography-workshop",
+      "orders_score": 0.9,
+      "orders_action": "auto-assign",
+      "orders_why": "booking: 2025-04-13 Chan Jandu: Secret Woodlands",
       "transfer": "",
-      "candidates": [
-        "secrets-of-woodland-photography-workshop",
-        "photography-masterclasses-coventry"
-      ],
+      "candidates": [],
       "alan_decision": "",
       "backtest": "",
       "backtest_orders": ""
@@ -2805,9 +2802,9 @@
       "orders_why": "booking: 2025-05-24 Richard Hoar: Peak District",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "landscape-peak-district-photography-workshops-derbyshire",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -2920,7 +2917,6 @@
       "transfer": "",
       "candidates": [
         "batsford-arboretum-photography-workshops",
-        "photography-workshops-chesterton-windmill",
         "photography-mentoring-online-assignments"
       ],
       "alan_decision": "batsford-arboretum-photography-workshops",
@@ -3037,9 +3033,9 @@
       "orders_why": "place/workshop alias: woodland-photography-walk-warwickshire",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "woodland-photography-walk-warwickshire",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -3094,8 +3090,7 @@
       "orders_why": "service words: beginners-photography-course; order event after the review set aside: #2973 secrets-of-woodland-photography-workshop",
       "transfer": "",
       "candidates": [
-        "secrets-of-woodland-photography-workshop",
-        "photography-masterclasses-coventry"
+        "secrets-of-woodland-photography-workshop"
       ],
       "alan_decision": "",
       "backtest": "",
@@ -3158,9 +3153,9 @@
       "orders_why": "no booking, place or service words",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "peak-district-heather-photography-workshop",
-      "backtest": "held (Alan decided a product)",
-      "backtest_orders": "held (Alan decided a product)"
+      "alan_decision": "(business level)",
+      "backtest": "agrees (held; Alan chose business level)",
+      "backtest_orders": "agrees (held; Alan chose business level)"
     },
     {
       "review_id": "",
@@ -4226,9 +4221,9 @@
       "orders_why": "service words: beginners-photography-course",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "beginners-photography-course",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -4635,9 +4630,9 @@
       "candidates": [
         "beginners-photography-classes-coventry"
       ],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "beginners-photography-course",
+      "backtest": "agrees",
+      "backtest_orders": "held (Alan decided a product)"
     },
     {
       "review_id": "",
@@ -4749,9 +4744,9 @@
       "orders_why": "service words: beginners-photography-course",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "beginners-photography-course",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -5220,9 +5215,9 @@
       "candidates": [
         "ireland-photography-workshops-dingle"
       ],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "woodland-photography-walk-warwickshire",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -5261,9 +5256,9 @@
       "orders_why": "order #1552: woodland-photography-walk-warwickshire (text agrees)",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "",
-      "backtest": "",
-      "backtest_orders": ""
+      "alan_decision": "woodland-photography-walk-warwickshire",
+      "backtest": "agrees",
+      "backtest_orders": "agrees"
     },
     {
       "review_id": "",
@@ -5470,9 +5465,9 @@
       "orders_why": "no booking, place or service words",
       "transfer": "",
       "candidates": [],
-      "alan_decision": "fireworks-photography-workshop-kenilworth",
-      "backtest": "held (Alan decided a product)",
-      "backtest_orders": "held (Alan decided a product)"
+      "alan_decision": "(business level)",
+      "backtest": "agrees (held; Alan chose business level)",
+      "backtest_orders": "agrees (held; Alan chose business level)"
     },
     {
       "review_id": "",

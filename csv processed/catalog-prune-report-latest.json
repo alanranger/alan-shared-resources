@@ -1,5 +1,8 @@
 {
   "dryRun": false,
+  "checked": 25,
+  "due": 25,
+  "rateLimited": false,
   "kept": 400,
   "dropped": 0,
   "byReason": {},

@@ -1,5 +1,8 @@
 {
   "total": 443,
+  "checked": 25,
+  "due": 25,
+  "rateLimited": false,
   "kept": 443,
   "dropped": 0,
   "byReason": {},

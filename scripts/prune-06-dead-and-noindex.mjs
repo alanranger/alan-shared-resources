@@ -12,10 +12,10 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, CSV_PATH, parseCsv, esc, classifyUrl, mapPool, urlColumnIndex } from './site-urls-06-lib.mjs';
+import { ROOT, CSV_PATH, parseCsv, esc, urlColumnIndex, checkStateFile, loadCheckState, saveCheckState, pickDue, gentleClassify } from './site-urls-06-lib.mjs';
 
 const dryRun = process.argv.includes('--dry-run');
-const CONCURRENCY = 4;
+const isHttp = (u) => /^https?:\/\//i.test(u);
 
 async function main() {
   const raw = readFileSync(CSV_PATH, 'utf8');
@@ -25,11 +25,16 @@ async function main() {
   const urlIdx = urlColumnIndex(header);
   if (urlIdx < 0) throw new Error('06-site-urls.csv missing url column');
   const body = rows.slice(1);
-  const results = await mapPool(body, CONCURRENCY, async (row) => {
-    const url = String(row[urlIdx] || '').trim();
-    if (!/^https?:\/\//i.test(url)) return { row, url, drop: false, reason: 'skip_bad_url' };
-    const cls = await classifyUrl(url);
-    return { row, url, ...cls };
+  const urlOf = (row) => String(row[urlIdx] || '').trim();
+  const stateFile = checkStateFile('06');
+  const state = loadCheckState(stateFile);
+  const due = pickDue(body.map(urlOf).filter(isHttp), state);
+  const { results: checked, rateLimited } = await gentleClassify(due, { state });
+  if (!dryRun) saveCheckState(state, stateFile);
+  const results = body.map((row) => {
+    const url = urlOf(row);
+    if (!isHttp(url)) return { row, url, drop: false, reason: 'skip_bad_url' };
+    return checked.has(url) ? { row, url, ...checked.get(url) } : { row, url, drop: false, reason: 'not_due' };
   });
 
   const dropped = results.filter((r) => r.drop);
@@ -39,6 +44,9 @@ async function main() {
 
   const report = {
     total: body.length,
+    checked: checked.size,
+    due: due.length,
+    rateLimited,
     kept: kept.length,
     dropped: dropped.length,
     byReason,

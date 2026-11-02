@@ -2,6 +2,8 @@
  * Shared helpers for csv/06-site-urls.csv self-maintenance
  * (prune-06-dead-and-noindex.mjs removes, add-06-new-urls.mjs adds).
  */
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -80,18 +82,13 @@ function pageTitle(html) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/** One request; a 429 is returned as is (callers stop for this cycle — quick retries made the rate limit worse). */
 async function fetchNoRedirect(url) {
-  let res = null;
-  for (let attempt = 0; attempt < 3; attempt += 1) {
-    res = await fetch(url, {
-      redirect: 'manual',
-      headers: { 'User-Agent': UA, Accept: 'text/html' },
-      signal: AbortSignal.timeout(12000)
-    });
-    if (Number(res.status) !== 429) break;
-    await sleep(900 * (attempt + 1));
-  }
-  return res;
+  return fetch(url, {
+    redirect: 'manual',
+    headers: { 'User-Agent': UA, Accept: 'text/html' },
+    signal: AbortSignal.timeout(12000)
+  });
 }
 
 const isDropCode = (code) => code === 404 || code === 410 || (code >= 300 && code < 400);
@@ -140,6 +137,53 @@ export async function mapPool(items, limit, fn) {
   }
   await Promise.all(Array.from({ length: Math.min(limit, items.length) }, () => worker()));
   return out;
+}
+
+/**
+ * Gentle live check (batch 8, 2 Nov 2026). The 10-minute auto-sync used to GET every 06 + catalog URL (~850, 4 at a
+ * time) each run, and Squarespace answered the next site requests from this PC with 429. Now each run checks only
+ * the URLs that are due — never checked, or not checked for recheckMs — up to perRun, one at a time, gapMs apart,
+ * and stops at the first 429. URLs not checked this run are kept as they are.
+ */
+export const LIVE_CHECK = {
+  perRun: Number(process.env.LIVE_CHECK_PER_RUN || 25),
+  gapMs: Number(process.env.LIVE_CHECK_GAP_MS || 1500),
+  recheckMs: Number(process.env.LIVE_CHECK_RECHECK_HOURS || 6) * 3600 * 1000,
+};
+/** One state file per script (06 and the catalog CSVs share URLs but drop them from different files). */
+export const checkStateFile = (name) => join(process.env.LOCALAPPDATA || tmpdir(), 'AlanSharedResources', `live-check-${name}.json`);
+
+export function loadCheckState(file) {
+  try { return JSON.parse(readFileSync(file, 'utf8')); } catch { return {}; }
+}
+
+export function saveCheckState(state, file) {
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, JSON.stringify(state));
+}
+
+/** Due URLs, never-checked first then oldest, up to perRun. */
+export function pickDue(urls, state, { perRun = LIVE_CHECK.perRun, recheckMs = LIVE_CHECK.recheckMs, now = Date.now() } = {}) {
+  const seen = new Set();
+  const due = urls.filter((u) => {
+    if (!u || seen.has(u)) return false;
+    seen.add(u);
+    return !state[u] || now - state[u] >= recheckMs;
+  });
+  return due.sort((a, b) => (state[a] || 0) - (state[b] || 0)).slice(0, perRun);
+}
+
+/** Classify due URLs one at a time; stops at the first 429. Returns Map url → result and whether it was rate limited. */
+export async function gentleClassify(urls, { state, classify = classifyUrl, opts = {}, gapMs = LIVE_CHECK.gapMs, now = () => Date.now() } = {}) {
+  const results = new Map();
+  for (const url of urls) {
+    if (results.size) await sleep(gapMs);
+    const r = await classify(url, opts);
+    if (r.reason === 'keep_http_429') return { results, rateLimited: true };
+    results.set(url, r);
+    state[url] = now();
+  }
+  return { results, rateLimited: false };
 }
 
 export function urlColumnIndex(header) {

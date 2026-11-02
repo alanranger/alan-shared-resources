@@ -9,13 +9,13 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, parseCsv, esc, classifyUrl, mapPool } from './site-urls-06-lib.mjs';
+import { ROOT, parseCsv, esc, checkStateFile, loadCheckState, saveCheckState, pickDue, gentleClassify } from './site-urls-06-lib.mjs';
 
 const dryRun = process.argv.includes('--dry-run');
 const onlyArg = process.argv.find((a) => a.startsWith('--file='));
 const onlyFile = onlyArg ? onlyArg.slice('--file='.length) : '';
-const CONCURRENCY = 4;
 const CSV_DIR = join(ROOT, 'csv');
+const isHttp = (u) => /^https?:\/\//i.test(u);
 
 const FILES = [
   { file: '01-blog-posts.csv' },
@@ -54,19 +54,28 @@ function urlFromRow(header, row, spec) {
   return String(row[idx] || '').trim();
 }
 
-async function pruneFile(spec) {
+function loadFile(spec) {
   const path = join(CSV_DIR, spec.file);
   const rows = parseCsv(readFileSync(path, 'utf8'));
-  if (rows.length < 2) return { file: spec.file, total: 0, kept: 0, dropped: [], skipped: 'empty' };
-  const header = rows[0];
-  const body = rows.slice(1);
-  const classified = await mapPool(body, CONCURRENCY, async (row) => {
-    const url = urlFromRow(header, row, spec);
-    if (isHidden(header, row)) return { row, url, drop: true, reason: 'hidden_or_unpublished' };
-    if (!/^https?:\/\//i.test(url)) return { row, url, drop: false, reason: 'skip_bad_url' };
-    const cls = await classifyUrl(url, { keepNoindex: true });
-    return { row, url, ...cls };
-  });
+  return { spec, path, header: rows[0] || [], body: rows.slice(1) };
+}
+
+/** URLs this run may live-check: visible rows with a page URL. */
+function checkableUrls(f) {
+  return f.body.filter((row) => !isHidden(f.header, row)).map((row) => urlFromRow(f.header, row, f.spec)).filter(isHttp);
+}
+
+function classifyRow(f, row, checked) {
+  const url = urlFromRow(f.header, row, f.spec);
+  if (isHidden(f.header, row)) return { row, url, drop: true, reason: 'hidden_or_unpublished' };
+  if (!isHttp(url)) return { row, url, drop: false, reason: 'skip_bad_url' };
+  return checked.has(url) ? { row, url, ...checked.get(url) } : { row, url, drop: false, reason: 'not_due' };
+}
+
+function pruneFile(f, checked) {
+  const { spec, path, header, body } = f;
+  if (!body.length) return { file: spec.file, total: 0, kept: 0, dropped: [], skipped: 'empty' };
+  const classified = body.map((row) => classifyRow(f, row, checked));
   const dropped = classified.filter((r) => r.drop);
   const kept = classified.filter((r) => !r.drop).map((r) => r.row);
   if (!dryRun && dropped.length) {
@@ -83,14 +92,22 @@ async function pruneFile(spec) {
 }
 
 async function main() {
-  const files = [];
   const specs = onlyFile ? FILES.filter((f) => f.file === onlyFile) : FILES;
   if (!specs.length) throw new Error(`unknown --file=${onlyFile}`);
-  for (const spec of specs) files.push(await pruneFile(spec));
+  const loaded = specs.map(loadFile);
+  const stateFile = checkStateFile('catalog');
+  const state = loadCheckState(stateFile);
+  const due = pickDue(loaded.flatMap(checkableUrls), state);
+  const { results: checked, rateLimited } = await gentleClassify(due, { state, opts: { keepNoindex: true } });
+  if (!dryRun) saveCheckState(state, stateFile);
+  const files = loaded.map((f) => pruneFile(f, checked));
   const dropped = files.flatMap((f) => f.dropped.map((d) => ({ file: f.file, ...d })));
   const liveDropped = dropped.filter((d) => d.reason === 'live');
   const report = {
     dryRun,
+    checked: checked.size,
+    due: due.length,
+    rateLimited,
     kept: files.reduce((n, f) => n + f.kept, 0),
     dropped: dropped.length,
     byReason: dropped.reduce((acc, d) => {

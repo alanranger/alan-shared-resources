@@ -15,7 +15,7 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, CSV_PATH, parseCsv, esc, urlKey, classifyUrl, mapPool, urlColumnIndex } from './site-urls-06-lib.mjs';
+import { ROOT, CSV_PATH, parseCsv, esc, urlKey, classifyUrl, mapPool, urlColumnIndex, checkStateFile, loadCheckState, saveCheckState, pickDue, gentleClassify } from './site-urls-06-lib.mjs';
 
 const SITE = 'https://www.alanranger.com';
 const BLOG_FEED = `${SITE}/blog-on-photography?format=json`;
@@ -110,7 +110,11 @@ async function main() {
   const [feed, sitemap] = await Promise.all([blogFeedUrls(), sitemapUrls()]);
   const existing = body.map((r) => urlKey(r[urlIdx])).filter(Boolean);
   const missing = missingCandidates([...feed, ...sitemap], existing);
-  const checked = await mapPool(missing, 4, async (url) => ({ url, ...(await classifyUrl(url)) }));
+  const stateFile = checkStateFile('add06');
+  const state = loadCheckState(stateFile);
+  const { results, rateLimited } = await gentleClassify(pickDue(missing, state), { state });
+  if (!dryRun) saveCheckState(state, stateFile);
+  const checked = [...results].map(([url, r]) => ({ url, ...r }));
   const live = checked.filter((c) => c.reason === 'live').slice(0, MAX_ADD_PER_RUN);
   const titlesFilled = await fillBlankTitles(body, urlIdx, titleColumnIndex(header));
 
@@ -118,6 +122,8 @@ async function main() {
     feedUrls: feed.length,
     sitemapUrls: sitemap.length,
     candidates: missing.length,
+    checked: checked.length,
+    rateLimited,
     added: live.length,
     addedUrls: live.map((c) => c.url),
     titlesFilled,

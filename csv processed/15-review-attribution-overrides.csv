@@ -1,9 +1,9 @@
 ﻿source,reviewer_name,review_date,reference_id,product_slug,scope,priority,notes
-Google,Richard Johnson,2026-03-27,,private-online-photography-classes-zoom,product,100,schema_fixes_zoom_retain_2026-10-06
+Google,Richard Johnson,2026-03-27,,rps-mentoring-photography-course,product,100,alan_confirmed_2026-11-02
 Google,Martin Morris,2026-05-21,,beginners-photography-course,product,100,alan_confirmed_2026-11-02
 Google,Brain Smith Dsouza,2026-05-19,,beginners-photography-course,product,100,alan_confirmed_2026-11-02
 Google,Paul Farrington,2026-05-19,,peak-district-heather-photography-workshop,product,100,booking_reconciled
-Google,Lisa Vincent,2026-05-18,,peak-district-heather-photography-workshop,product,100,booking_reconciled
+Google,Lisa Vincent,2026-05-18,,landscape-peak-district-photography-workshops-derbyshire,product,100,alan_confirmed_2026-11-02
 Google,Alex McDonald,2026-05-16,,landscape-peak-district-photography-workshops-derbyshire,product,100,approved_apply_2026-10-06
 Google,Sharon McDonald,2026-05-16,,landscape-peak-district-photography-workshops-derbyshire,product,100,alan_confirmed_2026-11-02
 Google,Colin Whittaker,2026-05-16,,landscape-peak-district-photography-workshops-derbyshire,product,100,approved_apply_2026-10-06
@@ -19,7 +19,7 @@ Google,Nicholas Barber,2025-10-24,,private-online-photography-classes-zoom,produ
 Google,Philip Hart,2025-10-20,,landscape-peak-district-photography-workshops-derbyshire,product,100,approved_apply_2026-10-06
 Google,Neil Barford,2025-10-20,,landscape-peak-district-photography-workshops-derbyshire,product,100,alan_confirmed_2026-11-02
 Google,Derek Butt,2025-10-01,,landscape-photography-devon-hartland-quay,product,100,booking_reconciled
-Google,Iglo Losa,2025-08-19,,secrets-of-woodland-photography-workshop,product,100,booking_reconciled
+Google,Iglo Losa,2025-08-19,,peak-district-heather-photography-workshop,product,100,alan_confirmed_2026-11-02
 Google,Bill,2025-08-18,,peak-district-heather-photography-workshop,product,100,booking_reconciled
 Google,john simpson,2025-08-15,,private-online-photography-classes-zoom,product,100,approved_apply_2026-10-06
 Google,Gillian Taylor,2025-05-29,,landscape-peak-district-photography-workshops-derbyshire,product,100,approved_apply_2026-10-06
@@ -42,7 +42,7 @@ Google,Roger Neal,2018-10-16,,batsford-arboretum-photography-workshops,product,1
 Google,Indianna,2026-01-02,,woodland-photography-walk-warwickshire,product,100,alan_confirmed_2026-11-02
 Google,Anant Bhatia,2025-09-01,,secrets-of-woodland-photography-workshop,product,100,booking_sheet_confirmed
 Google,Shelly Soo,2024-12-15,,lake-district-photography-workshop,product,100,alan_confirmed
-Google,Robert Blann,2024-11-11,,peak-district-heather-photography-workshop,product,100,booking_sheet_confirmed
+Google,Robert Blann,2024-11-11,,,business_level,100,alan_confirmed_2026-11-02
 Google,Anne Veal,2024-11-16,,,business_level,100,business_level_org_2026-10-06
 Google,Huw Jones,2021-11-14,,lake-district-photography-workshop,product,100,booking_sheet_confirmed
 Google,Ian S. Bolton,2023-10-06,,secrets-of-woodland-photography-workshop,product,100,booking_sheet_confirmed
@@ -50,7 +50,7 @@ Google,Phil Martin,2021-08-09,,landscape-photography-devon-hartland-quay,product
 Google,David Andringa,2021-07-15,,bluebell-woodlands-photography-workshops,product,100,booking_sheet_confirmed
 Google,Con McHugh,2020-04-23,,ireland-photography-workshops-dingle,product,100,booking_sheet_confirmed
 Google,Ina Wilkening,2020-04-19,,secrets-of-woodland-photography-workshop,product,100,booking_sheet_confirmed
-Google,Laura Byrne,2017-02-21,,fireworks-photography-workshop-kenilworth,product,100,booking_sheet_confirmed
+Google,Laura Byrne,2017-02-21,,,business_level,100,alan_confirmed_2026-11-02
 Google,Patricia Pearl,2025-12-15,,rps-mentoring-photography-course,product,100,approved_apply_2026-10-06
 Google,Jason Read,2026-08-02,,secrets-of-woodland-photography-workshop,product,100,approved_apply_2026-10-06
 Google,Adrian Thomas,2026-07-18,,photography-workshops-lavender-fields,product,100,approved_apply_2026-10-06
@@ -62,11 +62,11 @@ Google,John Ellis,2025-12-09,,photography-mentoring-online-assignments,product,1
 Google,kim pratt,2025-11-08,,abstract-and-macro-photography-workshops,product,100,approved_apply_2026-10-06
 Google,Ergin Taşdelen,2025-10-16,,beginners-photography-course,product,100,approved_apply_2026-10-06
 Google,Sean,2025-09-02,,,business_level,100,business_level_org_2026-10-06
-Google,Joanne Tapp,2025-08-29,,landscape-peak-district-photography-workshops-derbyshire,product,100,approved_apply_2026-10-06
+Google,Joanne Tapp,2025-08-29,,peak-district-heather-photography-workshop,product,100,alan_confirmed_2026-11-02
 Google,Catalina Christensen,2025-08-25,,free-online-photography-course,product,100,schema_fixes_academy_2026-10-06
 Google,Bruce Radebaugh,2025-08-24,,free-online-photography-course,product,100,schema_fixes_academy_2026-10-06
 Google,Andrew Blaxhall,2025-08-24,,free-online-photography-course,product,100,schema_fixes_academy_2026-10-06
-Google,Michael Simm,2025-08-24,,intermediates-intentions-photography-project-course,product,100,approved_apply_2026-10-06
+Google,Michael Simm,2025-08-24,,free-online-photography-course,product,100,alan_confirmed_2026-11-02
 Google,Andrew Morris,2025-08-24,,four-private-photography-classes,product,100,f2f_move_to_four_2026-10-06
 Google,john simpson,2025-07-29,,private-online-photography-classes-zoom,product,100,approved_apply_2026-10-06
 Google,Chris Dunn,2025-05-07,,batsford-arboretum-photography-workshops,product,100,approved_apply_2026-10-06
@@ -130,3 +130,15 @@ Google,Kiyara,2026-10-01,,beginners-photography-course,product,100,alan_confirme
 Google,G Smith,2026-10-01,,beginners-photography-course,product,100,alan_confirmed_2026-10-31_new_booking_sheet
 Google,"Toby (Druid, Keeper Of Cookies)",2026-10-01,,beginners-photography-course,product,100,alan_confirmed_2026-10-31_new
 Google,Sofiagzagdo,2026-05-02,,yorkshire-dales-photography-workshops,product,100,alan_confirmed_2026-10-31_move_booking_sheet_sofia_garza
+Google,Charlie Budd,2020-01-15,,woodland-photography-walk-warwickshire,product,100,alan_confirmed_2026-11-02
+Google,Ian Harrop,2020-03-10,,woodland-photography-walk-warwickshire,product,100,alan_confirmed_2026-11-02
+Google,Holly Pownall,2025-04-14,,woodland-photography-walk-warwickshire,product,100,alan_confirmed_2026-11-02
+Google,Dianne Morgan,2025-10-20,,beginners-photography-course,product,100,alan_confirmed_2026-11-02
+Google,Richard Hoar,2025-05-30,,landscape-peak-district-photography-workshops-derbyshire,product,100,alan_confirmed_2026-11-02
+Google,Mark Reynolds,2026-03-13,,private-online-photography-classes-zoom,product,100,alan_confirmed_2026-11-02
+Google,Pravin Pawar,2025-07-11,,woodland-photography-walk-warwickshire,product,100,alan_confirmed_2026-11-02
+Google,Sunil Prasad,2025-07-16,,beginners-photography-course,product,100,alan_confirmed_2026-11-02
+Google,Gerard Daykin,2025-07-03,,four-private-photography-classes,product,100,alan_confirmed_2026-11-02
+Google,Linda Smith,2021-10-19,,beginners-photography-course,product,100,alan_confirmed_2026-11-02
+Google,Paula Greenlees,2023-02-21,,beginners-photography-course,product,100,alan_confirmed_2026-11-02
+Google,Diana WRIGHT,2021-09-12,,beginners-photography-course,product,100,alan_confirmed_2026-11-02

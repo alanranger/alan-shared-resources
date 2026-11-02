@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-11-02T19:57:12.754Z",
+    "generatedAt": "2026-11-02T20:21:55.085Z",
     "mode": "shadow (report only)",
     "thresholds": {
       "auto": 0.85,
@@ -1096,7 +1096,7 @@
         "landscape-peak-district-photography-workshops-derbyshire",
         "garden-photography-workshop"
       ],
-      "alan_decision": "peak-district-heather-photography-workshop",
+      "alan_decision": "landscape-peak-district-photography-workshops-derbyshire",
       "backtest": "held (Alan decided a product)",
       "backtest_orders": "held (Alan decided a product)"
     },

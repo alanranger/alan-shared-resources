@@ -94,12 +94,28 @@ async function fetchNoRedirect(url) {
 const isDropCode = (code) => code === 404 || code === 410 || (code >= 300 && code < 400);
 const NON_PAGE = /\.(jpe?g|png|gif|webp|avif|svg|ico|pdf|zip|mp4|mov)\/?(?:\?|#|$)/i;
 
+/** An unread response body keeps its socket open, and an open socket kept the 4 Nov auto-sync's node process alive for hours. */
+const discard = (res) => res?.body?.cancel?.().catch(() => {});
+
 /** Squarespace can answer 404 for a moment while a post is being edited — confirm before dropping. */
 async function fetchConfirmed(url) {
   const first = await fetchNoRedirect(url);
   if (!isDropCode(Number(first.status))) return first;
+  await discard(first);
   await sleep(5000);
   return fetchNoRedirect(url);
+}
+
+/** The verdict for a non-2xx answer (its body is never read). */
+function statusVerdict(res, code) {
+  if (code === 404 || code === 410) return { drop: true, reason: `http_${code}` };
+  if (code >= 300 && code < 400) {
+    const location = res.headers.get('location') || '';
+    if (NON_PAGE.test(location)) return { drop: true, reason: 'redirect_non_page', location };
+    return { drop: true, reason: `http_${code}`, location };
+  }
+  if (code === 429) return { drop: false, reason: 'keep_http_429' };
+  return { drop: false, reason: `keep_http_${code}` };
 }
 
 /** drop=true for 3xx / 404 / 410 / noindex; live pages also return their <title>. */
@@ -107,14 +123,10 @@ export async function classifyUrl(url, opts = {}) {
   try {
     const res = await fetchConfirmed(url);
     const code = Number(res.status);
-    if (code === 404 || code === 410) return { drop: true, reason: `http_${code}` };
-    if (code >= 300 && code < 400) {
-      const location = res.headers.get('location') || '';
-      if (NON_PAGE.test(location)) return { drop: true, reason: 'redirect_non_page', location };
-      return { drop: true, reason: `http_${code}`, location };
+    if (!res.ok) {
+      await discard(res);
+      return statusVerdict(res, code);
     }
-    if (code === 429) return { drop: false, reason: 'keep_http_429' };
-    if (!res.ok) return { drop: false, reason: `keep_http_${code}` };
     const html = await res.text();
     if (!opts.keepNoindex && hasNoindex(html, res.headers.get('x-robots-tag') || '')) {
       return { drop: true, reason: 'noindex' };

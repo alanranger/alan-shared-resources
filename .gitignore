@@ -11,3 +11,13 @@ outputs/AUTO-SYNC-STATUS-LATEST.json
 # Update-all runner lock (pauses auto-push while a run is in progress)
 csv/.update-all.lock
 
+# Customer data — never commit or push
+bookings/
+
+# Local working files, not shared resources
+errors.xlsx
+upload sites/
+
+# BAU stage F's local undo copies of the blog baseline (before 4 Nov 2026 the baseline was not committed by F)
+outputs/schema/blogs-manifest.prev-*.json
+

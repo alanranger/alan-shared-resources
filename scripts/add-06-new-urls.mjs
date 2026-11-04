@@ -141,7 +141,8 @@ async function main() {
 
 const isCli = process.argv[1] && import.meta.url.endsWith(process.argv[1].replace(/\\/g, '/').split('/').pop());
 if (isCli) {
-  main().catch((err) => {
+  // Exit when done: auto-push waits for this process, so a lingering socket must not keep it alive.
+  main().then(() => process.exit(0), (err) => {
     console.error(err);
     process.exit(1);
   });

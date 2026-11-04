@@ -125,6 +125,26 @@ Local Dropbox may look fine while GitHub is stale. Fix push, then re-run ``scrip
   }
 }
 
+# One node step with a time limit. 4 Nov 2026: the 06 prune script finished its work but never exited, and every
+# later sync was refused for 9+ hours because this one was still "running".
+function Invoke-NodeStep {
+  param([string]$Script, [string[]]$NodeArgs = @(), [int]$TimeoutSec = 900)
+  $argList = @("`"$Script`"") + $NodeArgs
+  $p = Start-Process -FilePath 'node' -ArgumentList $argList -NoNewWindow -PassThru
+  $null = $p.Handle  # keeps ExitCode readable after the process ends
+  if ($p.WaitForExit($TimeoutSec * 1000)) { return $p.ExitCode }
+  & taskkill /PID $p.Id /T /F 2>$null | Out-Null
+  Write-Warning "[$timestamp] $(Split-Path $Script -Leaf) did not finish in $TimeoutSec s; stopped it."
+  return -1
+}
+
+# Minutes since Update all (BAU runner) took csv/.update-all.lock, or -1 when there is no lock.
+function Get-UpdateAllLockAge {
+  $lock = Join-Path $repoRoot "csv\.update-all.lock"
+  if (-not (Test-Path $lock)) { return -1 }
+  return [math]::Round(((Get-Date) - (Get-Item $lock).LastWriteTime).TotalMinutes)
+}
+
 function Get-AheadCount {
   try {
     return [int](& git -C $repoRoot rev-list --count "$Remote/$Branch..HEAD" 2>$null)
@@ -141,9 +161,8 @@ try {
   Write-Host "[$timestamp] Auto-sync start: $repoRoot"
 
   # Update all (BAU runner) holds csv/.update-all.lock while it runs; skip this sync. A lock older than 6 h is stale.
-  $updateAllLock = Join-Path $repoRoot "csv\.update-all.lock"
-  if (Test-Path $updateAllLock) {
-    $lockAgeMin = [math]::Round(((Get-Date) - (Get-Item $updateAllLock).LastWriteTime).TotalMinutes)
+  $lockAgeMin = Get-UpdateAllLockAge
+  if ($lockAgeMin -ge 0) {
     if ($lockAgeMin -lt 360) {
       Write-SyncStatus -State 'paused' -Detail "Paused for Update all (csv/.update-all.lock, $lockAgeMin min old)."
       Write-Host "[$timestamp] Paused for Update all ($lockAgeMin min old lock). Skipping."
@@ -159,7 +178,7 @@ try {
   $pruneCount = 0
   if ((Test-Path $pruneScript) -and -not $SkipSiteChecks) {
     Write-Host "[$timestamp] Pruning dead/noindex URLs from csv/06-site-urls.csv..."
-    & node $pruneScript
+    $null = Invoke-NodeStep -Script $pruneScript
     if (Test-Path $pruneReport) {
       try {
         $pruneObj = Get-Content -Raw $pruneReport | ConvertFrom-Json
@@ -177,7 +196,7 @@ try {
   $catalogPruneCount = 0
   if ((Test-Path $catalogPruneScript) -and -not $SkipSiteChecks) {
     Write-Host "[$timestamp] Pruning dead/hidden URLs from csv/01, 04, 05, 07..."
-    & node $catalogPruneScript
+    $null = Invoke-NodeStep -Script $catalogPruneScript
     if (Test-Path $catalogPruneReport) {
       try {
         $catalogObj = Get-Content -Raw $catalogPruneReport | ConvertFrom-Json
@@ -193,7 +212,7 @@ try {
   $titlesFilled = @()
   if ((Test-Path $addScript) -and -not $SkipSiteChecks) {
     Write-Host "[$timestamp] Adding new live URLs to csv/06-site-urls.csv..."
-    & node $addScript
+    $null = Invoke-NodeStep -Script $addScript
     if (Test-Path $addReport) {
       try {
         $addObj = Get-Content -Raw $addReport | ConvertFrom-Json
@@ -207,8 +226,16 @@ try {
   $chatImport = Join-Path (Split-Path $repoRoot -Parent) "Chat AI Bot\scripts\import-csv-type-now.mjs"
   if (($pruneCount -gt 0 -or @($addedUrls).Count -gt 0) -and (Test-Path $chatImport)) {
     Write-Host "[$timestamp] Syncing csv_metadata site_urls from current 06..."
-    & node $chatImport site_urls
-    if ($LASTEXITCODE -ne 0) { throw "csv_metadata site_urls sync failed (exit $LASTEXITCODE)" }
+    $importCode = Invoke-NodeStep -Script $chatImport -NodeArgs @('site_urls')
+    if ($importCode -ne 0) { throw "csv_metadata site_urls sync failed (exit $importCode)" }
+  }
+
+  # A BAU run may have started during the site checks: leave everything for the next sync, stage nothing.
+  $lateLock = Get-UpdateAllLockAge
+  if ($lateLock -ge 0 -and $lateLock -lt 360) {
+    Write-SyncStatus -State 'paused' -Detail "Update all started during this sync ($lateLock min ago); nothing staged."
+    Write-Host "[$timestamp] Update all started during this sync. Nothing staged."
+    exit 0
   }
 
   # Stage tracked changes and key source-of-truth folders/files.

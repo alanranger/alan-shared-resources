@@ -127,7 +127,8 @@ async function main() {
   }
 }
 
-main().catch((err) => {
+// Exit when done: auto-push waits for this process, so a lingering socket must not keep it alive.
+main().then(() => process.exit(0), (err) => {
   console.error(err);
   process.exit(1);
 });

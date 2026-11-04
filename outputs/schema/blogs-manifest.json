@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-11-03T14:44:02.560Z",
+  "generatedAt": "2026-11-04T17:07:29.525Z",
+  "hashVersion": 2,
   "posts": {
     "https://www.alanranger.com/blog-on-photography/how-to-improve-your-photography-composition": {
-      "updatedOn": 1793289948789,
-      "bodyHash": "ef555566b7f7338f",
+      "updatedOn": 1793791203708,
+      "bodyHash": "83ebf27eb5c5c54a",
       "metaHash": "1ba0e1840c719d24"
     },
     "https://www.alanranger.com/blog-on-photography/how-to-find-your-photography-style": {
@@ -923,7 +924,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/autumn-photography-tips": {
       "updatedOn": 1778659687746,
-      "bodyHash": "975a0791ae985d5f",
+      "bodyHash": "93f1c3caebd885e9",
       "metaHash": "871d1019c3921f74"
     },
     "https://www.alanranger.com/blog-on-photography/photographing-autumn-uk-landscape-photography-guide": {
@@ -1068,12 +1069,12 @@
     },
     "https://www.alanranger.com/blog-on-photography/midlands-photography-workshops-with-alan-ranger": {
       "updatedOn": 1737647798471,
-      "bodyHash": "9d43206e6c66a38a",
+      "bodyHash": "ec5555258b1b2b9c",
       "metaHash": "83736a77d50f456a"
     },
     "https://www.alanranger.com/blog-on-photography/secrets-to-woodland-photography-masterclass": {
       "updatedOn": 1735407438281,
-      "bodyHash": "00b16f6c8b82ce99",
+      "bodyHash": "ec5b15c0beb9764b",
       "metaHash": "b937b0129501e639"
     },
     "https://www.alanranger.com/blog-on-photography/professional-commercial-photography-in-coventry": {
@@ -1178,7 +1179,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/learn-landscape-photography-techniques": {
       "updatedOn": 1786299830699,
-      "bodyHash": "031470bc75ee5dd8",
+      "bodyHash": "560b46a8aea47ad0",
       "metaHash": "836c6ddf42d236d7"
     },
     "https://www.alanranger.com/blog-on-photography/prepare-for-photography-courses": {
@@ -1611,11 +1612,5 @@
       "bodyHash": "8abcf1f330de1bb4",
       "metaHash": "ccca381890360a61"
     }
-  },
-  "hashVersion": 2,
-  "migrated": {
-    "at": "2026-11-04T16:10:37.751Z",
-    "from_feed": "f94e3637",
-    "note": "body hash now ignores Squarespace component markup"
   }
 }

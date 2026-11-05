@@ -1,17 +1,10 @@
 {
-  "total": 443,
+  "total": 442,
   "checked": 25,
   "due": 25,
   "rateLimited": false,
   "kept": 442,
-  "dropped": 1,
-  "byReason": {
-    "http_404": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/the-studies-to-become-a-professional-photographer",
-      "reason": "http_404"
-    }
-  ]
+  "dropped": 0,
+  "byReason": {},
+  "sample": []
 }

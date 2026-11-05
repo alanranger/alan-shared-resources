@@ -1,0 +1,10 @@
+{
+  "note": "Pages that are public on alanranger.com but are not Alan's business. No tool may track, generate, ingest or audit them. Read through scripts/url-exclusions.mjs (or the raw GitHub copy on Vercel).",
+  "pathPrefixes": [
+    {
+      "prefix": "/guest-blog-posts",
+      "reason": "Paid guest posts (sponsors' backlinks). Stays public and in the sitemap; excluded everywhere else.",
+      "added": "2026-11-05"
+    }
+  ]
+}

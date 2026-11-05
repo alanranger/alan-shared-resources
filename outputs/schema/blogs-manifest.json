@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-11-04T19:56:41.785Z",
+  "generatedAt": "2026-11-05T13:33:04.313Z",
   "hashVersion": 2,
   "posts": {
+    "https://www.alanranger.com/blog-on-photography/photo-editing-software": {
+      "updatedOn": 1793884264806,
+      "bodyHash": "3c1cd8d7a5b1cfdc",
+      "metaHash": "8ed34fac93a7082b"
+    },
     "https://www.alanranger.com/blog-on-photography/how-to-improve-your-photography-composition": {
       "updatedOn": 1793791203708,
       "bodyHash": "83ebf27eb5c5c54a",
@@ -419,7 +424,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/photography-concepts-for-beginners": {
       "updatedOn": 1780943731540,
-      "bodyHash": "f8dce870268d91aa",
+      "bodyHash": "558ec54ff0b27226",
       "metaHash": "904b98e106e99b2f"
     },
     "https://www.alanranger.com/blog-on-photography/professional-headshots-for-linkedin": {
@@ -474,7 +479,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/delete-duplicate-photos-in-lightroom": {
       "updatedOn": 1790931110246,
-      "bodyHash": "16908b3ed0e95a05",
+      "bodyHash": "6236d52dc66e7586",
       "metaHash": "1816f94e3bc9c694"
     },
     "https://www.alanranger.com/blog-on-photography/take-the-on-line-colour-test": {
@@ -722,11 +727,6 @@
       "bodyHash": "ed5dea9e0eec46b4",
       "metaHash": "ec0a7eb982aad682"
     },
-    "https://www.alanranger.com/blog-on-photography/photo-editing-software": {
-      "updatedOn": 1782388898592,
-      "bodyHash": "e3fc9fd34904e370",
-      "metaHash": "7c8885bc82fe56d6"
-    },
     "https://www.alanranger.com/blog-on-photography/photographers-copyright-digital-images-photographs": {
       "updatedOn": 1777460055336,
       "bodyHash": "d52d800d154de94d",
@@ -734,7 +734,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/photographers-rights-in-the-uk": {
       "updatedOn": 1777460331550,
-      "bodyHash": "0143cdeb221e2a1b",
+      "bodyHash": "c721c9cc2fa88fc1",
       "metaHash": "a01b6362a0ef25fd"
     },
     "https://www.alanranger.com/blog-on-photography/creative-photography-workshops-unlocking-your-potential": {
@@ -954,7 +954,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/photo-print-sizes-resize-photos": {
       "updatedOn": 1793434420198,
-      "bodyHash": "dfe461c6e7a195b7",
+      "bodyHash": "9e5225eac2e6c854",
       "metaHash": "2ea99e866a2ce015"
     },
     "https://www.alanranger.com/blog-on-photography/composition-in-photography": {
@@ -1054,7 +1054,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/guide-preparing-for-your-photography-workshop": {
       "updatedOn": 1778660486619,
-      "bodyHash": "6212633cd396bf0f",
+      "bodyHash": "7695db8930abb8f2",
       "metaHash": "9f51fc23ac00ffe1"
     },
     "https://www.alanranger.com/blog-on-photography/photography-evening-classes-fun-informative": {
@@ -1109,7 +1109,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/basics-how-to-use-a-tripod": {
       "updatedOn": 1778659518002,
-      "bodyHash": "4f1caf5cc9d2d2b4",
+      "bodyHash": "12b753f72ab69a1e",
       "metaHash": "47e2d6a79a40bc5b"
     },
     "https://www.alanranger.com/blog-on-photography/lightroom-classic-latest-version-whats-new": {
@@ -1149,7 +1149,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/prepare-for-photography-courses": {
       "updatedOn": 1733783815466,
-      "bodyHash": "24447a28fa52d795",
+      "bodyHash": "b2f1a1a57381c065",
       "metaHash": "d68af6980a6a9b9f"
     },
     "https://www.alanranger.com/blog-on-photography/professional-commercial-photography-elevate-your-business": {
@@ -1164,7 +1164,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/learn-photography-basics-with-a-mentor": {
       "updatedOn": 1733829008532,
-      "bodyHash": "43bb7626e0659dce",
+      "bodyHash": "cf63ca039a92165b",
       "metaHash": "50c92b3554aba539"
     },
     "https://www.alanranger.com/blog-on-photography/the-perfect-travel-tripod-benro-cyanbird": {
@@ -1199,7 +1199,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/social-media-for-photographers-tips": {
       "updatedOn": 1778660638829,
-      "bodyHash": "8128c38431c689f3",
+      "bodyHash": "4a76a9ff3f683976",
       "metaHash": "0530810a1f0496b4"
     },
     "https://www.alanranger.com/blog-on-photography/enhancing-your-photography-with-kase-filters": {
@@ -1214,7 +1214,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/photography-basics-how-to-improve-photography": {
       "updatedOn": 1778659421220,
-      "bodyHash": "3f8ed735d3295f18",
+      "bodyHash": "dd36c83b2921f386",
       "metaHash": "852004f648ba5f8b"
     },
     "https://www.alanranger.com/blog-on-photography/creative-editing-with-nik-collection-6": {
@@ -1364,7 +1364,7 @@
     },
     "https://www.alanranger.com/blog-on-photography/how-to-become-a-better-photographer": {
       "updatedOn": 1790931804847,
-      "bodyHash": "82e41dcead5ef03a",
+      "bodyHash": "2c993dd49d5fe93e",
       "metaHash": "6da8549c3c4529e1"
     },
     "https://www.alanranger.com/blog-on-photography/photography-basics-creative-photo-projects": {

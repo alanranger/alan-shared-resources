@@ -2,15 +2,10 @@
   "feedUrls": 60,
   "sitemapUrls": 478,
   "candidates": 41,
-  "checked": 1,
+  "checked": 0,
   "rateLimited": false,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
-  "skipped": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/photography-english-talk-with-confidence",
-      "reason": "http_404"
-    }
-  ]
+  "skipped": []
 }

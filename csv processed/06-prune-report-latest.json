@@ -1,18 +1,11 @@
 {
-  "total": 438,
+  "total": 437,
   "checked": 25,
   "due": 25,
   "rateLimited": false,
   "kept": 437,
-  "dropped": 1,
-  "byReason": {
-    "http_404": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/photography-english-talk-with-confidence",
-      "reason": "http_404"
-    }
-  ],
+  "dropped": 0,
+  "byReason": {},
+  "sample": [],
   "titlesUpdated": []
 }

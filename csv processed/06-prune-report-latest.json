@@ -1,18 +1,11 @@
 {
-  "total": 440,
+  "total": 439,
   "checked": 25,
   "due": 25,
   "rateLimited": false,
   "kept": 439,
-  "dropped": 1,
-  "byReason": {
-    "http_404": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/become-a-photographer-on-campus",
-      "reason": "http_404"
-    }
-  ],
+  "dropped": 0,
+  "byReason": {},
+  "sample": [],
   "titlesUpdated": []
 }

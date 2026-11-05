@@ -3,14 +3,14 @@
   "checked": 25,
   "due": 25,
   "rateLimited": false,
-  "kept": 399,
+  "kept": 393,
   "dropped": 0,
   "byReason": {},
   "files": [
     {
       "file": "01-blog-posts.csv",
-      "total": 321,
-      "kept": 321,
+      "total": 315,
+      "kept": 315,
       "dropped": 0
     },
     {

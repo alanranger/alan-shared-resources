@@ -1,11 +1,18 @@
 {
   "total": 437,
-  "checked": 25,
-  "due": 25,
+  "checked": 24,
+  "due": 24,
   "rateLimited": false,
-  "kept": 437,
-  "dropped": 0,
-  "byReason": {},
-  "sample": [],
+  "kept": 436,
+  "dropped": 1,
+  "byReason": {
+    "http_404": 1
+  },
+  "sample": [
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/technical-skills-photography-students-need",
+      "reason": "http_404"
+    }
+  ],
   "titlesUpdated": []
 }

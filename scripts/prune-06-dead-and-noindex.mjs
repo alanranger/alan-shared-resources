@@ -12,7 +12,7 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { ROOT, CSV_PATH, parseCsv, esc, urlColumnIndex, checkStateFile, loadCheckState, saveCheckState, pickDue, gentleClassify } from './site-urls-06-lib.mjs';
+import { ROOT, CSV_PATH, parseCsv, esc, urlColumnIndex, checkStateFile, loadCheckState, saveCheckState, pickDue, gentleClassify, refreshTitles } from './site-urls-06-lib.mjs';
 
 const dryRun = process.argv.includes('--dry-run');
 const isHttp = (u) => /^https?:\/\//i.test(u);
@@ -41,6 +41,8 @@ async function main() {
   const kept = results.filter((r) => !r.drop).map((r) => r.row);
   const byReason = {};
   dropped.forEach((d) => { byReason[d.reason] = (byReason[d.reason] || 0) + 1; });
+  const liveTitles = new Map([...checked].filter(([, r]) => r.reason === 'live' && r.title).map(([url, r]) => [url, r.title]));
+  const titlesUpdated = refreshTitles(kept, urlIdx, header.findIndex((h) => String(h).toLowerCase() === 'title'), liveTitles);
 
   const report = {
     total: body.length,
@@ -50,7 +52,8 @@ async function main() {
     kept: kept.length,
     dropped: dropped.length,
     byReason,
-    sample: dropped.slice(0, 25).map((d) => ({ url: d.url, reason: d.reason }))
+    sample: dropped.slice(0, 25).map((d) => ({ url: d.url, reason: d.reason })),
+    titlesUpdated
   };
   const reportPath = join(ROOT, 'csv processed', '06-prune-report-latest.json');
   try {
@@ -58,8 +61,8 @@ async function main() {
   } catch { /* optional folder */ }
   console.log(JSON.stringify(report, null, 2));
 
-  if (!dropped.length) {
-    console.log('No rows to prune.');
+  if (!dropped.length && !titlesUpdated.length) {
+    console.log('No rows to prune and no titles changed.');
     return report;
   }
   if (dryRun) {
@@ -71,7 +74,7 @@ async function main() {
   const lines = [header.map(esc).join(',')];
   kept.forEach((r) => lines.push(r.map(esc).join(',')));
   writeFileSync(CSV_PATH, lines.join('\n') + '\n', 'utf8');
-  console.log(`Wrote ${CSV_PATH} (${kept.length} rows).`);
+  console.log(`Wrote ${CSV_PATH} (${kept.length} rows, ${titlesUpdated.length} titles updated).`);
   return report;
 }
 

@@ -176,6 +176,7 @@ try {
   $pruneReport = Join-Path $repoRoot "csv processed\06-prune-report-latest.json"
   $pruneDropped = @()
   $pruneCount = 0
+  $titlesUpdated = @()
   if ((Test-Path $pruneScript) -and -not $SkipSiteChecks) {
     Write-Host "[$timestamp] Pruning dead/noindex URLs from csv/06-site-urls.csv..."
     $null = Invoke-NodeStep -Script $pruneScript
@@ -183,6 +184,7 @@ try {
       try {
         $pruneObj = Get-Content -Raw $pruneReport | ConvertFrom-Json
         $pruneCount = [int]($pruneObj.dropped)
+        if ($pruneObj.PSObject.Properties['titlesUpdated']) { $titlesUpdated = @($pruneObj.titlesUpdated) }
         if ($pruneObj.sample) {
           $pruneDropped = @($pruneObj.sample | ForEach-Object { "$($_.reason):$($_.url)" })
         }
@@ -224,7 +226,8 @@ try {
 
   # When 06 changes, keep csv_metadata.site_urls in lockstep so System health cannot drift.
   $chatImport = Join-Path (Split-Path $repoRoot -Parent) "Chat AI Bot\scripts\import-csv-type-now.mjs"
-  if (($pruneCount -gt 0 -or @($addedUrls).Count -gt 0) -and (Test-Path $chatImport)) {
+  $titleChanges = @($titlesUpdated).Count + @($titlesFilled).Count
+  if (($pruneCount -gt 0 -or @($addedUrls).Count -gt 0 -or $titleChanges -gt 0) -and (Test-Path $chatImport)) {
     Write-Host "[$timestamp] Syncing csv_metadata site_urls from current 06..."
     $importCode = Invoke-NodeStep -Script $chatImport -NodeArgs @('site_urls')
     if ($importCode -ne 0) { throw "csv_metadata site_urls sync failed (exit $importCode)" }

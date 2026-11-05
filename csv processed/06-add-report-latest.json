@@ -1,11 +1,20 @@
 {
   "feedUrls": 60,
   "sitemapUrls": 478,
-  "candidates": 36,
-  "checked": 0,
+  "candidates": 38,
+  "checked": 2,
   "rateLimited": false,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
-  "skipped": []
+  "skipped": [
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/student-photo-essay",
+      "reason": "http_404"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/organise-a-photography-portfolio",
+      "reason": "http_404"
+    }
+  ]
 }

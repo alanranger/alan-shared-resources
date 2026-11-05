@@ -3,15 +3,17 @@
   "checked": 25,
   "due": 25,
   "rateLimited": false,
-  "kept": 400,
-  "dropped": 0,
-  "byReason": {},
+  "kept": 399,
+  "dropped": 1,
+  "byReason": {
+    "http_404": 1
+  },
   "files": [
     {
       "file": "01-blog-posts.csv",
       "total": 322,
-      "kept": 322,
-      "dropped": 0
+      "kept": 321,
+      "dropped": 1
     },
     {
       "file": "04-photography-services-courses-mentoring.csv",
@@ -32,6 +34,13 @@
       "dropped": 0
     }
   ],
-  "droppedRows": [],
+  "droppedRows": [
+    {
+      "file": "01-blog-posts.csv",
+      "url": "https://www.alanranger.com/blog-on-photography/how-photography-and-data-analysis-work",
+      "reason": "http_404",
+      "location": ""
+    }
+  ],
   "liveDroppedCount": 0
 }

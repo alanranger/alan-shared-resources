@@ -7,5 +7,9 @@
   "dropped": 0,
   "byReason": {},
   "sample": [],
-  "titlesUpdated": []
+  "titlesUpdated": [],
+  "pagesMaster": {
+    "removed": [],
+    "dryRun": false
+  }
 }

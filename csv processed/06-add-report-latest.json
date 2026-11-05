@@ -2,19 +2,10 @@
   "feedUrls": 60,
   "sitemapUrls": 478,
   "candidates": 42,
-  "checked": 2,
+  "checked": 0,
   "rateLimited": false,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
-  "skipped": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/technical-skills-photography-students-need",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/the-studies-to-become-a-professional-photographer",
-      "reason": "http_404"
-    }
-  ]
+  "skipped": []
 }

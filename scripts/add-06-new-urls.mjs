@@ -16,6 +16,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT, CSV_PATH, parseCsv, esc, urlKey, classifyUrl, mapPool, urlColumnIndex, checkStateFile, loadCheckState, saveCheckState, pickDue, gentleClassify } from './site-urls-06-lib.mjs';
+import { isExcludedUrl } from './url-exclusions.mjs';
 
 const SITE = 'https://www.alanranger.com';
 const BLOG_FEED = `${SITE}/blog-on-photography?format=json`;
@@ -49,7 +50,7 @@ export function missingCandidates(candidates, existingKeys) {
   const out = [];
   for (const raw of candidates) {
     const k = urlKey(raw);
-    if (!k.startsWith('alanranger.com/') || seen.has(k)) continue;
+    if (!k.startsWith('alanranger.com/') || seen.has(k) || isExcludedUrl(raw)) continue;
     seen.add(k);
     const u = new URL(raw);
     out.push(`${SITE}${u.pathname.replace(/\/+$/, '') || '/'}`);

@@ -1,18 +1,11 @@
 {
-  "total": 439,
+  "total": 438,
   "checked": 25,
   "due": 25,
   "rateLimited": false,
   "kept": 438,
-  "dropped": 1,
-  "byReason": {
-    "http_404": 1
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/how-photography-and-data-analysis-work",
-      "reason": "http_404"
-    }
-  ],
+  "dropped": 0,
+  "byReason": {},
+  "sample": [],
   "titlesUpdated": []
 }

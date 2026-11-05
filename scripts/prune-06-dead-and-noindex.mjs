@@ -13,6 +13,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT, CSV_PATH, parseCsv, esc, urlColumnIndex, checkStateFile, loadCheckState, saveCheckState, pickDue, gentleClassify, refreshTitles } from './site-urls-06-lib.mjs';
+import { removeFromPagesMaster } from './pages-master-sync.mjs';
 
 const dryRun = process.argv.includes('--dry-run');
 const isHttp = (u) => /^https?:\/\//i.test(u);
@@ -43,6 +44,7 @@ async function main() {
   dropped.forEach((d) => { byReason[d.reason] = (byReason[d.reason] || 0) + 1; });
   const liveTitles = new Map([...checked].filter(([, r]) => r.reason === 'live' && r.title).map(([url, r]) => [url, r.title]));
   const titlesUpdated = refreshTitles(kept, urlIdx, header.findIndex((h) => String(h).toLowerCase() === 'title'), liveTitles);
+  const pagesMaster = await removeFromPagesMaster(dropped, { dryRun }).catch((err) => ({ removed: [], error: String(err?.message || err) }));
 
   const report = {
     total: body.length,
@@ -53,7 +55,8 @@ async function main() {
     dropped: dropped.length,
     byReason,
     sample: dropped.slice(0, 25).map((d) => ({ url: d.url, reason: d.reason })),
-    titlesUpdated
+    titlesUpdated,
+    pagesMaster
   };
   const reportPath = join(ROOT, 'csv processed', '06-prune-report-latest.json');
   try {

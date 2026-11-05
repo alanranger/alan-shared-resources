@@ -1,21 +1,10 @@
 {
-  "total": 442,
-  "checked": 18,
-  "due": 18,
+  "total": 440,
+  "checked": 0,
+  "due": 0,
   "rateLimited": false,
   "kept": 440,
-  "dropped": 2,
-  "byReason": {
-    "http_404": 2
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/student-photo-essay",
-      "reason": "http_404"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/organise-a-photography-portfolio",
-      "reason": "http_404"
-    }
-  ]
+  "dropped": 0,
+  "byReason": {},
+  "sample": []
 }

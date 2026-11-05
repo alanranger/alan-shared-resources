@@ -75,9 +75,31 @@ function decodeEntities(s) {
     .replace(/&([a-z]+);/gi, (m, name) => NAMED_ENTITIES[name.toLowerCase()] ?? m);
 }
 
+/** A title as plain text: entities decoded, spaces collapsed (06 stores it this way). */
+export const cleanTitle = (s) => decodeEntities(s || '').replace(/\s+/g, ' ').trim();
+
 function pageTitle(html) {
   const m = String(html || '').match(/<title[^>]*>([^<]*)<\/title>/i);
-  return decodeEntities(m?.[1] || '').replace(/\s+/g, ' ').trim();
+  return cleanTitle(m?.[1]);
+}
+
+/**
+ * Set each row's title to the live page title from this run's live check when it differs (not only when blank).
+ * Rows not checked this run keep theirs; every 06 URL comes due again within LIVE_CHECK.recheckMs.
+ */
+export function refreshTitles(rows, urlIdx, titleIdx, liveTitles) {
+  if (titleIdx < 0) return [];
+  const changes = [];
+  for (const row of rows) {
+    const url = String(row[urlIdx] || '').trim();
+    const want = cleanTitle(liveTitles.get(url));
+    const have = String(row[titleIdx] ?? '');
+    if (!want || want === have) continue;
+    while (row.length <= titleIdx) row.push('');
+    row[titleIdx] = want;
+    changes.push({ url, from: have, to: want });
+  }
+  return changes;
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

@@ -1,11 +1,16 @@
 {
   "feedUrls": 60,
   "sitemapUrls": 478,
-  "candidates": 39,
-  "checked": 0,
+  "candidates": 40,
+  "checked": 1,
   "rateLimited": false,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
-  "skipped": []
+  "skipped": [
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/how-photography-and-data-analysis-work",
+      "reason": "http_404"
+    }
+  ]
 }

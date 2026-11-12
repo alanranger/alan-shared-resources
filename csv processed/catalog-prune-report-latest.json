@@ -3,7 +3,7 @@
   "checked": 25,
   "due": 25,
   "rateLimited": false,
-  "kept": 393,
+  "kept": 394,
   "dropped": 0,
   "byReason": {},
   "files": [
@@ -21,8 +21,8 @@
     },
     {
       "file": "05-photo-workshops-uk-landscape.csv",
-      "total": 23,
-      "kept": 23,
+      "total": 24,
+      "kept": 24,
       "dropped": 0
     },
     {

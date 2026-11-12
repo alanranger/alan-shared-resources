@@ -1,19 +1,13 @@
 {
   "total": 436,
-  "checked": 24,
-  "due": 24,
+  "checked": 25,
+  "due": 25,
   "rateLimited": false,
   "kept": 436,
   "dropped": 0,
   "byReason": {},
   "sample": [],
-  "titlesUpdated": [
-    {
-      "url": "https://www.alanranger.com/photo-workshops-uk/garden-photography-workshop",
-      "from": "The Art of GARDEN PHOTOGRAPHY - Coventry - May and July",
-      "to": "The Art of GARDEN PHOTOGRAPHY - Coventry - May Jun Jul"
-    }
-  ],
+  "titlesUpdated": [],
   "pagesMaster": {
     "removed": [],
     "dryRun": false

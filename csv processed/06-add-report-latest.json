@@ -1,11 +1,101 @@
 {
   "feedUrls": 60,
-  "sitemapUrls": 480,
-  "candidates": 35,
-  "checked": 0,
+  "sitemapUrls": 484,
+  "candidates": 39,
+  "checked": 25,
   "rateLimited": false,
-  "added": 0,
-  "addedUrls": [],
+  "added": 4,
+  "addedUrls": [
+    "https://www.alanranger.com/photographic-workshops-near-me/garden-photography-workshop-mxyms-cnjhm",
+    "https://www.alanranger.com/photographic-workshops-near-me/abstract-and-macro-photography-workshop-coventry-htkw6",
+    "https://www.alanranger.com/photographic-workshops-near-me/long-exposure-photo-workshop-sunset-kenilworth-l4bls",
+    "https://www.alanranger.com/photo-workshops-uk/sezincote-garden-photography-workshop"
+  ],
   "titlesFilled": [],
-  "skipped": []
+  "skipped": [
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-white-balance-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-shutter-speed-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-metering-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-manual-exposure-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/jpg-vs-raw-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/iso-camera-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/full-frame-or-crop-sensor",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-focus-plane",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/lens-focal-length",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-exposure-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/exposure-bracketing-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-dynamic-range",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-drive-modes-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/depth-of-field-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/aperture-field-checklist",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/street-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/still-life-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/product-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/portrait-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/minimalist-photography-guide",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/macro-photography-guide",
+      "reason": "noindex"
+    }
+  ]
 }

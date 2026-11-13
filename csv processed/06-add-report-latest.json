@@ -1,100 +1,67 @@
 {
   "feedUrls": 60,
   "sitemapUrls": 484,
-  "candidates": 39,
-  "checked": 25,
+  "candidates": 35,
+  "checked": 14,
   "rateLimited": false,
-  "added": 4,
-  "addedUrls": [
-    "https://www.alanranger.com/photographic-workshops-near-me/garden-photography-workshop-mxyms-cnjhm",
-    "https://www.alanranger.com/photographic-workshops-near-me/abstract-and-macro-photography-workshop-coventry-htkw6",
-    "https://www.alanranger.com/photographic-workshops-near-me/long-exposure-photo-workshop-sunset-kenilworth-l4bls",
-    "https://www.alanranger.com/photo-workshops-uk/sezincote-garden-photography-workshop"
-  ],
+  "added": 0,
+  "addedUrls": [],
   "titlesFilled": [],
   "skipped": [
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-white-balance-settings",
+      "url": "https://www.alanranger.com/blog-on-photography/long-exposure-photography-guide",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-shutter-speed-settings",
+      "url": "https://www.alanranger.com/blog-on-photography/landscape-photography-guide",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-metering-settings",
+      "url": "https://www.alanranger.com/blog-on-photography/black-and-white-photography-guide",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-manual-exposure-settings",
+      "url": "https://www.alanranger.com/blog-on-photography/architecture-photography-guide-checklist",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/jpg-vs-raw-settings",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-storytelling-composition",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/iso-camera-settings",
+      "url": "https://www.alanranger.com/blog-on-photography/composition-photography-style",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/full-frame-or-crop-sensor",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-observation",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-focus-plane",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-negative-spacee",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/lens-focal-length",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-leading-lines",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-exposure-checklist",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-framing",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/exposure-bracketing-checklist",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-contrast-composition",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-dynamic-range",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-compositional-balance",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/camera-drive-modes-checklist",
+      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-rules",
       "reason": "noindex"
     },
     {
-      "url": "https://www.alanranger.com/blog-on-photography/depth-of-field-checklist",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/aperture-field-checklist",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/street-photography-guide",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/still-life-photography-guide",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/product-photography-guide",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/portrait-photography-guide",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/minimalist-photography-guide",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/macro-photography-guide",
+      "url": "https://www.alanranger.com/blog-on-photography/15-principles-to-improve-composition",
       "reason": "noindex"
     }
   ]

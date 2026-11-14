@@ -1,7 +1,7 @@
 {
   "dryRun": false,
-  "checked": 0,
-  "due": 0,
+  "checked": 25,
+  "due": 25,
   "rateLimited": false,
   "kept": 394,
   "dropped": 0,

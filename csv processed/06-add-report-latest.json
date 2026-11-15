@@ -1,13 +1,11 @@
 {
   "feedUrls": 60,
   "sitemapUrls": 484,
-  "candidates": 40,
-  "checked": 1,
+  "candidates": 39,
+  "checked": 0,
   "rateLimited": false,
-  "added": 1,
-  "addedUrls": [
-    "https://www.alanranger.com/blog-on-photography/return-to-your-photography-locations"
-  ],
+  "added": 0,
+  "addedUrls": [],
   "titlesFilled": [],
   "skipped": []
 }

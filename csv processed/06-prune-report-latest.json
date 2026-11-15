@@ -1,54 +1,15 @@
 {
-  "total": 440,
+  "total": 436,
   "checked": 25,
   "due": 25,
   "rateLimited": false,
   "kept": 436,
-  "dropped": 4,
-  "byReason": {
-    "http_301": 4
-  },
-  "sample": [
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-photography-workshop",
-      "reason": "http_301"
-    },
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-spring",
-      "reason": "http_301"
-    },
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-spring-7gw7j",
-      "reason": "http_301"
-    },
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-spring-7gw7j-9akd5",
-      "reason": "http_301"
-    }
-  ],
+  "dropped": 0,
+  "byReason": {},
+  "sample": [],
   "titlesUpdated": [],
   "pagesMaster": {
-    "removed": [
-      {
-        "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-spring-7gw7j-9akd5",
-        "tier": "C_event",
-        "reason": "http_301"
-      },
-      {
-        "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-spring-7gw7j",
-        "tier": "C_event",
-        "reason": "http_301"
-      },
-      {
-        "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-photography-workshop",
-        "tier": "C_event",
-        "reason": "http_301"
-      },
-      {
-        "url": "https://www.alanranger.com/photographic-workshops-near-me/sunset-chesterton-windmill-spring",
-        "tier": "C_event",
-        "reason": "http_301"
-      }
-    ]
+    "removed": [],
+    "dryRun": false
   }
 }

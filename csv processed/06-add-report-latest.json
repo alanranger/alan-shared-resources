@@ -1,11 +1,59 @@
 {
   "feedUrls": 60,
-  "sitemapUrls": 484,
-  "candidates": 39,
-  "checked": 0,
+  "sitemapUrls": 499,
+  "candidates": 53,
+  "checked": 25,
   "rateLimited": false,
-  "added": 0,
-  "addedUrls": [],
+  "added": 18,
+  "addedUrls": [
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202806",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202805",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202804",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunrise-workshop-202803",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202802",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunrise-workshop-202801",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunrise-workshop-202712",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202711",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunrise-workshop-202710",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202708",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202707",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202706",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunrise-workshop-202702",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202701",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202709",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202703",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202705",
+    "https://www.alanranger.com/photographic-workshops-near-me/chesterton-windmill-sunset-workshop-202704"
+  ],
   "titlesFilled": [],
-  "skipped": []
+  "skipped": [
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-white-balance-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-shutter-speed-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-metering-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/camera-manual-exposure-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/jpg-vs-raw-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/iso-camera-settings",
+      "reason": "noindex"
+    },
+    {
+      "url": "https://www.alanranger.com/blog-on-photography/full-frame-or-crop-sensor",
+      "reason": "noindex"
+    }
+  ]
 }

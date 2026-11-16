@@ -2,23 +2,10 @@
   "feedUrls": 60,
   "sitemapUrls": 499,
   "candidates": 35,
-  "checked": 3,
+  "checked": 0,
   "rateLimited": false,
   "added": 0,
   "addedUrls": [],
   "titlesFilled": [],
-  "skipped": [
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/photography-compositional-balance",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/photography-composition-rules",
-      "reason": "noindex"
-    },
-    {
-      "url": "https://www.alanranger.com/blog-on-photography/15-principles-to-improve-composition",
-      "reason": "noindex"
-    }
-  ]
+  "skipped": []
 }

@@ -7,18 +7,7 @@
   "dropped": 0,
   "byReason": {},
   "sample": [],
-  "titlesUpdated": [
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/long-exposure-photography-workshop-kenilworth4",
-      "from": "Long Exposure Photography Workshop - Kenilworth 15-4",
-      "to": "Long Exposure Photography Workshop - Kenilworth 5-5"
-    },
-    {
-      "url": "https://www.alanranger.com/photographic-workshops-near-me/secrets-of-woodland-photography-masterclass-spring",
-      "from": "The Secrets of Woodland Photography - 1-Day Masterclass Apr",
-      "to": "The Secrets of Woodland Photography - 1-Day Masterclass May"
-    }
-  ],
+  "titlesUpdated": [],
   "pagesMaster": {
     "removed": [],
     "dryRun": false
